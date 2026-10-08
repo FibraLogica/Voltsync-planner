@@ -27,7 +27,7 @@ UA = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.3
 BASE_URL = "https://www.base.gov.pt"
 
 
-def _abrir_pesquisa_anuncios(page, desde: date, debug: list[str]) -> None:
+def _abrir_pesquisa_anuncios(page, desde: date, debug: list[str]) -> list:
     page.goto(f"{BASE_URL}/Base4/pt/pesquisa/", wait_until="domcontentloaded", timeout=90000)
     page.wait_for_timeout(6000)
     debug.append(f"title={page.title()!r}")
@@ -36,9 +36,18 @@ def _abrir_pesquisa_anuncios(page, desde: date, debug: list[str]) -> None:
     page.wait_for_selector("#desdedatapublicacao", state="visible", timeout=20000)
     page.evaluate("(v) => { const el = document.querySelector('#desdedatapublicacao'); el.value = v; el.dispatchEvent(new Event('change', {bubbles: true})); }",
                   desde.strftime("%d-%m-%Y"))
+    captured: list = []
+
+    def _on_request(req):
+        if "resultados" in req.url and req.method == "POST":
+            captured.append({"url": req.url, "post_data": req.post_data, "headers": dict(req.headers)})
+    page.on("request", _on_request)
     page.click("#search_anuncios")
     page.wait_for_selector("table tbody tr", timeout=60000)
     page.wait_for_timeout(2000)
+    page.remove_listener("request", _on_request)
+    debug.append(f"pedidos ajax capturados={len(captured)}; " + "; ".join(f"{c['url']} :: {(c['post_data'] or '')[:300]}" for c in captured[:3]))
+    return captured
 
 
 def _linhas_tabela(page) -> list[dict]:
@@ -69,6 +78,73 @@ def _linhas_tabela(page) -> list[dict]:
     return out
 
 
+def _linhas_json(body: str) -> list[dict]:
+    """Interpreta a resposta ajax do BASE (JSON com lista de anúncios, ou HTML de tabela)."""
+    import json as _json
+    body = body.strip()
+    if not body or body == "null":
+        return []
+    items = None
+    try:
+        data = _json.loads(body)
+        if isinstance(data, dict):
+            for k in ("items", "data", "results", "anuncios", "rows"):
+                if isinstance(data.get(k), list):
+                    items = data[k]
+                    break
+            if items is None:
+                items = next((v for v in data.values() if isinstance(v, list)), [])
+        elif isinstance(data, list):
+            items = data
+    except ValueError:
+        soup = BeautifulSoup(body, "html.parser")
+        out = []
+        for tr in soup.select("tr"):
+            tds = [td.get_text(" ", strip=True) for td in tr.select("td")]
+            a = tr.select_one("a[href*='detalhe']")
+            if len(tds) < 6 or not a:
+                continue
+            m = re.search(r"id=(\d+)", a.get("href", ""))
+            out.append({"origem": "BASE", "id": m.group(1) if m else tds[0][:80], "url": BASE_URL + a["href"].replace("&amp;", "&") if a["href"].startswith("/") else a["href"],
+                        "titulo": tds[0], "tipo_ato": tds[1], "procedimento": tds[2], "entidade": tds[3],
+                        "preco_base": parse_eur(tds[4]) if tds[4] not in ("-", "") else None, "publicado": tds[5]})
+        return out
+    out = []
+    for it in items or []:
+        if not isinstance(it, dict):
+            continue
+        g = lambda *ks: next((it[k] for k in ks if k in it and it[k] not in (None, "")), None)
+        aid = g("id", "idanuncio", "idAnuncio")
+        ent = g("entidade", "emissora", "entidadeEmissora", "nomeEntidade", "adjudicante")
+        if isinstance(ent, dict):
+            ent = ent.get("description") or ent.get("nome") or str(ent)
+        if isinstance(ent, list):
+            ent = "; ".join(str(e.get("description", e) if isinstance(e, dict) else e) for e in ent)
+        out.append({
+            "origem": "BASE", "id": str(aid) if aid else (g("objecto", "objeto", "description") or "")[:80],
+            "url": f"{BASE_URL}/Base4/pt/detalhe/?type=anuncios&id={aid}" if aid else None,
+            "titulo": g("objecto", "objeto", "description", "descricao"), "tipo_ato": g("tipoActo", "tipoacto", "tipo_ato", "tipoAto"),
+            "procedimento": g("tipoProcedimento", "tipoprocedimento", "modeloAnuncio", "tipomodelo"),
+            "entidade": ent, "preco_base": parse_eur(g("precoBase", "precobase", "preco_base")),
+            "publicado": _fmt_pt(g("dataPublicacao", "datapublicacao", "publicationDate", "data_publicacao")),
+            "n_dr": g("numeroAnuncio", "numeroanuncio", "nAnuncio"), "cpv": str(g("cpv", "cpvs") or "") or None,
+            "prazo_propostas": g("prazoPropostas", "dataLimite", "prazo"),
+        })
+    return out
+
+
+def _fmt_pt(v) -> str | None:
+    if not v:
+        return None
+    s = str(v)[:10]
+    for fmt in ("%Y-%m-%d", "%d-%m-%Y", "%d/%m/%Y"):
+        try:
+            return datetime.strptime(s, fmt).strftime("%d-%m-%Y")
+        except ValueError:
+            continue
+    return str(v)
+
+
 def _data_pt(s: str | None) -> date | None:
     try:
         return datetime.strptime((s or "").strip()[:10], "%d-%m-%Y").date()
@@ -89,42 +165,38 @@ def base_anuncios_playwright(desde: date) -> list[dict]:
         browser = p.chromium.launch()
         page = browser.new_page(user_agent=UA["User-Agent"], locale="pt-PT")
         try:
-            _abrir_pesquisa_anuncios(page, desde, debug)
-            for pagina in range(1, 40):
-                novas = _linhas_tabela(page)
-                debug.append(f"pagina {pagina}: {len(novas)} linhas; primeira pub={novas[0]['publicado'] if novas else None}; ultima pub={novas[-1]['publicado'] if novas else None}")
-                if pagina == 1:
-                    debug.append("exemplo=" + repr(novas[:2]))
-                    pag_html = page.evaluate("() => { const t = document.querySelector('table'); const c = t ? t.closest('div') : null; return c ? c.outerHTML.slice(-3000) : ''; }")
-                    debug.append("fim_tabela_html=" + pag_html.replace("\n", " "))
-                rows += novas
-                if not novas:
-                    break
-                ult = _data_pt(novas[-1]["publicado"])
-                if ult and ult < desde:
-                    break
-                # próxima página
-                nxt = None
-                for sel in ["a[rel='next']", "li.next a", "a.next", "a:has-text('›')", "a:has-text('»')", "a:has-text('Seguinte')", "a:has-text('Próxima')", f"a:has-text('{pagina + 1}')"]:
+            captured = _abrir_pesquisa_anuncios(page, desde, debug)
+            novas = _linhas_tabela(page)
+            debug.append(f"pagina 1 (DOM): {len(novas)} linhas; primeira pub={novas[0]['publicado'] if novas else None}; ultima pub={novas[-1]['publicado'] if novas else None}")
+            debug.append("exemplo=" + repr(novas[:2]))
+            rows += novas
+            # Páginas seguintes: repetir o pedido ajax que o próprio portal fez (mesma sessão/cookies do browser).
+            if captured:
+                from urllib.parse import parse_qsl
+                c = captured[-1]
+                form = dict(parse_qsl(c["post_data"] or "", keep_blank_values=True))
+                debug.append(f"form_base={form}")
+                hdr = {k: v for k, v in c["headers"].items() if k.lower() in ("accept", "content-type", "x-requested-with", "referer", "origin")}
+                for pagina in range(1, 40):
+                    form_p = dict(form)
+                    form_p["page"] = str(pagina)
                     try:
-                        cand = page.query_selector(sel)
-                        if cand and cand.is_visible():
-                            nxt = cand
-                            debug.append(f"next via {sel}")
-                            break
-                    except Exception:
-                        continue
-                if not nxt:
-                    debug.append("sem link para a página seguinte")
-                    break
-                primeira = novas[0]["titulo"]
-                nxt.click()
-                try:
-                    page.wait_for_function("t => { const td = document.querySelector('table tbody tr td'); return td && td.innerText.trim() !== t; }", arg=primeira, timeout=30000)
-                except Exception:
-                    debug.append("tabela não mudou após clique")
-                    break
-                page.wait_for_timeout(800)
+                        resp = page.request.post(c["url"], form=form_p, headers=hdr, timeout=60000)
+                        body = resp.text()
+                    except Exception as e:
+                        debug.append(f"ajax pagina {pagina} falhou: {e}")
+                        break
+                    if pagina == 1:
+                        debug.append(f"ajax status={resp.status} inicio={body[:1500]!r}")
+                    novas = _linhas_json(body)
+                    debug.append(f"pagina {pagina + 1} (ajax): {len(novas)} linhas; ultima pub={novas[-1]['publicado'] if novas else None}")
+                    if not novas:
+                        break
+                    rows += novas
+                    ult = _data_pt(novas[-1]["publicado"])
+                    if ult and ult < desde:
+                        break
+                    time.sleep(0.7)
         except Exception as e:
             print(f"  BASE via browser falhou: {e}")
             debug.append(f"erro={e}")
