@@ -127,6 +127,12 @@ ENTIDADES_MINHO = [
     "Hospital de Braga", "Santa Casa da Misericórdia de Braga", "Braga Habit", "InvestBraga", "BragaParques",
 ]
 
+# Fora do Minho (classe B): distritos onde ainda compensa deslocar equipa para obra/instalação.
+DISTRITOS_NORTE = ["Porto", "Vila Real", "Bragança", "Aveiro"]
+# Fora do Minho, serviços de software/projeto podem ser feitos à distância, mas só até este preço base (acima, é
+# concurso para grandes integradores). None = sem limite.
+TETO_B_SERVICOS_EUR = 250_000
+
 # Teto de empreitada considerado (ajustar à classe do alvará quando confirmada). None = sem teto.
 TETO_EMPREITADA_EUR = None
 

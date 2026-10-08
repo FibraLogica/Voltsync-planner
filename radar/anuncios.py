@@ -18,7 +18,7 @@ import requests
 from bs4 import BeautifulSoup
 
 from common import categorias, e_minho, norm, parse_date, parse_eur, save_json, save_text
-from config import TETO_EMPREITADA_EUR
+from config import DISTRITOS_NORTE, TETO_B_SERVICOS_EUR, TETO_EMPREITADA_EUR
 
 UA = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0 Safari/537.36"}
 
@@ -178,7 +178,7 @@ def base_anuncios_playwright(desde: date) -> list[dict]:
                 form = dict(parse_qsl(c["post_data"] or "", keep_blank_values=True))
                 debug.append(f"form_base={form}")
                 hdr = {k: v for k, v in c["headers"].items() if k.lower() in ("accept", "content-type", "x-requested-with", "referer", "origin")}
-                for pagina in range(0, 12):
+                for pagina in range(0, 30):
                     form_p = dict(form)
                     form_p["page"] = str(pagina)
                     form_p["size"] = "100"
@@ -332,13 +332,25 @@ def bidsfactory_detalhe(url: str) -> dict:
 
 
 # ---------------------------------------------------------------- Classificação e saída
+def _norte(a: dict) -> bool:
+    t = norm(" | ".join(str(a.get(k) or "") for k in ("entidade", "titulo", "local")))
+    return any(re.search(r"\b" + re.escape(norm(d)) + r"\b", t) for d in DISTRITOS_NORTE)
+
+
 def classifica(a: dict) -> str:
+    """A = Minho e no perfil. B = fora do Minho mas alcançável (Norte para obra; serviços até ao teto). C = resto."""
     cats = a.get("categorias") or []
     if not cats:
         return "C"
-    if TETO_EMPREITADA_EUR and "eletricidade" in cats and (a.get("preco_base") or 0) > TETO_EMPREITADA_EUR:
+    preco = a.get("preco_base") or 0
+    if TETO_EMPREITADA_EUR and "eletricidade" in cats and preco > TETO_EMPREITADA_EUR:
         return "C"
-    return "A" if a.get("minho") else "B"
+    if a.get("minho"):
+        return "A"
+    so_servicos = not ({"eletricidade", "mobilidade_eletrica"} & set(cats))
+    if so_servicos:
+        return "B" if (not TETO_B_SERVICOS_EUR or preco <= TETO_B_SERVICOS_EUR) else "C"
+    return "B" if _norte(a) else "C"
 
 
 def main() -> int:
@@ -365,7 +377,7 @@ def main() -> int:
     dets = base_detalhes([r["url"] for r in relevantes if r.get("url")][:60])
     for r in relevantes:
         det = dets.get(r.get("url") or "", {})
-        a = {**r, **{k: v for k, v in det.items() if k != "texto" and v}}
+        a = {**r, **{k: v for k, v in det.items() if k != "texto" and v and not (k == "prazo_propostas" and r.get("prazo_propostas"))}}
         a["categorias"] = categorias(a.get("cpv"), a.get("titulo"), a.get("objeto"))
         a["minho"] = e_minho(a.get("entidade"), a.get("titulo"), a.get("local"))
         if not a["categorias"] and not a["minho"]:
@@ -384,6 +396,21 @@ def main() -> int:
             continue  # nem perfil nem Minho: não interessa
         anuncios.append(a)
         time.sleep(0.4)
+
+    # Duplicados entre fontes (mesma entidade + objeto): fica o do BASE, herdando o n.º DR do BidsFactory.
+    chave = lambda a: (norm(a.get("entidade"))[:40], norm(a.get("titulo"))[:70])
+    base_por_chave = {chave(a): a for a in anuncios if a["origem"] == "BASE"}
+    unicos = []
+    for a in anuncios:
+        if a["origem"] != "BASE" and chave(a) in base_por_chave:
+            b = base_por_chave[chave(a)]
+            for k in ("n_dr", "cpv", "preco_base"):
+                if not b.get(k) and a.get(k):
+                    b[k] = a[k]
+            b["url_bidsfactory"] = a["url"]
+            continue
+        unicos.append(a)
+    anuncios = unicos
 
     for a in anuncios:
         a["classe"] = classifica(a)
@@ -405,7 +432,7 @@ def main() -> int:
         linhas.append("| {c} | {e} | {o} | {p} | {pr} | {proc} | {cpv} | {dr} | {u} |".format(
             c=a["classe"], e=a.get("entidade") or "?", o=(a.get("titulo") or "")[:120].replace("|", "/"),
             p=f"{a['preco_base']:,.0f}".replace(",", " ") if a.get("preco_base") else "?",
-            pr=a.get("prazo_propostas") or "?", proc=a.get("procedimento") or "?", cpv=a.get("cpv") or "?",
+            pr=a.get("prazo_propostas") or "?", proc=a.get("procedimento") or "?", cpv=(a.get("cpv") or "?")[:10],
             dr=a.get("n_dr") or "", u=a["url"]))
     cs = [a for a in anuncios if a["classe"] == "C"]
     if cs:
