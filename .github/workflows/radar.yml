@@ -46,4 +46,8 @@ jobs:
           git add -A data
           if git diff --cached --quiet; then echo "sem alterações"; exit 0; fi
           git commit -m "radar: dados de $(date -u +%F)"
-          git push
+          for i in 1 2 3; do
+            git pull --rebase -X theirs origin main && git push && exit 0
+            sleep 10
+          done
+          exit 1
