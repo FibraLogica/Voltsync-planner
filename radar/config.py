@@ -66,7 +66,7 @@ KEYWORDS = {
         "projeto de execucao", "projeto de execução", "projeto de especialidades", "projetos de especialidades",
         "projeto eletrico", "projeto electrico", "revisao de projeto", "projeto de instalacoes eletricas",
         "projeto de licenciamento", "projeto de iluminacao", "certificacao energetica", "auditoria energetica",
-        "elaboracao de projeto", "elaboracao do projeto", "projetos de execucao", "fiscalizacao",
+        "elaboracao de projeto", "elaboracao do projeto", "elaboracao dos projetos", "projetos de execucao", "projeto-base", "projetos-base", "projeto base", "fiscalizacao",
     ],
     "mobilidade_eletrica": [
         "posto de carregamento", "postos de carregamento", "carregador de veiculo", "carregadores de veiculo",
