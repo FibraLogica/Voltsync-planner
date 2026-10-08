@@ -1,6 +1,6 @@
 # Radar VoltSync — anúncios abertos (2026-10-08)
 
-Fontes: BASE via browser (25 anúncios lidos desde 2026-10-05), BidsFactory. Candidatos: 31.
+Fontes: BASE via browser (1000 anúncios lidos desde 2026-10-05), BidsFactory. Candidatos: 31.
 
 | Classe | Entidade | Objeto | Preço base (€) | Prazo propostas | Procedimento | CPV | N.º DR | Link |
 |---|---|---|---|---|---|---|---|---|

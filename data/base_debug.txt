@@ -1,16 +1,45 @@
 title='Pesquisa'
-pagina 1: 25 linhas; primeira pub=08-10-2026; ultima pub=08-10-2026
+pedidos ajax capturados=1; https://www.base.gov.pt/Base4/pt/resultados/ :: type=search_anuncios&version=107.0&query=tipocontrato%3D0%26desdedatapublicacao%3D05-10-2026%26tipoacto%3D0%26tipomodelo%3D0&sort=-drPublicationDate&page=0&size=25
+pagina 1 (DOM): 25 linhas; primeira pub=08-10-2026; ultima pub=08-10-2026
 exemplo=[{'origem': 'BASE', 'id': '458000', 'url': 'https://www.base.gov.pt/Base4/pt/detalhe/?type=anuncios&id=458000', 'titulo': 'Aquisição, por lotes, de pão e pastelaria, para consumo no período de janeiro de 2027 a dezembro de 2027', 'tipo_ato': 'Anúncio de procedimento', 'procedimento': 'Concurso público', 'entidade': 'Serviços de Ação Social da Universidade de Coimbra', 'preco_base': 74764.5, 'publicado': '08-10-2026'}, {'origem': 'BASE', 'id': '457999', 'url': 'https://www.base.gov.pt/Base4/pt/detalhe/?type=anuncios&id=457999', 'titulo': 'Empreitada de requalificação e construção de parque de estacionamento na Av. de Ceuta', 'tipo_ato': 'Anúncio de procedimento', 'procedimento': 'Concurso público', 'entidade': 'Freguesia de Quarteira', 'preco_base': 157067.61, 'publicado': '08-10-2026'}]
-fim_tabela_html=e procedimento</td><td data-title="Tipo de procedimento">Concurso público</td><td data-title="Entidade">Município de Oeiras</td><td data-title="Preço base" style="white-space: nowrap;">3.934.844,98 €</td><td data-title="Publicação" style="white-space: nowrap;">08-10-2026</td><td data-title="Ver detalhe"><a href="/Base4/pt/detalhe/?type=anuncios&amp;id=457977" target="_blank"><span class="fal fa-plus-circle"></span></a></td></tr><tr><td data-title="Objeto do contrato" class="hidden-xs">Aquisição de Apólices de Seguro</td><td data-title="Tipo de ato">Anúncio de procedimento</td><td data-title="Tipo de procedimento">Concurso público</td><td data-title="Entidade">Município de Ponta Delgada</td><td data-title="Preço base" style="white-space: nowrap;">472.069,60 €</td><td data-title="Publicação" style="white-space: nowrap;">08-10-2026</td><td data-title="Ver detalhe"><a href="/Base4/pt/detalhe/?type=anuncios&amp;id=457976" target="_blank"><span class="fal fa-plus-circle"></span></a></td></tr><tr><td data-title="Objeto do contrato" class="hidden-xs">Prestação de Serviços na Área dos Seguros</td><td data-title="Tipo de ato">Anúncio de procedimento</td><td data-title="Tipo de procedimento">Concurso público</td><td data-title="Entidade">Município do Montijo</td><td data-title="Preço base" style="white-space: nowrap;">477.000,00 €</td><td data-title="Publicação" style="white-space: nowrap;">08-10-2026</td><td data-title="Ver detalhe"><a href="/Base4/pt/detalhe/?type=anuncios&amp;id=457975" target="_blank"><span class="fal fa-plus-circle"></span></a></td></tr><tr><td data-title="Objeto do contrato" class="hidden-xs">Aquisição de reagentes para pesquisa de agentes patogénicos em abordagem sindrómica por metodologia PCR multiplex, com colocação de equipamento em regime de contra-consumo</td><td data-title="Tipo de ato">Anúncio de procedimento</td><td data-title="Tipo de procedimento">Concurso público</td><td data-title="Entidade">Unidade Local de Saúde de Braga, EPE</td><td data-title="Preço base" style="white-space: nowrap;">300.600,00 €</td><td data-title="Publicação" style="white-space: nowrap;">08-10-2026</td><td data-title="Ver detalhe"><a href="/Base4/pt/detalhe/?type=anuncios&amp;id=457974" target="_blank"><span class="fal fa-plus-circle"></span></a></td></tr><tr><td data-title="Objeto do contrato" class="hidden-xs">Aquisição de frascos de hemocultura com colocação de equipamento(s), em regime de contra-consumo, para incubação e deteção de crescimento</td><td data-title="Tipo de ato">Anúncio de procedimento</td><td data-title="Tipo de procedimento">Concurso público</td><td data-title="Entidade">Unidade Local de Saúde de Braga, EPE</td><td data-title="Preço base" style="white-space: nowrap;">420.480,00 €</td><td data-title="Publicação" style="white-space: nowrap;">08-10-2026</td><td data-title="Ver detalhe"><a href="/Base4/pt/detalhe/?type=anuncios&amp;id=457973" target="_blank"><span class="fal fa-plus-circle"></span></a></td></tr></tbody></table></div>
-next via a:has-text('2')
-erro=ElementHandle.click: Timeout 30000ms exceeded.
-Call log:
-  - attempting click action
-    - waiting for element to be visible, enabled and stable
-    - element is visible, enabled and stable
-    - scrolling into view if needed
-    - done scrolling
-    - performing click action
-    - click action done
-    - waiting for scheduled navigations to finish
-
+form_base={'type': 'search_anuncios', 'version': '107.0', 'query': 'tipocontrato=0&desdedatapublicacao=05-10-2026&tipoacto=0&tipomodelo=0', 'sort': '-drPublicationDate', 'page': '0', 'size': '25'}
+ajax status=200 inicio='\t\t\t\t\t{ "total": 253201, "items": [{"contractingProcedureType":"Concurso público","basePrice":"4.140.880,66 €","contractingEntity":"Faculdade de Letras da Universidade de Lisboa","drPublicationDate":"08-10-2026","contractDesignation":"Fornecimento de gás natural, em regime de mercado livre, às instalações de consumo da Universidade de Lisboa e das suas Escolas e/ou Serviços","proposalDeadline":"07-11-2026","id":457972,"type":"Anúncio de procedimento"},{"contractingProcedureType":"Concurso público","basePrice":"140.000,00 €","contractingEntity":"Serviços Municipalizados de Castelo Branco","drPublicationDate":"08-10-2026","contractDesignation":"Aquisição de Serviços para a Contratação de Apólices de Seguros - 2027","proposalDeadline":"01-11-2026","id":457971,"type":"Anúncio de procedimento"},{"contractingProcedureType":"Concurso público","basePrice":"872.820,00 €","contractingEntity":"Unidade Local de Saúde de São José, E. P. E.","drPublicationDate":"08-10-2026","contractDesignation":"12000127 -AQUISIÇÃO DE SONDAS PIC E SISTEMA DE TROCA ATIVA DE FLUIDO INTRACRANIANO C/ COLOCAÇÃO DE EQUIPAMENTO","proposalDeadline":"08-11-2026","id":457970,"type":"Anúncio de procedimento"},{"contractingProcedureType":"Concurso público","basePrice":"1.460.040,00 €","contractingEntity":"Unidade Local de Saúde de São José, E. P. E.","drPublicationDate":"08-10-2026","contractDesignation":"12000527 - AQUISIÇÃO DE MATERIAL PARA CIRURGIA DE DEFORMIDADES DE ADULTO","proposalDeadline":"08-11-2026","id":457'
+pagina 2 (ajax): 25 linhas; ultima pub=None
+pagina 3 (ajax): 25 linhas; ultima pub=None
+pagina 4 (ajax): 25 linhas; ultima pub=None
+pagina 5 (ajax): 25 linhas; ultima pub=None
+pagina 6 (ajax): 25 linhas; ultima pub=None
+pagina 7 (ajax): 25 linhas; ultima pub=None
+pagina 8 (ajax): 25 linhas; ultima pub=None
+pagina 9 (ajax): 25 linhas; ultima pub=None
+pagina 10 (ajax): 25 linhas; ultima pub=None
+pagina 11 (ajax): 25 linhas; ultima pub=None
+pagina 12 (ajax): 25 linhas; ultima pub=None
+pagina 13 (ajax): 25 linhas; ultima pub=None
+pagina 14 (ajax): 25 linhas; ultima pub=None
+pagina 15 (ajax): 25 linhas; ultima pub=None
+pagina 16 (ajax): 25 linhas; ultima pub=None
+pagina 17 (ajax): 25 linhas; ultima pub=None
+pagina 18 (ajax): 25 linhas; ultima pub=None
+pagina 19 (ajax): 25 linhas; ultima pub=None
+pagina 20 (ajax): 25 linhas; ultima pub=None
+pagina 21 (ajax): 25 linhas; ultima pub=None
+pagina 22 (ajax): 25 linhas; ultima pub=None
+pagina 23 (ajax): 25 linhas; ultima pub=None
+pagina 24 (ajax): 25 linhas; ultima pub=None
+pagina 25 (ajax): 25 linhas; ultima pub=None
+pagina 26 (ajax): 25 linhas; ultima pub=None
+pagina 27 (ajax): 25 linhas; ultima pub=None
+pagina 28 (ajax): 25 linhas; ultima pub=None
+pagina 29 (ajax): 25 linhas; ultima pub=None
+pagina 30 (ajax): 25 linhas; ultima pub=None
+pagina 31 (ajax): 25 linhas; ultima pub=None
+pagina 32 (ajax): 25 linhas; ultima pub=None
+pagina 33 (ajax): 25 linhas; ultima pub=None
+pagina 34 (ajax): 25 linhas; ultima pub=None
+pagina 35 (ajax): 25 linhas; ultima pub=None
+pagina 36 (ajax): 25 linhas; ultima pub=None
+pagina 37 (ajax): 25 linhas; ultima pub=None
+pagina 38 (ajax): 25 linhas; ultima pub=None
+pagina 39 (ajax): 25 linhas; ultima pub=None
+pagina 40 (ajax): 25 linhas; ultima pub=None

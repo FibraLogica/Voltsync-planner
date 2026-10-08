@@ -1,16 +1,5 @@
 1) Portal BASE via browser…
-  BASE via browser falhou: ElementHandle.click: Timeout 30000ms exceeded.
-Call log:
-  - attempting click action
-    - waiting for element to be visible, enabled and stable
-    - element is visible, enabled and stable
-    - scrolling into view if needed
-    - done scrolling
-    - performing click action
-    - click action done
-    - waiting for scheduled navigations to finish
-
-   25 linhas
+   1000 linhas
    9 relevantes (perfil ou Minho)
 2) BidsFactory (recurso)…
 OK: 31 candidatos.
