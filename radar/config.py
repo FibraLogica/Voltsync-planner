@@ -1,4 +1,5 @@
-"""Perfil de prospeção da VoltSync, Lda (alvará IMPIC 117403-PUB).
+"""Perfil de prospeção da VoltSync, Lda (alvará IMPIC 117403-PUB, classe máxima 2, 4.ª categoria —
+subcategorias 1.ª-8.ª, 10.ª-12.ª, 16.ª-19.ª; inscrição 30/07/2025).
 
 Tudo o que o radar filtra vem daqui. Ajustar aqui, não nos scripts.
 """
@@ -27,6 +28,18 @@ CPV_PREFIXOS = {
         "71334",  # engenharia mecânica e elétrica
         "71240",  # arquitetura/engenharia/planeamento
         "71310",  # consultoria de engenharia
+    ],
+    "fotovoltaico": [
+        "09331",  # painéis solares
+        "09332",  # instalações solares
+        "45261215",  # coberturas com painéis solares
+        "31712331",  # células fotovoltaicas
+    ],
+    "seguranca_incendio": [
+        "45312",  # alarmes, deteção, CCTV (4.ª cat. 10.ª subcat.)
+        "31625",  # alarmes de incêndio
+        "35121",  # equipamento de segurança
+        "45343",  # instalações de prevenção de incêndio
     ],
     "mobilidade_eletrica": [
         "31158",  # carregadores
@@ -68,6 +81,14 @@ KEYWORDS = {
         "projeto de licenciamento", "projeto de iluminacao", "certificacao energetica", "auditoria energetica",
         "elaboracao de projeto", "elaboracao do projeto", "elaboracao dos projetos", "projetos de execucao", "projeto-base", "projetos-base", "projeto base", "fiscalizacao",
     ],
+    "fotovoltaico": [
+        "fotovoltaic", "fotovoltaico", "paineis solares", "painel solar", "autoconsumo", "upac", "solar",
+        "producao de energia", "central solar", "comunidade de energia",
+    ],
+    "seguranca_incendio": [
+        "deteccao de incendio", "detecao de incendio", "sadi", "sistema automatico de detecao", "alarme de incendio",
+        "cctv", "videovigilancia", "controlo de acessos", "intrusao", "extincao de incendio",
+    ],
     "mobilidade_eletrica": [
         "posto de carregamento", "postos de carregamento", "carregador de veiculo", "carregadores de veiculo",
         "carregador para veiculo", "carregadores para veiculo", "carregamento de veiculo", "carregamento eletrico",
@@ -95,7 +116,7 @@ EXCLUIR = [
     "subscricao", "subscrição", "telecomunicacoes", "telecomunicações", "comunicacoes moveis", "comunicações móveis",
     "seguro", "limpeza", "viaturas", "pneus",
 ]
-EXCLUIR_CPV = ["09", "0931", "6421", "6422", "6431", "3410", "3411", "3414", "6351", "7980", "7981", "9830", "604", "5511", "5512"]  # energia, telecom, viaturas, viagens, impressão/cópia
+EXCLUIR_CPV = ["091", "092", "0931", "0932", "0934", "6421", "6422", "6431", "3410", "3411", "3414", "6351", "7980", "7981", "9830", "604", "5511", "5512"]  # energia, telecom, viaturas, viagens, impressão/cópia
 # Padrões (regex sobre texto normalizado: minúsculas, sem acentos) — compras que não são serviço da VoltSync.
 EXCLUIR_REGEX = [
     r"\b(aquisicao|fornecimento|locacao|aluguer|renting|compra) de (uma |um |duas |dois |\d+ )?(viatura|veiculo|autocarro|carrinha|furgao|automovel|ligeiro|bicicleta|trotinete)",
@@ -133,8 +154,9 @@ DISTRITOS_NORTE = ["Porto", "Vila Real", "Bragança", "Aveiro"]
 # concurso para grandes integradores). None = sem limite.
 TETO_B_SERVICOS_EUR = 250_000
 
-# Teto de empreitada considerado (ajustar à classe do alvará quando confirmada). None = sem teto.
-TETO_EMPREITADA_EUR = None
+# Teto de empreitada: alvará classe 2 → obras até 332.000 € (Portaria 119/2012, valores das classes; Lei 41/2015).
+# Acima disto a VoltSync só entra em consórcio ou subempreitada.
+TETO_EMPREITADA_EUR = 332_000
 
 # Quantos meses de contratos a analisar no mapa de "quem contrata".
 MESES_HISTORICO = 18

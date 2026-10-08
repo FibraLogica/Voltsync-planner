@@ -36,7 +36,7 @@ jobs:
       - name: Mapa de quem contrata (segundas-feiras ou execução manual)
         working-directory: radar
         run: |
-          if [ "${{ github.event_name }}" = "workflow_dispatch" ] || [ "$(date -u +%u)" = "1" ]; then python base_contratos.py; else echo "não é segunda-feira; salto"; fi
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ] || [ "$(date -u +%u)" = "1" ]; then python base_contratos.py 2>&1 | tee ../data/log_base.txt && python prospecao.py; else echo "não é segunda-feira; salto"; fi
         continue-on-error: true
 
       - name: Commit dos dados

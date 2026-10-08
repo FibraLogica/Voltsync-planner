@@ -343,11 +343,13 @@ def classifica(a: dict) -> str:
     if not cats:
         return "C"
     preco = a.get("preco_base") or 0
-    if TETO_EMPREITADA_EUR and "eletricidade" in cats and preco > TETO_EMPREITADA_EUR:
-        return "C"
+    obra = bool({"eletricidade", "mobilidade_eletrica", "fotovoltaico", "seguranca_incendio"} & set(cats)) and \
+        not ({"software_ti", "projeto"} & set(cats))
+    if TETO_EMPREITADA_EUR and obra and preco > TETO_EMPREITADA_EUR:
+        return "C"  # acima da classe 2 do alvará: só consórcio/subempreitada
     if a.get("minho"):
         return "A"
-    so_servicos = not ({"eletricidade", "mobilidade_eletrica"} & set(cats))
+    so_servicos = not ({"eletricidade", "mobilidade_eletrica", "fotovoltaico", "seguranca_incendio"} & set(cats))
     if so_servicos:
         return "B" if (not TETO_B_SERVICOS_EUR or preco <= TETO_B_SERVICOS_EUR) else "C"
     return "B" if _norte(a) else "C"
