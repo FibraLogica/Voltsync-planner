@@ -33,17 +33,10 @@ jobs:
         run: python anuncios.py
         continue-on-error: true
 
-      - name: Mapa de quem contrata (dataset BASE no dados.gov.pt) — só às segundas ou manual
-        if: github.event_name == 'workflow_dispatch' || startsWith(github.event.schedule, '40 5') && false
-        working-directory: radar
-        run: python base_contratos.py
-        continue-on-error: true
-
-      - name: Mapa de quem contrata (segunda-feira)
-        if: github.event_name == 'schedule'
+      - name: Mapa de quem contrata (segundas-feiras ou execução manual)
         working-directory: radar
         run: |
-          if [ "$(date -u +%u)" = "1" ]; then python base_contratos.py; else echo "não é segunda-feira; salto"; fi
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ] || [ "$(date -u +%u)" = "1" ]; then python base_contratos.py; else echo "não é segunda-feira; salto"; fi
         continue-on-error: true
 
       - name: Commit dos dados
