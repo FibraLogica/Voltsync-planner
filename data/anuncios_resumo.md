@@ -1,13 +1,13 @@
 # Radar VoltSync — anúncios abertos (2026-10-08)
 
-Fontes: BASE via browser (25 linhas lidas), BidsFactory. Candidatos: 31.
+Fontes: BASE via browser (25 anúncios lidos desde 2026-10-05), BidsFactory. Candidatos: 31.
 
 | Classe | Entidade | Objeto | Preço base (€) | Prazo propostas | Procedimento | CPV | N.º DR | Link |
 |---|---|---|---|---|---|---|---|---|
 | A | Águas do Norte, SA | PRC_0227/2026_TII-Aquisição de serviços de suporte de networking para a Águas do Norte, S.A. | 110 165 | ? | Concurso público | 71356200-0 | 24792/2026 | https://bidsfactory.com/en/tenders/prc_02272026_tii-aquisicao-de-servicos-de-suporte-base_gov_pt-3e89f9be94a4b5b6 |
-| B | ? | Aquisição de serviços de eletricista e apoio técnico Anúncio de procedimento Concurso público Promotorres, EM 190.000,00 | ? | ? | ? | ? |  | https://www.base.gov.pt/Base4/pt/detalhe/?type=anuncios&id=457988 |
-| B | ? | CP/2026/28_DOP - Aquisição de serviços de fiscalização e gestão da qualidade, coordenação da segurança e ambiente das em | ? | ? | ? | ? |  | https://www.base.gov.pt/Base4/pt/detalhe/?type=anuncios&id=457984 |
-| B | ? | Aquisição de serviços para elaboração do projeto de requalificação do Mosteiro de Odivelas Anúncio de procedimento Concu | ? | ? | ? | ? |  | https://www.base.gov.pt/Base4/pt/detalhe/?type=anuncios&id=457982 |
+| B | AdRA - Águas da Região de Aveiro, S.A. | CP/2026/28_DOP - Aquisição de serviços de fiscalização e gestão da qualidade, coordenação da segurança e ambiente das em | 378 000 | 25 dias. | Concurso público | 71540000-5, Serviços de gestão de obras |  | https://www.base.gov.pt/Base4/pt/detalhe/?type=anuncios&id=457984 |
+| B | Município de Odivelas | Aquisição de serviços para elaboração do projeto de requalificação do Mosteiro de Odivelas | 1 200 000 | 29 dias. | Concurso público | 71240000-2, Serviços de arquitectura, engenharia e planeamento |  | https://www.base.gov.pt/Base4/pt/detalhe/?type=anuncios&id=457982 |
+| B | Promotorres, EM | Aquisição de serviços de eletricista e apoio técnico | 190 000 | 5 dias. | Concurso público | 71314100-3, Serviços de electricidade |  | https://www.base.gov.pt/Base4/pt/detalhe/?type=anuncios&id=457988 |
 | B | Município de Almada | Aquisição de Serviços denominada: «Fiscalização e Coordenação de Segurança em Obra da EOP denominada por: MANUTENÇÃO E  | 334 370 | ? | Concurso público | 71300000-1 | 24893/2026 | https://bidsfactory.com/en/tenders/aquisicao-de-servicos-denominada-fiscalizacao-e-co-base_gov_pt-874b5813ad160c46 |
 | B | Instituto de Gestão Financeira e Equipamentos da Justiça, IP | 26AS00008061 - Aquisição de serviços de manutenção corretiva e evolutiva dos sistemas de suporte às custas processuais e | 356 400 | ? | Concurso público | 72220000-3 | 24871/2026 | https://bidsfactory.com/en/tenders/26as00008061-aquisicao-de-servicos-de-manutencao-c-base_gov_pt-b6ea782b43fea7dd |
 | B | Município de Sintra | EM-26/00134 - Empreitada de Instalação Elétrica no site no Monte de Sta. Eufémia | 18 000 | ? | Concurso público | 45310000-3 | 24802/2026 | https://bidsfactory.com/en/tenders/em-2600134-empreitada-de-instalacao-eletrica-no-si-base_gov_pt-eb7b8b50c2d64953 |
@@ -25,12 +25,12 @@ Fontes: BASE via browser (25 linhas lidas), BidsFactory. Candidatos: 31.
 
 ## Fora de perfil / só subempreitada (C)
 
-- ? — serviços de Restabelecimento das Condições de Segurança Rodoviária Pós Acidente de Viação nas Estrad — https://www.base.gov.pt/Base4/pt/detalhe/?type=anuncios&id=457996
-- ? — PO 622/2026 - Manutenção corretiva das coberturas da Escola EB 2,3/S de Arcos de Valdevez - Bloco 3  — https://www.base.gov.pt/Base4/pt/detalhe/?type=anuncios&id=457991
-- ? — PRC_0330/2026_TII-Renovação do Licenciamento da Plataforma de Suporte  Easyvista para a Águas do  — https://www.base.gov.pt/Base4/pt/detalhe/?type=anuncios&id=457986
-- ? — PRC_0296/2026_TII-Aquisição de serviços de telecomunicações para o SAA do Cávado da Águas do Norte,  — https://www.base.gov.pt/Base4/pt/detalhe/?type=anuncios&id=457985
-- ? — Aquisição de reagentes para pesquisa de agentes patogénicos em abordagem sindrómica por metodologia  — https://www.base.gov.pt/Base4/pt/detalhe/?type=anuncios&id=457974
-- ? — Aquisição de frascos de hemocultura com colocação de equipamento(s), em regime de contra-consumo, pa — https://www.base.gov.pt/Base4/pt/detalhe/?type=anuncios&id=457973
+- Águas do Norte, SA — PRC_0330/2026_TII-Renovação do Licenciamento da Plataforma de Suporte  Easyvista para a Águas do  — https://www.base.gov.pt/Base4/pt/detalhe/?type=anuncios&id=457986
+- Águas do Norte, SA — PRC_0296/2026_TII-Aquisição de serviços de telecomunicações para o SAA do Cávado da Águas do Norte,  — https://www.base.gov.pt/Base4/pt/detalhe/?type=anuncios&id=457985
+- Município de Arcos de Valdevez — PO 622/2026 - Manutenção corretiva das coberturas da Escola EB 2,3/S de Arcos de Valdevez - Bloco 3  — https://www.base.gov.pt/Base4/pt/detalhe/?type=anuncios&id=457991
+- Unidade Local de Saúde de Braga, EPE — Aquisição de reagentes para pesquisa de agentes patogénicos em abordagem sindrómica por metodologia  — https://www.base.gov.pt/Base4/pt/detalhe/?type=anuncios&id=457974
+- Unidade Local de Saúde de Braga, EPE — Aquisição de frascos de hemocultura com colocação de equipamento(s), em regime de contra-consumo, pa — https://www.base.gov.pt/Base4/pt/detalhe/?type=anuncios&id=457973
+- Município de Cabeceiras de Basto — serviços de Restabelecimento das Condições de Segurança Rodoviária Pós Acidente de Viação nas Estrad — https://www.base.gov.pt/Base4/pt/detalhe/?type=anuncios&id=457996
 - Município de Arcos de Valdevez — PO 625/2026 - Expansão da rede de saneamento a Gondoriz e S. Cosme e S. Damião - Bacias 1 a 7 — https://bidsfactory.com/en/tenders/po-6252026-expansao-da-rede-de-saneamento-a-gondor-base_gov_pt-08eed4ceb808fe5c
 - Município de Arcos de Valdevez — PO 622/2026 - Manutenção corretiva das coberturas da Escola EB 2,3/S de Arcos de Valdevez - Bloco 3  — https://bidsfactory.com/en/tenders/po-6222026-manutencao-corretiva-das-coberturas-da-base_gov_pt-3ef2153fe7b5030e
 - Município de Cabeceiras de Basto — serviços de Restabelecimento das Condições de Segurança Rodoviária Pós Acidente de Viação nas Estrad — https://bidsfactory.com/en/tenders/servicos-de-restabelecimento-das-condicoes-de-segu-base_gov_pt-65fa901d2a052d71
