@@ -31,7 +31,6 @@ CPV_PREFIXOS = {
     "mobilidade_eletrica": [
         "31158",  # carregadores
         "31681",  # acessórios elétricos (carregadores)
-        "45223",  # estruturas/parques (quando com carregamento)
     ],
     "software_ti": [
         "72000",  # serviços TI (geral)
@@ -54,23 +53,36 @@ CPV_PREFIXOS = {
 # Palavras-chave no objeto/título (minúsculas, sem acentos tratados à parte).
 KEYWORDS = {
     "eletricidade": [
-        "eletric", "electric", "iluminacao", "iluminação", "quadro eletrico", "quadro elétrico",
-        "cablagem", "baixa tensao", "baixa tensão", "posto de transformacao", "posto de transformação",
-        "remodelacao eletrica", "remodelação elétrica", "luminaria", "luminária", "led",
+        "instalacao eletrica", "instalacoes eletricas", "instalacao electrica", "instalacoes electricas",
+        "rede eletrica", "redes eletricas", "infraestruturas eletricas", "infraestrutura eletrica",
+        "sistemas eletricos", "sistema eletrico", "material eletrico", "quadro eletrico", "quadros eletricos",
+        "quadro de comando", "quadro geral", "iluminacao publica", "iluminacao exterior", "iluminacao interior",
+        "luminarias", "luminaria", "cablagem", "baixa tensao", "media tensao", "posto de transformacao",
+        "remodelacao eletrica", "eletricista", "eletricidade", "electricidade", "domotica", "ups",
+        "grupo gerador", "ligacao a rede eletrica", "ramal eletrico", "ramais eletricos", "deteccao de incendio",
+        "sadi", "cctv", "videovigilancia", "controlo de acessos",
     ],
     "projeto": [
         "projeto de execucao", "projeto de execução", "projeto de especialidades", "projetos de especialidades",
-        "projeto eletrico", "projeto elétrico", "revisao de projeto", "revisão de projeto",
+        "projeto eletrico", "projeto electrico", "revisao de projeto", "projeto de instalacoes eletricas",
+        "projeto de licenciamento", "projeto de iluminacao", "certificacao energetica", "auditoria energetica",
+        "elaboracao de projeto", "elaboracao do projeto", "projetos de execucao", "fiscalizacao",
     ],
     "mobilidade_eletrica": [
-        "carregamento", "carregador", "veiculos eletricos", "veículos elétricos", "mobilidade eletrica",
-        "mobilidade elétrica", "posto de carregamento",
+        "posto de carregamento", "postos de carregamento", "carregador de veiculo", "carregadores de veiculo",
+        "carregador para veiculo", "carregadores para veiculo", "carregamento de veiculo", "carregamento eletrico",
+        "carregamento electrico", "mobilidade eletrica", "mobilidade electrica", "carregador electrico", "carregador eletrico",
+        "carregadores eletricos", "wallbox", "mobi.e", "mobie",
     ],
     "software_ti": [
-        "software", "aplicacao", "aplicação", "plataforma", "sistema de informacao", "sistema de informação",
-        "website", "portal", "sitio web", "sítio web", "rede informatica", "rede informática", "ciberseguranca",
-        "cibersegurança", "informatic", "informátic", "inteligencia artificial", "inteligência artificial",
-        "digitalizacao", "digitalização", "automatizacao", "automatização", "servidores", "cloud",
+        "software", "aplicacao movel", "aplicacao web", "aplicacao informatica", "desenvolvimento de aplicacao",
+        "plataforma digital", "plataforma web", "plataforma online", "plataforma informatica", "plataforma de gestao",
+        "sistema de informacao", "sistemas de informacao", "website", "web site", "portal", "sitio web", "site institucional",
+        "rede informatica", "redes informaticas", "rede estruturada", "cablagem estruturada", "ciberseguranca",
+        "seguranca informatica", "servicos informaticos", "consultoria informatica", "assistencia informatica",
+        "manutencao informatica", "inteligencia artificial", "transformacao digital", "digitalizacao",
+        "automatizacao", "automacao", "servidor", "servidores", "cloud", "backup", "firewall", "wi-fi", "wifi",
+        "base de dados", "erp", "crm", "integracao de sistemas", "api",
     ],
 }
 
@@ -86,9 +98,13 @@ EXCLUIR = [
 EXCLUIR_CPV = ["09", "0931", "6421", "6422", "6431", "3410", "3411", "3414", "6351", "7980", "7981", "9830"]  # energia, telecom, viaturas, viagens, impressão/cópia
 # Padrões (regex sobre texto normalizado: minúsculas, sem acentos) — compras que não são serviço da VoltSync.
 EXCLUIR_REGEX = [
-    r"\b(aquisicao|fornecimento|locacao|aluguer|renting|compra) de (uma |um |duas |dois |\d+ )?(viatura|veiculo|autocarro|carrinha|automovel|bicicleta|trotinete)",
+    r"\b(aquisicao|fornecimento|locacao|aluguer|renting|compra) de (uma |um |duas |dois |\d+ )?(viatura|veiculo|autocarro|carrinha|furgao|automovel|ligeiro|bicicleta|trotinete)",
     r"\bviagens?\b", r"\balojamento\b", r"\b(impressao|copia|copias|fotocopia|multifuncoes|multifuncao)\b",
     r"\bconteudos\b", r"\bconsumiveis\b", r"\btoner",
+    r"\bfestiv", r"\bnatal", r"\bornamental", r"\bdecorativ", r"\bsom e luz\b", r"\bsom, luz\b", r"\bledwall", r"\bpalco",
+    r"\bplataformas? elevatori", r"\bmobiliario\b", r"\btablets?\b", r"\bleasing\b", r"\bfurg", r"\bcadeiras?\b",
+    r"\bacesso a internet\b", r"\bservicos? de comunicacoes\b", r"\bcircuitos? de dados\b", r"\bcomunicacoes de voz\b",
+    r"\bbombas?\b", r"\beletrobomba", r"\bequipamento medico\b", r"\bcirurgic",
 ]
 
 # Geografia prioritária: concelhos do Minho (distritos de Braga e Viana do Castelo).
