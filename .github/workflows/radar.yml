@@ -1,0 +1,56 @@
+name: Radar VoltSync
+
+on:
+  schedule:
+    - cron: "40 5 * * 1-5"   # dias úteis, 05:40 UTC (06:40 Lisboa)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: radar
+  cancel-in-progress: false
+
+jobs:
+  radar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Dependências
+        run: |
+          pip install --quiet requests beautifulsoup4 playwright
+          python -m playwright install --with-deps chromium
+
+      - name: Anúncios abertos (BASE via browser + BidsFactory)
+        working-directory: radar
+        run: python anuncios.py
+        continue-on-error: true
+
+      - name: Mapa de quem contrata (dataset BASE no dados.gov.pt) — só às segundas ou manual
+        if: github.event_name == 'workflow_dispatch' || startsWith(github.event.schedule, '40 5') && false
+        working-directory: radar
+        run: python base_contratos.py
+        continue-on-error: true
+
+      - name: Mapa de quem contrata (segunda-feira)
+        if: github.event_name == 'schedule'
+        working-directory: radar
+        run: |
+          if [ "$(date -u +%u)" = "1" ]; then python base_contratos.py; else echo "não é segunda-feira; salto"; fi
+        continue-on-error: true
+
+      - name: Commit dos dados
+        run: |
+          git config user.name "radar-voltsync"
+          git config user.email "radar@voltsync.pt"
+          git add -A data
+          if git diff --cached --quiet; then echo "sem alterações"; exit 0; fi
+          git commit -m "radar: dados de $(date -u +%F)"
+          git push
