@@ -43,17 +43,27 @@ def base_anuncios_playwright(desde: date) -> list[dict]:
             ids = page.eval_on_selector_all("input[id], button[id], select[id], a[id]", "els => els.map(e => e.tagName + '#' + e.id).slice(0, 120)")
             debug.append("ids=" + ", ".join(ids))
             debug.append("body=" + page.inner_text("body")[:1500].replace("\n", " / "))
-            # separador "Anúncios"
-            for sel in ["a[href='#anuncios']", "text=Anúncios", "#tab-anuncios", "a:has-text('Anúncios')"]:
-                try:
-                    page.click(sel, timeout=4000)
-                    debug.append(f"clicou {sel}")
-                    break
-                except Exception:
-                    continue
-            page.fill("#desdedatapublicacao", desde.strftime("%Y-%m-%d"))
+            # O formulário de anúncios só aparece depois de escolher "Anúncios DR" no seletor de tipo de pesquisa.
+            opts = page.eval_on_selector_all("#sel_search option", "els => els.map(e => [e.value, e.textContent.trim()])")
+            debug.append(f"sel_search={opts}")
+            alvo = next((v for v, t in opts if "anúncio" in t.lower() or "anuncio" in t.lower()), None)
+            if alvo is not None:
+                page.select_option("#sel_search", alvo)
+            else:
+                page.select_option("#sel_search", label="Anúncios DR")
+            page.wait_for_timeout(1500)
+            page.wait_for_selector("#desdedatapublicacao", state="visible", timeout=20000)
+            # datepicker pt: dd-mm-aaaa; preencher via JS para não disparar o calendário
+            page.evaluate("(v) => { const el = document.querySelector('#desdedatapublicacao'); el.value = v; el.dispatchEvent(new Event('change', {bubbles: true})); }", desde.strftime("%d-%m-%Y"))
             page.click("#search_anuncios")
-            page.wait_for_selector("table tbody tr", timeout=60000)
+            debug.append("clicou search_anuncios")
+            try:
+                page.wait_for_selector("table tbody tr, .resultados, #resultados, .result", timeout=60000)
+            except Exception as e:
+                debug.append(f"sem tabela: {e}")
+            page.wait_for_timeout(3000)
+            debug.append("pos-pesquisa url=" + page.url)
+            debug.append("pos-pesquisa body=" + page.inner_text("body")[:3000].replace("\n", " / "))
             # pagina enquanto houver "seguinte"
             for _ in range(20):
                 html = page.content()
