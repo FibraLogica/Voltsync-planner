@@ -1,6 +1,6 @@
 {
- "gerado_em": "2026-10-08T15:48",
- "n": 7,
+ "gerado_em": "2026-10-08T15:53",
+ "n": 22,
  "anuncios": [
   {
    "origem": "BidsFactory",
@@ -23,6 +23,139 @@
   },
   {
    "origem": "BidsFactory",
+   "url": "https://bidsfactory.com/en/tenders/aquisicao-de-servicos-denominada-fiscalizacao-e-co-base_gov_pt-874b5813ad160c46",
+   "titulo": "Aquisição de Serviços denominada: «Fiscalização e Coordenação de Segurança em Obra da EOP denominada por: MANUTENÇÃO E CONSERVAÇÃO DE ARRUAMENTOS NO CONCELHO DE ALMADA, A ADJUDICAR POR LOTES (EOP GENÉRICA ANOS 2026, 2027 E 2028)",
+   "titulo_en": "Acquisition of Services titled: “Site Supervision and Safety Coordination of the EOP titled: “MAINTENANCE AND CONSERVATION OF ROADS IN THE MUNICIPALITY OF ALMADA, TO BE AWARDED IN LOTS (GENERIC EOP YEARS 2026, 2027 AND 2028)”",
+   "titulo_pt": "Aquisição de Serviços denominada: «Fiscalização e Coordenação de Segurança em Obra da EOP denominada por: MANUTENÇÃO E CONSERVAÇÃO DE ARRUAMENTOS NO CONCELHO DE ALMADA, A ADJUDICAR POR LOTES (EOP GENÉRICA ANOS 2026, 2027 E 2028)",
+   "entidade": "Município de Almada",
+   "preco_base": 334370.0,
+   "publicado": "Oct 8, 2026",
+   "prazo_propostas": null,
+   "procedimento": "Concurso público",
+   "cpv": "71300000-1",
+   "n_dr": "24893/2026",
+   "categorias": [
+    "projeto"
+   ],
+   "minho": false,
+   "classe": "B"
+  },
+  {
+   "origem": "BidsFactory",
+   "url": "https://bidsfactory.com/en/tenders/26as00008061-aquisicao-de-servicos-de-manutencao-c-base_gov_pt-b6ea782b43fea7dd",
+   "titulo": "26AS00008061 - Aquisição de serviços de manutenção corretiva e evolutiva dos sistemas de suporte às custas processuais e ao acesso ao direito (6 meses)",
+   "titulo_en": "26AS00008061 - Acquisition of corrective and evolutionary maintenance services for systems supporting legal costs and access to justice (6 months)",
+   "titulo_pt": "26AS00008061 - Aquisição de serviços de manutenção corretiva e evolutiva dos sistemas de suporte às custas processuais e ao acesso ao direito (6 meses)",
+   "entidade": "Instituto de Gestão Financeira e Equipamentos da Justiça, IP",
+   "preco_base": 356400.0,
+   "publicado": "Oct 8, 2026",
+   "prazo_propostas": null,
+   "procedimento": "Concurso público",
+   "cpv": "72220000-3",
+   "n_dr": "24871/2026",
+   "categorias": [
+    "software_ti"
+   ],
+   "minho": false,
+   "classe": "B"
+  },
+  {
+   "origem": "BidsFactory",
+   "url": "https://bidsfactory.com/en/tenders/em-2600134-empreitada-de-instalacao-eletrica-no-si-base_gov_pt-eb7b8b50c2d64953",
+   "titulo": "EM-26/00134 - Empreitada de Instalação Elétrica no site no Monte de Sta. Eufémia",
+   "titulo_en": "EM-26/00134 - Electrical Installation Works at the Monte de Sta. Eufémia site",
+   "titulo_pt": "EM-26/00134 - Empreitada de Instalação Elétrica no site no Monte de Sta. Eufémia",
+   "entidade": "Município de Sintra",
+   "preco_base": 18000.0,
+   "publicado": "Oct 7, 2026",
+   "prazo_propostas": null,
+   "procedimento": "Concurso público",
+   "cpv": "45310000-3",
+   "n_dr": "24802/2026",
+   "categorias": [
+    "eletricidade"
+   ],
+   "minho": false,
+   "classe": "B"
+  },
+  {
+   "origem": "BidsFactory",
+   "url": "https://bidsfactory.com/en/tenders/projeto-de-descarbonizacao-do-municipio-de-miranda-base_gov_pt-f7e70871f6f595ba",
+   "titulo": "Projeto de Descarbonização do Município de Miranda do Douro (Roteiro)",
+   "titulo_en": "“Decarbonization Project of the Municipality of Miranda do Douro (Roadmap)”",
+   "titulo_pt": "Projeto de Descarbonização do Município de Miranda do Douro (Roteiro)",
+   "entidade": "Câmara Municipal de Miranda do Douro",
+   "preco_base": 100000000.0,
+   "publicado": "Oct 2, 2026",
+   "prazo_propostas": null,
+   "procedimento": "Public tender",
+   "cpv": "45315000-8",
+   "n_dr": "24556/2026",
+   "categorias": [
+    "eletricidade"
+   ],
+   "minho": false,
+   "classe": "B"
+  },
+  {
+   "origem": "BidsFactory",
+   "url": "https://bidsfactory.com/en/tenders/aquisicao-de-servicos-de-manutencao-dos-equipament-base_gov_pt-384eb314a3cede5b",
+   "titulo": "Aquisição de Serviços de \"Manutenção dos Equipamentos de Transformação de Energia Elétrica\"",
+   "titulo_en": "Acquisition of Services for \"Maintenance of Electrical Power Transformation Equipment\"",
+   "titulo_pt": "Aquisição de Serviços de \"Manutenção dos Equipamentos de Transformação de Energia Elétrica\"",
+   "entidade": "Águas de Santo André, SA",
+   "preco_base": 120000.0,
+   "publicado": "Oct 2, 2026",
+   "prazo_propostas": null,
+   "procedimento": "Restricted competition with prior qualification",
+   "cpv": "50532200-5",
+   "n_dr": "24488/2026",
+   "categorias": [
+    "eletricidade"
+   ],
+   "minho": false,
+   "classe": "B"
+  },
+  {
+   "origem": "BidsFactory",
+   "url": "https://bidsfactory.com/en/tenders/aquisicao-de-servicos-de-manutencao-de-variadores-base_gov_pt-e1c79553a165e771",
+   "titulo": "Aquisição de Serviços de Manutenção de Variadores de Velocidade em Instalações da Tejo Atlântico, por Lotes - Zona Sul",
+   "titulo_en": "Acquisition of Maintenance Services for Variable Speed Drives in Tejo Atlântico Facilities, by Lots - South Zone",
+   "titulo_pt": "Aquisição de Serviços de Manutenção de Variadores de Velocidade em Instalações da Tejo Atlântico, por Lotes - Zona Sul",
+   "entidade": "Águas do Tejo Atlântico, SA",
+   "preco_base": 47500000.0,
+   "publicado": "Oct 2, 2026",
+   "prazo_propostas": null,
+   "procedimento": "Public tender",
+   "cpv": "50532000-3",
+   "n_dr": "24545/2026",
+   "categorias": [
+    "eletricidade"
+   ],
+   "minho": false,
+   "classe": "B"
+  },
+  {
+   "origem": "BidsFactory",
+   "url": "https://bidsfactory.com/en/tenders/aquisicao-de-servicos-integrados-de-acompanhamento-base_gov_pt-03469fc0f2bd6d1f",
+   "titulo": "Aquisição de serviços integrados de acompanhamento, tratamento documental, indexação, análise, arquivo, interoperabilidade e difusão de informação mediática multicanal, abrangendo imprensa, meios online, rádio, televisão e outras fontes informativas relevantes, com recurso a plataforma digital e a funcionalidade de apoio analítico, incluindo componentes de automatização e inteligência artificial",
+   "titulo_en": "Acquisition of integrated services for monitoring, document processing, indexing, analysis, archiving, interoperability and dissemination of multichannel media information, covering press, online media, radio, television and other relevant information sources, using a digital platform and analytical support functionality, including automation and artificial intelligence components",
+   "titulo_pt": "Aquisição de serviços integrados de acompanhamento, tratamento documental, indexação, análise, arquivo, interoperabilidade e difusão de informação mediática multicanal, abrangendo imprensa, meios online, rádio, televisão e outras fontes informativas relevantes, com recurso a plataforma digital e a funcionalidade de apoio analítico, incluindo componentes de automatização e inteligência artificial",
+   "entidade": "Secretaria-Geral do Governo",
+   "preco_base": 229500.0,
+   "publicado": "Oct 8, 2026",
+   "prazo_propostas": null,
+   "procedimento": "Concurso público",
+   "cpv": "92400000-5",
+   "n_dr": "24912/2026",
+   "categorias": [
+    "software_ti"
+   ],
+   "minho": false,
+   "classe": "B"
+  },
+  {
+   "origem": "BidsFactory",
    "url": "https://bidsfactory.com/en/tenders/aquisicao-de-servicos-geridos-managed-services-par-base_gov_pt-918e23a9e07324cd",
    "titulo": "Aquisição de Serviços Geridos (Managed Services) para a governação, orquestração, suporte e segurança da infraestrutura e dos sistemas de informação da Nova SBE, contemplando a implementação de uma plataforma unificada de Enterprise Service Management (ESM) e serviços de extensão de capacidade técnica especializada",
    "titulo_en": "Acquisition of Managed Services for the governance, orchestration, support, and security of Nova SBE's infrastructure and information systems, including the implementation of a unified Enterprise Service Management (ESM) platform and specialized technical capacity extension services",
@@ -34,6 +167,82 @@
    "procedimento": "Concurso limitado por prévia qualificação",
    "cpv": "72510000-3",
    "n_dr": "24884/2026",
+   "categorias": [
+    "software_ti"
+   ],
+   "minho": false,
+   "classe": "B"
+  },
+  {
+   "origem": "BidsFactory",
+   "url": "https://bidsfactory.com/en/tenders/26as00007965-aquisicao-de-servicos-para-a-platafor-base_gov_pt-4135b17c6acca941",
+   "titulo": "26AS00007965 - Aquisição de Serviços para a Plataforma Integrada de Serviços",
+   "titulo_en": "26AS00007965 - Acquisition of Services for the Integrated Services Platform",
+   "titulo_pt": "26AS00007965 - Aquisição de Serviços para a Plataforma Integrada de Serviços",
+   "entidade": "Instituto de Gestão Financeira e Equipamentos da Justiça, IP",
+   "preco_base": 538560.0,
+   "publicado": "Oct 8, 2026",
+   "prazo_propostas": null,
+   "procedimento": "Concurso público",
+   "cpv": "72200000-7",
+   "n_dr": "24873/2026",
+   "categorias": [
+    "software_ti"
+   ],
+   "minho": false,
+   "classe": "B"
+  },
+  {
+   "origem": "BidsFactory",
+   "url": "https://bidsfactory.com/en/tenders/26as00007962-aquisicao-de-servicos-para-o-esb-da-j-base_gov_pt-bce07107b9bbf674",
+   "titulo": "26AS00007962 - Aquisição de Serviços para o ESB da Justiça",
+   "titulo_en": "26AS00007962 - Acquisition of Services for the Justice ESB",
+   "titulo_pt": "26AS00007962 - Aquisição de Serviços para o ESB da Justiça",
+   "entidade": "Instituto de Gestão Financeira e Equipamentos da Justiça, IP",
+   "preco_base": 1420024.32,
+   "publicado": "Oct 8, 2026",
+   "prazo_propostas": null,
+   "procedimento": "Concurso público",
+   "cpv": "72200000-7",
+   "n_dr": "24872/2026",
+   "categorias": [
+    "software_ti"
+   ],
+   "minho": false,
+   "classe": "B"
+  },
+  {
+   "origem": "BidsFactory",
+   "url": "https://bidsfactory.com/en/tenders/26as00007966-aquisicao-de-servicos-para-jcapsjava-base_gov_pt-74c5c95b228d4ac7",
+   "titulo": "26AS00007966 - Aquisição de Serviços para JCAPS/Java Specialist",
+   "titulo_en": "26AS00007966 - Acquisition of Services for JCAPS/Java Specialist",
+   "titulo_pt": "26AS00007966 - Aquisição de Serviços para JCAPS/Java Specialist",
+   "entidade": "Instituto de Gestão Financeira e Equipamentos da Justiça, IP",
+   "preco_base": 652608.0,
+   "publicado": "Oct 8, 2026",
+   "prazo_propostas": null,
+   "procedimento": "Concurso público",
+   "cpv": "72500000-0",
+   "n_dr": "24870/2026",
+   "categorias": [
+    "software_ti"
+   ],
+   "minho": false,
+   "classe": "B"
+  },
+  {
+   "origem": "BidsFactory",
+   "url": "https://bidsfactory.com/en/tenders/26as00008074-aquisicao-de-servicos-para-manutencao-base_gov_pt-e07e628759457adf",
+   "titulo": "26AS00008074 - Aquisição de serviços para manutenção corretiva e evolutiva da plataforma de gestão de peritos judiciais",
+   "titulo_en": "26AS00008074 - Purchase of services for corrective and evolutionary maintenance of the judicial expert management platform",
+   "titulo_pt": "26AS00008074 - Aquisição de serviços para manutenção corretiva e evolutiva da plataforma de gestão de peritos judiciais",
+   "entidade": "Instituto de Gestão Financeira e Equipamentos da Justiça, IP",
+   "preco_base": 47520.0,
+   "publicado": "Oct 7, 2026",
+   "prazo_propostas": null,
+   "procedimento": "Concurso público",
+   "cpv": "72212100-0",
+   "n_dr": "24776/2026",
    "categorias": [
     "software_ti"
    ],
@@ -58,6 +267,42 @@
    ],
    "minho": false,
    "classe": "B"
+  },
+  {
+   "origem": "BidsFactory",
+   "url": "https://bidsfactory.com/en/tenders/aquisicao-de-servicos-de-manutencao-dos-servidores-base_gov_pt-6900fbb711c1c23a",
+   "titulo": "Aquisição de serviços de manutenção dos servidores do MTSSS",
+   "titulo_en": "Acquisition of maintenance services for MTSSS servers",
+   "titulo_pt": "Aquisição de serviços de manutenção dos servidores do MTSSS",
+   "entidade": "Instituto de Informática, IP",
+   "preco_base": 33000.0,
+   "publicado": "Oct 6, 2026",
+   "prazo_propostas": null,
+   "procedimento": "Concurso público",
+   "cpv": "72611000-6",
+   "n_dr": "24748/2026",
+   "categorias": [
+    "software_ti"
+   ],
+   "minho": false,
+   "classe": "B"
+  },
+  {
+   "origem": "BidsFactory",
+   "url": "https://bidsfactory.com/en/tenders/po-6252026-expansao-da-rede-de-saneamento-a-gondor-base_gov_pt-08eed4ceb808fe5c",
+   "titulo": "PO 625/2026 - Expansão da rede de saneamento a Gondoriz e S. Cosme e S. Damião - Bacias 1 a 7",
+   "titulo_en": "PO 625/2026 - Expansion of the sanitation network to Gondoriz and S. Cosme e S. Damião - Basins 1 to 7",
+   "titulo_pt": "PO 625/2026 - Expansão da rede de saneamento a Gondoriz e S. Cosme e S. Damião - Bacias 1 a 7",
+   "entidade": "Município de Arcos de Valdevez",
+   "preco_base": 5505990.35,
+   "publicado": "Oct 8, 2026",
+   "prazo_propostas": null,
+   "procedimento": "Concurso público",
+   "cpv": "45232411-6",
+   "n_dr": "24919/2026",
+   "categorias": [],
+   "minho": true,
+   "classe": "C"
   },
   {
    "origem": "BidsFactory",
@@ -89,6 +334,40 @@
    "procedimento": "Concurso público",
    "cpv": "50230000-6",
    "n_dr": "24854/2026",
+   "categorias": [],
+   "minho": true,
+   "classe": "C"
+  },
+  {
+   "origem": "BidsFactory",
+   "url": "https://bidsfactory.com/en/tenders/trata-se-da-execucao-dos-trabalhos-necessarios-a-d-base_gov_pt-36aa2ce3597dd621",
+   "titulo": "Trata-se da execução dos trabalhos necessários à demolição de estruturas existentes e reconstrução de novo muro de defesa e suporte na Marginal de Apúlia",
+   "titulo_en": "This concerns the execution of the necessary works for the demolition of existing structures and reconstruction of a new defense and support wall on the Apúlia Marginal",
+   "titulo_pt": "Trata-se da execução dos trabalhos necessários à demolição de estruturas existentes e reconstrução de novo muro de defesa e suporte na Marginal de Apúlia",
+   "entidade": "Município de Esposende",
+   "preco_base": 246000.0,
+   "publicado": "Oct 7, 2026",
+   "prazo_propostas": null,
+   "procedimento": "Concurso público",
+   "cpv": "45243000-2",
+   "n_dr": "24846/2026",
+   "categorias": [],
+   "minho": true,
+   "classe": "C"
+  },
+  {
+   "origem": "BidsFactory",
+   "url": "https://bidsfactory.com/en/tenders/concurso-publico-no-17004726-empreitada-de-ampliac-base_gov_pt-3d5c1d0d9834e270",
+   "titulo": "Concurso Público nº 17004726 - Empreitada de Ampliação do Bloco Operatório da Unidade Hospitalar da ULSBE |Portugal 2030",
+   "titulo_en": "Public Tender nº 17004726 - Works for the Expansion of the Operating Block of the Hospital Unit of ULSBE |Portugal 2030",
+   "titulo_pt": "Concurso Público nº 17004726 - Empreitada de Ampliação do Bloco Operatório da Unidade Hospitalar da ULSBE |Portugal 2030",
+   "entidade": "Unidade Local de Saúde de Barcelos/Esposende, EPE",
+   "preco_base": 2830188.68,
+   "publicado": "Oct 7, 2026",
+   "prazo_propostas": null,
+   "procedimento": "Concurso público",
+   "cpv": "45113000-2",
+   "n_dr": "24843/2026",
    "categorias": [],
    "minho": true,
    "classe": "C"
