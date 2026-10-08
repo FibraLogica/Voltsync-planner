@@ -2,8 +2,52 @@
  "gerado_em": "2026-10-08",
  "fonte": "https://dados.gov.pt/api/1/datasets/contratos-publicos-portal-base-impic-contratos-de-2012-a-2026/",
  "total_lidos": 433844,
- "selecionados": 1788,
+ "selecionados": 1866,
  "registos": [
+  {
+   "id": "15724978",
+   "objeto": "Empreitada de Instalação de Painéis Fotovoltaicos para Autoconsumo para a Santa Casa da Misericórdia de Vizela",
+   "adjudicante": "500848610 - Santa Casa da Misericórdia de Vizela",
+   "adjudicatario": "510651151 - Allfix, Lda",
+   "procedimento": "Consulta Prévia Simplificada",
+   "tipo_contrato": [
+    "Empreitadas de obras públicas"
+   ],
+   "cpv": "['45300000-0 - Instalações em edifícios']",
+   "preco": 252264.0,
+   "data_publicacao": "2026-10-02",
+   "data_celebracao": "2026-10-01",
+   "local": [
+    "Portugal, Braga, Vizela"
+   ],
+   "prazo": 30,
+   "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15724978",
+   "categorias": [
+    "fotovoltaico"
+   ]
+  },
+  {
+   "id": "15725370",
+   "objeto": "Prestação de serviços de elaboração da alteração ao loteamento, estudo prévio de arquitetura e anteprojeto/ projeto base no âmbito do Programa PARES",
+   "adjudicante": "502722932 - IRIS - Instituto de Reabilitação e Integração Social",
+   "adjudicatario": "506626784 - DUARTE &amp; GODINHO, LDA",
+   "procedimento": "Consulta Prévia",
+   "tipo_contrato": [
+    "Aquisição de serviços"
+   ],
+   "cpv": "['71410000-5 - Serviços de planeamento urbano']",
+   "preco": 74000.0,
+   "data_publicacao": "2026-10-02",
+   "data_celebracao": "2026-09-29",
+   "local": [
+    "Portugal, Braga, Braga"
+   ],
+   "prazo": 182,
+   "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15725370",
+   "categorias": [
+    "projeto"
+   ]
+  },
   {
    "id": "15726196",
    "objeto": "Aquisição de serviços para elaboração de projeto de arquitetura e engenharia, incluindo o respetivo projeto de execução para o desenvolvimento da casa mortuária, áreas de apoio, (WC) públicos, cobertura de cemitério, arranjos exteriores e acessos.",
@@ -157,7 +201,8 @@
    "prazo": 20,
    "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15712783",
    "categorias": [
-    "eletricidade"
+    "eletricidade",
+    "seguranca_incendio"
    ]
   },
   {
@@ -249,6 +294,28 @@
    ]
   },
   {
+   "id": "15706441",
+   "objeto": "Aquisição de Serviços de Elaboração dos Projetos",
+   "adjudicante": "503904040 - Fundação para a Ciência e a Tecnologia, IP",
+   "adjudicatario": "513770267 - TUU Building Design Management, Lda",
+   "procedimento": "Ajuste Direto Regime Geral",
+   "tipo_contrato": [
+    "Aquisição de serviços"
+   ],
+   "cpv": "['71320000-7 - Serviços de concepção técnica']",
+   "preco": 19800.0,
+   "data_publicacao": "2026-09-29",
+   "data_celebracao": "2026-09-25",
+   "local": [
+    "Portugal, Braga, Guimarães"
+   ],
+   "prazo": 98,
+   "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15706441",
+   "categorias": [
+    "projeto"
+   ]
+  },
+  {
    "id": "15710178",
    "objeto": "Contratação de serviços de suporte técnico e assistência informática, mediante bolsa de 50 horas, e de licenças de software para os sistemas e equipamentos informáticos da CASFIG.",
    "adjudicante": "504885855 - CASFIG - Coordenação de Âmbito Social e Financeiro das Habitações do Município de Guimarães, E.M., Unipessoal, Lda.",
@@ -311,7 +378,8 @@
    "prazo": 18,
    "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15688339",
    "categorias": [
-    "eletricidade"
+    "eletricidade",
+    "seguranca_incendio"
    ]
   },
   {
@@ -553,7 +621,8 @@
    "prazo": 122,
    "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15657009",
    "categorias": [
-    "eletricidade"
+    "eletricidade",
+    "seguranca_incendio"
    ]
   },
   {
@@ -669,6 +738,30 @@
    ]
   },
   {
+   "id": "15652482",
+   "objeto": "Aquisição de painéis solares fotovoltaicos, designadamente módulos fotovoltaicos JUNKO de 465 W, enquadrados no CPV 09331000-8, incluindo o fornecimento faseado de todos os equipamentos necessários, em quantidade máxima definida em mapa de quantidades, até ao montante global de 74.990,00 € (sem IVA), garantindo que todo o equipamento seja entregue em pleno funcionamento.",
+   "adjudicante": "600034984 - Escola Profissional de Fermil, Celorico de Basto.",
+   "adjudicatario": "508457653 - Fontesolar - Soluções Energéticas, Unipessoal, Lda.",
+   "procedimento": "Consulta Prévia",
+   "tipo_contrato": [
+    "Aquisição de bens móveis"
+   ],
+   "cpv": "['09331000-8 - Painéis solares']",
+   "preco": 74399.04,
+   "data_publicacao": "2026-09-22",
+   "data_celebracao": "2026-09-21",
+   "local": [
+    "Portugal, Braga, Celorico de Basto",
+    "Portugal, Braga, Celorico de Basto",
+    "Portugal, Braga, Celorico de Basto"
+   ],
+   "prazo": 122,
+   "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15652482",
+   "categorias": [
+    "fotovoltaico"
+   ]
+  },
+  {
    "id": "15652513",
    "objeto": "Aquisição de serviços de conceção de uma plataforma digital de hackathons e produção e organização do evento Hack4Guimarães 2035.",
    "adjudicante": "505948605 - Município de Guimarães",
@@ -780,6 +873,28 @@
    ]
   },
   {
+   "id": "15643944",
+   "objeto": "Aquisição de serviços de Coordenação de Segurança e Saúde para a fase de obra \"Aquisição de unidades de produção para autoconsumo (UPAC's) para produção de energia elétrica\"",
+   "adjudicante": "505948605 - Município de Guimarães",
+   "adjudicatario": "507726782 - Sexto Sentido - Consultadoria em Gestão, Lda",
+   "procedimento": "Consulta Prévia",
+   "tipo_contrato": [
+    "Aquisição de serviços"
+   ],
+   "cpv": "['71317200-5 - Serviços de saúde e segurança']",
+   "preco": 11400.0,
+   "data_publicacao": "2026-09-21",
+   "data_celebracao": "2026-09-21",
+   "local": [
+    "Portugal"
+   ],
+   "prazo": 153,
+   "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15643944",
+   "categorias": [
+    "fotovoltaico"
+   ]
+  },
+  {
    "id": "15636277",
    "objeto": "Serviços de reparação de sistemas elétricos- Quadro de comando e elétrico do túnel da Rodovia",
    "adjudicante": "506901173 - Município de Braga",
@@ -887,7 +1002,8 @@
    "prazo": 120,
    "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15629055",
    "categorias": [
-    "eletricidade"
+    "eletricidade",
+    "seguranca_incendio"
    ]
   },
   {
@@ -932,7 +1048,8 @@
    "prazo": 113,
    "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15632693",
    "categorias": [
-    "eletricidade"
+    "eletricidade",
+    "seguranca_incendio"
    ]
   },
   {
@@ -1131,7 +1248,8 @@
    "prazo": 365,
    "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15618220",
    "categorias": [
-    "eletricidade"
+    "eletricidade",
+    "seguranca_incendio"
    ]
   },
   {
@@ -1512,6 +1630,28 @@
    ]
   },
   {
+   "id": "15603880",
+   "objeto": "Aquisição de serviços para elaboração dos projetos de licenciamento e execução para construção da nova piscina interior na Unidade Hoteleira de Vila Nova de Cerveira da Fundação Inatel",
+   "adjudicante": "500122237 - Fundação INATEL",
+   "adjudicatario": "513973761 - RUPTURA - PLANEAMENTO E GESTÃO DE PROJETOS, LDA",
+   "procedimento": "Consulta Prévia",
+   "tipo_contrato": [
+    "Aquisição de serviços"
+   ],
+   "cpv": "['71200000-0 - Serviços de arquitectura e afins']",
+   "preco": 59850.0,
+   "data_publicacao": "2026-09-10",
+   "data_celebracao": "2026-08-28",
+   "local": [
+    "Portugal, Viana do Castelo, Vila Nova de Cerveira"
+   ],
+   "prazo": 80,
+   "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15603880",
+   "categorias": [
+    "projeto"
+   ]
+  },
+  {
    "id": "15594833",
    "objeto": "AM/0877/2026 - Desenvolvimento do BI da ULS",
    "adjudicante": "508080827 - Unidade Local de Saúde do Alto Ave, E.P.E",
@@ -1621,6 +1761,28 @@
    "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15591556",
    "categorias": [
     "software_ti"
+   ]
+  },
+  {
+   "id": "15592806",
+   "objeto": "Prestação De Serviços De Manutenção E Assistência Técnica Ao Sistema De Alarmes De Intrusão",
+   "adjudicante": "500341583 - Didáxis - Cooperativa de Ensino, CRL",
+   "adjudicatario": "505760320 - Securitas Direct Portugal Unipessoal, Lda.",
+   "procedimento": "Ajuste Direto Regime Geral",
+   "tipo_contrato": [
+    "Aquisição de serviços"
+   ],
+   "cpv": "['79711000-1 - Serviços de controlo de alarmes']",
+   "preco": 16511.04,
+   "data_publicacao": "2026-09-08",
+   "data_celebracao": "2026-09-03",
+   "local": [
+    "Portugal, Braga, Vila Nova de Famalicão"
+   ],
+   "prazo": 1096,
+   "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15592806",
+   "categorias": [
+    "seguranca_incendio"
    ]
   },
   {
@@ -1775,7 +1937,8 @@
    "prazo": 30,
    "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15581204",
    "categorias": [
-    "eletricidade"
+    "eletricidade",
+    "seguranca_incendio"
    ]
   },
   {
@@ -2260,6 +2423,28 @@
    "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15544014",
    "categorias": [
     "projeto"
+   ]
+  },
+  {
+   "id": "15535520",
+   "objeto": "Serviços de reparação dos sistemas de segurança de incêndio e gás e instalação de sistema de intrusão na escola André Soares",
+   "adjudicante": "506901173 - Município de Braga",
+   "adjudicatario": "503441430 - Trialarmes, Lda",
+   "procedimento": "Consulta Prévia",
+   "tipo_contrato": [
+    "Aquisição de serviços"
+   ],
+   "cpv": "['50700000-2 - Serviços de reparação e manutenção de equipamento em edifícios']",
+   "preco": 18741.28,
+   "data_publicacao": "2026-08-26",
+   "data_celebracao": "2026-08-14",
+   "local": [
+    "Portugal, Braga, Braga"
+   ],
+   "prazo": 60,
+   "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15535520",
+   "categorias": [
+    "seguranca_incendio"
    ]
   },
   {
@@ -2907,6 +3092,28 @@
    ]
   },
   {
+   "id": "15512538",
+   "objeto": "Instalação de sistema fotovoltaico",
+   "adjudicante": "505676770 - Município de Ponte da Barca",
+   "adjudicatario": "518272192 - TLCI ENERGIA, LDA., ",
+   "procedimento": "Ajuste Direto Regime Geral",
+   "tipo_contrato": [
+    "Aquisição de bens móveis"
+   ],
+   "cpv": "['31000000-6 - Maquinaria, aparelhagem, equipamento e consumíveis eléctricos; iluminação']",
+   "preco": 15428.3,
+   "data_publicacao": "2026-08-19",
+   "data_celebracao": "2026-03-04",
+   "local": [
+    "Portugal, Viana do Castelo, Ponte da Barca"
+   ],
+   "prazo": 60,
+   "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15512538",
+   "categorias": [
+    "fotovoltaico"
+   ]
+  },
+  {
    "id": "15507786",
    "objeto": "Concurso Público com publicação de anúncio no Jornal Oficial da União Europeia | JOUE para aquisição de Licenciamento de Software Microsoft e Serviços Conexos para as Entidades do SNS e Ministério da Saúde.",
    "adjudicante": "506361381 - Unidade Local de Saúde de Barcelos/Esposende, EPE",
@@ -3013,7 +3220,8 @@
    "prazo": 8,
    "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15504836",
    "categorias": [
-    "eletricidade"
+    "eletricidade",
+    "seguranca_incendio"
    ]
   },
   {
@@ -3058,6 +3266,28 @@
    "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15505133",
    "categorias": [
     "software_ti"
+   ]
+  },
+  {
+   "id": "15506100",
+   "objeto": "Aquisição de serviços para elaboração dos projetos AVAC, Gestão Técnica Centralizada e Certificados Energéticos para a Reabilitação e do espaço multiusos Café Bristol",
+   "adjudicante": "500463964 - Faz Cultura - Empresa Municipal de Cultura de Braga, EM",
+   "adjudicatario": "513998756 - Certilusa - Certificação Energética e Engenharia, Lda",
+   "procedimento": "Ajuste Direto Regime Geral",
+   "tipo_contrato": [
+    "Aquisição de serviços"
+   ],
+   "cpv": "['71320000-7 - Serviços de concepção técnica']",
+   "preco": 7000.0,
+   "data_publicacao": "2026-08-17",
+   "data_celebracao": "2026-08-17",
+   "local": [
+    "Portugal, Braga, Braga"
+   ],
+   "prazo": 136,
+   "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15506100",
+   "categorias": [
+    "projeto"
    ]
   },
   {
@@ -4060,7 +4290,8 @@
    "prazo": 365,
    "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15459845",
    "categorias": [
-    "eletricidade"
+    "eletricidade",
+    "seguranca_incendio"
    ]
   },
   {
@@ -4284,6 +4515,28 @@
    ]
   },
   {
+   "id": "15454625",
+   "objeto": " Aquisição e instalação de um sistema de alarme de intrusão",
+   "adjudicante": "507682734 - CENTITVC - Centro de Nanotecnologia e Materiais Técnicos, Funcionais e Inteligentes",
+   "adjudicatario": "513369180 - Multiconnect, Unipessoal Lda.",
+   "procedimento": "Contratação excluída II",
+   "tipo_contrato": [
+    "Aquisição de bens móveis"
+   ],
+   "cpv": "['31625300-6 - Sistemas de alarme contra roubo']",
+   "preco": 10173.32,
+   "data_publicacao": "2026-08-04",
+   "data_celebracao": "2026-01-09",
+   "local": [
+    "Portugal, Braga, Vila Nova de Famalicão"
+   ],
+   "prazo": 60,
+   "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15454625",
+   "categorias": [
+    "seguranca_incendio"
+   ]
+  },
+  {
    "id": "15427542",
    "objeto": "Aquisição de licença de software, suporte técnico e pacote de assistência técnica ao sistema GarbaGere.",
    "adjudicante": "506811913 - Município de Ponte de Lima",
@@ -4501,7 +4754,8 @@
    "prazo": 184,
    "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15417134",
    "categorias": [
-    "eletricidade"
+    "eletricidade",
+    "seguranca_incendio"
    ]
   },
   {
@@ -4638,6 +4892,28 @@
    ]
   },
   {
+   "id": "15406923",
+   "objeto": "Aquisição de Serviços de Manutenção Preventiva e Assistência Técnica com Peças para as Instalações e Equipamentos dos Sistemas de Deteção Automática de Intrusão da ULSAM – 2026-2029",
+   "adjudicante": "508786193 - Unidade Local de Saúde do Alto Minho, EPE",
+   "adjudicatario": "508910170 - Segurvez, Lda.",
+   "procedimento": "Concurso público",
+   "tipo_contrato": [
+    "Aquisição de serviços"
+   ],
+   "cpv": "['50700000-2 - Serviços de reparação e manutenção de equipamento em edifícios']",
+   "preco": 60768.0,
+   "data_publicacao": "2026-07-29",
+   "data_celebracao": "2026-06-18",
+   "local": [
+    "Portugal, Viana do Castelo, Viana do Castelo"
+   ],
+   "prazo": 1005,
+   "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15406923",
+   "categorias": [
+    "seguranca_incendio"
+   ]
+  },
+  {
    "id": "15409422",
    "objeto": "Aquisição de serviços - Reparação do equipamento de produção de água refrigerada, no Teatro Jordão",
    "adjudicante": "505948605 - Município de Guimarães",
@@ -4678,7 +4954,8 @@
    "prazo": 120,
    "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15370421",
    "categorias": [
-    "eletricidade"
+    "eletricidade",
+    "fotovoltaico"
    ]
   },
   {
@@ -4744,7 +5021,8 @@
    "prazo": 365,
    "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15374652",
    "categorias": [
-    "eletricidade"
+    "eletricidade",
+    "seguranca_incendio"
    ]
   },
   {
@@ -5031,7 +5309,8 @@
    "prazo": 60,
    "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15368347",
    "categorias": [
-    "projeto"
+    "projeto",
+    "fotovoltaico"
    ]
   },
   {
@@ -5366,6 +5645,28 @@
    ]
   },
   {
+   "id": "15337764",
+   "objeto": "Fornecimento de instalação de um Sistema Solar Fotovoltaico para Autoconsumo no Edifício do Centro Paroquial Moreira de Cónegos.",
+   "adjudicante": "501983988 - Centro Paroquial de Moreira de Cónegos",
+   "adjudicatario": "508091098 - Ertec Lda",
+   "procedimento": "Consulta Prévia",
+   "tipo_contrato": [
+    "Empreitadas de obras públicas"
+   ],
+   "cpv": "['45261215-4 - Revestimento de coberturas com painéis solares']",
+   "preco": 61390.0,
+   "data_publicacao": "2026-07-22",
+   "data_celebracao": "2026-06-26",
+   "local": [
+    "Portugal, Braga, Guimarães"
+   ],
+   "prazo": 25,
+   "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15337764",
+   "categorias": [
+    "fotovoltaico"
+   ]
+  },
+  {
    "id": "15338198",
    "objeto": "Aquisição, por ajuste direto, de serviços de fornecimento pontual de uma base de dados empresarial para o Município de Vila Nova de Famalicão, incluindo o acesso e disponibilização da informação empresarial necessária, de acordo com especificações técnicas e estimativas de consumo definidas, com indicação de um preço global anual para o serviço.",
    "adjudicante": "506663264 - MUNICÍPIO DE VILA NOVA DE FAMALICÃO",
@@ -5429,7 +5730,8 @@
    "prazo": 365,
    "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15314974",
    "categorias": [
-    "eletricidade"
+    "eletricidade",
+    "seguranca_incendio"
    ]
   },
   {
@@ -5495,7 +5797,30 @@
    "prazo": 60,
    "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15310340",
    "categorias": [
-    "eletricidade"
+    "eletricidade",
+    "projeto"
+   ]
+  },
+  {
+   "id": "15310375",
+   "objeto": "Aquisição de Equipamentos de Proteção Individual (EPI) e Material para o Serviço Municipal de Proteção Civil e Corpo de Bombeiros de Terras de Bouro",
+   "adjudicante": "506907619 - Município de Terras de Bouro",
+   "adjudicatario": "502888539 - Bricantel, Comércio de Material Electrico de Bragança, S.A.",
+   "procedimento": "Concurso público",
+   "tipo_contrato": [
+    "Aquisição de bens móveis"
+   ],
+   "cpv": "['35121000-8 - Equipamento de segurança e protecção']",
+   "preco": 1222.0,
+   "data_publicacao": "2026-07-20",
+   "data_celebracao": "2026-07-20",
+   "local": [
+    "Portugal, Braga, Terras de Bouro"
+   ],
+   "prazo": 60,
+   "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15310375",
+   "categorias": [
+    "seguranca_incendio"
    ]
   },
   {
@@ -5628,6 +5953,28 @@
    "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15309238",
    "categorias": [
     "software_ti"
+   ]
+  },
+  {
+   "id": "15307770",
+   "objeto": "Aquisição de bens - Fardamento e equipamento de proteção individual",
+   "adjudicante": "505948605 - Município de Guimarães",
+   "adjudicatario": "500251118 - SINTIMEX - Soc. Internacional de Imp. e Exp. S.A",
+   "procedimento": "Consulta Prévia",
+   "tipo_contrato": [
+    "Aquisição de bens móveis"
+   ],
+   "cpv": "['35121000-8 - Equipamento de segurança e protecção']",
+   "preco": 28187.9,
+   "data_publicacao": "2026-07-18",
+   "data_celebracao": "2026-07-17",
+   "local": [
+    "Portugal"
+   ],
+   "prazo": 215,
+   "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15307770",
+   "categorias": [
+    "seguranca_incendio"
    ]
   },
   {
@@ -5785,6 +6132,28 @@
    ]
   },
   {
+   "id": "15306276",
+   "objeto": "Contratação de serviços de manutenção de sistemas solares térmicos e fotovoltaicos dos empreendimentos de habitação social.",
+   "adjudicante": "504885855 - CASFIG - Coordenação de Âmbito Social e Financeiro das  Habitações do Município de Guimarães, E.M., Unipessoal, Lda.",
+   "adjudicatario": "514744340 - Vimaterm, Unipessoal Lda.",
+   "procedimento": "Ajuste Direto Regime Geral",
+   "tipo_contrato": [
+    "Aquisição de serviços"
+   ],
+   "cpv": "['50324100-3 - Serviços de manutenção de sistemas']",
+   "preco": 17447.0,
+   "data_publicacao": "2026-07-17",
+   "data_celebracao": "2026-07-13",
+   "local": [
+    "Portugal, Braga, Guimarães"
+   ],
+   "prazo": 180,
+   "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15306276",
+   "categorias": [
+    "fotovoltaico"
+   ]
+  },
+  {
    "id": "15298612",
    "objeto": "Aquisição de Serviços para Fiscalização da Conceção-Construção do Centro Integrado de Diagnóstico de Santo Tirso da Unidade Local de Saúde do Médio Ave, E.P.E. ",
    "adjudicante": "508093937 - Unidade Local de Saúde do Médio Ave, E.P.E.",
@@ -5827,6 +6196,50 @@
    "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15301955",
    "categorias": [
     "software_ti"
+   ]
+  },
+  {
+   "id": "15301981",
+   "objeto": "Aquisição de bens - Fardamento e equipamento de proteção individual",
+   "adjudicante": "505948605 - Município de Guimarães",
+   "adjudicatario": "507304721 - M&amp;M Protek - Equipamentos de Proteção Individual, Lda",
+   "procedimento": "Consulta Prévia",
+   "tipo_contrato": [
+    "Aquisição de bens móveis"
+   ],
+   "cpv": "['35121000-8 - Equipamento de segurança e protecção']",
+   "preco": 24518.92,
+   "data_publicacao": "2026-07-16",
+   "data_celebracao": "2026-07-14",
+   "local": [
+    "Portugal"
+   ],
+   "prazo": 215,
+   "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15301981",
+   "categorias": [
+    "seguranca_incendio"
+   ]
+  },
+  {
+   "id": "15294159",
+   "objeto": "Aquisição de Equipamentos de Proteção Individual (EPI) e Material para o Serviço Municipal de Proteção Civil e Corpo de Bombeiros de Terras de Bouro",
+   "adjudicante": "506907619 - Município de Terras de Bouro",
+   "adjudicatario": "500663300 - Tecniquitel - Soc. Equip. Tecnico, Lda",
+   "procedimento": "Concurso público",
+   "tipo_contrato": [
+    "Aquisição de bens móveis"
+   ],
+   "cpv": "['35121000-8 - Equipamento de segurança e protecção']",
+   "preco": 76919.25,
+   "data_publicacao": "2026-07-15",
+   "data_celebracao": "2026-07-15",
+   "local": [
+    "Portugal, Braga, Terras de Bouro"
+   ],
+   "prazo": 60,
+   "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15294159",
+   "categorias": [
+    "seguranca_incendio"
    ]
   },
   {
@@ -5896,6 +6309,28 @@
    ]
   },
   {
+   "id": "15296355",
+   "objeto": "Aquisição de Equipamentos de Proteção Individual (EPI) e Material para o Serviço Municipal de Proteção Civil e Corpo de Bombeiros de Terras de Bouro",
+   "adjudicante": "506907619 - Município de Terras de Bouro",
+   "adjudicatario": "514027657 - LAURA SILVA, UNIPESSOAL, LDA",
+   "procedimento": "Concurso público",
+   "tipo_contrato": [
+    "Aquisição de bens móveis"
+   ],
+   "cpv": "['35121000-8 - Equipamento de segurança e protecção']",
+   "preco": 17890.5,
+   "data_publicacao": "2026-07-15",
+   "data_celebracao": "2026-07-15",
+   "local": [
+    "Portugal, Braga, Terras de Bouro"
+   ],
+   "prazo": 60,
+   "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15296355",
+   "categorias": [
+    "seguranca_incendio"
+   ]
+  },
+  {
    "id": "15296501",
    "objeto": "Reestruturação da rede informática e reforço de segurança",
    "adjudicante": "506797627 - Município de Amares",
@@ -5940,6 +6375,94 @@
    ]
   },
   {
+   "id": "15280299",
+   "objeto": "Aquisição de Quadripé",
+   "adjudicante": "515486159 - A. D. A. M. - Águas do Alto Minho, SA",
+   "adjudicatario": "516984748 - PRÁXIS - SOCIEDADE DE SERVIÇOS TÉCNICOS, UNIPESSOAL LDA",
+   "procedimento": "Concurso público",
+   "tipo_contrato": [
+    "Aquisição de bens móveis"
+   ],
+   "cpv": "['35121000-8 - Equipamento de segurança e protecção']",
+   "preco": 11273.13,
+   "data_publicacao": "2026-07-14",
+   "data_celebracao": "2026-07-09",
+   "local": [
+    "Portugal, Viana do Castelo, Viana do Castelo"
+   ],
+   "prazo": 92,
+   "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15280299",
+   "categorias": [
+    "seguranca_incendio"
+   ]
+  },
+  {
+   "id": "15281120",
+   "objeto": "Aquisição de Equipamentos de Proteção Individual (EPI) e Material para o Serviço Municipal de Proteção Civil e Corpo de Bombeiros de Terras de Bouro",
+   "adjudicante": "506907619 - Município de Terras de Bouro",
+   "adjudicatario": "509033237 - Interfire, Lda.",
+   "procedimento": "Concurso público",
+   "tipo_contrato": [
+    "Aquisição de bens móveis"
+   ],
+   "cpv": "['35121000-8 - Equipamento de segurança e protecção']",
+   "preco": 4811.85,
+   "data_publicacao": "2026-07-14",
+   "data_celebracao": "2026-07-14",
+   "local": [
+    "Portugal, Braga, Terras de Bouro"
+   ],
+   "prazo": 60,
+   "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15281120",
+   "categorias": [
+    "seguranca_incendio"
+   ]
+  },
+  {
+   "id": "15281144",
+   "objeto": "Aquisição de Equipamentos de Proteção Individual (EPI) e Material para o Serviço Municipal de Proteção Civil e Corpo de Bombeiros de Terras de Bouro",
+   "adjudicante": "506907619 - Município de Terras de Bouro",
+   "adjudicatario": "509033237 - Interfire, Lda.",
+   "procedimento": "Concurso público",
+   "tipo_contrato": [
+    "Aquisição de bens móveis"
+   ],
+   "cpv": "['35121000-8 - Equipamento de segurança e protecção']",
+   "preco": 5293.0,
+   "data_publicacao": "2026-07-14",
+   "data_celebracao": "2026-07-14",
+   "local": [
+    "Portugal, Braga, Terras de Bouro"
+   ],
+   "prazo": 60,
+   "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15281144",
+   "categorias": [
+    "seguranca_incendio"
+   ]
+  },
+  {
+   "id": "15281191",
+   "objeto": "Aquisição de Equipamentos de Proteção Individual (EPI) e Material para o Serviço Municipal de Proteção Civil e Corpo de Bombeiros de Terras de Bouro",
+   "adjudicante": "506907619 - Município de Terras de Bouro",
+   "adjudicatario": "509033237 - Interfire, Lda.",
+   "procedimento": "Concurso público",
+   "tipo_contrato": [
+    "Aquisição de bens móveis"
+   ],
+   "cpv": "['35121000-8 - Equipamento de segurança e protecção']",
+   "preco": 2575.6,
+   "data_publicacao": "2026-07-14",
+   "data_celebracao": "2026-07-14",
+   "local": [
+    "Portugal, Braga, Terras de Bouro"
+   ],
+   "prazo": 60,
+   "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15281191",
+   "categorias": [
+    "seguranca_incendio"
+   ]
+  },
+  {
    "id": "15281207",
    "objeto": "Aquisição Serviços de Fiscalização das Empreitas do CRI Braga, UD Norte, UD e UA Coimbra e CRI de Setúbal",
    "adjudicante": "517839539 - Instituto para os Comportamentos Aditivios e as Dependências, I.P. (ICAD, I.P.)",
@@ -5959,6 +6482,28 @@
    "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15281207",
    "categorias": [
     "projeto"
+   ]
+  },
+  {
+   "id": "15281211",
+   "objeto": "Aquisição de Equipamentos de Proteção Individual (EPI) e Material para o Serviço Municipal de Proteção Civil e Corpo de Bombeiros de Terras de Bouro",
+   "adjudicante": "506907619 - Município de Terras de Bouro",
+   "adjudicatario": "509033237 - Interfire, Lda.",
+   "procedimento": "Concurso público",
+   "tipo_contrato": [
+    "Aquisição de bens móveis"
+   ],
+   "cpv": "['35121000-8 - Equipamento de segurança e protecção']",
+   "preco": 4720.0,
+   "data_publicacao": "2026-07-14",
+   "data_celebracao": "2026-07-14",
+   "local": [
+    "Portugal, Braga, Terras de Bouro"
+   ],
+   "prazo": 60,
+   "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15281211",
+   "categorias": [
+    "seguranca_incendio"
    ]
   },
   {
@@ -6445,7 +6990,8 @@
    "prazo": 45,
    "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15259428",
    "categorias": [
-    "eletricidade"
+    "eletricidade",
+    "seguranca_incendio"
    ]
   },
   {
@@ -6622,6 +7168,28 @@
    "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15262691",
    "categorias": [
     "software_ti"
+   ]
+  },
+  {
+   "id": "15263047",
+   "objeto": "Aquisição de bens - Fardamento e equipamento de proteção individual",
+   "adjudicante": "505948605 - Município de Guimarães",
+   "adjudicatario": "505766205 - HR Protecção, SA",
+   "procedimento": "Consulta Prévia",
+   "tipo_contrato": [
+    "Aquisição de bens móveis"
+   ],
+   "cpv": "['35121000-8 - Equipamento de segurança e protecção']",
+   "preco": 9535.95,
+   "data_publicacao": "2026-07-09",
+   "data_celebracao": "2026-07-08",
+   "local": [
+    "Portugal"
+   ],
+   "prazo": 215,
+   "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15263047",
+   "categorias": [
+    "seguranca_incendio"
    ]
   },
   {
@@ -7127,7 +7695,8 @@
    "prazo": 731,
    "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15230779",
    "categorias": [
-    "eletricidade"
+    "eletricidade",
+    "seguranca_incendio"
    ]
   },
   {
@@ -7149,7 +7718,8 @@
    "prazo": 10,
    "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15231027",
    "categorias": [
-    "eletricidade"
+    "eletricidade",
+    "fotovoltaico"
    ]
   },
   {
@@ -7194,6 +7764,28 @@
    "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15233358",
    "categorias": [
     "software_ti"
+   ]
+  },
+  {
+   "id": "15233530",
+   "objeto": "2026/Cpre/008- Empreitada de um sistema piloto agrivoltaico",
+   "adjudicante": "503761877 - Instituto Politécnico de Viana do Castelo",
+   "adjudicatario": "514065036 - HT SOLUTIONS ENGENHARIA Lda",
+   "procedimento": "Consulta Prévia",
+   "tipo_contrato": [
+    "Empreitadas de obras públicas"
+   ],
+   "cpv": "['45261215-4 - Revestimento de coberturas com painéis solares']",
+   "preco": 59360.0,
+   "data_publicacao": "2026-07-02",
+   "data_celebracao": "2026-04-17",
+   "local": [
+    "Portugal"
+   ],
+   "prazo": 90,
+   "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15233530",
+   "categorias": [
+    "fotovoltaico"
    ]
   },
   {
@@ -7485,7 +8077,8 @@
    "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15219743",
    "categorias": [
     "eletricidade",
-    "projeto"
+    "projeto",
+    "seguranca_incendio"
    ]
   },
   {
@@ -7620,7 +8213,8 @@
    "prazo": 30,
    "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15205396",
    "categorias": [
-    "eletricidade"
+    "eletricidade",
+    "fotovoltaico"
    ]
   },
   {
@@ -8040,6 +8634,28 @@
    "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15183799",
    "categorias": [
     "eletricidade"
+   ]
+  },
+  {
+   "id": "15185754",
+   "objeto": "Empreitada de instalação de sistema fotovoltaico com baterias de acumulação para autoconsumo",
+   "adjudicante": "500886342 - LAR DE SANTO ANTÓNIO",
+   "adjudicatario": "515947105 - Trajetos com Energia, Ld",
+   "procedimento": "Consulta Prévia Simplificada",
+   "tipo_contrato": [
+    "Empreitadas de obras públicas"
+   ],
+   "cpv": "['45261215-4 - Revestimento de coberturas com painéis solares']",
+   "preco": 99400.0,
+   "data_publicacao": "2026-06-22",
+   "data_celebracao": "2026-06-22",
+   "local": [
+    "Portugal, Braga, Guimarães"
+   ],
+   "prazo": 30,
+   "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15185754",
+   "categorias": [
+    "fotovoltaico"
    ]
   },
   {
@@ -8538,6 +9154,28 @@
    ]
   },
   {
+   "id": "15144713",
+   "objeto": "EFICIÊNCIA ENERGÉTICA _ Piscina Municipal de Freixo",
+   "adjudicante": "506811913 - Município de Ponte de Lima",
+   "adjudicatario": "515662607 - KPM Serviços de Engenharia Unipessoal Lda.",
+   "procedimento": "Concurso público",
+   "tipo_contrato": [
+    "Empreitadas de obras públicas"
+   ],
+   "cpv": "['45261215-4 - Revestimento de coberturas com painéis solares']",
+   "preco": 369657.8,
+   "data_publicacao": "2026-06-16",
+   "data_celebracao": "2026-05-26",
+   "local": [
+    "Portugal, Viana do Castelo, Ponte de Lima"
+   ],
+   "prazo": 90,
+   "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15144713",
+   "categorias": [
+    "fotovoltaico"
+   ]
+  },
+  {
    "id": "15147795",
    "objeto": "Manutenção de software de digitalização",
    "adjudicante": "502011378 - Universidade do Minho",
@@ -8645,6 +9283,28 @@
    "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15131415",
    "categorias": [
     "projeto"
+   ]
+  },
+  {
+   "id": "15131455",
+   "objeto": "Aquisição de um Simulador de Rede Regenerativo para o desenvolvimento de sistemas fotovoltaicos, inversores e armazenamento",
+   "adjudicante": "507682734 - CENTITVC - Centro de Nanotecnologia e Materiais Técnicos, Funcionais e Inteligentes",
+   "adjudicatario": "507702085 - eNGN Technologies - Soluções de Medida e Telecomunicações Lda",
+   "procedimento": "Contratação excluída II",
+   "tipo_contrato": [
+    "Aquisição de bens móveis"
+   ],
+   "cpv": "['38540000-2 - Máquinas e aparelhos para ensaios e medição']",
+   "preco": 35280.29,
+   "data_publicacao": "2026-06-12",
+   "data_celebracao": "2026-04-09",
+   "local": [
+    "Portugal, Braga, Vila Nova de Famalicão"
+   ],
+   "prazo": 65,
+   "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15131455",
+   "categorias": [
+    "fotovoltaico"
    ]
   },
   {
@@ -9164,6 +9824,28 @@
    ]
   },
   {
+   "id": "15074282",
+   "objeto": "Aquisição de Serviços para Fornecimento e Montagem de Sistema Fotovoltaico para o Edifício Creche e Jardim de Infância",
+   "adjudicante": "500852464 - Santa Casa da Misericórdia de Melgaço",
+   "adjudicatario": "513032215 - Fourclim, Lda",
+   "procedimento": "Ajuste Direto Regime Geral",
+   "tipo_contrato": [
+    "Aquisição de bens móveis"
+   ],
+   "cpv": "['09331200-0 - Módulos solares fotovoltaicos']",
+   "preco": 8800.0,
+   "data_publicacao": "2026-06-03",
+   "data_celebracao": "2026-06-03",
+   "local": [
+    "Portugal, Viana do Castelo, Melgaço"
+   ],
+   "prazo": 61,
+   "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15074282",
+   "categorias": [
+    "fotovoltaico"
+   ]
+  },
+  {
    "id": "15078697",
    "objeto": "Aquisição de serviços para evolução e expansão da plataforma de Gestão Urbana do Município de Guimarães",
    "adjudicante": "506901173 - Município de Braga",
@@ -9428,6 +10110,30 @@
    "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15071834",
    "categorias": [
     "eletricidade"
+   ]
+  },
+  {
+   "id": "15047399",
+   "objeto": "PRC_0136/2026_CLG- Ajuste Direto para formação de acordo-quadro singular para Aquisição de materiais de segurança para a Águas do Norte, S.A..\n",
+   "adjudicante": "513606084 - Águas do Norte, SA",
+   "adjudicatario": "510982999 - WaveProtec",
+   "procedimento": "Ajuste Direto Regime Geral",
+   "tipo_contrato": [
+    "Aquisição de bens móveis"
+   ],
+   "cpv": "['35121000-8 - Equipamento de segurança e protecção']",
+   "preco": 0.0,
+   "data_publicacao": "2026-06-01",
+   "data_celebracao": "2026-05-29",
+   "local": [
+    "Portugal, Braga, Barcelos",
+    "Portugal, Porto, Amarante",
+    "Portugal, Vila Real, Vila Real"
+   ],
+   "prazo": 118,
+   "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15047399",
+   "categorias": [
+    "seguranca_incendio"
    ]
   },
   {
@@ -11141,6 +11847,28 @@
    ]
   },
   {
+   "id": "14851918",
+   "objeto": "Fornecimento, Instalação e Colocação em Serviço do Sistema de Autoconsumo Fotovoltaico na empreitada Novo Equipamento Social em São Torcato Guimarães",
+   "adjudicante": "502948884 - Fundação Stela e Oswaldo Bomfim",
+   "adjudicatario": "509429939 - JAF-Energias Renováveis Lda",
+   "procedimento": "Consulta Prévia",
+   "tipo_contrato": [
+    "Aquisição de bens móveis"
+   ],
+   "cpv": "['09331200-0 - Módulos solares fotovoltaicos']",
+   "preco": 20700.0,
+   "data_publicacao": "2026-05-14",
+   "data_celebracao": "2026-05-07",
+   "local": [
+    "Portugal, Braga, Guimarães"
+   ],
+   "prazo": 90,
+   "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=14851918",
+   "categorias": [
+    "fotovoltaico"
+   ]
+  },
+  {
    "id": "14857223",
    "objeto": "Aquisição de serviços para a Assistência Técnica e Ações de Formação no âmbito dos Projetos de Execução Reabilitação das margens do rio Estorãos e Reabilitação da margem direita do Rio Lima e das margens do rio Labruja no âmbito do Aviso Norte 2030-2024-77 e Norte 2030-2024-42",
    "adjudicante": "506811913 - Município de Ponte de Lima",
@@ -11605,6 +12333,28 @@
    ]
   },
   {
+   "id": "14813709",
+   "objeto": "O objeto da presente prestação de serviços consiste na prestação de serviços para a elaboração de um plano de viabilidade e de requisitos jurídicos da Comunidade de Energia Renovável (CER), com o intuito de auxiliar na tomada de decisão informada com base nos objetivos definidos",
+   "adjudicante": "508754496 - Comunidade Intermunicipal do Alto Minho",
+   "adjudicatario": "507886550 - ADEPORTO - AGÊNCIA DE ENERGIA DO PORTO",
+   "procedimento": "Ajuste Direto Regime Geral",
+   "tipo_contrato": [
+    "Aquisição de serviços"
+   ],
+   "cpv": "['79314000-8 - Estudos de viabilidade']",
+   "preco": 10000.0,
+   "data_publicacao": "2026-05-11",
+   "data_celebracao": "2026-04-20",
+   "local": [
+    "Portugal, Viana do Castelo"
+   ],
+   "prazo": 30,
+   "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=14813709",
+   "categorias": [
+    "fotovoltaico"
+   ]
+  },
+  {
    "id": "14816571",
    "objeto": "CPR/16/26/DCP - Aquisição de serviços de manutenção das UPS, situadas no Estádio Municipal, Edifícios Municipais e Escolas",
    "adjudicante": "506901173 - Município de Braga",
@@ -11735,7 +12485,8 @@
    "prazo": 90,
    "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=14803621",
    "categorias": [
-    "eletricidade"
+    "eletricidade",
+    "fotovoltaico"
    ]
   },
   {
@@ -11783,6 +12534,28 @@
    ]
   },
   {
+   "id": "14788045",
+   "objeto": "Convite para a Aquisição e Instalação de Painéis Fotovoltaicos, ao abrigo dos Lotes 1, 19 e 22 do Acordo Quadro em vigor na SPMS,E.P.E.",
+   "adjudicante": "508786193 - Unidade Local de Saúde do Alto Minho, EPE (ULSAM)",
+   "adjudicatario": "504206869 - Elísio Paulo &amp; Azevedo, Lda",
+   "procedimento": "Ao abrigo de acordo-quadro (art.º 259.º)",
+   "tipo_contrato": [
+    "Aquisição de bens móveis"
+   ],
+   "cpv": "['51110000-6 - Serviços de instalação de equipamento eléctrico']",
+   "preco": 146374.0,
+   "data_publicacao": "2026-05-08",
+   "data_celebracao": "2026-04-17",
+   "local": [
+    "Portugal, Viana do Castelo, Arcos de Valdevez"
+   ],
+   "prazo": 184,
+   "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=14788045",
+   "categorias": [
+    "fotovoltaico"
+   ]
+  },
+  {
    "id": "14789262",
    "objeto": "Aquisição de serviços para renovação das aplicações de software GISMAT ELP e plataforma NoPaper - Ano de 2026",
    "adjudicante": "501937471 - Município de Monção",
@@ -11802,6 +12575,50 @@
    "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=14789262",
    "categorias": [
     "software_ti"
+   ]
+  },
+  {
+   "id": "14789573",
+   "objeto": "Aquisição de Sistema Automático de Deteção de Incêndio e Sistema Automático de Deteção e Extinção de Incêndio",
+   "adjudicante": "506361381 - Unidade Local de Saúde Barcelos/Esposende, E.P.E.",
+   "adjudicatario": "508607990 - SAFETY MATERIAIS CONTRA INCÊNDIO, S.A.",
+   "procedimento": "Concurso público",
+   "tipo_contrato": [
+    "Aquisição de bens móveis"
+   ],
+   "cpv": "['31625100-4 - Sistemas de detecção de incêndios']",
+   "preco": 35627.52,
+   "data_publicacao": "2026-05-08",
+   "data_celebracao": "2026-02-06",
+   "local": [
+    "Portugal, Braga, Barcelos"
+   ],
+   "prazo": 61,
+   "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=14789573",
+   "categorias": [
+    "seguranca_incendio"
+   ]
+  },
+  {
+   "id": "14792386",
+   "objeto": "Aquisição de Sistema Automático de Deteção de Incêndio e Sistema Automático de Deteção e Extinção de Incêndio",
+   "adjudicante": "506361381 - Unidade Local de Saúde Barcelos/Esposende, E.P.E.",
+   "adjudicatario": "507873661 - UNIFOGO - Sistemas Contra Incêndios Lda",
+   "procedimento": "Concurso público",
+   "tipo_contrato": [
+    "Aquisição de bens móveis"
+   ],
+   "cpv": "['31625100-4 - Sistemas de detecção de incêndios']",
+   "preco": 7860.38,
+   "data_publicacao": "2026-05-08",
+   "data_celebracao": "2026-02-12",
+   "local": [
+    "Portugal, Braga, Barcelos"
+   ],
+   "prazo": 61,
+   "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=14792386",
+   "categorias": [
+    "seguranca_incendio"
    ]
   },
   {
@@ -12133,7 +12950,8 @@
    "prazo": 30,
    "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=14725076",
    "categorias": [
-    "projeto"
+    "projeto",
+    "fotovoltaico"
    ]
   },
   {
@@ -13567,6 +14385,29 @@
    ]
   },
   {
+   "id": "14545293",
+   "objeto": "Aquisição de Serviços Técnicos para a elaboração de projetos de sistemas \nde produção de energia fotovoltaica para instalar em vários Edifícios Municipais”.",
+   "adjudicante": "505584760 - Município de Barcelos",
+   "adjudicatario": "508881021 - EC13 - ENGENHARIA E CONSTRUÇÃO, UNIPESSOAL, LDA",
+   "procedimento": "Concurso público",
+   "tipo_contrato": [
+    "Aquisição de bens móveis"
+   ],
+   "cpv": "['09331100-9 - Colectores solares para produção de calor']",
+   "preco": 13580.0,
+   "data_publicacao": "2026-04-16",
+   "data_celebracao": "2026-04-15",
+   "local": [
+    "Portugal, Braga, Barcelos"
+   ],
+   "prazo": 60,
+   "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=14545293",
+   "categorias": [
+    "projeto",
+    "fotovoltaico"
+   ]
+  },
+  {
    "id": "14546116",
    "objeto": "Aquisição, por LOTES, de Equipamentos Informáticos",
    "adjudicante": "502077352 - Centro de Formação Profissional da Industria Metalúrgica e Metalomecânica (CENFIM)",
@@ -13698,7 +14539,8 @@
    "prazo": 20,
    "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=14528790",
    "categorias": [
-    "eletricidade"
+    "eletricidade",
+    "seguranca_incendio"
    ]
   },
   {
@@ -14053,6 +14895,33 @@
    "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=14504987",
    "categorias": [
     "software_ti"
+   ]
+  },
+  {
+   "id": "14487972",
+   "objeto": "PRC_0475/2025_DEX - Aquisição de 3 sistemas de produção de energia elétrica recorrendo à tecnologia hídrica através de aproveitamento em turbinas para a Águas do Norte, S.A..",
+   "adjudicante": "513606084 - Águas do Norte, SA",
+   "adjudicatario": "- - POWERTURBINES 2020, S.L.",
+   "procedimento": "Ajuste Direto Regime Geral",
+   "tipo_contrato": [
+    "Aquisição de bens móveis"
+   ],
+   "cpv": "['31120000-3 - Geradores']",
+   "preco": 9890.0,
+   "data_publicacao": "2026-04-10",
+   "data_celebracao": "2026-03-13",
+   "local": [
+    "Portugal, Braga, Vieira do Minho",
+    "Portugal, Viana do Castelo, Paredes de Coura",
+    "Portugal, Viseu, Tabuaço",
+    "Portugal, Vila Real, Chaves",
+    "Portugal, Viana do Castelo, Ponte de Lima",
+    "Portugal, Braganca, Vinhais"
+   ],
+   "prazo": 122,
+   "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=14487972",
+   "categorias": [
+    "fotovoltaico"
    ]
   },
   {
@@ -15514,7 +16383,8 @@
    "prazo": 365,
    "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=14245697",
    "categorias": [
-    "eletricidade"
+    "eletricidade",
+    "seguranca_incendio"
    ]
   },
   {
@@ -15749,6 +16619,28 @@
    ]
   },
   {
+   "id": "14174972",
+   "objeto": "Ramal de média tensão para Escola Secundária Padre Benjamim Salgado",
+   "adjudicante": "506663264 - Município de Vila Nova de Famalicão",
+   "adjudicatario": "504394029 - E-REDES - Distribuição de Eletricidade, SA",
+   "procedimento": "Contratação excluída II",
+   "tipo_contrato": [
+    "Aquisição de bens móveis"
+   ],
+   "cpv": "['09000000-3 - Produtos petrolíferos, combustíveis, electricidade e outras fontes de energia']",
+   "preco": 23240.8,
+   "data_publicacao": "2026-03-18",
+   "data_celebracao": "2026-03-18",
+   "local": [
+    "Portugal, Braga, Vila Nova de Famalicão"
+   ],
+   "prazo": 120,
+   "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=14174972",
+   "categorias": [
+    "eletricidade"
+   ]
+  },
+  {
    "id": "14180622",
    "objeto": "Aquisição de serviços de Gestão e Manutenção dos Sistemas Automáticos de Deteção de Incêndios (SADI), Sistema Automático de Deteção de Intrusão e Roubo (SADIR) para Janeiro/2026\n",
    "adjudicante": "502077352 - Centro de Formação Profissional da Industria Metalúrgica e Metalomecânica (CENFIM)",
@@ -15776,7 +16668,8 @@
    "prazo": 30,
    "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=14180622",
    "categorias": [
-    "eletricidade"
+    "eletricidade",
+    "seguranca_incendio"
    ]
   },
   {
@@ -15806,7 +16699,8 @@
    "prazo": 300,
    "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=14182641",
    "categorias": [
-    "eletricidade"
+    "eletricidade",
+    "seguranca_incendio"
    ]
   },
   {
@@ -15927,6 +16821,28 @@
    "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=14146014",
    "categorias": [
     "projeto"
+   ]
+  },
+  {
+   "id": "14104369",
+   "objeto": "Ramal de média tensão para Pista de Atletismo de Famalicão",
+   "adjudicante": "506663264 - Município de Vila Nova de Famalicão",
+   "adjudicatario": "504394029 - E-REDES - Distribuição de Eletricidade, S.A.",
+   "procedimento": "Contratação excluída II",
+   "tipo_contrato": [
+    "Aquisição de bens móveis"
+   ],
+   "cpv": "['09000000-3 - Produtos petrolíferos, combustíveis, electricidade e outras fontes de energia']",
+   "preco": 21668.34,
+   "data_publicacao": "2026-03-16",
+   "data_celebracao": "2026-03-16",
+   "local": [
+    "Portugal, Braga, Vila Nova de Famalicão"
+   ],
+   "prazo": 120,
+   "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=14104369",
+   "categorias": [
+    "eletricidade"
    ]
   },
   {
@@ -16416,6 +17332,29 @@
    ]
   },
   {
+   "id": "14026093",
+   "objeto": "Procedimento N.º 04/2026 - Consulta Prévia - “Eficiência Energética – CACI’s”",
+   "adjudicante": "500860602 - Cooperativa de Educação e Reabilitação de Crianças Inadaptadas de Fafe, CRL",
+   "adjudicatario": "505538431 - TECNIAGRELA, LDA.",
+   "procedimento": "Consulta Prévia",
+   "tipo_contrato": [
+    "Aquisição de bens móveis"
+   ],
+   "cpv": "['09331200-0 - Módulos solares fotovoltaicos']",
+   "preco": 36882.05,
+   "data_publicacao": "2026-03-11",
+   "data_celebracao": "2026-03-05",
+   "local": [
+    "Portugal, Braga, Fafe",
+    "Portugal, Braga, Fafe"
+   ],
+   "prazo": 45,
+   "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=14026093",
+   "categorias": [
+    "fotovoltaico"
+   ]
+  },
+  {
    "id": "14026463",
    "objeto": "Aquisição de Serviços de Manutenção e Atualizações do Hardware e Software Elo – 2026",
    "adjudicante": "508786193 - Unidade Local de Saúde do Alto Minho, EPE (ULSAM)",
@@ -16876,6 +17815,28 @@
    "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=13835839",
    "categorias": [
     "software_ti"
+   ]
+  },
+  {
+   "id": "13820159",
+   "objeto": "Elaboração dos projetos de arquitetura e especialidades do Centro de Saúde de Celorico de Basto - Unidade convalescença",
+   "adjudicante": "506884929 - Município de Celorico de Basto",
+   "adjudicatario": "500900469 - Serviço de Utilização Comum dos Hospitais",
+   "procedimento": "Contratação excluída II",
+   "tipo_contrato": [
+    "Aquisição de serviços"
+   ],
+   "cpv": "['71400000-2 - Serviços de arquitectura paisagística e planeamento urbano']",
+   "preco": 87587.0,
+   "data_publicacao": "2026-03-04",
+   "data_celebracao": "2025-02-11",
+   "local": [
+    "Portugal, Braga, Celorico de Basto"
+   ],
+   "prazo": 1096,
+   "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=13820159",
+   "categorias": [
+    "projeto"
    ]
   },
   {
@@ -17788,7 +18749,31 @@
    "prazo": 213,
    "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=13617125",
    "categorias": [
-    "eletricidade"
+    "eletricidade",
+    "fotovoltaico"
+   ]
+  },
+  {
+   "id": "13549170",
+   "objeto": "AD16/2026 Reformulação do Sistema de Deteção de Incêndio do Teatro Gil Vicente e do Estádio Cidade de Barcelos",
+   "adjudicante": "505584760 - Município de Barcelos",
+   "adjudicatario": "510660525 - URBANSEGUR - UNIPESSOAL, LDA",
+   "procedimento": "Ajuste Direto Regime Geral",
+   "tipo_contrato": [
+    "Aquisição de bens móveis",
+    "Aquisição de serviços"
+   ],
+   "cpv": "['31682000-0 - Material para electricidade']",
+   "preco": 15612.7,
+   "data_publicacao": "2026-02-23",
+   "data_celebracao": "2026-02-20",
+   "local": [
+    "Portugal, Braga, Barcelos"
+   ],
+   "prazo": 59,
+   "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=13549170",
+   "categorias": [
+    "seguranca_incendio"
    ]
   },
   {
@@ -17876,7 +18861,8 @@
    "prazo": 320,
    "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=13515413",
    "categorias": [
-    "eletricidade"
+    "eletricidade",
+    "seguranca_incendio"
    ]
   },
   {
@@ -18040,6 +19026,7 @@
    "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=13489589",
    "categorias": [
     "eletricidade",
+    "seguranca_incendio",
     "software_ti"
    ]
   },
@@ -18260,7 +19247,8 @@
    "prazo": 57,
    "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=13438218",
    "categorias": [
-    "eletricidade"
+    "eletricidade",
+    "seguranca_incendio"
    ]
   },
   {
@@ -18282,7 +19270,30 @@
    "prazo": 88,
    "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=13445964",
    "categorias": [
-    "eletricidade"
+    "eletricidade",
+    "seguranca_incendio"
+   ]
+  },
+  {
+   "id": "13448839",
+   "objeto": "Incremento da potência instalada mas com redução da fatura de energia elétrica na Arca de Noé.",
+   "adjudicante": "501324550 - Centro de Solidariedade Social de Valdozende",
+   "adjudicatario": "517978733 - Tree Energy",
+   "procedimento": "Ajuste Direto Regime Geral",
+   "tipo_contrato": [
+    "Aquisição de bens móveis"
+   ],
+   "cpv": "['09331200-0 - Módulos solares fotovoltaicos']",
+   "preco": 9995.05,
+   "data_publicacao": "2026-02-16",
+   "data_celebracao": "2026-02-02",
+   "local": [
+    "Portugal, Braga, Braga"
+   ],
+   "prazo": 149,
+   "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=13448839",
+   "categorias": [
+    "fotovoltaico"
    ]
   },
   {
@@ -18309,6 +19320,28 @@
    "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=13451351",
    "categorias": [
     "software_ti"
+   ]
+  },
+  {
+   "id": "13451641",
+   "objeto": "Fornecimento de serviço de Beneficiação e Manutenção de Sistemas de Segurança dos edifícios municipais - ano de 2026",
+   "adjudicante": "505330334 - Município de Cabeceiras de Basto",
+   "adjudicatario": "514008644 - Paulo Rodrigues- Sistemas de Segurança Unip. Lda",
+   "procedimento": "Consulta Prévia",
+   "tipo_contrato": [
+    "Aquisição de bens móveis"
+   ],
+   "cpv": "['31625100-4 - Sistemas de detecção de incêndios']",
+   "preco": 7840.0,
+   "data_publicacao": "2026-02-16",
+   "data_celebracao": "2026-02-16",
+   "local": [
+    "Portugal, Braga, Cabeceiras de Basto"
+   ],
+   "prazo": 365,
+   "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=13451641",
+   "categorias": [
+    "seguranca_incendio"
    ]
   },
   {
@@ -18353,6 +19386,28 @@
    "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=13421519",
    "categorias": [
     "software_ti"
+   ]
+  },
+  {
+   "id": "13369201",
+   "objeto": "Aquisição de unidades de produção para autoconsumo (UPAC´s) para produção de energia",
+   "adjudicante": "505948605 - Município de Guimarães",
+   "adjudicatario": "507513908 - I-Sete Inovação Soluções Económicas e Tecnologias Ecológicas, Lda",
+   "procedimento": "Concurso público",
+   "tipo_contrato": [
+    "Locação de bens móveis"
+   ],
+   "cpv": "['09332000-5 - Instalação solar']",
+   "preco": 6167962.27,
+   "data_publicacao": "2026-02-13",
+   "data_celebracao": "2026-02-11",
+   "local": [
+    "Portugal"
+   ],
+   "prazo": 7305,
+   "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=13369201",
+   "categorias": [
+    "fotovoltaico"
    ]
   },
   {
@@ -18687,7 +19742,8 @@
    "prazo": 10,
    "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=13304877",
    "categorias": [
-    "eletricidade"
+    "eletricidade",
+    "seguranca_incendio"
    ]
   },
   {
@@ -19758,7 +20814,8 @@
    "prazo": 1096,
    "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=12884165",
    "categorias": [
-    "eletricidade"
+    "eletricidade",
+    "fotovoltaico"
    ]
   },
   {
@@ -19890,7 +20947,8 @@
    "prazo": 60,
    "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=12768128",
    "categorias": [
-    "eletricidade"
+    "eletricidade",
+    "seguranca_incendio"
    ]
   },
   {
@@ -20206,7 +21264,8 @@
    "prazo": 30,
    "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=12546097",
    "categorias": [
-    "eletricidade"
+    "eletricidade",
+    "seguranca_incendio"
    ]
   },
   {
@@ -20273,6 +21332,52 @@
    "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=12540404",
    "categorias": [
     "projeto"
+   ]
+  },
+  {
+   "id": "12509404",
+   "objeto": "Aquisição e instalação de painéis solares térmicos e acumuladores",
+   "adjudicante": "506034976 - Centro Paroquial de Social de Santa Maria de Grade",
+   "adjudicatario": "516833480 - NERGY - UNIPESSOAL, LDA",
+   "procedimento": "Consulta Prévia",
+   "tipo_contrato": [
+    "Aquisição de bens móveis",
+    "Aquisição de serviços"
+   ],
+   "cpv": "['09000000-3 - Produtos petrolíferos, combustíveis, electricidade e outras fontes de energia']",
+   "preco": 43460.46,
+   "data_publicacao": "2026-01-13",
+   "data_celebracao": "2025-12-29",
+   "local": [
+    "Portugal, Viana do Castelo, Arcos de Valdevez"
+   ],
+   "prazo": 150,
+   "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=12509404",
+   "categorias": [
+    "fotovoltaico"
+   ]
+  },
+  {
+   "id": "12509971",
+   "objeto": "Aquisição e instalação de painéis fotovoltaicos",
+   "adjudicante": "506034976 - Centro Paroquial de Social de Santa Maria de Grade",
+   "adjudicatario": "515590916 -  MANUEL CARLOS &amp; SOUSA, LDA(515590916)",
+   "procedimento": "Consulta Prévia",
+   "tipo_contrato": [
+    "Aquisição de bens móveis",
+    "Aquisição de serviços"
+   ],
+   "cpv": "['09000000-3 - Produtos petrolíferos, combustíveis, electricidade e outras fontes de energia']",
+   "preco": 20700.0,
+   "data_publicacao": "2026-01-13",
+   "data_celebracao": "2025-12-26",
+   "local": [
+    "Portugal, Viana do Castelo, Arcos de Valdevez"
+   ],
+   "prazo": 150,
+   "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=12509971",
+   "categorias": [
+    "fotovoltaico"
    ]
   },
   {
@@ -20450,6 +21555,28 @@
    "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=12500532",
    "categorias": [
     "eletricidade"
+   ]
+  },
+  {
+   "id": "12491929",
+   "objeto": "Empreitada de obra pública que visa a execução da obra relativa à Requalificação e\nmodernização do edifício 1 de apoio à valência do Centro de Atividades e Capacitação para a\nInclusão (CACI). Esta intervenção incide, em particular, sobre painéis fotovoltaicos e os espaços\nde uso diário e essencial  cozinhas, vestiários e casas de banho.",
+   "adjudicante": "504874683 - AIREV - Associação para a Integração e Reabilitação Educacional de Crianças e Jovens Deficientes de Vizela",
+   "adjudicatario": "502701110 - NVE engenharias, S.A.",
+   "procedimento": "Concurso público",
+   "tipo_contrato": [
+    "Empreitadas de obras públicas"
+   ],
+   "cpv": "['45000000-7 - Construção']",
+   "preco": 286522.53,
+   "data_publicacao": "2026-01-09",
+   "data_celebracao": "2025-12-30",
+   "local": [
+    "Portugal"
+   ],
+   "prazo": 166,
+   "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=12491929",
+   "categorias": [
+    "fotovoltaico"
    ]
   },
   {
@@ -20850,6 +21977,28 @@
    ]
   },
   {
+   "id": "12443236",
+   "objeto": "Comparticipação para colocação de 10 pontos de iluminação pública, na Rua do Comércio, freguesia de Vilarinho das Cambas",
+   "adjudicante": "506663264 - Município de Vila Nova de Famalicão",
+   "adjudicatario": "504394029 - E-REDES Distribuição de Eletricidade, S.A.",
+   "procedimento": "Contratação excluída II",
+   "tipo_contrato": [
+    "Aquisição de bens móveis"
+   ],
+   "cpv": "['09000000-3 - Produtos petrolíferos, combustíveis, electricidade e outras fontes de energia']",
+   "preco": 6501.5,
+   "data_publicacao": "2026-01-06",
+   "data_celebracao": "2025-12-22",
+   "local": [
+    "Portugal, Braga, Vila Nova de Famalicão"
+   ],
+   "prazo": 180,
+   "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=12443236",
+   "categorias": [
+    "eletricidade"
+   ]
+  },
+  {
    "id": "12442360",
    "objeto": "24AS00007071 - FAFE  - PJ - AQUISIÇÃO DE SERVIÇOS PARA REVISÃO DO PROJETO DE REABILITAÇÃO DO EDIFÍCIO",
    "adjudicante": "510361242 - INSTITUTO DE GESTÃO FINANCEIRA E EQUIPAMENTOS DA J",
@@ -21023,6 +22172,28 @@
    "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=12208016",
    "categorias": [
     "software_ti"
+   ]
+  },
+  {
+   "id": "12212189",
+   "objeto": "Aquisição de bens - Fardamento e equipamento de proteção individual",
+   "adjudicante": "505948605 - Município de Guimarães",
+   "adjudicatario": "500251118 - SINTIMEX - Soc. Internacional de Imp. e Exp. S.A",
+   "procedimento": "Consulta Prévia",
+   "tipo_contrato": [
+    "Aquisição de bens móveis"
+   ],
+   "cpv": "['35121000-8 - Equipamento de segurança e protecção']",
+   "preco": 11756.2,
+   "data_publicacao": "2025-12-29",
+   "data_celebracao": "2025-12-29",
+   "local": [
+    "Portugal"
+   ],
+   "prazo": 62,
+   "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=12212189",
+   "categorias": [
+    "seguranca_incendio"
    ]
   },
   {
@@ -21707,7 +22878,8 @@
    "prazo": 1096,
    "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=12127737",
    "categorias": [
-    "eletricidade"
+    "eletricidade",
+    "seguranca_incendio"
    ]
   },
   {
@@ -22199,6 +23371,28 @@
    ]
   },
   {
+   "id": "12027944",
+   "objeto": "PRC_0312/2025_GAE-P1271 - Aquisição de serviços de elaboração dos Projetos-base da ETAR de Canedo e da ETAR de Fervença (Celorico de Basto)",
+   "adjudicante": "513606084 - Águas do Norte, S. A.",
+   "adjudicatario": "501213350 - NORAQUA, Consultores de Engenharia, Lda",
+   "procedimento": "Ajuste Direto Regime Geral",
+   "tipo_contrato": [
+    "Aquisição de serviços"
+   ],
+   "cpv": "['71322000-1 - Serviços de concepção técnica para a construção de obras de engenharia civil']",
+   "preco": 17000.0,
+   "data_publicacao": "2025-12-09",
+   "data_celebracao": "2025-12-04",
+   "local": [
+    "Portugal, Braga, Celorico de Basto"
+   ],
+   "prazo": 180,
+   "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=12027944",
+   "categorias": [
+    "projeto"
+   ]
+  },
+  {
    "id": "12031220",
    "objeto": "Aquisição de Serviços de Manutenção e Atualizações do Software para a Plataforma Speculum (Partograma) – 2025-2027",
    "adjudicante": "508786193 - Unidade Local de Saúde do Alto Minho, EPE",
@@ -22240,6 +23434,28 @@
    "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=12026866",
    "categorias": [
     "software_ti"
+   ]
+  },
+  {
+   "id": "12019746",
+   "objeto": "Elaboração dos projetos de arquitetura e especialidades para requalificação da Escola Básica de Sapugal, Fradelos",
+   "adjudicante": "506663264 - Município de Vila Nova de Famalicão",
+   "adjudicatario": "509839452 - CARNEIRO &amp; CAMACHO - ARQUITETURA E ENGENHARIA, LDA",
+   "procedimento": "Consulta Prévia",
+   "tipo_contrato": [
+    "Aquisição de serviços"
+   ],
+   "cpv": "['71200000-0 - Serviços de arquitectura e afins']",
+   "preco": 74750.0,
+   "data_publicacao": "2025-12-05",
+   "data_celebracao": "2025-11-27",
+   "local": [
+    "Portugal, Braga, Vila Nova de Famalicão"
+   ],
+   "prazo": 630,
+   "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=12019746",
+   "categorias": [
+    "projeto"
    ]
   },
   {
@@ -22943,7 +24159,8 @@
    "prazo": 364,
    "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=11980681",
    "categorias": [
-    "eletricidade"
+    "eletricidade",
+    "seguranca_incendio"
    ]
   },
   {
@@ -23275,7 +24492,8 @@
    "prazo": 120,
    "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=11979660",
    "categorias": [
-    "eletricidade"
+    "eletricidade",
+    "seguranca_incendio"
    ]
   },
   {
@@ -23936,7 +25154,8 @@
    "prazo": 1096,
    "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=11955218",
    "categorias": [
-    "eletricidade"
+    "eletricidade",
+    "seguranca_incendio"
    ]
   },
   {
@@ -24180,6 +25399,28 @@
    "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=11948233",
    "categorias": [
     "projeto"
+   ]
+  },
+  {
+   "id": "11948240",
+   "objeto": "Fornecimento e instalação de peças para substituição do sistema de deteção de incêndio",
+   "adjudicante": "501676430 - Taipas-Turitermas-Cooperativa de Interesse Público, R. L.",
+   "adjudicatario": "506240720 - Xamix - Engenharia e Sistemas de Segurança Lda",
+   "procedimento": "Ajuste Direto Regime Geral",
+   "tipo_contrato": [
+    "Aquisição de bens móveis"
+   ],
+   "cpv": "['31625100-4 - Sistemas de detecção de incêndios']",
+   "preco": 10000.0,
+   "data_publicacao": "2025-11-14",
+   "data_celebracao": "2025-11-13",
+   "local": [
+    "Portugal, Braga, Guimarães"
+   ],
+   "prazo": 20,
+   "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=11948240",
+   "categorias": [
+    "seguranca_incendio"
    ]
   },
   {
@@ -24496,7 +25737,8 @@
    "prazo": 30,
    "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=11905683",
    "categorias": [
-    "eletricidade"
+    "eletricidade",
+    "seguranca_incendio"
    ]
   },
   {
@@ -24651,7 +25893,8 @@
    "prazo": 15,
    "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=11902043",
    "categorias": [
-    "eletricidade"
+    "eletricidade",
+    "fotovoltaico"
    ]
   },
   {
@@ -25160,6 +26403,28 @@
    ]
   },
   {
+   "id": "11858554",
+   "objeto": "Reparação da rede de incêndio enterrada do Centro Cultural Vila Flôr - Urgeses",
+   "adjudicante": "505948605 - Município de Guimarães",
+   "adjudicatario": "505521970 - Guardizeltrans Lda ",
+   "procedimento": "Consulta Prévia",
+   "tipo_contrato": [
+    "Empreitadas de obras públicas"
+   ],
+   "cpv": "['45343200-5 - Instalação de equipamento de combate a incêndios']",
+   "preco": 53348.0,
+   "data_publicacao": "2025-10-28",
+   "data_celebracao": "2025-10-21",
+   "local": [
+    "Portugal"
+   ],
+   "prazo": 60,
+   "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=11858554",
+   "categorias": [
+    "seguranca_incendio"
+   ]
+  },
+  {
    "id": "11846260",
    "objeto": "Aquisição de Solução de Infraestrutura Hiperconvergente",
    "adjudicante": "508887780 - CIM do Ave - Comunidade Intermunicipal do Ave",
@@ -25245,6 +26510,28 @@
    "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=11835913",
    "categorias": [
     "software_ti"
+   ]
+  },
+  {
+   "id": "11839689",
+   "objeto": "Aquisição da central de deteção incêndio digital Simens para substituir a antiga central analógica.",
+   "adjudicante": "501324550 - Centro de Solidariedade Social de Valdozende",
+   "adjudicatario": "507086546 - Silsafe Lda ",
+   "procedimento": "Ajuste Direto Regime Geral",
+   "tipo_contrato": [
+    "Aquisição de bens móveis"
+   ],
+   "cpv": "['31625100-4 - Sistemas de detecção de incêndios']",
+   "preco": 6182.5,
+   "data_publicacao": "2025-10-24",
+   "data_celebracao": "2025-10-03",
+   "local": [
+    "Portugal, Braga, Braga"
+   ],
+   "prazo": 90,
+   "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=11839689",
+   "categorias": [
+    "seguranca_incendio"
    ]
   },
   {
@@ -25513,6 +26800,30 @@
    ]
   },
   {
+   "id": "11815730",
+   "objeto": "PRC_0095/2025_CLG - Aquisição de materiais de segurança (fardamento) para a Águas do Norte, S.A..",
+   "adjudicante": "513606084 - Águas do Norte, S. A.",
+   "adjudicatario": "510843018 - Partners Steatlh, Lda",
+   "procedimento": "Concurso público",
+   "tipo_contrato": [
+    "Aquisição de bens móveis"
+   ],
+   "cpv": "['35121000-8 - Equipamento de segurança e protecção']",
+   "preco": 0.0,
+   "data_publicacao": "2025-10-21",
+   "data_celebracao": "2025-10-20",
+   "local": [
+    "Portugal, Porto, Amarante",
+    "Portugal, Braga, Barcelos",
+    "Portugal, Vila Real, Vila Real"
+   ],
+   "prazo": 1095,
+   "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=11815730",
+   "categorias": [
+    "seguranca_incendio"
+   ]
+  },
+  {
    "id": "11815887",
    "objeto": "Aquisição de software para implementação de sistema de desmaterialização de contratos com beneficiários, com solução de armazenamento, acesso e encaminhamento",
    "adjudicante": "600086321 - Agência Nacional para a Gestão do Programa Erasmus + Juventude/Desporto e Corpo Europeu de Solidariedade",
@@ -25619,7 +26930,8 @@
    "prazo": 30,
    "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=11802030",
    "categorias": [
-    "projeto"
+    "projeto",
+    "fotovoltaico"
    ]
   },
   {
@@ -25664,7 +26976,8 @@
    "prazo": 20,
    "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=11804267",
    "categorias": [
-    "eletricidade"
+    "eletricidade",
+    "seguranca_incendio"
    ]
   },
   {
@@ -25910,6 +27223,28 @@
    ]
   },
   {
+   "id": "11788934",
+   "objeto": "PROCEDIMENTO PARA FORMAÇÃO DE CONTRATO DE AQUISIÇÃO DE SERVIÇOS NECESSÁRIOS AO DESENVOLVIMENTO DE ATIVIDADES DE I&D – [MEtRICs-CE04 – Montagem, testes e ensaios de sistema solar para alimentação de painéis radiantes]",
+   "adjudicante": "502011378 - Universidade do Minho",
+   "adjudicatario": "506560880 - VIMASOL- Energias Renováveis, Lda",
+   "procedimento": "Contratação excluída II",
+   "tipo_contrato": [
+    "Aquisição de serviços"
+   ],
+   "cpv": "['71600000-4 - Serviços técnicos de ensaio, análise e consultoria']",
+   "preco": 6195.52,
+   "data_publicacao": "2025-10-14",
+   "data_celebracao": "2025-10-13",
+   "local": [
+    "Portugal, Braga, Guimarães"
+   ],
+   "prazo": 15,
+   "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=11788934",
+   "categorias": [
+    "fotovoltaico"
+   ]
+  },
+  {
    "id": "11789445",
    "objeto": "Manutenção do Sistema de Gestão de Atendimento e de Gestão de Visitas (MSWait) ",
    "adjudicante": "515545180 - Unidade Local de Saúde de Braga, E. P. E.",
@@ -26113,7 +27448,8 @@
    "prazo": 30,
    "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=11784845",
    "categorias": [
-    "eletricidade"
+    "eletricidade",
+    "fotovoltaico"
    ]
   },
   {
@@ -27712,7 +29048,8 @@
    "prazo": 120,
    "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=11752743",
    "categorias": [
-    "eletricidade"
+    "eletricidade",
+    "fotovoltaico"
    ]
   },
   {
@@ -28153,7 +29490,8 @@
    "prazo": 365,
    "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=11735512",
    "categorias": [
-    "eletricidade"
+    "eletricidade",
+    "seguranca_incendio"
    ]
   },
   {
@@ -28905,6 +30243,7 @@
    "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=11724137",
    "categorias": [
     "eletricidade",
+    "fotovoltaico",
     "mobilidade_eletrica"
    ]
   },
@@ -29063,6 +30402,28 @@
    ]
   },
   {
+   "id": "11716312",
+   "objeto": "Aquisição e instalação de painéis fotovoltaicos",
+   "adjudicante": "501545921 - Centro Social João Paulo II",
+   "adjudicatario": "508941563 - MGLS - Soluções de Energias Renováveis",
+   "procedimento": "Consulta Prévia",
+   "tipo_contrato": [
+    "Aquisição de bens móveis"
+   ],
+   "cpv": "['09331200-0 - Módulos solares fotovoltaicos']",
+   "preco": 69000.0,
+   "data_publicacao": "2025-09-12",
+   "data_celebracao": "2025-07-14",
+   "local": [
+    "Portugal, Braga, Esposende"
+   ],
+   "prazo": 30,
+   "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=11716312",
+   "categorias": [
+    "fotovoltaico"
+   ]
+  },
+  {
    "id": "11716976",
    "objeto": "AQUISIÇÃO DE PLATAFORMA DE GESTÃO DE PROCEDIMENTOS CONCURSAIS RH",
    "adjudicante": "506632920 - Município da Póvoa de Lanhoso",
@@ -29214,7 +30575,8 @@
    "prazo": 365,
    "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=11700690",
    "categorias": [
-    "eletricidade"
+    "eletricidade",
+    "seguranca_incendio"
    ]
   },
   {
@@ -29745,7 +31107,8 @@
    "prazo": 150,
    "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=11676905",
    "categorias": [
-    "eletricidade"
+    "eletricidade",
+    "fotovoltaico"
    ]
   },
   {
@@ -29879,6 +31242,28 @@
    "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=11666854",
    "categorias": [
     "software_ti"
+   ]
+  },
+  {
+   "id": "11668044",
+   "objeto": "Aquisição de bens - bancos com régua solar",
+   "adjudicante": "505948605 - Município de Guimarães",
+   "adjudicatario": "501921672 - Larus - Artigos para Construção e Equipamentos Lda",
+   "procedimento": "Ajuste Direto Regime Geral",
+   "tipo_contrato": [
+    "Aquisição de bens móveis"
+   ],
+   "cpv": "['39113600-3 - Bancos']",
+   "preco": 48352.07,
+   "data_publicacao": "2025-08-28",
+   "data_celebracao": "2025-08-28",
+   "local": [
+    "Portugal"
+   ],
+   "prazo": 20,
+   "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=11668044",
+   "categorias": [
+    "fotovoltaico"
    ]
   },
   {
@@ -31710,7 +33095,8 @@
    "prazo": 60,
    "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=11635017",
    "categorias": [
-    "eletricidade"
+    "eletricidade",
+    "fotovoltaico"
    ]
   },
   {
@@ -32175,6 +33561,50 @@
    "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=11621419",
    "categorias": [
     "software_ti"
+   ]
+  },
+  {
+   "id": "11621817",
+   "objeto": "Prestação de Serviços de Formação Profissional, Formação Modular  Certificada, ao abrigo da Operação n.º PESSOAS-FSE+-01125900, para a UFCD 4580 Energia Solar",
+   "adjudicante": "501893776 - J. Canão, L.da",
+   "adjudicatario": "- - Jaime Manuel Fernandes Pancha",
+   "procedimento": "Contratação excluída II",
+   "tipo_contrato": [
+    "Aquisição de serviços"
+   ],
+   "cpv": "['80000000-4 - Serviços de ensino e formação']",
+   "preco": 1500.0,
+   "data_publicacao": "2025-08-04",
+   "data_celebracao": "2025-06-13",
+   "local": [
+    "Portugal, Viana do Castelo, Viana do Castelo"
+   ],
+   "prazo": 20,
+   "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=11621817",
+   "categorias": [
+    "fotovoltaico"
+   ]
+  },
+  {
+   "id": "11621878",
+   "objeto": "Prestação de Serviços de Formação Profissional, Formação Modular  Certificada, ao abrigo da Operação n.º PESSOAS-FSE+-01125900, para a UFCD 4580 Energia Solar",
+   "adjudicante": "501893776 - J. Canão, L.da",
+   "adjudicatario": "- - Paula Elisabete Dias Bacelar",
+   "procedimento": "Contratação excluída II",
+   "tipo_contrato": [
+    "Aquisição de serviços"
+   ],
+   "cpv": "['80000000-4 - Serviços de ensino e formação']",
+   "preco": 1500.0,
+   "data_publicacao": "2025-08-04",
+   "data_celebracao": "2025-06-18",
+   "local": [
+    "Portugal, Viana do Castelo, Arcos de Valdevez"
+   ],
+   "prazo": 16,
+   "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=11621878",
+   "categorias": [
+    "fotovoltaico"
    ]
   },
   {
@@ -32994,6 +34424,28 @@
    ]
   },
   {
+   "id": "11597065",
+   "objeto": "Prestação de serviços de manutenção aos sistemas de deteção de incêndio, sistemas de extinção de incêndio e barras antipânico",
+   "adjudicante": "505676770 - Município de Ponte da Barca",
+   "adjudicatario": "506028399 - VIANAFOGO - MATERIAL CONTRA INCENDIO E PROTECÇÃO INDIVIDUAL, LDA",
+   "procedimento": "Ajuste Direto Regime Geral",
+   "tipo_contrato": [
+    "Aquisição de serviços"
+   ],
+   "cpv": "['50700000-2 - Serviços de reparação e manutenção de equipamento em edifícios']",
+   "preco": 14215.9,
+   "data_publicacao": "2025-07-22",
+   "data_celebracao": "2025-06-20",
+   "local": [
+    "Portugal, Viana do Castelo, Ponte da Barca"
+   ],
+   "prazo": 215,
+   "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=11597065",
+   "categorias": [
+    "seguranca_incendio"
+   ]
+  },
+  {
    "id": "11597675",
    "objeto": "Aquisição De Equipamentos Informáticos – Kits Digitais.",
    "adjudicante": "600078329 - Agrupamento de Escolas de Trigal de Santa Maria, Braga",
@@ -33214,6 +34666,50 @@
    ]
   },
   {
+   "id": "11590656",
+   "objeto": "Comparticipação para colocação de vários pontos de iluminação pública na Rua das Alminhas - Mouquim",
+   "adjudicante": "506663264 - Município de Vila Nova de Famalicão",
+   "adjudicatario": "500960577 - CEVE - Cooperativa Elétrica do Vale D’Este, CRL",
+   "procedimento": "Contratação excluída II",
+   "tipo_contrato": [
+    "Aquisição de bens móveis"
+   ],
+   "cpv": "['09000000-3 - Produtos petrolíferos, combustíveis, electricidade e outras fontes de energia']",
+   "preco": 12783.0,
+   "data_publicacao": "2025-07-18",
+   "data_celebracao": "2025-07-17",
+   "local": [
+    "Portugal, Braga, Vila Nova de Famalicão"
+   ],
+   "prazo": 30,
+   "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=11590656",
+   "categorias": [
+    "eletricidade"
+   ]
+  },
+  {
+   "id": "11590670",
+   "objeto": "Comparticipação para colocação de 5 pontos de iluminação pública na Rua de Sarnado - Mouquim",
+   "adjudicante": "506663264 - Município de Vila Nova de Famalicão",
+   "adjudicatario": "500960577 - CEVE - Cooperativa Elétrica do Vale D’Este, CRL",
+   "procedimento": "Contratação excluída II",
+   "tipo_contrato": [
+    "Aquisição de bens móveis"
+   ],
+   "cpv": "['09000000-3 - Produtos petrolíferos, combustíveis, electricidade e outras fontes de energia']",
+   "preco": 7487.0,
+   "data_publicacao": "2025-07-18",
+   "data_celebracao": "2025-07-17",
+   "local": [
+    "Portugal, Braga, Vila Nova de Famalicão"
+   ],
+   "prazo": 30,
+   "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=11590670",
+   "categorias": [
+    "eletricidade"
+   ]
+  },
+  {
    "id": "11592797",
    "objeto": "Locação de base de dados HeinOnline Academic Core Collection, pelo período de 12 meses, para utilização dos Investigadores do JusGov e docentes da Escola de Direito. ",
    "adjudicante": "502011378 - Universidade do Minho",
@@ -33299,6 +34795,28 @@
    "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=11590103",
    "categorias": [
     "software_ti"
+   ]
+  },
+  {
+   "id": "11590418",
+   "objeto": "42/ICNF/DRCNFN/2025-Aquisição e montagem de Sistema Autónomo para Produção e Armazenamento de Energia Elétrica para o Centro de Recuperação de Fauna Selvagem do PNPG Aviso 22853-C/2024/2 - Candidatura 41 - Fundo Ambiental",
+   "adjudicante": "510342647 - Instituto da Conservação da Natureza e das Florestas, I. P.",
+   "adjudicatario": "517398168 - Bluint - Engenharia e Tecnologias Integradas, Unipessoal, Lda. ",
+   "procedimento": "Ajuste Direto Regime Geral",
+   "tipo_contrato": [
+    "Aquisição de bens móveis"
+   ],
+   "cpv": "['09331000-8 - Painéis solares']",
+   "preco": 10606.0,
+   "data_publicacao": "2025-07-17",
+   "data_celebracao": "2025-06-16",
+   "local": [
+    "Portugal, Braga, Terras de Bouro"
+   ],
+   "prazo": 10,
+   "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=11590418",
+   "categorias": [
+    "fotovoltaico"
    ]
   },
   {
@@ -34108,7 +35626,8 @@
    "prazo": 90,
    "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=11557668",
    "categorias": [
-    "eletricidade"
+    "eletricidade",
+    "fotovoltaico"
    ]
   },
   {
@@ -34439,6 +35958,28 @@
    "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=11556874",
    "categorias": [
     "eletricidade"
+   ]
+  },
+  {
+   "id": "11552773",
+   "objeto": "AQUISIÇÃO DE SERVIÇOS PARA REALIZAÇÃO DE ROVAS HIDRÁULICAS DOS CILINDROS DOS SISTEMAS AUTOMÁTICOS DE DETEÇÃO E EXTINÇÃO DE INCÊNDIOS (SADEI) POR AGENTES GASOSOS NO EDIFÍCIO ARQUIVO DISTRITAL DE BRAGA",
+   "adjudicante": "502011378 - Universidade do Minho",
+   "adjudicatario": "508607990 - SAFETY MATERIAIS CONTRA INCÊNDIO, S.A.",
+   "procedimento": "Concurso público",
+   "tipo_contrato": [
+    "Aquisição de serviços"
+   ],
+   "cpv": "['50413200-5 - Serviços de reparação e manutenção de equipamento de combate a incêndios']",
+   "preco": 15827.04,
+   "data_publicacao": "2025-07-03",
+   "data_celebracao": "2025-06-23",
+   "local": [
+    "Portugal, Braga, Braga"
+   ],
+   "prazo": 90,
+   "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=11552773",
+   "categorias": [
+    "seguranca_incendio"
    ]
   },
   {
@@ -35307,6 +36848,28 @@
    ]
   },
   {
+   "id": "11525905",
+   "objeto": "Aquisição de separadores de Betão para proteção de aglomerados e montagem e instalação",
+   "adjudicante": "506901173 - Município de Braga",
+   "adjudicatario": "500302987 - A Cimenteira do Louro, S.A.",
+   "procedimento": "Consulta Prévia",
+   "tipo_contrato": [
+    "Locação de bens móveis"
+   ],
+   "cpv": "['35121000-8 - Equipamento de segurança e protecção']",
+   "preco": 13837.0,
+   "data_publicacao": "2025-06-18",
+   "data_celebracao": "2025-06-18",
+   "local": [
+    "Portugal, Braga, Braga"
+   ],
+   "prazo": 2,
+   "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=11525905",
+   "categorias": [
+    "seguranca_incendio"
+   ]
+  },
+  {
    "id": "11526443",
    "objeto": "Aquisição de serviços para instalação de nova infraestrutura elétrica e reparação de sanitários - Museu de Alberto Sampaio",
    "adjudicante": "517804417 - Museus e Monumentos de Portugal, E.P.E.",
@@ -35860,7 +37423,8 @@
    "prazo": 30,
    "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=11513297",
    "categorias": [
-    "eletricidade"
+    "eletricidade",
+    "seguranca_incendio"
    ]
   },
   {
@@ -36550,6 +38114,28 @@
    ]
   },
   {
+   "id": "11478166",
+   "objeto": "Empreitada para deslocalização de parte da Unidade de Produção para Auto Consumo (UPAC) existente no CITEVE",
+   "adjudicante": "502201886 - Centro Tecnológico das Indústrias Têxtil e do Vestuário de Portugal - CITEVE",
+   "adjudicatario": "508799295 - Senginor - Engenharia e Instalações Eléctricas, Lda.",
+   "procedimento": "Ajuste Direto Regime Geral",
+   "tipo_contrato": [
+    "Empreitadas de obras públicas"
+   ],
+   "cpv": "['45450000-6 - Outras obras de acabamento de edifícios']",
+   "preco": 16461.0,
+   "data_publicacao": "2025-06-03",
+   "data_celebracao": "2025-06-03",
+   "local": [
+    "Portugal, Braga, Vila Nova de Famalicão"
+   ],
+   "prazo": 92,
+   "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=11478166",
+   "categorias": [
+    "fotovoltaico"
+   ]
+  },
+  {
    "id": "11479657",
    "objeto": "Portal do Munícipe - Plataforma de atendimento ao cidadão",
    "adjudicante": "506663264 - Município de Vila Nova de Famalicão",
@@ -36613,6 +38199,28 @@
    "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=11475201",
    "categorias": [
     "projeto"
+   ]
+  },
+  {
+   "id": "11475498",
+   "objeto": "Aquisição de sistema Fotovoltaico EB 2,3/S de Celorico de Basto",
+   "adjudicante": "506884929 - Município de Celorico de Basto",
+   "adjudicatario": "505546590 - ARMINDO TELES &amp; MAGALHAES , LDA",
+   "procedimento": "Ajuste Direto Regime Geral",
+   "tipo_contrato": [
+    "Aquisição de bens móveis"
+   ],
+   "cpv": "['09331200-0 - Módulos solares fotovoltaicos']",
+   "preco": 14000.0,
+   "data_publicacao": "2025-06-02",
+   "data_celebracao": "2025-05-22",
+   "local": [
+    "Portugal, Braga, Celorico de Basto"
+   ],
+   "prazo": 223,
+   "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=11475498",
+   "categorias": [
+    "fotovoltaico"
    ]
   },
   {
@@ -36832,7 +38440,8 @@
    "prazo": 30,
    "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=11468494",
    "categorias": [
-    "projeto"
+    "projeto",
+    "fotovoltaico"
    ]
   },
   {
@@ -37543,6 +39152,29 @@
    ]
   },
   {
+   "id": "11452355",
+   "objeto": "Aquisição de bens  Fardamento e equipamento de proteção individual",
+   "adjudicante": "505948605 - Município de Guimarães",
+   "adjudicatario": "505766205 - HR Protecção, S.A.",
+   "procedimento": "Consulta Prévia",
+   "tipo_contrato": [
+    "Aquisição de bens móveis"
+   ],
+   "cpv": "['35121000-8 - Equipamento de segurança e protecção']",
+   "preco": 25285.65,
+   "data_publicacao": "2025-05-20",
+   "data_celebracao": "2025-05-15",
+   "local": [
+    "Portugal, Braga, Guimarães",
+    "Portugal, Braga, Guimarães"
+   ],
+   "prazo": 276,
+   "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=11452355",
+   "categorias": [
+    "seguranca_incendio"
+   ]
+  },
+  {
    "id": "11448255",
    "objeto": "Aquisição de serviços de setup e acesso a plataforma de gestão e validação de contratos de energia e de fornecimento de água, para o período de 12 meses",
    "adjudicante": "505985217 - Município de Vizela",
@@ -37738,6 +39370,28 @@
    "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=11444662",
    "categorias": [
     "projeto"
+   ]
+  },
+  {
+   "id": "11444906",
+   "objeto": "Fornecimento e instalação de Unidades de Produção para Autoconsumo (UPAC) em edifícios municipais - 2025",
+   "adjudicante": "505330334 - Município de Cabeceiras de Basto",
+   "adjudicatario": "514065036 - HT Solutions Engenharia lda",
+   "procedimento": "Concurso público",
+   "tipo_contrato": [
+    "Aquisição de serviços"
+   ],
+   "cpv": "['51112100-1 - Serviços de instalação de equipamento para distribuição de electricidade']",
+   "preco": 28117.31,
+   "data_publicacao": "2025-05-16",
+   "data_celebracao": "2025-05-13",
+   "local": [
+    "Portugal, Braga, Cabeceiras de Basto"
+   ],
+   "prazo": 60,
+   "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=11444906",
+   "categorias": [
+    "fotovoltaico"
    ]
   },
   {
@@ -37961,6 +39615,28 @@
    ]
   },
   {
+   "id": "11443491",
+   "objeto": "Prestação de Serviços de Engenharia e Consultadoria para o Desenvolvimento de Comunidade de Energia Renovável e Autoconsumo Coletivo na AGERE-EM",
+   "adjudicante": "504807692 - AGERE- Empresa de Águas Efluentes e Resíduos de Braga, E. M.",
+   "adjudicatario": "513536973 - Razão Cúbica - Engenh.Unip., Lda",
+   "procedimento": "Consulta Prévia",
+   "tipo_contrato": [
+    "Aquisição de serviços"
+   ],
+   "cpv": "['71600000-4 - Serviços técnicos de ensaio, análise e consultoria']",
+   "preco": 11858.55,
+   "data_publicacao": "2025-05-15",
+   "data_celebracao": "2025-05-15",
+   "local": [
+    "Portugal, Braga, Braga"
+   ],
+   "prazo": 61,
+   "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=11443491",
+   "categorias": [
+    "fotovoltaico"
+   ]
+  },
+  {
    "id": "11443520",
    "objeto": "Aquisição de plataforma de gestão global de educação ",
    "adjudicante": "505584760 - Município de Barcelos",
@@ -38090,7 +39766,33 @@
    "prazo": 45,
    "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=11426909",
    "categorias": [
-    "eletricidade"
+    "eletricidade",
+    "seguranca_incendio"
+   ]
+  },
+  {
+   "id": "11427326",
+   "objeto": "Aquisição de bens  Fardamento e equipamento de proteção individual",
+   "adjudicante": "505948605 - Município de Guimarães",
+   "adjudicatario": "507304721 - M &amp;amp; M Protek - Equipamento de Protecção Individual, Lda.",
+   "procedimento": "Consulta Prévia",
+   "tipo_contrato": [
+    "Aquisição de bens móveis"
+   ],
+   "cpv": "['35121000-8 - Equipamento de segurança e protecção']",
+   "preco": 19880.1,
+   "data_publicacao": "2025-05-13",
+   "data_celebracao": "2025-05-12",
+   "local": [
+    "Portugal, Braga, Guimarães",
+    "Portugal, Braga, Guimarães",
+    "Portugal, Braga, Guimarães",
+    "Portugal, Braga, Guimarães"
+   ],
+   "prazo": 276,
+   "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=11427326",
+   "categorias": [
+    "seguranca_incendio"
    ]
   },
   {
@@ -38248,6 +39950,28 @@
    ]
   },
   {
+   "id": "11425526",
+   "objeto": "Empreitada de instalação de sistema de produção fotovoltaica em regime de autoconsumo, alteração do\nsistema de produção de água quente e implementação de sistema de iluminação periférica, no edifício\ndos SAS no Campus do IPCA",
+   "adjudicante": "503494933 - Instituto Politécnico do Cávado e do Ave",
+   "adjudicatario": "517398168 - BLUINT-ENGENHARIA E TECNOLOGIAS INTEGRADAS, UNIPESSOAL LDA",
+   "procedimento": "Concurso público",
+   "tipo_contrato": [
+    "Empreitadas de obras públicas"
+   ],
+   "cpv": "['45331230-7 - Instalação de equipamento de arrefecimento']",
+   "preco": 148349.08,
+   "data_publicacao": "2025-05-12",
+   "data_celebracao": "2025-04-09",
+   "local": [
+    "Portugal"
+   ],
+   "prazo": 60,
+   "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=11425526",
+   "categorias": [
+    "fotovoltaico"
+   ]
+  },
+  {
    "id": "11425684",
    "objeto": "CPR/47/25/DCP - Aluguer de infraestruturas elétricas e outros equipamentos para eventos culturais",
    "adjudicante": "506901173 - Município de Braga",
@@ -38311,6 +40035,28 @@
    "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=11410884",
    "categorias": [
     "projeto"
+   ]
+  },
+  {
+   "id": "11411653",
+   "objeto": "Aquisição de bens  Fardamento e equipamento de proteção individual",
+   "adjudicante": "505948605 - Município de Guimarães",
+   "adjudicatario": "500251118 - Sintimex - Soc. Int. de Importações e Exportações, S.A.",
+   "procedimento": "Consulta Prévia",
+   "tipo_contrato": [
+    "Aquisição de bens móveis"
+   ],
+   "cpv": "['35121000-8 - Equipamento de segurança e protecção']",
+   "preco": 2222.05,
+   "data_publicacao": "2025-05-09",
+   "data_celebracao": "2025-05-09",
+   "local": [
+    "Portugal, Braga, Guimarães"
+   ],
+   "prazo": 276,
+   "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=11411653",
+   "categorias": [
+    "seguranca_incendio"
    ]
   },
   {
@@ -38850,7 +40596,8 @@
    "prazo": 345,
    "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=11391517",
    "categorias": [
-    "eletricidade"
+    "eletricidade",
+    "seguranca_incendio"
    ]
   },
   {
@@ -38984,6 +40731,28 @@
    "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=11392599",
    "categorias": [
     "projeto"
+   ]
+  },
+  {
+   "id": "11388226",
+   "objeto": "Solução Informática Integrada de Modelagem, Simulação e Análise de Sistemas Fotovoltaicos",
+   "adjudicante": "600085198 - Agrupamento de Escolas de Barcelos",
+   "adjudicatario": "513142665 - WNV - Unipessoal Lda.",
+   "procedimento": "Consulta Prévia",
+   "tipo_contrato": [
+    "Aquisição de bens móveis"
+   ],
+   "cpv": "['30211300-4 - Plataformas informáticas']",
+   "preco": 29250.0,
+   "data_publicacao": "2025-05-02",
+   "data_celebracao": "2025-04-22",
+   "local": [
+    "Portugal, Braga, Barcelos"
+   ],
+   "prazo": 1096,
+   "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=11388226",
+   "categorias": [
+    "fotovoltaico"
    ]
   },
   {
@@ -39470,6 +41239,28 @@
    "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=11369785",
    "categorias": [
     "projeto"
+   ]
+  },
+  {
+   "id": "11370722",
+   "objeto": "Ajuste Direto - Aqusição central de incêndio",
+   "adjudicante": "501324550 - Centro de Solidariedade Social de Valdozende",
+   "adjudicatario": "507086546 - Silsafe, Lda",
+   "procedimento": "Ajuste Direto Regime Geral",
+   "tipo_contrato": [
+    "Aquisição de bens móveis"
+   ],
+   "cpv": "['31625200-5 - Sistemas de alarme contra incêndios']",
+   "preco": 8396.85,
+   "data_publicacao": "2025-04-24",
+   "data_celebracao": "2025-03-20",
+   "local": [
+    "Portugal, Braga, Terras de Bouro"
+   ],
+   "prazo": 30,
+   "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=11370722",
+   "categorias": [
+    "seguranca_incendio"
    ]
   },
   {

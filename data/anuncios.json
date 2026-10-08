@@ -1,7 +1,27 @@
 {
- "gerado_em": "2026-10-08T16:38",
- "n": 57,
+ "gerado_em": "2026-10-08T17:19",
+ "n": 59,
  "anuncios": [
+  {
+   "origem": "BASE",
+   "id": "457843",
+   "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=anuncios&id=457843",
+   "titulo": "PRC_0257/2026_GAE-P1355 - Aquisição de serviços de elaboração dos Projetos-base da ETAR de Borba de Godim, ETAR do Rego e Reabilitação da ETAR de Chapa (Celorico de Basto)",
+   "tipo_ato": "Anúncio de procedimento",
+   "procedimento": "Concurso público",
+   "entidade": "Águas do Norte, SA",
+   "preco_base": 75000.0,
+   "publicado": "2026-10-07",
+   "n_dr": null,
+   "cpv": "71322000-1, Serviços de concepção técnica para a construção de obras de engenharia civil",
+   "prazo_propostas": "2026-10-21",
+   "categorias": [
+    "projeto"
+   ],
+   "minho": true,
+   "objeto": "PRC_0257/2026_GAE-P1355 - Aquisição de serviços de elaboração dos Projetos-base da ETAR de Borba de Godim, ETAR do Rego e Reabilitação da ETAR de Chapa (Celorico de Basto)",
+   "classe": "A"
+  },
   {
    "origem": "BASE",
    "id": "457844",
@@ -463,20 +483,23 @@
   },
   {
    "origem": "BASE",
-   "id": "457843",
-   "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=anuncios&id=457843",
-   "titulo": "PRC_0257/2026_GAE-P1355 - Aquisição de serviços de elaboração dos Projetos-base da ETAR de Borba de Godim, ETAR do Rego e Reabilitação da ETAR de Chapa (Celorico de Basto)",
-   "tipo_ato": "Anúncio de procedimento",
+   "id": "456497",
+   "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=anuncios&id=456497",
+   "titulo": "EMPREITADA DE CONCEÇÃO-CONSTRUÇÃO DE CENTRAIS FOTOVOLTAICAS PARA AUTOCONSUMO",
+   "tipo_ato": "Anúncio de Alteração",
    "procedimento": "Concurso público",
-   "entidade": "Águas do Norte, SA",
-   "preco_base": 75000.0,
+   "entidade": "A. D. A. M. - Águas do Alto Minho, SA",
+   "preco_base": 374208.1,
    "publicado": "2026-10-07",
    "n_dr": null,
-   "cpv": "71322000-1, Serviços de concepção técnica para a construção de obras de engenharia civil",
+   "cpv": "45310000-3, Obras de instalação eléctrica",
    "prazo_propostas": "2026-10-21",
-   "categorias": [],
-   "minho": true,
-   "objeto": "PRC_0257/2026_GAE-P1355 - Aquisição de serviços de elaboração dos Projetos-base da ETAR de Borba de Godim, ETAR do Rego e Reabilitação da ETAR de Chapa (Celorico de Basto)",
+   "categorias": [
+    "eletricidade",
+    "fotovoltaico"
+   ],
+   "minho": false,
+   "objeto": "EMPREITADA DE CONCEÇÃO-CONSTRUÇÃO DE CENTRAIS FOTOVOLTAICAS PARA AUTOCONSUMO",
    "classe": "C"
   },
   {
@@ -550,6 +573,26 @@
    "minho": true,
    "objeto": "Trata-se da execução dos trabalhos necessários à demolição de estruturas existentes e reconstrução de novo muro de defesa e suporte na Marginal de Apúlia",
    "url_bidsfactory": "https://bidsfactory.com/en/tenders/trata-se-da-execucao-dos-trabalhos-necessarios-a-d-base_gov_pt-36aa2ce3597dd621",
+   "classe": "C"
+  },
+  {
+   "origem": "BASE",
+   "id": "454585",
+   "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=anuncios&id=454585",
+   "titulo": "EMPREITADA - CAMPUS DO PRAGAL - INSTALAÇÃO DE PAINÉIS FOTOVOLTAICOS PARA AUTOCONSUMO DE ENERGIA ELÉTRICA",
+   "tipo_ato": "Anúncio de Alteração",
+   "procedimento": "Concurso público",
+   "entidade": "Infraestruturas de Portugal, SA",
+   "preco_base": 750000.0,
+   "publicado": "2026-10-06",
+   "n_dr": null,
+   "cpv": "45261215-4, Revestimento de coberturas com painéis solares",
+   "prazo_propostas": "2026-10-22",
+   "categorias": [
+    "fotovoltaico"
+   ],
+   "minho": false,
+   "objeto": "EMPREITADA - CAMPUS DO PRAGAL - INSTALAÇÃO DE PAINÉIS FOTOVOLTAICOS PARA AUTOCONSUMO DE ENERGIA ELÉTRICA",
    "classe": "C"
   },
   {

@@ -1,9 +1,10 @@
 # Radar VoltSync — anúncios abertos (2026-10-08)
 
-Fontes: BASE via browser (320 anúncios lidos desde 2026-10-05), BidsFactory. Candidatos: 57.
+Fontes: BASE via browser (320 anúncios lidos desde 2026-10-05), BidsFactory. Candidatos: 59.
 
 | Classe | Entidade | Objeto | Preço base (€) | Prazo propostas | Procedimento | CPV | N.º DR | Link |
 |---|---|---|---|---|---|---|---|---|
+| A | Águas do Norte, SA | PRC_0257/2026_GAE-P1355 - Aquisição de serviços de elaboração dos Projetos-base da ETAR de Borba de Godim, ETAR do Rego  | 75 000 | 2026-10-21 | Concurso público | 71322000-1 |  | https://www.base.gov.pt/Base4/pt/detalhe/?type=anuncios&id=457843 |
 | A | Águas do Norte, SA | PRC_0227/2026_TII-Aquisição de serviços de suporte de networking para a Águas do Norte, S.A. | 110 165 | 2026-10-22 | Concurso público | 71356200-0 | 24792/2026 | https://www.base.gov.pt/Base4/pt/detalhe/?type=anuncios&id=457844 |
 | B | Município de Almada | REQUALIFICAÇÃO DA ESCOLA SEC. FERNÃO MENDES PINTO - PROJETO DE ESPECIALIDADES | 178 614 | 2026-10-12 | Concurso público | 71300000-1 |  | https://www.base.gov.pt/Base4/pt/detalhe/?type=anuncios&id=457809 |
 | B | Instituto de Informática, IP | 2326000117 - Aquisição de Software para Gestão de Atualizações de Sistemas Operativos e Aplicações (licenciamento perpét | 194 000 | 2026-10-15 | Concurso público | 48900000-7 |  | https://www.base.gov.pt/Base4/pt/detalhe/?type=anuncios&id=457791 |
@@ -30,11 +31,12 @@ Fontes: BASE via browser (320 anúncios lidos desde 2026-10-05), BidsFactory. Ca
 - Serviços Partilhados do Ministério da Saúde, EPE — (DAG) Aquisição de serviços de desenvolvimento de novas funcionalidades no Portal Inspeção+, do INFA — https://www.base.gov.pt/Base4/pt/detalhe/?type=anuncios&id=452220
 - Município de Loures — Revisão e melhoria do estudo prévio existente, e consequente elaboração de novo estudo prévio, proje — https://www.base.gov.pt/Base4/pt/detalhe/?type=anuncios&id=455824
 - Município de Vila Nova de Famalicão — Recolha, transporte e tratamento de resíduos de construção e demolição (RCD) — https://www.base.gov.pt/Base4/pt/detalhe/?type=anuncios&id=457547
-- Águas do Norte, SA — PRC_0257/2026_GAE-P1355 - Aquisição de serviços de elaboração dos Projetos-base da ETAR de Borba de  — https://www.base.gov.pt/Base4/pt/detalhe/?type=anuncios&id=457843
+- A. D. A. M. - Águas do Alto Minho, SA — EMPREITADA DE CONCEÇÃO-CONSTRUÇÃO DE CENTRAIS FOTOVOLTAICAS PARA AUTOCONSUMO — https://www.base.gov.pt/Base4/pt/detalhe/?type=anuncios&id=456497
 - Município de Guimarães — Aquisição de serviços de transporte para alunos, no âmbito dos projetos e atividades educativas — https://www.base.gov.pt/Base4/pt/detalhe/?type=anuncios&id=457900
 - Município de Guimarães — Aquisição de serviços de inspeção nas instalações eletromecânicas, instaladas no concelho de Guimarã — https://www.base.gov.pt/Base4/pt/detalhe/?type=anuncios&id=457899
 - Município de Guimarães — Aquisição de bens - Viaturas — https://www.base.gov.pt/Base4/pt/detalhe/?type=anuncios&id=457898
 - Município de Esposende — Trata-se da execução dos trabalhos necessários à demolição de estruturas existentes e reconstrução d — https://www.base.gov.pt/Base4/pt/detalhe/?type=anuncios&id=457887
+- Infraestruturas de Portugal, SA — EMPREITADA - CAMPUS DO PRAGAL - INSTALAÇÃO DE PAINÉIS FOTOVOLTAICOS PARA AUTOCONSUMO DE ENERGIA ELÉT — https://www.base.gov.pt/Base4/pt/detalhe/?type=anuncios&id=454585
 - Município de Barcelos — 23/2026.DCP – Construção da ETAR de Barcelos — https://www.base.gov.pt/Base4/pt/detalhe/?type=anuncios&id=453428
 - Universidade do Minho — Empreitada de Obras Públicas — https://www.base.gov.pt/Base4/pt/detalhe/?type=anuncios&id=457837
 - Município de Sintra — EM-26/00134 - Empreitada de Instalação Elétrica no site no Monte de Sta. Eufémia — https://www.base.gov.pt/Base4/pt/detalhe/?type=anuncios&id=457926
@@ -49,4 +51,3 @@ Fontes: BASE via browser (320 anúncios lidos desde 2026-10-05), BidsFactory. Ca
 - Município de Barcelos — Construção de Edifício - Espaço Multissensorial - Escola Básica e Secundária de Vila Cova — https://www.base.gov.pt/Base4/pt/detalhe/?type=anuncios&id=455497
 - Município de Lisboa — Aquisição de serviços para plataforma de Gestão de Ativos, Stocks e Operações (GASO), em regime SaaS — https://www.base.gov.pt/Base4/pt/detalhe/?type=anuncios&id=457733
 - Município de Lisboa — Aquisição de Serviços de Cloud, Comunicações Dedicadas e Data Hub para o Município de Lisboa — https://www.base.gov.pt/Base4/pt/detalhe/?type=anuncios&id=457747
-- Unidade Local de Saúde de Barcelos/Esposende, EPE — Concurso Público nº 17004726 - Empreitada de Ampliação do Bloco Operatório da Unidade Hospitalar da  — https://www.base.gov.pt/Base4/pt/detalhe/?type=anuncios&id=457889
