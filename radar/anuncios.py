@@ -224,15 +224,15 @@ def main() -> int:
     print("2) BidsFactory (recurso)…", flush=True)
     for r in bidsfactory_listas():
         t = r["titulo_en"]
-        pre = categorias(None, t) or e_minho(t)
-        if not pre:
-            continue
+        # Sem pré-filtro pelo título inglês: as palavras-chave são em português, lê-se sempre o detalhe.
         det = bidsfactory_detalhe(r["url"])
         a = {"origem": "BidsFactory", "url": r["url"], "titulo": det.get("titulo_pt") or t, "titulo_en": t, **det}
-        a["categorias"] = categorias(a.get("cpv"), a.get("titulo"), t)
+        a["categorias"] = categorias(a.get("cpv"), a.get("titulo"))
         a["minho"] = e_minho(a.get("entidade"), a.get("titulo"))
+        if not a["categorias"] and not a["minho"]:
+            continue  # nem perfil nem Minho: não interessa
         anuncios.append(a)
-        time.sleep(0.5)
+        time.sleep(0.4)
 
     for a in anuncios:
         a["classe"] = classifica(a)

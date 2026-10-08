@@ -99,6 +99,13 @@ def nome_limpo(nome: str | None) -> str:
     return s
 
 
+def _kw_match(k: str, t: str) -> bool:
+    """Palavras curtas (erp, crm, api, ups, sadi, cctv…) só contam como palavra inteira."""
+    if len(k) <= 5:
+        return re.search(r"\b" + re.escape(k) + r"\b", t) is not None
+    return k in t
+
+
 def categorias(cpv: str | None, *textos: str | None) -> list[str]:
     """Devolve as categorias do perfil VoltSync em que o registo encaixa (vazio se excluído)."""
     if excluido(cpv, *textos):
@@ -110,7 +117,7 @@ def categorias(cpv: str | None, *textos: str | None) -> list[str]:
         if any(code.startswith(p) for code in cpv_codes for p in prefixes):
             cats.append(cat)
             continue
-        if any(norm(k) in t for k in KEYWORDS.get(cat, [])):
+        if any(_kw_match(norm(k), t) for k in KEYWORDS.get(cat, [])):
             cats.append(cat)
     return cats
 

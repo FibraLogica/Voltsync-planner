@@ -95,11 +95,11 @@ EXCLUIR = [
     "subscricao", "subscrição", "telecomunicacoes", "telecomunicações", "comunicacoes moveis", "comunicações móveis",
     "seguro", "limpeza", "viaturas", "pneus",
 ]
-EXCLUIR_CPV = ["09", "0931", "6421", "6422", "6431", "3410", "3411", "3414", "6351", "7980", "7981", "9830"]  # energia, telecom, viaturas, viagens, impressão/cópia
+EXCLUIR_CPV = ["09", "0931", "6421", "6422", "6431", "3410", "3411", "3414", "6351", "7980", "7981", "9830", "604", "5511", "5512"]  # energia, telecom, viaturas, viagens, impressão/cópia
 # Padrões (regex sobre texto normalizado: minúsculas, sem acentos) — compras que não são serviço da VoltSync.
 EXCLUIR_REGEX = [
     r"\b(aquisicao|fornecimento|locacao|aluguer|renting|compra) de (uma |um |duas |dois |\d+ )?(viatura|veiculo|autocarro|carrinha|furgao|automovel|ligeiro|bicicleta|trotinete)",
-    r"\bviagens?\b", r"\balojamento\b", r"\b(impressao|copia|copias|fotocopia|multifuncoes|multifuncao)\b",
+    r"\bviagens?\b", r"\balojamento\b", r"\bpassagens? aerea", r"\bbilhetes? de aviao", r"\b(impressao|copia|copias|fotocopia|multifuncoes|multifuncao)\b",
     r"\bconteudos\b", r"\bconsumiveis\b", r"\btoner",
     r"\bfestiv", r"\bnatal", r"\bornamental", r"\bdecorativ", r"\bsom e luz\b", r"\bsom, luz\b", r"\bledwall", r"\bpalco",
     r"\bplataformas? elevatori", r"\bmobiliario\b", r"\btablets?\b", r"\bleasing\b", r"\bfurg", r"\bcadeiras?\b",
