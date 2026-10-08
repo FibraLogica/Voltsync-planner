@@ -82,7 +82,7 @@ KEYWORDS = {
         "seguranca informatica", "servicos informaticos", "consultoria informatica", "assistencia informatica",
         "manutencao informatica", "inteligencia artificial", "transformacao digital", "digitalizacao",
         "automatizacao", "automacao", "servidor", "servidores", "cloud", "backup", "firewall", "wi-fi", "wifi",
-        "base de dados", "erp", "crm", "integracao de sistemas", "api",
+        "base de dados", "erp", "crm", "integracao de sistemas", "networking", "rede de dados", "switches", "data center", "datacenter",
     ],
 }
 

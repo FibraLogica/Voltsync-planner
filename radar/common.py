@@ -120,7 +120,14 @@ def parse_eur(v) -> float | None:
         return None
     if isinstance(v, (int, float)):
         return float(v)
-    s = str(v).replace("€", "").replace(" ", "").replace(".", "").replace(",", ".")
+    s = re.sub(r"[€\s\u00a0]", "", str(v))
+    # Formato PT (120.000,00) ou EN (120,000.00): o último separador é o decimal se for seguido de 1-2 dígitos.
+    m = re.search(r"[.,](\d{1,2})$", s)
+    if m:
+        dec = s[m.start()]
+        s = s[:m.start()].replace(".", "").replace(",", "") + "." + m.group(1)
+    else:
+        s = s.replace(".", "").replace(",", "")
     try:
         return float(s)
     except ValueError:
