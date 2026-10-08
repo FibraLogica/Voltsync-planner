@@ -1,0 +1,23 @@
+1) Portal BASE via browser…
+  BASE via browser falhou: Page.fill: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#desdedatapublicacao")
+    - locator resolved to <input type="text" placeholder="Desde:" id="desdedatapublicacao" name="desdedatapublicacao" class="form-control date mr-1 hasDatepicker"/>
+    - fill("2026-10-05")
+  - attempting fill action
+    2 × waiting for element to be visible, enabled and editable
+      - element is not visible
+    - retrying fill action
+    - waiting 20ms
+    2 × waiting for element to be visible, enabled and editable
+      - element is not visible
+    - retrying fill action
+      - waiting 100ms
+    60 × waiting for element to be visible, enabled and editable
+       - element is not visible
+     - retrying fill action
+       - waiting 500ms
+
+   0 linhas
+2) BidsFactory (recurso)…
+OK: 22 candidatos.
