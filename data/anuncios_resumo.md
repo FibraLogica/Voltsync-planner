@@ -1,21 +1,16 @@
 # Radar VoltSync — anúncios abertos (2026-10-08)
 
-Fontes: BASE via browser (0 linhas lidas), BidsFactory. Candidatos: 12.
+Fontes: BASE via browser (0 linhas lidas), BidsFactory. Candidatos: 7.
 
 | Classe | Entidade | Objeto | Preço base (€) | Prazo propostas | Procedimento | CPV | N.º DR | Link |
 |---|---|---|---|---|---|---|---|---|
-| B | Município de Almada | Aquisição de Serviços denominada: «Fiscalização e Coordenação de Segurança em Obra da EOP denominada por: MANUTENÇÃO E  | 334 370 | ? | Concurso público | 71300000-1 | 24893/2026 | https://bidsfactory.com/en/tenders/aquisicao-de-servicos-denominada-fiscalizacao-e-co-base_gov_pt-874b5813ad160c46 |
-| B | Município de Seia | Aquisição de Trator de Rastos com Lâmina Frontal Tipo Angledozer Equipado com Ripper Traseiro | 275 000 | ? | Concurso público | 43211000-5 | 24889/2026 | https://bidsfactory.com/en/tenders/aquisicao-de-trator-de-rastos-com-lamina-frontal-t-base_gov_pt-7b802d80424e6286 |
-| B | Município de Sintra | EM-26/00134 - Empreitada de Instalação Elétrica no site no Monte de Sta. Eufémia | 18 000 | ? | Concurso público | 45310000-3 | 24802/2026 | https://bidsfactory.com/en/tenders/em-2600134-empreitada-de-instalacao-eletrica-no-si-base_gov_pt-eb7b8b50c2d64953 |
-| B | Águas de Santo André, SA | Aquisição de Serviços de "Manutenção dos Equipamentos de Transformação de Energia Elétrica" | 120 | ? | Restricted competition with prior qualification | 50532200-5 | 24488/2026 | https://bidsfactory.com/en/tenders/aquisicao-de-servicos-de-manutencao-dos-equipament-base_gov_pt-384eb314a3cede5b |
+| A | Águas do Norte, SA | PRC_0227/2026_TII-Aquisição de serviços de suporte de networking para a Águas do Norte, S.A. | 110 165 | ? | Concurso público | 71356200-0 | 24792/2026 | https://bidsfactory.com/en/tenders/prc_02272026_tii-aquisicao-de-servicos-de-suporte-base_gov_pt-3e89f9be94a4b5b6 |
+| B | Universidade Nova de Lisboa | Aquisição de Serviços Geridos (Managed Services) para a governação, orquestração, suporte e segurança da infraestrutura  | 1 975 000 | ? | Concurso limitado por prévia qualificação | 72510000-3 | 24884/2026 | https://bidsfactory.com/en/tenders/aquisicao-de-servicos-geridos-managed-services-par-base_gov_pt-918e23a9e07324cd |
 | B | Município de Santo Tirso | Serviços para conceção, desenvolvimento e implementação de website para o Centro Interpretativo do Monte Padrão | 18 650 | ? | Concurso público | 72263000-6 | 24773/2026 | https://bidsfactory.com/en/tenders/servicos-para-concecao-desenvolvimento-e-implement-base_gov_pt-4666ebeda95eb02f |
 
 ## Fora de perfil / só subempreitada (C)
 
 - Município de Arcos de Valdevez — PO 622/2026 - Manutenção corretiva das coberturas da Escola EB 2,3/S de Arcos de Valdevez - Bloco 3  — https://bidsfactory.com/en/tenders/po-6222026-manutencao-corretiva-das-coberturas-da-base_gov_pt-3ef2153fe7b5030e
 - Município de Cabeceiras de Basto — serviços de Restabelecimento das Condições de Segurança Rodoviária Pós Acidente de Viação nas Estrad — https://bidsfactory.com/en/tenders/servicos-de-restabelecimento-das-condicoes-de-segu-base_gov_pt-65fa901d2a052d71
-- Infraestruturas de Portugal, SA — Aquisição de combustíveis rodoviários e de energia elétrica para mobilidade (2026-2028) - AEA — https://bidsfactory.com/en/tenders/aquisicao-de-combustiveis-rodoviarios-e-de-energia-base_gov_pt-ab5849c1cdf421e2
-- EPAL - Empresa Portuguesa das Águas Livres, SA — 2026_066CP Aquisição de Energia Elétrica para Carregamento de Veículos Elétricos da Frota do Grupo A — https://bidsfactory.com/en/tenders/2026_066cp-aquisicao-de-energia-eletrica-para-carr-base_gov_pt-b8e52c94bd715e28
 - Águas do Norte, SA — PRC_0296/2026_TII-Aquisição de serviços de telecomunicações para o SAA do Cávado da Águas do Norte,  — https://bidsfactory.com/en/tenders/prc_02962026_tii-aquisicao-de-servicos-de-telecomu-base_gov_pt-f455beb492f2d689
 - Águas do Norte, SA — PRC_0330/2026_TII-Renovação do Licenciamento da Plataforma de Suporte  Easyvista para a Águas do  — https://bidsfactory.com/en/tenders/prc_03302026_tii-renovacao-do-licenciamento-da-pla-base_gov_pt-d1c154129fed5fee
-- Águas do Norte, SA — PRC_0227/2026_TII-Aquisição de serviços de suporte de networking para a Águas do Norte, S.A. — https://bidsfactory.com/en/tenders/prc_02272026_tii-aquisicao-de-servicos-de-suporte-base_gov_pt-3e89f9be94a4b5b6
