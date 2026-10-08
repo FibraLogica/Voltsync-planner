@@ -16,3 +16,7 @@ pagina 9 (ajax): 20 linhas; ultima pub=06-10-2026
 pagina 10 (ajax): 20 linhas; ultima pub=06-10-2026
 pagina 11 (ajax): 20 linhas; ultima pub=06-10-2026
 pagina 12 (ajax): 20 linhas; ultima pub=06-10-2026
+pagina 13 (ajax): 20 linhas; ultima pub=06-10-2026
+pagina 14 (ajax): 20 linhas; ultima pub=06-10-2026
+pagina 15 (ajax): 20 linhas; ultima pub=06-10-2026
+pagina 16 (ajax): 20 linhas; ultima pub=02-10-2026
