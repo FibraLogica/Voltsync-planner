@@ -7,8 +7,8 @@ import unicodedata
 from datetime import datetime
 from pathlib import Path
 
-from config import (CONCELHOS_MINHO, CPV_PREFIXOS, DISTRITOS_MINHO, ENTIDADES_MINHO,
-                    KEYWORDS)
+from config import (CONCELHOS_MINHO, CPV_PREFIXOS, DISTRITOS_MINHO, ENTIDADES_MINHO, EXCLUIR,
+                    EXCLUIR_CPV, KEYWORDS)
 
 DATA_DIR = Path(__file__).resolve().parent.parent / "data"
 DATA_DIR.mkdir(exist_ok=True)
@@ -36,11 +36,35 @@ def e_minho(*textos: str | None) -> bool:
         return True
     if any(re.search(r"\b" + re.escape(c) + r"\b", t) for c in _CONCELHOS_N):
         return True
-    return any(e in t for e in _ENTIDADES_N)
+    return any(re.search(r"\b" + re.escape(e) + r"\b", t) for e in _ENTIDADES_N)
+
+
+def excluido(cpv: str | None, *textos: str | None) -> bool:
+    t = " | ".join(norm(x) for x in textos if x)
+    if any(norm(k) in t for k in EXCLUIR):
+        return True
+    return any(code.startswith(p) for code in re.findall(r"\d{8}", cpv or "") for p in EXCLUIR_CPV)
+
+
+def nif_de(nome: str | None) -> str:
+    """'513606084 - Águas do Norte SA' -> '513606084'; sem NIF devolve o nome normalizado."""
+    if not nome:
+        return "?"
+    m = re.match(r"\s*(\d{9})\s*-", str(nome))
+    return m.group(1) if m else norm(nome)
+
+
+def nome_limpo(nome: str | None) -> str:
+    if not nome:
+        return "?"
+    s = re.sub(r"^\s*\d{9}\s*-\s*", "", str(nome))
+    return re.sub(r"\s+", " ", s).strip()
 
 
 def categorias(cpv: str | None, *textos: str | None) -> list[str]:
-    """Devolve as categorias do perfil VoltSync em que o registo encaixa."""
+    """Devolve as categorias do perfil VoltSync em que o registo encaixa (vazio se excluído)."""
+    if excluido(cpv, *textos):
+        return []
     cats: list[str] = []
     cpv_codes = re.findall(r"\d{8}", cpv or "")
     t = " | ".join(norm(x) for x in textos if x)

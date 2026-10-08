@@ -19,7 +19,6 @@ CPV_PREFIXOS = {
         "31500",  # material de iluminação
         "31600",  # equipamento elétrico
         "31700",  # material eletrónico/eletrotécnico
-        "09310",  # eletricidade (fornecimento) - só informativo
     ],
     "projeto": [
         "71314",  # serviços de energia e afins (projeto elétrico)
@@ -71,10 +70,20 @@ KEYWORDS = {
         "software", "aplicacao", "aplicação", "plataforma", "sistema de informacao", "sistema de informação",
         "website", "portal", "sitio web", "sítio web", "rede informatica", "rede informática", "ciberseguranca",
         "cibersegurança", "informatic", "informátic", "inteligencia artificial", "inteligência artificial",
-        "digitalizacao", "digitalização", "automatizacao", "automatização", "licenciamento", "servidores",
-        "cloud", "dados",
+        "digitalizacao", "digitalização", "automatizacao", "automatização", "servidores", "cloud",
     ],
 }
+
+# Exclusões: se o objeto/CPV contiver isto, o registo não interessa (fornecimentos, não serviços).
+EXCLUIR = [
+    "fornecimento de energia", "fornecimento de eletricidade", "fornecimento de electricidade", "energia eletrica em regime",
+    "aquisicao de energia", "aquisição de energia", "aquisicao de eletricidade", "aquisição de eletricidade",
+    "combustivel", "combustível", "gasoleo", "gasóleo", "gasolina", "gas natural", "gás natural", "pellets",
+    "licenciamento microsoft", "licenciamento da plataforma", "renovacao do licenciamento", "renovação do licenciamento",
+    "subscricao", "subscrição", "telecomunicacoes", "telecomunicações", "comunicacoes moveis", "comunicações móveis",
+    "seguro", "limpeza", "viaturas", "pneus",
+]
+EXCLUIR_CPV = ["09", "0931", "6421", "6422", "6431", "3410", "3411"]  # energia/combustíveis, telecomunicações, viaturas
 
 # Geografia prioritária: concelhos do Minho (distritos de Braga e Viana do Castelo).
 CONCELHOS_MINHO = [

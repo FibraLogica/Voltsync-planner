@@ -16,7 +16,7 @@ from datetime import date, timedelta
 
 import requests
 
-from common import categorias, e_minho, norm, parse_date, parse_eur, pick, save_json, save_text
+from common import categorias, e_minho, nif_de, nome_limpo, norm, parse_date, parse_eur, pick, save_json, save_text
 from config import MESES_HISTORICO
 
 API = "https://dados.gov.pt/api/1/datasets/contratos-publicos-portal-base-impic-contratos-de-2012-a-2026/"
@@ -118,12 +118,14 @@ def main() -> int:
     save_json("base_minho.json", {"gerado_em": hoje.isoformat(), "fonte": API, "total_lidos": total, "selecionados": len(sel), "registos": sel})
 
     # Resumo
-    por_adj: dict[str, dict] = defaultdict(lambda: {"n": 0, "valor": 0.0, "cats": Counter(), "proc": Counter(), "fornecedores": Counter()})
+    por_adj: dict[str, dict] = defaultdict(lambda: {"nome": "", "n": 0, "valor": 0.0, "cats": Counter(), "proc": Counter(), "fornecedores": Counter()})
     por_forn: Counter = Counter()
     valor_forn: Counter = Counter()
+    nome_forn: dict[str, str] = {}
     for n in sel:
-        a = (n["adjudicante"] or "?").strip()
-        f = (n["adjudicatario"] or "?").strip()
+        a = nif_de(n["adjudicante"]); f = nif_de(n["adjudicatario"])
+        por_adj[a]["nome"] = por_adj[a]["nome"] or nome_limpo(n["adjudicante"])
+        nome_forn.setdefault(f, nome_limpo(n["adjudicatario"]))
         por_adj[a]["n"] += 1
         por_adj[a]["valor"] += n["preco"] or 0
         for c in n["categorias"]:
@@ -140,17 +142,17 @@ def main() -> int:
     for a, info in sorted(por_adj.items(), key=lambda kv: (-kv[1]["n"], -kv[1]["valor"]))[:60]:
         cats = ", ".join(f"{c} ({k})" for c, k in info["cats"].most_common())
         proc = ", ".join(f"{p} ({k})" for p, k in info["proc"].most_common(3))
-        forn = "; ".join(f"{f} ({k})" for f, k in info["fornecedores"].most_common(3))
-        linhas.append(f"| {a} | {info['n']} | {info['valor']:,.0f} | {cats} | {proc} | {forn} |".replace(",", " "))
+        forn = "; ".join(f"{nome_forn.get(f, f)} ({k})" for f, k in info["fornecedores"].most_common(3))
+        linhas.append(f"| {info['nome']} ({a}) | {info['n']} | {info['valor']:,.0f} | {cats} | {proc} | {forn} |".replace(",", " "))
     linhas += ["", "## Fornecedores que mais ganham no Minho nestas categorias (concorrência)", "",
                "| Fornecedor | Contratos | Valor total (€) |", "|---|---|---|"]
     for f, k in por_forn.most_common(40):
-        linhas.append(f"| {f} | {k} | {valor_forn[f]:,.0f} |".replace(",", " "))
+        linhas.append(f"| {nome_forn.get(f, f)} ({f}) | {k} | {valor_forn[f]:,.0f} |".replace(",", " "))
     linhas += ["", "## Últimos 40 contratos selecionados", "",
                "| Data | Entidade | Objeto | Procedimento | Preço (€) | Fornecedor | Link |", "|---|---|---|---|---|---|---|"]
     for n in sel[:40]:
         obj = (n["objeto"] or "")[:110].replace("|", "/")
-        linhas.append(f"| {n['data_publicacao'] or n['data_celebracao'] or ''} | {n['adjudicante']} | {obj} | {n['procedimento']} | {(n['preco'] or 0):,.0f} | {n['adjudicatario']} | {n['url'] or ''} |".replace(",", " "))
+        linhas.append(f"| {n['data_publicacao'] or n['data_celebracao'] or ''} | {nome_limpo(n['adjudicante'])} | {obj} | {n['procedimento']} | {(n['preco'] or 0):,.0f} | {nome_limpo(n['adjudicatario'])} | {n['url'] or ''} |".replace(",", " "))
     save_text("base_minho_resumo.md", "\n".join(linhas) + "\n")
     print(f"OK: {len(sel)} registos selecionados de {total}.")
     return 0

@@ -173,16 +173,22 @@ def bidsfactory_detalhe(url: str) -> dict:
         return None
 
     titulo_pt = grab("Original title", "Título original", "Original Title")
+    # O BidsFactory concentra os dados numa linha: "Concurso público. CPV: 45310000-3, ... Base price: 18.000,00 €. DR announcement nr: 24802/2026. Model type: ..."
+    m_cpv = re.search(r"CPV:\s*(\d{8}-\d)", txt)
+    m_price = re.search(r"Base price:\s*€?\s*([\d.,\s]+)\s*€?", txt)
+    m_dr = re.search(r"DR announcement nr:\s*(\d{3,6}/20\d{2})", txt)
+    m_proc = re.search(r"Model type:\s*([^\n.]+)", txt)
+    m_pub = re.search(r"Published:?\s*([A-Za-z]+ \d{1,2}, \d{4})", txt)
+    m_dead = re.search(r"Deadline:?\s*([A-Za-z]+ \d{1,2}, \d{4})", txt)
     return {
         "titulo_pt": titulo_pt,
         "entidade": grab("Contracting Authority", "Buyer", "Entidade adjudicante", "Authority"),
-        "preco_base": parse_eur(grab("Estimated Budget", "Budget", "Base price", "Preço base")),
-        "publicado": grab("Published", "Publication date"),
-        "prazo_propostas": grab("Deadline", "Submission deadline"),
-        "procedimento": grab("Procedure", "Procedure type", "Tipo de procedimento"),
-        "cpv": grab("CPV", "CPV code"),
-        "n_dr": (re.search(r"(\d{3,6}/20\d{2})", grab("DR announcement", "Announcement nr", "Announcement number", "Reference") or "") or [None, None])[1]
-                if grab("DR announcement", "Announcement nr", "Announcement number", "Reference") else None,
+        "preco_base": parse_eur(m_price.group(1).strip()) if m_price else None,
+        "publicado": m_pub.group(1) if m_pub else grab("Published", "Publication date"),
+        "prazo_propostas": m_dead.group(1) if m_dead else None,
+        "procedimento": m_proc.group(1).strip() if m_proc else grab("Procedure", "Procedure type"),
+        "cpv": m_cpv.group(1) if m_cpv else grab("CPV"),
+        "n_dr": m_dr.group(1) if m_dr else None,
     }
 
 
