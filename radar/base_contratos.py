@@ -107,7 +107,7 @@ def main() -> int:
             d = n["data_publicacao"] or n["data_celebracao"] or ""
             if d and d < limite:
                 continue
-            if not e_minho(n["adjudicante"], n["local"]):
+            if not e_minho(n["adjudicante"], local=n["local"]):
                 continue
             cats = categorias(n["cpv"], n["objeto"])
             if not cats:

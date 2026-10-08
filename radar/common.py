@@ -7,8 +7,10 @@ import unicodedata
 from datetime import datetime
 from pathlib import Path
 
+import html
+
 from config import (CONCELHOS_MINHO, CPV_PREFIXOS, DISTRITOS_MINHO, ENTIDADES_MINHO, EXCLUIR,
-                    EXCLUIR_CPV, KEYWORDS)
+                    EXCLUIR_CPV, EXCLUIR_REGEX, KEYWORDS)
 
 DATA_DIR = Path(__file__).resolve().parent.parent / "data"
 DATA_DIR.mkdir(exist_ok=True)
@@ -26,13 +28,43 @@ def norm(s: str | None) -> str:
 _CONCELHOS_N = [norm(c) for c in CONCELHOS_MINHO]
 _DISTRITOS_N = [norm(d) for d in DISTRITOS_MINHO]
 _ENTIDADES_N = [norm(e) for e in ENTIDADES_MINHO]
+_EXCLUIR_RX = [re.compile(rx) for rx in EXCLUIR_REGEX]
 
 
-def e_minho(*textos: str | None) -> bool:
+def _flat(x) -> list[str]:
+    if x is None:
+        return []
+    if isinstance(x, (list, tuple, set)):
+        return [str(i) for i in x if i]
+    return [str(x)]
+
+
+def local_e_minho(local) -> bool | None:
+    """Decide pelo campo 'localExecucao' do BASE ('Portugal, Braga, Guimarães').
+    Devolve None se o campo não existir ou não for interpretável."""
+    entradas = _flat(local)
+    if not entradas:
+        return None
+    decidiu = False
+    for e in entradas:
+        partes = [norm(x) for x in e.split(",")]
+        if len(partes) >= 2 and partes[0].startswith("portugal"):
+            decidiu = True
+            if partes[1] in _DISTRITOS_N:
+                return True
+    return False if decidiu else None
+
+
+def e_minho(*textos, local=None) -> bool:
+    """Minho = distritos de Braga e Viana do Castelo.
+    Se houver 'local' de execução interpretável, manda o local; senão, procura concelhos/entidades no texto."""
+    por_local = local_e_minho(local)
+    if por_local is not None:
+        return por_local
     t = " | ".join(norm(x) for x in textos if x)
     if not t:
         return False
-    if any(d in t for d in _DISTRITOS_N):
+    if any(re.search(r"\b" + re.escape(d) + r"\b", t) for d in _DISTRITOS_N):
         return True
     if any(re.search(r"\b" + re.escape(c) + r"\b", t) for c in _CONCELHOS_N):
         return True
@@ -42,6 +74,8 @@ def e_minho(*textos: str | None) -> bool:
 def excluido(cpv: str | None, *textos: str | None) -> bool:
     t = " | ".join(norm(x) for x in textos if x)
     if any(norm(k) in t for k in EXCLUIR):
+        return True
+    if any(re.search(rx, t) for rx in _EXCLUIR_RX):
         return True
     return any(code.startswith(p) for code in re.findall(r"\d{8}", cpv or "") for p in EXCLUIR_CPV)
 
@@ -57,8 +91,12 @@ def nif_de(nome: str | None) -> str:
 def nome_limpo(nome: str | None) -> str:
     if not nome:
         return "?"
-    s = re.sub(r"^\s*\d{9}\s*-\s*", "", str(nome))
-    return re.sub(r"\s+", " ", s).strip()
+    partes = [x for x in html.unescape(str(nome)).split(";") if x.strip()]
+    s = re.sub(r"^\s*\d{9}\s*-\s*", "", partes[0] if partes else str(nome))
+    s = re.sub(r"\s+", " ", s).strip(" -")
+    if len(partes) > 1:
+        s += f" (+{len(partes) - 1})"
+    return s
 
 
 def categorias(cpv: str | None, *textos: str | None) -> list[str]:

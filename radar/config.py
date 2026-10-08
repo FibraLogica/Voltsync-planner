@@ -83,7 +83,13 @@ EXCLUIR = [
     "subscricao", "subscrição", "telecomunicacoes", "telecomunicações", "comunicacoes moveis", "comunicações móveis",
     "seguro", "limpeza", "viaturas", "pneus",
 ]
-EXCLUIR_CPV = ["09", "0931", "6421", "6422", "6431", "3410", "3411"]  # energia/combustíveis, telecomunicações, viaturas
+EXCLUIR_CPV = ["09", "0931", "6421", "6422", "6431", "3410", "3411", "3414", "6351", "7980", "7981", "9830"]  # energia, telecom, viaturas, viagens, impressão/cópia
+# Padrões (regex sobre texto normalizado: minúsculas, sem acentos) — compras que não são serviço da VoltSync.
+EXCLUIR_REGEX = [
+    r"\b(aquisicao|fornecimento|locacao|aluguer|renting|compra) de (uma |um |duas |dois |\d+ )?(viatura|veiculo|autocarro|carrinha|automovel|bicicleta|trotinete)",
+    r"\bviagens?\b", r"\balojamento\b", r"\b(impressao|copia|copias|fotocopia|multifuncoes|multifuncao)\b",
+    r"\bconteudos\b", r"\bconsumiveis\b", r"\btoner",
+]
 
 # Geografia prioritária: concelhos do Minho (distritos de Braga e Viana do Castelo).
 CONCELHOS_MINHO = [
