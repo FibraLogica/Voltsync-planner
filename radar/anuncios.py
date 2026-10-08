@@ -17,7 +17,7 @@ from datetime import date, datetime, timedelta
 import requests
 from bs4 import BeautifulSoup
 
-from common import categorias, e_minho, norm, parse_eur, save_json, save_text
+from common import categorias, e_minho, norm, parse_date, parse_eur, save_json, save_text
 from config import TETO_EMPREITADA_EUR
 
 UA = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0 Safari/537.36"}
@@ -115,7 +115,7 @@ def _linhas_json(body: str) -> list[dict]:
             continue
         g = lambda *ks: next((it[k] for k in ks if k in it and it[k] not in (None, "")), None)
         aid = g("id", "idanuncio", "idAnuncio")
-        ent = g("entidade", "emissora", "entidadeEmissora", "nomeEntidade", "adjudicante")
+        ent = g("contractingEntity", "entidade", "emissora", "entidadeEmissora", "nomeEntidade", "adjudicante")
         if isinstance(ent, dict):
             ent = ent.get("description") or ent.get("nome") or str(ent)
         if isinstance(ent, list):
@@ -123,12 +123,13 @@ def _linhas_json(body: str) -> list[dict]:
         out.append({
             "origem": "BASE", "id": str(aid) if aid else (g("objecto", "objeto", "description") or "")[:80],
             "url": f"{BASE_URL}/Base4/pt/detalhe/?type=anuncios&id={aid}" if aid else None,
-            "titulo": g("objecto", "objeto", "description", "descricao"), "tipo_ato": g("tipoActo", "tipoacto", "tipo_ato", "tipoAto"),
-            "procedimento": g("tipoProcedimento", "tipoprocedimento", "modeloAnuncio", "tipomodelo"),
-            "entidade": ent, "preco_base": parse_eur(g("precoBase", "precobase", "preco_base")),
-            "publicado": _fmt_pt(g("dataPublicacao", "datapublicacao", "publicationDate", "data_publicacao")),
-            "n_dr": g("numeroAnuncio", "numeroanuncio", "nAnuncio"), "cpv": str(g("cpv", "cpvs") or "") or None,
-            "prazo_propostas": g("prazoPropostas", "dataLimite", "prazo"),
+            "titulo": g("contractDesignation", "objecto", "objeto", "description", "descricao"),
+            "tipo_ato": g("type", "tipoActo", "tipoacto", "tipo_ato", "tipoAto"),
+            "procedimento": g("contractingProcedureType", "tipoProcedimento", "tipoprocedimento", "modeloAnuncio", "tipomodelo"),
+            "entidade": ent, "preco_base": parse_eur(g("basePrice", "precoBase", "precobase", "preco_base")),
+            "publicado": _fmt_pt(g("drPublicationDate", "dataPublicacao", "datapublicacao", "publicationDate", "data_publicacao")),
+            "n_dr": g("drNumber", "numeroAnuncio", "numeroanuncio", "nAnuncio"), "cpv": str(g("cpv", "cpvs") or "") or None,
+            "prazo_propostas": _fmt_pt(g("proposalDeadline", "prazoPropostas", "dataLimite", "prazo")),
         })
     return out
 
@@ -177,17 +178,18 @@ def base_anuncios_playwright(desde: date) -> list[dict]:
                 form = dict(parse_qsl(c["post_data"] or "", keep_blank_values=True))
                 debug.append(f"form_base={form}")
                 hdr = {k: v for k, v in c["headers"].items() if k.lower() in ("accept", "content-type", "x-requested-with", "referer", "origin")}
-                for pagina in range(1, 40):
+                for pagina in range(0, 12):
                     form_p = dict(form)
                     form_p["page"] = str(pagina)
+                    form_p["size"] = "100"
                     try:
                         resp = page.request.post(c["url"], form=form_p, headers=hdr, timeout=60000)
                         body = resp.text()
                     except Exception as e:
                         debug.append(f"ajax pagina {pagina} falhou: {e}")
                         break
-                    if pagina == 1:
-                        debug.append(f"ajax status={resp.status} inicio={body[:1500]!r}")
+                    if pagina == 0:
+                        debug.append(f"ajax status={resp.status} inicio={body[:600]!r}")
                     novas = _linhas_json(body)
                     debug.append(f"pagina {pagina + 1} (ajax): {len(novas)} linhas; ultima pub={novas[-1]['publicado'] if novas else None}")
                     if not novas:
@@ -385,6 +387,10 @@ def main() -> int:
 
     for a in anuncios:
         a["classe"] = classifica(a)
+        for k in ("prazo_propostas", "publicado"):
+            iso = parse_date(a.get(k))
+            if iso:
+                a[k] = iso
     ordem = {"A": 0, "B": 1, "C": 2}
     anuncios.sort(key=lambda x: (ordem[x["classe"]], x.get("prazo_propostas") or "9999"))
     save_json("anuncios.json", {"gerado_em": datetime.now().isoformat(timespec="minutes"), "n": len(anuncios), "anuncios": anuncios})
