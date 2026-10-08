@@ -24,66 +24,113 @@ UA = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.3
 
 
 # ---------------------------------------------------------------- BASE (Playwright)
+BASE_URL = "https://www.base.gov.pt"
+
+
+def _abrir_pesquisa_anuncios(page, desde: date, debug: list[str]) -> None:
+    page.goto(f"{BASE_URL}/Base4/pt/pesquisa/", wait_until="domcontentloaded", timeout=90000)
+    page.wait_for_timeout(6000)
+    debug.append(f"title={page.title()!r}")
+    # O formulário de anúncios só aparece depois de escolher "Anúncios DR" no seletor de tipo de pesquisa.
+    page.select_option("#sel_search", "anuncios")
+    page.wait_for_selector("#desdedatapublicacao", state="visible", timeout=20000)
+    page.evaluate("(v) => { const el = document.querySelector('#desdedatapublicacao'); el.value = v; el.dispatchEvent(new Event('change', {bubbles: true})); }",
+                  desde.strftime("%d-%m-%Y"))
+    page.click("#search_anuncios")
+    page.wait_for_selector("table tbody tr", timeout=60000)
+    page.wait_for_timeout(2000)
+
+
+def _linhas_tabela(page) -> list[dict]:
+    """Lê a tabela de resultados visível: Objeto | Tipo de ato | Tipo de procedimento | Entidade | Preço base | Publicação."""
+    rows = page.eval_on_selector_all(
+        "table tbody tr",
+        """trs => trs.map(tr => {
+            const tds = Array.from(tr.querySelectorAll('td')).map(td => td.innerText.trim());
+            const a = tr.querySelector('a[href]');
+            return {tds, href: a ? a.getAttribute('href') : null, onclick: tr.getAttribute('onclick') || (a ? a.getAttribute('onclick') : null)};
+        })""")
+    out = []
+    for r in rows:
+        tds = r["tds"]
+        if len(tds) < 6:
+            continue
+        href = r.get("href") or ""
+        m = re.search(r"id=(\d+)", href) or re.search(r"(\d{5,})", r.get("onclick") or "")
+        aid = m.group(1) if m else None
+        url = (BASE_URL + href if href.startswith("/") else href) if "detalhe" in href else (
+            f"{BASE_URL}/Base4/pt/detalhe/?type=anuncios&id={aid}" if aid else None)
+        out.append({
+            "origem": "BASE", "id": aid or (href or tds[0][:80]), "url": url,
+            "titulo": tds[0], "tipo_ato": tds[1], "procedimento": tds[2], "entidade": tds[3],
+            "preco_base": parse_eur(tds[4]) if tds[4] not in ("-", "") else None,
+            "publicado": tds[5],
+        })
+    return out
+
+
+def _data_pt(s: str | None) -> date | None:
+    try:
+        return datetime.strptime((s or "").strip()[:10], "%d-%m-%Y").date()
+    except ValueError:
+        return None
+
+
 def base_anuncios_playwright(desde: date) -> list[dict]:
-    """Abre o BASE num Chromium real, pesquisa anúncios desde `desde` e lê a tabela de resultados."""
+    """Abre o BASE num Chromium real, pesquisa anúncios publicados desde `desde` e lê as páginas de resultados."""
     try:
         from playwright.sync_api import sync_playwright
     except Exception as e:  # pragma: no cover
         print(f"  playwright indisponível: {e}")
         return []
     rows: list[dict] = []
+    debug: list[str] = []
     with sync_playwright() as p:
         browser = p.chromium.launch()
         page = browser.new_page(user_agent=UA["User-Agent"], locale="pt-PT")
-        debug: list[str] = []
         try:
-            page.goto("https://www.base.gov.pt/Base4/pt/pesquisa/", wait_until="domcontentloaded", timeout=90000)
-            page.wait_for_timeout(8000)
-            debug.append(f"title={page.title()!r} url={page.url}")
-            ids = page.eval_on_selector_all("input[id], button[id], select[id], a[id]", "els => els.map(e => e.tagName + '#' + e.id).slice(0, 120)")
-            debug.append("ids=" + ", ".join(ids))
-            debug.append("body=" + page.inner_text("body")[:1500].replace("\n", " / "))
-            # O formulário de anúncios só aparece depois de escolher "Anúncios DR" no seletor de tipo de pesquisa.
-            opts = page.eval_on_selector_all("#sel_search option", "els => els.map(e => [e.value, e.textContent.trim()])")
-            debug.append(f"sel_search={opts}")
-            alvo = next((v for v, t in opts if "anúncio" in t.lower() or "anuncio" in t.lower()), None)
-            if alvo is not None:
-                page.select_option("#sel_search", alvo)
-            else:
-                page.select_option("#sel_search", label="Anúncios DR")
-            page.wait_for_timeout(1500)
-            page.wait_for_selector("#desdedatapublicacao", state="visible", timeout=20000)
-            # datepicker pt: dd-mm-aaaa; preencher via JS para não disparar o calendário
-            page.evaluate("(v) => { const el = document.querySelector('#desdedatapublicacao'); el.value = v; el.dispatchEvent(new Event('change', {bubbles: true})); }", desde.strftime("%d-%m-%Y"))
-            page.click("#search_anuncios")
-            debug.append("clicou search_anuncios")
-            try:
-                page.wait_for_selector("table tbody tr, .resultados, #resultados, .result", timeout=60000)
-            except Exception as e:
-                debug.append(f"sem tabela: {e}")
-            page.wait_for_timeout(3000)
-            debug.append("pos-pesquisa url=" + page.url)
-            debug.append("pos-pesquisa body=" + page.inner_text("body")[:3000].replace("\n", " / "))
-            # pagina enquanto houver "seguinte"
-            for _ in range(20):
-                html = page.content()
-                rows += _parse_base_table(html)
-                nxt = page.query_selector("a[id^=page_]:has-text('›'), a:has-text('Seguinte')")
-                if not nxt:
+            _abrir_pesquisa_anuncios(page, desde, debug)
+            for pagina in range(1, 40):
+                novas = _linhas_tabela(page)
+                debug.append(f"pagina {pagina}: {len(novas)} linhas; primeira pub={novas[0]['publicado'] if novas else None}; ultima pub={novas[-1]['publicado'] if novas else None}")
+                if pagina == 1:
+                    debug.append("exemplo=" + repr(novas[:2]))
+                    pag_html = page.evaluate("() => { const t = document.querySelector('table'); const c = t ? t.closest('div') : null; return c ? c.outerHTML.slice(-3000) : ''; }")
+                    debug.append("fim_tabela_html=" + pag_html.replace("\n", " "))
+                rows += novas
+                if not novas:
                     break
+                ult = _data_pt(novas[-1]["publicado"])
+                if ult and ult < desde:
+                    break
+                # próxima página
+                nxt = None
+                for sel in ["a[rel='next']", "li.next a", "a.next", "a:has-text('›')", "a:has-text('»')", "a:has-text('Seguinte')", "a:has-text('Próxima')", f"a:has-text('{pagina + 1}')"]:
+                    try:
+                        cand = page.query_selector(sel)
+                        if cand and cand.is_visible():
+                            nxt = cand
+                            debug.append(f"next via {sel}")
+                            break
+                    except Exception:
+                        continue
+                if not nxt:
+                    debug.append("sem link para a página seguinte")
+                    break
+                primeira = novas[0]["titulo"]
                 nxt.click()
-                page.wait_for_timeout(1500)
+                try:
+                    page.wait_for_function("t => { const td = document.querySelector('table tbody tr td'); return td && td.innerText.trim() !== t; }", arg=primeira, timeout=30000)
+                except Exception:
+                    debug.append("tabela não mudou após clique")
+                    break
+                page.wait_for_timeout(800)
         except Exception as e:
             print(f"  BASE via browser falhou: {e}")
             debug.append(f"erro={e}")
         finally:
-            try:
-                debug.append("html=" + page.content()[:4000].replace("\n", " "))
-            except Exception:
-                pass
             browser.close()
             save_text("base_debug.txt", "\n".join(debug) + "\n")
-    # remover duplicados por id
     seen, out = set(), []
     for r in rows:
         if r["id"] in seen:
@@ -93,49 +140,44 @@ def base_anuncios_playwright(desde: date) -> list[dict]:
     return out
 
 
-def _parse_base_table(html: str) -> list[dict]:
-    soup = BeautifulSoup(html, "html.parser")
-    out = []
-    for tr in soup.select("table tbody tr"):
-        tds = [td.get_text(" ", strip=True) for td in tr.select("td")]
-        a = tr.select_one("a[href*='detalhe']")
-        if not a or len(tds) < 4:
-            continue
-        m = re.search(r"id=(\d+)", a.get("href", ""))
-        out.append({
-            "origem": "BASE",
-            "id": m.group(1) if m else a.get("href"),
-            "url": "https://www.base.gov.pt" + a.get("href") if a.get("href", "").startswith("/") else a.get("href"),
-            "colunas": tds,
-        })
-    return out
-
-
-def base_detalhe(url: str) -> dict:
-    """Lê a página de detalhe de um anúncio no BASE (texto corrido) e extrai os campos principais."""
+def base_detalhes(urls: list[str]) -> dict[str, dict]:
+    """Lê as páginas de detalhe de vários anúncios no BASE com um único browser."""
+    res: dict[str, dict] = {}
+    if not urls:
+        return res
     try:
         from playwright.sync_api import sync_playwright
-        with sync_playwright() as p:
-            browser = p.chromium.launch()
-            page = browser.new_page(user_agent=UA["User-Agent"], locale="pt-PT")
-            page.goto(url, wait_until="networkidle", timeout=60000)
-            txt = page.inner_text("body")
-            browser.close()
-    except Exception as e:
-        return {"erro": str(e)}
-    def grab(label):
-        m = re.search(re.escape(label) + r"\s*[:\n]\s*(.+)", txt)
-        return m.group(1).strip() if m else None
-    return {
-        "entidade": grab("Entidade adjudicante") or grab("Entidade emissora"),
-        "objeto": grab("Descrição") or grab("Objeto"),
-        "preco_base": parse_eur(grab("Preço base")),
-        "prazo_propostas": grab("Prazo para apresentação de propostas") or grab("Data limite"),
-        "procedimento": grab("Tipo de procedimento") or grab("Tipo de acto"),
-        "cpv": grab("CPV"),
-        "n_dr": grab("Número do anúncio"),
-        "plataforma": grab("Plataforma"),
-    }
+    except Exception:
+        return res
+    with sync_playwright() as p:
+        browser = p.chromium.launch()
+        page = browser.new_page(user_agent=UA["User-Agent"], locale="pt-PT")
+        for url in urls:
+            try:
+                page.goto(url, wait_until="domcontentloaded", timeout=60000)
+                page.wait_for_timeout(4000)
+                txt = page.inner_text("body")
+            except Exception as e:
+                res[url] = {"erro": str(e)}
+                continue
+
+            def grab(*labels):
+                for label in labels:
+                    m = re.search(re.escape(label) + r"\s*[:\n\t]+\s*([^\n\t]+)", txt, re.I)
+                    if m:
+                        return m.group(1).strip()
+                return None
+            res[url] = {
+                "objeto": grab("Descrição", "Objeto do contrato", "Objeto"),
+                "prazo_propostas": grab("Prazo para apresentação de propostas", "Prazo para apresentação das propostas", "Data limite de apresentação", "Data limite"),
+                "cpv": grab("CPV", "CPVs"),
+                "n_dr": grab("Número do anúncio", "N.º do anúncio", "Nº do anúncio"),
+                "plataforma": grab("Plataforma eletrónica", "Plataforma"),
+                "local": grab("Local de execução", "Local"),
+                "texto": txt[:4000],
+            }
+        browser.close()
+    return res
 
 
 # ---------------------------------------------------------------- BidsFactory (recurso)
@@ -233,15 +275,27 @@ def main() -> int:
     print("1) Portal BASE via browser…", flush=True)
     base_rows = base_anuncios_playwright(desde)
     print(f"   {len(base_rows)} linhas", flush=True)
-    for r in base_rows[:150]:
-        texto = " ".join(r["colunas"])
-        cats = categorias(texto, texto)
-        if not cats and not e_minho(texto):
+    relevantes = []
+    for r in base_rows:
+        ta = norm(r.get("tipo_ato"))
+        if any(k in ta for k in ("retificacao", "prorrogacao", "adjudicacao", "anulacao", "revogacao")):
+            continue  # só anúncios que abrem procedimento
+        cats = categorias(None, r["titulo"])
+        minho = e_minho(r["entidade"], r["titulo"])
+        if not cats and not minho:
             continue
-        det = base_detalhe(r["url"]) if r.get("url") else {}
-        a = {"origem": "BASE", "url": r["url"], "titulo": det.get("objeto") or texto[:200], **det}
+        r["categorias"] = cats
+        r["minho"] = minho
+        relevantes.append(r)
+    print(f"   {len(relevantes)} relevantes (perfil ou Minho)", flush=True)
+    dets = base_detalhes([r["url"] for r in relevantes if r.get("url")][:60])
+    for r in relevantes:
+        det = dets.get(r.get("url") or "", {})
+        a = {**r, **{k: v for k, v in det.items() if k != "texto" and v}}
         a["categorias"] = categorias(a.get("cpv"), a.get("titulo"), a.get("objeto"))
-        a["minho"] = e_minho(a.get("entidade"), a.get("titulo"), texto)
+        a["minho"] = e_minho(a.get("entidade"), a.get("titulo"), a.get("local"))
+        if not a["categorias"] and not a["minho"]:
+            continue
         anuncios.append(a)
 
     print("2) BidsFactory (recurso)…", flush=True)
@@ -264,7 +318,7 @@ def main() -> int:
     save_json("anuncios.json", {"gerado_em": datetime.now().isoformat(timespec="minutes"), "n": len(anuncios), "anuncios": anuncios})
 
     linhas = [f"# Radar VoltSync — anúncios abertos ({hoje.isoformat()})", "",
-              f"Fontes: BASE via browser ({len(base_rows)} linhas lidas), BidsFactory. Candidatos: {len(anuncios)}.", "",
+              f"Fontes: BASE via browser ({len(base_rows)} anúncios lidos desde {desde.isoformat()}), BidsFactory. Candidatos: {len(anuncios)}.", "",
               "| Classe | Entidade | Objeto | Preço base (€) | Prazo propostas | Procedimento | CPV | N.º DR | Link |",
               "|---|---|---|---|---|---|---|---|---|"]
     for a in anuncios:
