@@ -35,12 +35,19 @@ def base_anuncios_playwright(desde: date) -> list[dict]:
     with sync_playwright() as p:
         browser = p.chromium.launch()
         page = browser.new_page(user_agent=UA["User-Agent"], locale="pt-PT")
+        debug: list[str] = []
         try:
-            page.goto("https://www.base.gov.pt/Base4/pt/pesquisa/", wait_until="networkidle", timeout=90000)
+            page.goto("https://www.base.gov.pt/Base4/pt/pesquisa/", wait_until="domcontentloaded", timeout=90000)
+            page.wait_for_timeout(8000)
+            debug.append(f"title={page.title()!r} url={page.url}")
+            ids = page.eval_on_selector_all("input[id], button[id], select[id], a[id]", "els => els.map(e => e.tagName + '#' + e.id).slice(0, 120)")
+            debug.append("ids=" + ", ".join(ids))
+            debug.append("body=" + page.inner_text("body")[:1500].replace("\n", " / "))
             # separador "Anúncios"
-            for sel in ["a[href='#anuncios']", "text=Anúncios", "#tab-anuncios"]:
+            for sel in ["a[href='#anuncios']", "text=Anúncios", "#tab-anuncios", "a:has-text('Anúncios')"]:
                 try:
-                    page.click(sel, timeout=5000)
+                    page.click(sel, timeout=4000)
+                    debug.append(f"clicou {sel}")
                     break
                 except Exception:
                     continue
@@ -58,8 +65,14 @@ def base_anuncios_playwright(desde: date) -> list[dict]:
                 page.wait_for_timeout(1500)
         except Exception as e:
             print(f"  BASE via browser falhou: {e}")
+            debug.append(f"erro={e}")
         finally:
+            try:
+                debug.append("html=" + page.content()[:4000].replace("\n", " "))
+            except Exception:
+                pass
             browser.close()
+            save_text("base_debug.txt", "\n".join(debug) + "\n")
     # remover duplicados por id
     seen, out = set(), []
     for r in rows:
@@ -175,7 +188,7 @@ def bidsfactory_detalhe(url: str) -> dict:
     titulo_pt = grab("Original title", "Título original", "Original Title")
     # O BidsFactory concentra os dados numa linha: "Concurso público. CPV: 45310000-3, ... Base price: 18.000,00 €. DR announcement nr: 24802/2026. Model type: ..."
     m_cpv = re.search(r"CPV:\s*(\d{8}-\d)", txt)
-    m_price = re.search(r"Base price:\s*€?\s*([\d.,\s]+)\s*€?", txt)
+    m_price = re.search(r"Base price:\s*€?\s*([\d.,\s]*\d)", txt)
     m_dr = re.search(r"DR announcement nr:\s*(\d{3,6}/20\d{2})", txt)
     m_proc = re.search(r"Model type:\s*([^\n.]+)", txt)
     m_pub = re.search(r"Published:?\s*([A-Za-z]+ \d{1,2}, \d{4})", txt)

@@ -30,7 +30,7 @@ jobs:
 
       - name: Anúncios abertos (BASE via browser + BidsFactory)
         working-directory: radar
-        run: python anuncios.py
+        run: python anuncios.py 2>&1 | tee ../data/log_anuncios.txt
         continue-on-error: true
 
       - name: Mapa de quem contrata (segundas-feiras ou execução manual)
