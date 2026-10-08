@@ -1,6 +1,6 @@
 {
- "gerado_em": "2026-10-08T16:00",
- "n": 22,
+ "gerado_em": "2026-10-08T16:05",
+ "n": 31,
  "anuncios": [
   {
    "origem": "BidsFactory",
@@ -20,6 +20,60 @@
    ],
    "minho": true,
    "classe": "A"
+  },
+  {
+   "origem": "BASE",
+   "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=anuncios&id=457988",
+   "titulo": "Aquisição de serviços de eletricista e apoio técnico Anúncio de procedimento Concurso público Promotorres, EM 190.000,00 € 08-10-2026 ",
+   "entidade": null,
+   "objeto": null,
+   "preco_base": null,
+   "prazo_propostas": null,
+   "procedimento": null,
+   "cpv": null,
+   "n_dr": null,
+   "plataforma": null,
+   "categorias": [
+    "eletricidade"
+   ],
+   "minho": false,
+   "classe": "B"
+  },
+  {
+   "origem": "BASE",
+   "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=anuncios&id=457984",
+   "titulo": "CP/2026/28_DOP - Aquisição de serviços de fiscalização e gestão da qualidade, coordenação da segurança e ambiente das empreitadas e prestações de serviços da AdRA Anúncio de procedimento Concurso públ",
+   "entidade": null,
+   "objeto": null,
+   "preco_base": null,
+   "prazo_propostas": null,
+   "procedimento": null,
+   "cpv": null,
+   "n_dr": null,
+   "plataforma": null,
+   "categorias": [
+    "projeto"
+   ],
+   "minho": false,
+   "classe": "B"
+  },
+  {
+   "origem": "BASE",
+   "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=anuncios&id=457982",
+   "titulo": "Aquisição de serviços para elaboração do projeto de requalificação do Mosteiro de Odivelas Anúncio de procedimento Concurso público Município de Odivelas 1.200.000,00 € 08-10-2026 ",
+   "entidade": null,
+   "objeto": null,
+   "preco_base": null,
+   "prazo_propostas": null,
+   "procedimento": null,
+   "cpv": null,
+   "n_dr": null,
+   "plataforma": null,
+   "categorias": [
+    "projeto"
+   ],
+   "minho": false,
+   "classe": "B"
   },
   {
    "origem": "BidsFactory",
@@ -286,6 +340,102 @@
    ],
    "minho": false,
    "classe": "B"
+  },
+  {
+   "origem": "BASE",
+   "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=anuncios&id=457996",
+   "titulo": "serviços de Restabelecimento das Condições de Segurança Rodoviária Pós Acidente de Viação nas Estradas Regionais e Municipais no Concelho de Cabeceiras de Basto Anúncio de procedimento Concurso públic",
+   "entidade": null,
+   "objeto": null,
+   "preco_base": null,
+   "prazo_propostas": null,
+   "procedimento": null,
+   "cpv": null,
+   "n_dr": null,
+   "plataforma": null,
+   "categorias": [],
+   "minho": true,
+   "classe": "C"
+  },
+  {
+   "origem": "BASE",
+   "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=anuncios&id=457991",
+   "titulo": "PO 622/2026 - Manutenção corretiva das coberturas da Escola EB 2,3/S de Arcos de Valdevez - Bloco 3 e Bloco 5 Anúncio de procedimento Concurso público Município de Arcos de Valdevez 67.281,80 € 08-10-",
+   "entidade": null,
+   "objeto": null,
+   "preco_base": null,
+   "prazo_propostas": null,
+   "procedimento": null,
+   "cpv": null,
+   "n_dr": null,
+   "plataforma": null,
+   "categorias": [],
+   "minho": true,
+   "classe": "C"
+  },
+  {
+   "origem": "BASE",
+   "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=anuncios&id=457986",
+   "titulo": "PRC_0330/2026_TII-Renovação do Licenciamento da Plataforma de Suporte  Easyvista para a Águas do Norte, S.A.. Anúncio de procedimento Concurso público Águas do Norte, SA 89.358,52 € 08-10-2026 ",
+   "entidade": null,
+   "objeto": null,
+   "preco_base": null,
+   "prazo_propostas": null,
+   "procedimento": null,
+   "cpv": null,
+   "n_dr": null,
+   "plataforma": null,
+   "categorias": [],
+   "minho": true,
+   "classe": "C"
+  },
+  {
+   "origem": "BASE",
+   "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=anuncios&id=457985",
+   "titulo": "PRC_0296/2026_TII-Aquisição de serviços de telecomunicações para o SAA do Cávado da Águas do Norte, S.A. Anúncio de procedimento Concurso público Águas do Norte, SA 117.014,40 € 08-10-2026 ",
+   "entidade": null,
+   "objeto": null,
+   "preco_base": null,
+   "prazo_propostas": null,
+   "procedimento": null,
+   "cpv": null,
+   "n_dr": null,
+   "plataforma": null,
+   "categorias": [],
+   "minho": true,
+   "classe": "C"
+  },
+  {
+   "origem": "BASE",
+   "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=anuncios&id=457974",
+   "titulo": "Aquisição de reagentes para pesquisa de agentes patogénicos em abordagem sindrómica por metodologia PCR multiplex, com colocação de equipamento em regime de contra-consumo Anúncio de procedimento Conc",
+   "entidade": null,
+   "objeto": null,
+   "preco_base": null,
+   "prazo_propostas": null,
+   "procedimento": null,
+   "cpv": null,
+   "n_dr": null,
+   "plataforma": null,
+   "categorias": [],
+   "minho": true,
+   "classe": "C"
+  },
+  {
+   "origem": "BASE",
+   "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=anuncios&id=457973",
+   "titulo": "Aquisição de frascos de hemocultura com colocação de equipamento(s), em regime de contra-consumo, para incubação e deteção de crescimento Anúncio de procedimento Concurso público Unidade Local de Saúd",
+   "entidade": null,
+   "objeto": null,
+   "preco_base": null,
+   "prazo_propostas": null,
+   "procedimento": null,
+   "cpv": null,
+   "n_dr": null,
+   "plataforma": null,
+   "categorias": [],
+   "minho": true,
+   "classe": "C"
   },
   {
    "origem": "BidsFactory",
