@@ -1,25 +1,14 @@
 title='Pesquisa'
-pedidos ajax capturados=1; https://www.base.gov.pt/Base4/pt/resultados/ :: type=search_anuncios&version=87.0&query=tipocontrato%3D0%26desdedatapublicacao%3D06-10-2026%26tipoacto%3D0%26tipomodelo%3D0&sort=-drPublicationDate&page=0&size=25
-pagina 1 (DOM): 25 linhas; primeira pub=08-10-2026; ultima pub=08-10-2026
-exemplo=[{'origem': 'BASE', 'id': '458060', 'url': 'https://www.base.gov.pt/Base4/pt/detalhe/?type=anuncios&id=458060', 'titulo': 'Fornecimento de Equipamento Médico para Bloco Cirúrgico da ULS de Matosinhos', 'tipo_ato': 'Anúncio de procedimento', 'procedimento': 'Concurso público', 'entidade': 'Unidade Local de Saúde de Matosinhos, EPE (ULSM)', 'preco_base': 22934.02, 'publicado': '08-10-2026'}, {'origem': 'BASE', 'id': '458059', 'url': 'https://www.base.gov.pt/Base4/pt/detalhe/?type=anuncios&id=458059', 'titulo': 'Fornecimento e montagem de torniquete e sistema de controlo de acessos no parque do Hospital Pedro Hispano', 'tipo_ato': 'Anúncio de procedimento', 'procedimento': 'Concurso público', 'entidade': 'Unidade Local de Saúde de Matosinhos, EPE (ULSM)', 'preco_base': 20500.0, 'publicado': '08-10-2026'}]
-form_base={'type': 'search_anuncios', 'version': '87.0', 'query': 'tipocontrato=0&desdedatapublicacao=06-10-2026&tipoacto=0&tipomodelo=0', 'sort': '-drPublicationDate', 'page': '0', 'size': '25'}
-ajax status=200 inicio='\t\t\t\t\t{ "total": 253247, "items": [{"contractingProcedureType":"Concurso público","basePrice":"22.934,02 €","contractingEntity":"Unidade Local de Saúde de Matosinhos, EPE (ULSM)","drPublicationDate":"08-10-2026","contractDesignation":"Fornecimento de Equipamento Médico para Bloco Cirúrgico da ULS de Matosinhos","proposalDeadline":"17-10-2026","id":458060,"type":"Anúncio de procedimento"},{"contractingProcedureType":"Concurso público","basePrice":"20.500,00 €","contractingEntity":"Unidade Local de Saúde de Matosinhos, EPE (ULSM)","drPublicationDate":"08-10-2026","contractDesignation":"Fornecimen'
-pagina 1 (ajax): 20 linhas; ultima pub=08-10-2026
-pagina 2 (ajax): 20 linhas; ultima pub=08-10-2026
-pagina 3 (ajax): 20 linhas; ultima pub=08-10-2026
-pagina 4 (ajax): 20 linhas; ultima pub=08-10-2026
-pagina 5 (ajax): 20 linhas; ultima pub=08-10-2026
-pagina 6 (ajax): 20 linhas; ultima pub=08-10-2026
-pagina 7 (ajax): 20 linhas; ultima pub=07-10-2026
-pagina 8 (ajax): 20 linhas; ultima pub=07-10-2026
-pagina 9 (ajax): 20 linhas; ultima pub=07-10-2026
-pagina 10 (ajax): 20 linhas; ultima pub=07-10-2026
-pagina 11 (ajax): 20 linhas; ultima pub=06-10-2026
-pagina 12 (ajax): 20 linhas; ultima pub=06-10-2026
-pagina 13 (ajax): 20 linhas; ultima pub=06-10-2026
-pagina 14 (ajax): 20 linhas; ultima pub=06-10-2026
-pagina 15 (ajax): 20 linhas; ultima pub=06-10-2026
-pagina 16 (ajax): 20 linhas; ultima pub=06-10-2026
-pagina 17 (ajax): 20 linhas; ultima pub=06-10-2026
-pagina 18 (ajax): 20 linhas; ultima pub=06-10-2026
-pagina 19 (ajax): 20 linhas; ultima pub=02-10-2026
+pedidos ajax capturados=1; https://www.base.gov.pt/Base4/pt/resultados/ :: type=search_anuncios&version=155.0&query=tipocontrato%3D0%26desdedatapublicacao%3D09-10-2026%26tipoacto%3D0%26tipomodelo%3D0&sort=-drPublicationDate&page=0&size=25
+pagina 1 (DOM): 25 linhas; primeira pub=12-10-2026; ultima pub=12-10-2026
+exemplo=[{'origem': 'BASE', 'id': '458203', 'url': 'https://www.base.gov.pt/Base4/pt/detalhe/?type=anuncios&id=458203', 'titulo': 'Aquisição de serviços de vigilância e segurança na Fortaleza de Santiago, no Parque Augusto Pólvora e no Parque de Campismo do Forte do Cavalo', 'tipo_ato': 'Anúncio de procedimento', 'procedimento': 'Concurso público', 'entidade': 'CÂMARA MUNICIPAL DE SESIMBRA', 'preco_base': 141946.88, 'publicado': '12-10-2026'}, {'origem': 'BASE', 'id': '458202', 'url': 'https://www.base.gov.pt/Base4/pt/detalhe/?type=anuncios&id=458202', 'titulo': 'Aquisição de serviços para elaboração do projeto de execução para requalificação da escola Diogo Cão', 'tipo_ato': 'Anúncio de procedimento', 'procedimento': 'Concurso público', 'entidade': 'Município de Vila Real', 'preco_base': 90000.0, 'publicado': '12-10-2026'}]
+form_base={'type': 'search_anuncios', 'version': '155.0', 'query': 'tipocontrato=0&desdedatapublicacao=09-10-2026&tipoacto=0&tipomodelo=0', 'sort': '-drPublicationDate', 'page': '0', 'size': '25'}
+ajax status=200 inicio='\t\t\t\t\t{ "total": 253353, "items": [{"drPublicationDate":"12-10-2026","contractingProcedureType":"Concurso público","contractDesignation":"Aquisição de serviços de vigilância e segurança na Fortaleza de Santiago, no Parque Augusto Pólvora e no Parque de Campismo do Forte do Cavalo","basePrice":"141.946,88 €","proposalDeadline":"15-10-2026","contractingEntity":"CÂMARA MUNICIPAL DE SESIMBRA","id":458203,"type":"Anúncio de procedimento"},{"drPublicationDate":"12-10-2026","contractingProcedureType":"Concurso público","contractDesignation":"Aquisição de serviços para elaboração do projeto de execução'
+pagina 1 (ajax): 20 linhas; ultima pub=12-10-2026
+pagina 2 (ajax): 20 linhas; ultima pub=12-10-2026
+pagina 3 (ajax): 20 linhas; ultima pub=09-10-2026
+pagina 4 (ajax): 20 linhas; ultima pub=09-10-2026
+pagina 5 (ajax): 20 linhas; ultima pub=09-10-2026
+pagina 6 (ajax): 20 linhas; ultima pub=09-10-2026
+pagina 7 (ajax): 20 linhas; ultima pub=09-10-2026
+pagina 8 (ajax): 20 linhas; ultima pub=08-10-2026
