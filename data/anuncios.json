@@ -1,7 +1,28 @@
 {
- "gerado_em": "2026-10-13T12:59",
- "n": 38,
+ "gerado_em": "2026-10-14T10:39",
+ "n": 41,
  "anuncios": [
+  {
+   "origem": "BASE",
+   "id": "458319",
+   "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=anuncios&id=458319",
+   "titulo": "aquisição de serviços de administração de sistemas, redes e cibersegurança para 24 meses",
+   "tipo_ato": "Anúncio de procedimento",
+   "procedimento": "Concurso público",
+   "entidade": "Município de Sintra",
+   "preco_base": 185950.0,
+   "publicado": "2026-10-13",
+   "categorias": [
+    "software_ti"
+   ],
+   "minho": false,
+   "objeto": "aquisição de serviços de administração de sistemas, redes e cibersegurança para 24 meses",
+   "prazo_propostas": "18 dias.",
+   "cpv": "72910000-2, Serviços informáticos de segurança",
+   "n_dr": "25204/2026",
+   "url_bidsfactory": "https://bidsfactory.com/en/tenders/aquisicao-de-servicos-de-administracao-de-sistemas-base_gov_pt-2921b9edd238b5dd",
+   "classe": "B"
+  },
   {
    "origem": "BASE",
    "id": "458207",
@@ -46,6 +67,26 @@
   },
   {
    "origem": "BASE",
+   "id": "458271",
+   "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=anuncios&id=458271",
+   "titulo": "Aquisição de serviços de criação e manutenção de website para o Balcão Cultura Porto",
+   "tipo_ato": "Anúncio de procedimento",
+   "procedimento": "Concurso público",
+   "entidade": "Ágora - Cultura e Desporto do Porto, EM, SA",
+   "preco_base": 41950.0,
+   "publicado": "2026-10-13",
+   "n_dr": null,
+   "cpv": "72000000-5, Serviços de TI: consultoria, desenvolvimento de software, Internet e apoio",
+   "prazo_propostas": "2026-10-21",
+   "categorias": [
+    "software_ti"
+   ],
+   "minho": false,
+   "objeto": "Aquisição de serviços de criação e manutenção de website para o Balcão Cultura Porto",
+   "classe": "B"
+  },
+  {
+   "origem": "BASE",
    "id": "458230",
    "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=anuncios&id=458230",
    "titulo": "Aquisição de Serviços de Desenvolvimento e Implementação de uma Plataforma de Formação Profissional baseada em Inteligência Artificial – Competir com IA",
@@ -63,6 +104,46 @@
    "minho": false,
    "objeto": "Aquisição de Serviços de Desenvolvimento e Implementação de uma Plataforma de Formação Profissional baseada em Inteligência Artificial – Competir com IA",
    "url_bidsfactory": "https://bidsfactory.com/en/tenders/aquisicao-de-servicos-de-desenvolvimento-e-impleme-base_gov_pt-da2df2dc2aa003e0",
+   "classe": "B"
+  },
+  {
+   "origem": "BASE",
+   "id": "457131",
+   "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=anuncios&id=457131",
+   "titulo": "Aquisição de serviços para elaboração dos Projetos de Especialidades para a “Ligação dos Passeios das Margens do Ave à Fábrica de Santo Thyrso (Malhado)”",
+   "tipo_ato": "Anúncio de Alteração",
+   "procedimento": "Concurso público",
+   "entidade": "Município de Santo Tirso",
+   "preco_base": 110000.0,
+   "publicado": "2026-10-13",
+   "n_dr": null,
+   "cpv": "71300000-1, Serviços de engenharia",
+   "prazo_propostas": "2026-11-03",
+   "categorias": [
+    "projeto"
+   ],
+   "minho": false,
+   "objeto": "Aquisição de serviços para elaboração dos Projetos de Especialidades para a “Ligação dos Passeios das Margens do Ave à Fábrica de Santo Thyrso (Malhado)”",
+   "classe": "B"
+  },
+  {
+   "origem": "BASE",
+   "id": "457039",
+   "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=anuncios&id=457039",
+   "titulo": "AQUISIÇÃO DE SERVIÇOS PARA ELABORAÇÃO DE PROJETOS DE ESPECIALIDADES PARA A “REQUALIFICAÇÃO DA RUA LUÍS DE CAMÕES E ARRUAMENTOS ADJACENTES\"",
+   "tipo_ato": "Anúncio de Alteração",
+   "procedimento": "Concurso público",
+   "entidade": "Município de Santo Tirso",
+   "preco_base": 98500.0,
+   "publicado": "2026-10-13",
+   "n_dr": null,
+   "cpv": "71300000-1, Serviços de engenharia",
+   "prazo_propostas": "2026-11-03",
+   "categorias": [
+    "projeto"
+   ],
+   "minho": false,
+   "objeto": "AQUISIÇÃO DE SERVIÇOS PARA ELABORAÇÃO DE PROJETOS DE ESPECIALIDADES PARA A “REQUALIFICAÇÃO DA RUA LUÍS DE CAMÕES E ARRUAMENTOS ADJACENTES\"",
    "classe": "B"
   },
   {
@@ -116,7 +197,7 @@
    "entidade": "SIMDOURO - Saneamento do Grande Porto, SA",
    "preco_base": 450000.0,
    "publicado": "2026-10-12",
-   "n_dr": "25148/2026",
+   "n_dr": null,
    "cpv": "45315100-9, Instalação de material eléctrico e electrónico",
    "prazo_propostas": "2026-11-23",
    "categorias": [
@@ -125,66 +206,6 @@
    ],
    "minho": false,
    "objeto": "AR066 E1.2 Remodelação das instalações elétricas e automação de Alvarenga, Canelas, Moldes, Lever e Crestuma",
-   "url_bidsfactory": "https://bidsfactory.com/en/tenders/ar066-e12-remodelacao-das-instalacoes-eletricas-e-base_gov_pt-55b699b884b90c16",
-   "classe": "B"
-  },
-  {
-   "origem": "BASE",
-   "id": "457131",
-   "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=anuncios&id=457131",
-   "titulo": "Aquisição de serviços para elaboração dos Projetos de Especialidades para a “Ligação dos Passeios das Margens do Ave à Fábrica de Santo Thyrso (Malhado)”",
-   "tipo_ato": "Anúncio de Alteração",
-   "procedimento": "Concurso público",
-   "entidade": "Município de Santo Tirso",
-   "preco_base": 110000.0,
-   "publicado": "2026-10-13",
-   "categorias": [
-    "projeto"
-   ],
-   "minho": false,
-   "objeto": "Aquisição de serviços para elaboração dos Projetos de Especialidades para a “Ligação dos Passeios das Margens do Ave à Fábrica de Santo Thyrso (Malhado)”",
-   "prazo_propostas": "21 dias.",
-   "cpv": "71300000-1, Serviços de engenharia",
-   "classe": "B"
-  },
-  {
-   "origem": "BASE",
-   "id": "457039",
-   "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=anuncios&id=457039",
-   "titulo": "AQUISIÇÃO DE SERVIÇOS PARA ELABORAÇÃO DE PROJETOS DE ESPECIALIDADES PARA A “REQUALIFICAÇÃO DA RUA LUÍS DE CAMÕES E ARRUAMENTOS ADJACENTES\"",
-   "tipo_ato": "Anúncio de Alteração",
-   "procedimento": "Concurso público",
-   "entidade": "Município de Santo Tirso",
-   "preco_base": 98500.0,
-   "publicado": "2026-10-13",
-   "categorias": [
-    "projeto"
-   ],
-   "minho": false,
-   "objeto": "AQUISIÇÃO DE SERVIÇOS PARA ELABORAÇÃO DE PROJETOS DE ESPECIALIDADES PARA A “REQUALIFICAÇÃO DA RUA LUÍS DE CAMÕES E ARRUAMENTOS ADJACENTES\"",
-   "prazo_propostas": "21 dias.",
-   "cpv": "71300000-1, Serviços de engenharia",
-   "classe": "B"
-  },
-  {
-   "origem": "BASE",
-   "id": "458271",
-   "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=anuncios&id=458271",
-   "titulo": "Aquisição de serviços de criação e manutenção de website para o Balcão Cultura Porto",
-   "tipo_ato": "Anúncio de procedimento",
-   "procedimento": "Concurso público",
-   "entidade": "Ágora - Cultura e Desporto do Porto, EM, SA",
-   "preco_base": 41950.0,
-   "publicado": "2026-10-13",
-   "categorias": [
-    "software_ti"
-   ],
-   "minho": false,
-   "objeto": "Aquisição de serviços de criação e manutenção de website para o Balcão Cultura Porto",
-   "prazo_propostas": "8 dias.",
-   "cpv": "72000000-5, Serviços de TI: consultoria, desenvolvimento de software, Internet e apoio",
-   "n_dr": "25179/2026",
-   "url_bidsfactory": "https://bidsfactory.com/en/tenders/aquisicao-de-servicos-de-criacao-e-manutencao-de-w-base_gov_pt-841dac6e37dc44f7",
    "classe": "B"
   },
   {
@@ -200,6 +221,25 @@
    "procedimento": "Concurso público",
    "cpv": "30200000-1",
    "n_dr": "25184/2026",
+   "categorias": [
+    "software_ti"
+   ],
+   "minho": false,
+   "classe": "B"
+  },
+  {
+   "origem": "BidsFactory",
+   "url": "https://bidsfactory.com/en/tenders/aquisicao-de-servicos-de-criacao-e-manutencao-de-w-base_gov_pt-841dac6e37dc44f7",
+   "titulo": "Aquisição de serviços de criação e manutenção de website para o Balcão Cultura Porto",
+   "titulo_en": "Acquisition of website creation and maintenance services for Balcão Cultura Porto",
+   "titulo_pt": "Aquisição de serviços de criação e manutenção de website para o Balcão Cultura Porto",
+   "entidade": "Ágora - Cultura e Desporto do Porto, E.M., S.A.",
+   "preco_base": 41950.0,
+   "publicado": "Oct 13, 2026",
+   "prazo_propostas": null,
+   "procedimento": "Concurso público",
+   "cpv": "72000000-5",
+   "n_dr": "25179/2026",
    "categorias": [
     "software_ti"
    ],
@@ -245,25 +285,6 @@
    "classe": "B"
   },
   {
-   "origem": "BidsFactory",
-   "url": "https://bidsfactory.com/en/tenders/aquisicao-de-licencas-de-software-autodesk-base_gov_pt-ddb2558a349ef68d",
-   "titulo": "Aquisição de licenças de software Autodesk",
-   "titulo_en": "Acquisition of Autodesk software licenses",
-   "titulo_pt": "Aquisição de licenças de software Autodesk",
-   "entidade": "METROPOLITANO DE LISBOA, E.P.E",
-   "preco_base": 52001.0,
-   "publicado": "Oct 8, 2026",
-   "prazo_propostas": null,
-   "procedimento": "Public tender",
-   "cpv": "48300000-1",
-   "n_dr": "24952/2026",
-   "categorias": [
-    "software_ti"
-   ],
-   "minho": false,
-   "classe": "B"
-  },
-  {
    "origem": "BASE",
    "id": "457602",
    "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=anuncios&id=457602",
@@ -273,11 +294,12 @@
    "entidade": "APDL - Administração dos Portos do Douro, Leixões e Viana do Castelo, SA",
    "preco_base": 2500000.0,
    "publicado": "2026-10-13",
+   "n_dr": null,
+   "cpv": "34500000-2, Navios e barcos",
+   "prazo_propostas": "-",
    "categorias": [],
    "minho": true,
    "objeto": "Aquisição de uma Lancha de Pilotos",
-   "prazo_propostas": "-",
-   "cpv": "34500000-2, Navios e barcos",
    "classe": "C"
   },
   {
@@ -298,6 +320,25 @@
    ],
    "minho": false,
    "objeto": "Empreitada para fornecimento e montagem de Equipamentos Mecânicos de Produção de Água Quente, de Água Quente Sanitária, de Aquecimento, Ventilação e Ar Condicionado e de Digitalização Energética repartida por três (3) lotes.",
+   "classe": "C"
+  },
+  {
+   "origem": "BASE",
+   "id": "458305",
+   "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=anuncios&id=458305",
+   "titulo": "Aquisição de Fardamento Hospitalar",
+   "tipo_ato": "Anúncio de procedimento",
+   "procedimento": "Concurso público",
+   "entidade": "Unidade Local de Saúde de Barcelos/Esposende, EPE",
+   "preco_base": 126950.2,
+   "publicado": "2026-10-13",
+   "categorias": [],
+   "minho": true,
+   "objeto": "Aquisição de Fardamento Hospitalar",
+   "prazo_propostas": "11 dias.",
+   "cpv": "39518000-6, Roupa para uso hospitalar",
+   "n_dr": "25219/2026",
+   "url_bidsfactory": "https://bidsfactory.com/en/tenders/aquisicao-de-fardamento-hospitalar-base_gov_pt-266148cd9670fddf",
    "classe": "C"
   },
   {
@@ -362,6 +403,25 @@
   },
   {
    "origem": "BASE",
+   "id": "458247",
+   "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=anuncios&id=458247",
+   "titulo": "Aquisição de 9 computadores portáteis e 8 monitores",
+   "tipo_ato": "Anúncio de procedimento",
+   "procedimento": "Concurso público",
+   "entidade": "AGERE- Empresa de Águas Efluentes e Resíduos de Braga, EM",
+   "preco_base": 15500.0,
+   "publicado": "2026-10-13",
+   "n_dr": "25203/2026",
+   "cpv": "30213100-6, Computadores portáteis",
+   "prazo_propostas": "2026-10-22",
+   "categorias": [],
+   "minho": true,
+   "objeto": "Aquisição de 9 computadores portáteis e 8 monitores",
+   "url_bidsfactory": "https://bidsfactory.com/en/tenders/aquisicao-de-9-computadores-portateis-e-8-monitore-base_gov_pt-a18fd9d409afd2db",
+   "classe": "C"
+  },
+  {
+   "origem": "BASE",
    "id": "456163",
    "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=anuncios&id=456163",
    "titulo": "Empreitada de Retirada e Instalação de Novos Equipamentos do Sistema Automático de Deteção de Incêndio para as estações de Marquês de Pombal I e Marquês de Pombal II do Metropolitano de Lisboa, E.P.E.",
@@ -391,13 +451,12 @@
    "entidade": "Município de Cabeceiras de Basto",
    "preco_base": 2100008.49,
    "publicado": "2026-10-12",
-   "n_dr": "25154/2026",
+   "n_dr": null,
    "cpv": "45212600-2, Construção de pavilhão",
    "prazo_propostas": "2026-10-27",
    "categorias": [],
    "minho": true,
    "objeto": "Execução de Empreitada de \"(Re) Construção do Pavilhão Gimnodesportivo da Escola Básica e Secundária de Cabeceiras de Basto",
-   "url_bidsfactory": "https://bidsfactory.com/en/tenders/execucao-de-empreitada-de-re-construcao-do-pavilha-base_gov_pt-1594b41e2cbab5ce",
    "classe": "C"
   },
   {
@@ -410,13 +469,12 @@
    "entidade": "Município de Cabeceiras de Basto",
    "preco_base": 359950.61,
    "publicado": "2026-10-12",
-   "n_dr": "25155/2026",
+   "n_dr": null,
    "cpv": "45453100-8, Obras de recuperação",
    "prazo_propostas": "2026-10-27",
    "categorias": [],
    "minho": true,
    "objeto": "execução de empreitada de requalificação e modernização da Piscina Coberta de Arco de Baúlhe",
-   "url_bidsfactory": "https://bidsfactory.com/en/tenders/execucao-de-empreitada-de-requalificacao-e-moderni-base_gov_pt-ccff04a353e185cd",
    "classe": "C"
   },
   {
@@ -429,13 +487,12 @@
    "entidade": "Município de Cabeceiras de Basto",
    "preco_base": 590849.24,
    "publicado": "2026-10-12",
-   "n_dr": "25163/2026",
+   "n_dr": null,
    "cpv": "45453000-7, Obras de revisão e recuperação",
    "prazo_propostas": "2026-10-27",
    "categorias": [],
    "minho": true,
    "objeto": "Concurso público para execução da empreitada de “Requalificação da Casa do Tempo\"",
-   "url_bidsfactory": "https://bidsfactory.com/en/tenders/concurso-publico-para-execucao-da-empreitada-de-re-base_gov_pt-b74d4adde36f66c1",
    "classe": "C"
   },
   {
@@ -477,6 +534,24 @@
    "minho": false,
    "objeto": "Fornecimento, instalação e manutenção de central de produção fotovoltaica",
    "url_bidsfactory": "https://bidsfactory.com/en/tenders/fornecimento-instalacao-e-manutencao-de-central-de-base_gov_pt-5825657a3340cb44",
+   "classe": "C"
+  },
+  {
+   "origem": "BASE",
+   "id": "458251",
+   "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=anuncios&id=458251",
+   "titulo": "Aquisição de veíuculo florestal de combate a incêndio - VFCI",
+   "tipo_ato": "Anúncio de procedimento",
+   "procedimento": "Concurso público",
+   "entidade": "Associação H. B. de Bombeiros Voluntários de Braga",
+   "preco_base": 248000.0,
+   "publicado": "2026-10-13",
+   "n_dr": null,
+   "cpv": "34144210-3, Veículos de combate a incêndios",
+   "prazo_propostas": "2026-11-08",
+   "categorias": [],
+   "minho": true,
+   "objeto": "Aquisição de veíuculo florestal de combate a incêndio - VFCI",
    "classe": "C"
   },
   {
@@ -558,40 +633,21 @@
   },
   {
    "origem": "BASE",
-   "id": "458251",
-   "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=anuncios&id=458251",
-   "titulo": "Aquisição de veíuculo florestal de combate a incêndio - VFCI",
+   "id": "458306",
+   "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=anuncios&id=458306",
+   "titulo": "Execução e Expansão de Rede de Saneamento em Vila Nova de Muia em Ponte da Barca - Rua Quintela de Baixo e Estrada Nacional 203",
    "tipo_ato": "Anúncio de procedimento",
    "procedimento": "Concurso público",
-   "entidade": "Associação H. B. de Bombeiros Voluntários de Braga",
-   "preco_base": 248000.0,
+   "entidade": "Município de Ponte da Barca",
+   "preco_base": 233341.91,
    "publicado": "2026-10-13",
    "categorias": [],
    "minho": true,
-   "objeto": "Aquisição de veíuculo florestal de combate a incêndio - VFCI",
-   "prazo_propostas": "26 dias.",
-   "cpv": "34144210-3, Veículos de combate a incêndios",
-   "n_dr": "25199/2026",
-   "url_bidsfactory": "https://bidsfactory.com/en/tenders/aquisicao-de-veiuculo-florestal-de-combate-a-incen-base_gov_pt-0af862c499eb6963",
-   "classe": "C"
-  },
-  {
-   "origem": "BASE",
-   "id": "458247",
-   "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=anuncios&id=458247",
-   "titulo": "Aquisição de 9 computadores portáteis e 8 monitores",
-   "tipo_ato": "Anúncio de procedimento",
-   "procedimento": "Concurso público",
-   "entidade": "AGERE- Empresa de Águas Efluentes e Resíduos de Braga, EM",
-   "preco_base": 15500.0,
-   "publicado": "2026-10-13",
-   "categorias": [],
-   "minho": true,
-   "objeto": "Aquisição de 9 computadores portáteis e 8 monitores",
-   "prazo_propostas": "9 dias.",
-   "cpv": "30213100-6, Computadores portáteis",
-   "n_dr": "25203/2026",
-   "url_bidsfactory": "https://bidsfactory.com/en/tenders/aquisicao-de-9-computadores-portateis-e-8-monitore-base_gov_pt-a18fd9d409afd2db",
+   "objeto": "Execução e Expansão de Rede de Saneamento em Vila Nova de Muia em Ponte da Barca - Rua Quintela de Baixo e Estrada Nacional 203",
+   "prazo_propostas": "22 dias.",
+   "cpv": "45232460-4, Obras de saneamento",
+   "n_dr": "25218/2026",
+   "url_bidsfactory": "https://bidsfactory.com/en/tenders/execucao-e-expansao-de-rede-de-saneamento-em-vila-base_gov_pt-b5260fc909674245",
    "classe": "C"
   },
   {
