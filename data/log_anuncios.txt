@@ -1,5 +1,5 @@
 1) Portal BASE via browser…
-   180 linhas
-   29 relevantes (perfil ou Minho)
+   260 linhas
+   35 relevantes (perfil ou Minho)
 2) BidsFactory (recurso)…
-OK: 41 candidatos.
+OK: 45 candidatos.
