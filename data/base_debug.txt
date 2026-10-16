@@ -1,19 +1,17 @@
 title='Pesquisa'
-pedidos ajax capturados=1; https://www.base.gov.pt/Base4/pt/resultados/ :: type=search_anuncios&version=155.0&query=tipocontrato%3D0%26desdedatapublicacao%3D12-10-2026%26tipoacto%3D0%26tipomodelo%3D0&sort=-drPublicationDate&page=0&size=25
-pagina 1 (DOM): 25 linhas; primeira pub=14-10-2026; ultima pub=14-10-2026
-exemplo=[{'origem': 'BASE', 'id': '458398', 'url': 'https://www.base.gov.pt/Base4/pt/detalhe/?type=anuncios&id=458398', 'titulo': 'CT-26/00951 - Cartografia Digital do Litoral de Sintra – CADliS 1.0', 'tipo_ato': 'Anúncio de procedimento', 'procedimento': 'Concurso público', 'entidade': 'Município de Sintra', 'preco_base': 78000.0, 'publicado': '14-10-2026'}, {'origem': 'BASE', 'id': '458397', 'url': 'https://www.base.gov.pt/Base4/pt/detalhe/?type=anuncios&id=458397', 'titulo': 'Proc. 02/DPCH/2026 - Empreitada de construção do novo Centro de Convívio no Bairro dos Navegadores, Talaíde, Porto Salvo.', 'tipo_ato': 'Anúncio de procedimento', 'procedimento': 'Concurso público', 'entidade': 'Município de Oeiras', 'preco_base': 1233368.64, 'publicado': '14-10-2026'}]
-form_base={'type': 'search_anuncios', 'version': '155.0', 'query': 'tipocontrato=0&desdedatapublicacao=12-10-2026&tipoacto=0&tipomodelo=0', 'sort': '-drPublicationDate', 'page': '0', 'size': '25'}
-ajax status=200 inicio='\t\t\t\t\t{ "total": 253498, "items": [{"contractingEntity":"Município de Sintra","basePrice":"78.000,00 €","contractingProcedureType":"Concurso público","drPublicationDate":"14-10-2026","contractDesignation":"CT-26/00951 - Cartografia Digital do Litoral de Sintra – CADliS 1.0","proposalDeadline":"29-10-2026","id":458398,"type":"Anúncio de procedimento"},{"contractingEntity":"Município de Oeiras","basePrice":"1.233.368,64 €","contractingProcedureType":"Concurso público","drPublicationDate":"14-10-2026","contractDesignation":"Proc. 02/DPCH/2026 - Empreitada de construção do novo Centro de Convívio n'
-pagina 1 (ajax): 20 linhas; ultima pub=14-10-2026
-pagina 2 (ajax): 20 linhas; ultima pub=14-10-2026
-pagina 3 (ajax): 20 linhas; ultima pub=14-10-2026
-pagina 4 (ajax): 20 linhas; ultima pub=13-10-2026
-pagina 5 (ajax): 20 linhas; ultima pub=13-10-2026
-pagina 6 (ajax): 20 linhas; ultima pub=13-10-2026
-pagina 7 (ajax): 20 linhas; ultima pub=13-10-2026
-pagina 8 (ajax): 20 linhas; ultima pub=12-10-2026
-pagina 9 (ajax): 20 linhas; ultima pub=12-10-2026
-pagina 10 (ajax): 20 linhas; ultima pub=12-10-2026
+pedidos ajax capturados=1; https://www.base.gov.pt/Base4/pt/resultados/ :: type=search_anuncios&version=87.0&query=tipocontrato%3D0%26desdedatapublicacao%3D13-10-2026%26tipoacto%3D0%26tipomodelo%3D0&sort=-drPublicationDate&page=0&size=25
+pagina 1 (DOM): 25 linhas; primeira pub=15-10-2026; ultima pub=15-10-2026
+exemplo=[{'origem': 'BASE', 'id': '458462', 'url': 'https://www.base.gov.pt/Base4/pt/detalhe/?type=anuncios&id=458462', 'titulo': 'Execução Trabalhos de Reparações e Melhorias em Infraestruturas de Saneamento do Sistema Multimunicipal de Abastecimento de Água e Saneamento do Algarve \x96 4.º Contrato', 'tipo_ato': 'Anúncio de procedimento', 'procedimento': 'Concurso público', 'entidade': 'Águas do Algarve, SA', 'preco_base': 3319800.0, 'publicado': '15-10-2026'}, {'origem': 'BASE', 'id': '458460', 'url': 'https://www.base.gov.pt/Base4/pt/detalhe/?type=anuncios&id=458460', 'titulo': 'PC.150.2026.0001029 - D82.031S e D82.032S - Reabilitação das frações nº 80011958 e 80011959 sitas em Ponta Delgada, Açores', 'tipo_ato': 'Anúncio de procedimento', 'procedimento': 'Concurso público', 'entidade': 'Instituto da Habitação e da Reabilitação Urbana, IP', 'preco_base': 160000.0, 'publicado': '15-10-2026'}]
+form_base={'type': 'search_anuncios', 'version': '87.0', 'query': 'tipocontrato=0&desdedatapublicacao=13-10-2026&tipoacto=0&tipomodelo=0', 'sort': '-drPublicationDate', 'page': '0', 'size': '25'}
+ajax status=200 inicio='\t\t\t\t\t{ "total": 253553, "items": [{"basePrice":"3.319.800,00 €","contractingProcedureType":"Concurso público","contractingEntity":"Águas do Algarve, SA","drPublicationDate":"15-10-2026","contractDesignation":"Execução Trabalhos de Reparações e Melhorias em Infraestruturas de Saneamento do Sistema Multimunicipal de Abastecimento de Água e Saneamento do Algarve \x96 4.º Contrato","proposalDeadline":"05-11-2026","id":458462,"type":"Anúncio de procedimento"},{"basePrice":"160.000,00 €","contractingProcedureType":"Concurso público","contractingEntity":"Instituto da Habitação e da Reabilitação Urbana, '
+pagina 1 (ajax): 20 linhas; ultima pub=15-10-2026
+pagina 2 (ajax): 20 linhas; ultima pub=15-10-2026
+pagina 3 (ajax): 20 linhas; ultima pub=15-10-2026
+pagina 4 (ajax): 20 linhas; ultima pub=14-10-2026
+pagina 5 (ajax): 20 linhas; ultima pub=14-10-2026
+pagina 6 (ajax): 20 linhas; ultima pub=14-10-2026
+pagina 7 (ajax): 20 linhas; ultima pub=14-10-2026
+pagina 8 (ajax): 20 linhas; ultima pub=13-10-2026
+pagina 9 (ajax): 20 linhas; ultima pub=13-10-2026
+pagina 10 (ajax): 20 linhas; ultima pub=13-10-2026
 pagina 11 (ajax): 20 linhas; ultima pub=12-10-2026
-pagina 12 (ajax): 20 linhas; ultima pub=12-10-2026
-pagina 13 (ajax): 20 linhas; ultima pub=09-10-2026
