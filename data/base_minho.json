@@ -1,9 +1,561 @@
 {
- "gerado_em": "2026-10-12",
+ "gerado_em": "2026-10-19",
  "fonte": "https://dados.gov.pt/api/1/datasets/contratos-publicos-portal-base-impic-contratos-de-2012-a-2026/",
- "total_lidos": 437611,
- "selecionados": 1872,
+ "total_lidos": 442834,
+ "selecionados": 1881,
  "registos": [
+  {
+   "id": "15788496",
+   "objeto": "Concurso Público com publicidade no Jornal Oficial da União Europeia (JOUE) para aquisição de Licenciamento de Software para Entidades do Serviço Nacional de Saúde e Ministério da Saúde (Agregação 2026).",
+   "adjudicante": "506361381 - Unidade Local de Saúde Barcelos/Esposende, E.P.E.",
+   "adjudicatario": "509117660 - Exitus – Soluções Tecnológicas, Lda.",
+   "procedimento": "Concurso público",
+   "tipo_contrato": [
+    "Aquisição de bens móveis"
+   ],
+   "cpv": "['48200000-0 - Pacote de software para ligações em rede, Internet e intranet']",
+   "preco": 247.16,
+   "data_publicacao": "2026-10-16",
+   "data_celebracao": "2025-12-17",
+   "local": [
+    "Portugal, Braga, Barcelos"
+   ],
+   "prazo": 365,
+   "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15788496",
+   "categorias": [
+    "software_ti"
+   ]
+  },
+  {
+   "id": "15788599",
+   "objeto": "Concurso Público com publicidade no Jornal Oficial da União Europeia (JOUE) para aquisição de Licenciamento de Software para Entidades do Serviço Nacional de Saúde e Ministério da Saúde (Agregação 2026).",
+   "adjudicante": "506361381 - Unidade Local de Saúde Barcelos/Esposende, E.P.E.",
+   "adjudicatario": "503323390 - PSE - Produtos e Serviços de Estatística , Lda",
+   "procedimento": "Concurso público",
+   "tipo_contrato": [
+    "Aquisição de bens móveis"
+   ],
+   "cpv": "['48200000-0 - Pacote de software para ligações em rede, Internet e intranet']",
+   "preco": 1800.0,
+   "data_publicacao": "2026-10-16",
+   "data_celebracao": "2025-12-17",
+   "local": [
+    "Portugal, Braga, Barcelos"
+   ],
+   "prazo": 365,
+   "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15788599",
+   "categorias": [
+    "software_ti"
+   ]
+  },
+  {
+   "id": "15786366",
+   "objeto": "Aquisição e montagem de celas de média tensão, para substituição de deterioradas, no PT da Escola Secundária Dona Maria II, em Braga",
+   "adjudicante": "508069645 - Construção Pública, EPE",
+   "adjudicatario": "510058116 - J L Nogueira, Lda.",
+   "procedimento": "Ajuste Direto Regime Geral",
+   "tipo_contrato": [
+    "Aquisição de bens móveis"
+   ],
+   "cpv": "['31320000-5 - Cabos de distribuição de energia eléctrica']",
+   "preco": 13878.4,
+   "data_publicacao": "2026-10-16",
+   "data_celebracao": "2026-10-15",
+   "local": [
+    "Portugal, Braga, Braga"
+   ],
+   "prazo": 45,
+   "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15786366",
+   "categorias": [
+    "eletricidade"
+   ]
+  },
+  {
+   "id": "15788083",
+   "objeto": "Prestação de Serviços de Formação Profissional, Formação Modular Certificada, ao abrigo da Operação n.º PESSOAS-FSE+-01125900, para a  UC02811 - Aplicar princípios básicos de eletricidade",
+   "adjudicante": "501893776 - J. Canão, Lda",
+   "adjudicatario": "- - Nelson Daniel Oliveira Cerqueira",
+   "procedimento": "Contratação excluída II",
+   "tipo_contrato": [
+    "Aquisição de serviços"
+   ],
+   "cpv": "['80000000-4 - Serviços de ensino e formação']",
+   "preco": 1500.0,
+   "data_publicacao": "2026-10-16",
+   "data_celebracao": "2026-06-29",
+   "local": [
+    "Portugal, Viana do Castelo, Ponte da Barca"
+   ],
+   "prazo": 25,
+   "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15788083",
+   "categorias": [
+    "eletricidade"
+   ]
+  },
+  {
+   "id": "15788162",
+   "objeto": "Concurso Público com publicação de anúncio no Jornal Oficial da União Europeia | JOUE para aquisição de Licenciamento de Software Microsoft e Serviços Conexos para as Entidades do SNS e Ministério da Saúde.",
+   "adjudicante": "506361381 - Unidade Local de Saúde de Barcelos/Esposende, EPE",
+   "adjudicatario": "513246290 - CRAYON SOFTWARE LICENSING, UNIPESSOAL LDA",
+   "procedimento": "Concurso público",
+   "tipo_contrato": [
+    "Aquisição de bens móveis"
+   ],
+   "cpv": "['48200000-0 - Pacote de software para ligações em rede, Internet e intranet']",
+   "preco": 25548.84,
+   "data_publicacao": "2026-10-16",
+   "data_celebracao": "2026-05-21",
+   "local": [
+    "Portugal, Braga, Barcelos"
+   ],
+   "prazo": 365,
+   "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15788162",
+   "categorias": [
+    "software_ti"
+   ]
+  },
+  {
+   "id": "15788275",
+   "objeto": "PF 1237/2026 - Fornecimento de software para suporte ao atendimento desmaterializado",
+   "adjudicante": "505211696 - Município de Arcos de Valdevez",
+   "adjudicatario": "501378669 - AIRC - Associação de Informática da Região Centro",
+   "procedimento": "Ajuste Direto Regime Geral",
+   "tipo_contrato": [
+    "Aquisição de bens móveis"
+   ],
+   "cpv": "['48311000-1 - Pacote de software para gestão de documentos']",
+   "preco": 19323.0,
+   "data_publicacao": "2026-10-16",
+   "data_celebracao": "2026-10-15",
+   "local": [
+    "Portugal, Viana do Castelo, Arcos de Valdevez"
+   ],
+   "prazo": 60,
+   "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15788275",
+   "categorias": [
+    "software_ti"
+   ]
+  },
+  {
+   "id": "15789385",
+   "objeto": "Prestação de serviços - Execução de estudo prévio e projeto de execução da ETA",
+   "adjudicante": "506797627 - Município de Amares",
+   "adjudicatario": "501213350 - Noraqua, Consultores de Engenharia, Lda.",
+   "procedimento": "Consulta Prévia",
+   "tipo_contrato": [
+    "Aquisição de serviços"
+   ],
+   "cpv": "['71200000-0 - Serviços de arquitectura e afins']",
+   "preco": 72000.0,
+   "data_publicacao": "2026-10-16",
+   "data_celebracao": "2026-10-16",
+   "local": [
+    "Portugal"
+   ],
+   "prazo": 75,
+   "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15789385",
+   "categorias": [
+    "projeto"
+   ]
+  },
+  {
+   "id": "15789758",
+   "objeto": "Aquisição de serviços de manutenção da rede Guimarães WiFi e Wifi4EU",
+   "adjudicante": "505948605 - Município de Guimarães",
+   "adjudicatario": "504813480 - Wavecom-Soluções Rádio, SA",
+   "procedimento": "Ajuste Direto Regime Geral",
+   "tipo_contrato": [
+    "Aquisição de serviços"
+   ],
+   "cpv": "['72400000-4 - Serviços de Internet']",
+   "preco": 13540.68,
+   "data_publicacao": "2026-10-16",
+   "data_celebracao": "2026-10-16",
+   "local": [
+    "Portugal"
+   ],
+   "prazo": 1096,
+   "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15789758",
+   "categorias": [
+    "software_ti"
+   ]
+  },
+  {
+   "id": "15789763",
+   "objeto": "Aquisição de serviços de Fiscalização de diversas empreitadas",
+   "adjudicante": "505948605 - Município de Guimarães",
+   "adjudicatario": "519552750 - Esboço Impetuoso, Lda.",
+   "procedimento": "Consulta Prévia",
+   "tipo_contrato": [
+    "Aquisição de serviços"
+   ],
+   "cpv": "['71247000-1 - Supervisão de trabalhos de construção']",
+   "preco": 73000.0,
+   "data_publicacao": "2026-10-16",
+   "data_celebracao": "2026-10-16",
+   "local": [
+    "Portugal"
+   ],
+   "prazo": 365,
+   "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15789763",
+   "categorias": [
+    "projeto"
+   ]
+  },
+  {
+   "id": "15778676",
+   "objeto": "elaboração do projeto de execução do arruamento: Rotunda da Sobreira – Rua Gueda Mendes",
+   "adjudicante": "505330334 - Município de Cabeceiras de Basto",
+   "adjudicatario": "- - João Paulo Rosas Martins",
+   "procedimento": "Concurso público",
+   "tipo_contrato": [
+    "Aquisição de serviços"
+   ],
+   "cpv": "['71410000-5 - Serviços de planeamento urbano']",
+   "preco": 9900.0,
+   "data_publicacao": "2026-10-15",
+   "data_celebracao": "2026-07-31",
+   "local": [
+    "Portugal, Braga, Cabeceiras de Basto"
+   ],
+   "prazo": 66,
+   "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15778676",
+   "categorias": [
+    "projeto"
+   ]
+  },
+  {
+   "id": "15778707",
+   "objeto": "Loteamento de Lestriz - Estudo Prévio de Loteamento e Projeto de Execução de Arquitetura",
+   "adjudicante": "505676770 - Município de Ponte da Barca",
+   "adjudicatario": "503040630 - Vitor Hugo - Coordenação e Gestão de Projectos, SA",
+   "procedimento": "Consulta Prévia",
+   "tipo_contrato": [
+    "Aquisição de serviços"
+   ],
+   "cpv": "['71000000-8 - Serviços de arquitectura, construção, engenharia e inspecção']",
+   "preco": 4100.0,
+   "data_publicacao": "2026-10-15",
+   "data_celebracao": "2026-09-03",
+   "local": [
+    "Portugal, Viana do Castelo, Ponte da Barca"
+   ],
+   "prazo": 31,
+   "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15778707",
+   "categorias": [
+    "projeto"
+   ]
+  },
+  {
+   "id": "15778853",
+   "objeto": "Aquisição de Material Informático Diverso para os TUB- Transportes Urbanos de Braga, E.M..",
+   "adjudicante": "504807684 - TUB - Empresa Transportes Urbanos de Braga",
+   "adjudicatario": "514778865 - MTI Consulting, Lda",
+   "procedimento": "Consulta Prévia",
+   "tipo_contrato": [
+    "Aquisição de bens móveis"
+   ],
+   "cpv": "['30200000-1 - Equipamento e material informático']",
+   "preco": 19022.65,
+   "data_publicacao": "2026-10-15",
+   "data_celebracao": "2026-10-02",
+   "local": [
+    "Portugal, Braga, Braga"
+   ],
+   "prazo": 61,
+   "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15778853",
+   "categorias": [
+    "software_ti"
+   ]
+  },
+  {
+   "id": "15780181",
+   "objeto": "Criação de Plataforma Digital no âmbito do Projeto “Pescadores do Rio Minho – Memória Coletiva”",
+   "adjudicante": "506896625 - Município de Vila Nova de Cerveira",
+   "adjudicatario": "510283411 - Talents &amp; Treasures Unipessoal, Lda",
+   "procedimento": "Ajuste Direto Regime Geral",
+   "tipo_contrato": [
+    "Aquisição de bens móveis"
+   ],
+   "cpv": "['48100000-9 - Pacote de software para sectores específicos']",
+   "preco": 24288.96,
+   "data_publicacao": "2026-10-15",
+   "data_celebracao": "2026-10-15",
+   "local": [
+    "Portugal, Viana do Castelo, Vila Nova de Cerveira"
+   ],
+   "prazo": 92,
+   "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15780181",
+   "categorias": [
+    "software_ti"
+   ]
+  },
+  {
+   "id": "15781166",
+   "objeto": "Projeto de Arquitetura, Projetos de Especialidades e Projeto de Execução, para a construção de edifício destinado a Estrutura Residencial para Pessoas Idosas (ERPI) e Centro de Dia",
+   "adjudicante": "501947744 - Associação Cultural e Recreativa de Travassós",
+   "adjudicatario": "505076110 - Atelier",
+   "procedimento": "Consulta Prévia",
+   "tipo_contrato": [
+    "Aquisição de serviços"
+   ],
+   "cpv": "['71000000-8 - Serviços de arquitectura, construção, engenharia e inspecção']",
+   "preco": 67000.0,
+   "data_publicacao": "2026-10-15",
+   "data_celebracao": "2026-10-12",
+   "local": [
+    "Portugal, Braga, Fafe"
+   ],
+   "prazo": 365,
+   "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15781166",
+   "categorias": [
+    "projeto"
+   ]
+  },
+  {
+   "id": "15781286",
+   "objeto": " “AQUISIÇÃO DE LICENÇAS E SERVIÇOS DE ATUALIZAÇÃO E EVOLUÇÃO DA PLATAFORMA NOPAPER® DO MUNICÍPIO DE CAMINHA, PARA CONFORMIDADE COM O REGIME JURÍDICO DA URBANIZAÇÃO E DA EDIFICAÇÃO REVISTO (DECRETO-LEI N.º 108/2026, DE 29 DE MAIO, E PORTARIA N.º 320/2026/1, DE 31 DE JULHO) — MÓDULOS «GESTOR DE FORMULÁRIOS» E «GEOPORTAL» (WEBEPL, WEBPDM E WEBCAP)”",
+   "adjudicante": "500843139 - Município de Caminha",
+   "adjudicatario": "502413603 - PH- Informática e Micro Sistemas, S.A.",
+   "procedimento": "Ajuste Direto Regime Geral",
+   "tipo_contrato": [
+    "Aquisição de serviços"
+   ],
+   "cpv": "['72212100-0 - Serviços de desenvolvimento de software para sectores específicos']",
+   "preco": 45000.0,
+   "data_publicacao": "2026-10-15",
+   "data_celebracao": "2026-10-15",
+   "local": [
+    "Portugal, Viana do Castelo, Caminha"
+   ],
+   "prazo": 365,
+   "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15781286",
+   "categorias": [
+    "software_ti"
+   ]
+  },
+  {
+   "id": "15781395",
+   "objeto": "PRC_0105/2026_TII - Aquisição de bens e serviços da infraestrutura de Datacenter da Águas do Norte, S.A.\n",
+   "adjudicante": "513606084 - Águas do Norte, SA",
+   "adjudicatario": null,
+   "procedimento": "Concurso público",
+   "tipo_contrato": [
+    "Aquisição de bens móveis",
+    "Aquisição de serviços"
+   ],
+   "cpv": "['31000000-6 - Maquinaria, aparelhagem, equipamento e consumíveis eléctricos; iluminação']",
+   "preco": 63000.0,
+   "data_publicacao": "2026-10-15",
+   "data_celebracao": "2026-10-14",
+   "local": [
+    "Portugal"
+   ],
+   "prazo": 1096,
+   "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15781395",
+   "categorias": [
+    "software_ti"
+   ]
+  },
+  {
+   "id": "15767285",
+   "objeto": "Aquisição de serviços para plataforma de gestão integrada de fiscalização de zonas de estacionamento",
+   "adjudicante": "509584888 - Vitrus Ambiente, EM, SA",
+   "adjudicatario": "516294890 - Urban Motion, Soluções Informáticas L.da",
+   "procedimento": "Ajuste Direto Regime Geral",
+   "tipo_contrato": [
+    "Aquisição de serviços"
+   ],
+   "cpv": "['72260000-5 - Serviços relacionados com software']",
+   "preco": 32000.0,
+   "data_publicacao": "2026-10-14",
+   "data_celebracao": "2026-10-09",
+   "local": [
+    "Portugal, Braga, Guimarães"
+   ],
+   "prazo": 731,
+   "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15767285",
+   "categorias": [
+    "projeto",
+    "software_ti"
+   ]
+  },
+  {
+   "id": "15771064",
+   "objeto": "PROCEDIMENTO DE AJUSTE DIRETO, EC-CCP-AD-RG_2026-003, PARA AQUISIÇÃO DE SERVIÇOS ESPECIALIZADOS PARA O DESENVOLVIMENTO DE UMA  SOLUÇÃO DE INTELIGÊNCIA ARTIFICIAL/ APRENDIZAGEM AUTOMÁTICA, À MEDIDA DAS NECESSIDADES ESPECÍFICAS DE PROJETO DE INOVAÇÃO DO CENTRO DE FÍSICA (CFUM), DA ESCOLA DE CIÊNCIAS (EC), DA UNIVERSIDADE DO MINHO (UMINHO).",
+   "adjudicante": "502011378 - Universidade do Minho",
+   "adjudicatario": "- - JOSÉ ALEXANDRE RODRIGUES MONTEIRO",
+   "procedimento": "Ajuste Direto Regime Geral",
+   "tipo_contrato": [
+    "Aquisição de serviços"
+   ],
+   "cpv": "['72230000-6 - Serviços de desenvolvimento de software à medida']",
+   "preco": 8130.0,
+   "data_publicacao": "2026-10-14",
+   "data_celebracao": "2026-10-12",
+   "local": [
+    "Portugal, Braga, Braga"
+   ],
+   "prazo": 92,
+   "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15771064",
+   "categorias": [
+    "software_ti"
+   ]
+  },
+  {
+   "id": "15760537",
+   "objeto": "Aquisição de serviços de licenciamento, disponibilização, manutenção e suporte da plataforma OutSystems Developer Cloud (ODC)",
+   "adjudicante": "510116477 - CCAB - Centro Clínico Académico - Braga",
+   "adjudicatario": "502479418 - Glintt-Healthcare Solutions, S.A.",
+   "procedimento": "Concurso público",
+   "tipo_contrato": [
+    "Aquisição de bens móveis"
+   ],
+   "cpv": "['48000000-8 - Pacotes de software e sistemas de informação']",
+   "preco": 215000.0,
+   "data_publicacao": "2026-10-13",
+   "data_celebracao": "2026-09-08",
+   "local": [
+    "Portugal"
+   ],
+   "prazo": 1096,
+   "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15760537",
+   "categorias": [
+    "software_ti"
+   ]
+  },
+  {
+   "id": "15762648",
+   "objeto": "CP/0915/2026 - Sistema de gestão de visitas",
+   "adjudicante": "508080827 - Unidade Local de Saúde do Alto Ave, EPE",
+   "adjudicatario": "506951405 - Proside, SA",
+   "procedimento": "Concurso público",
+   "tipo_contrato": [
+    "Aquisição de serviços"
+   ],
+   "cpv": "['72200000-7 - Serviços de consultoria e de programação de software']",
+   "preco": 9990.0,
+   "data_publicacao": "2026-10-13",
+   "data_celebracao": "2026-09-21",
+   "local": [
+    "Portugal, Braga, Guimarães"
+   ],
+   "prazo": 60,
+   "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15762648",
+   "categorias": [
+    "software_ti"
+   ]
+  },
+  {
+   "id": "15762975",
+   "objeto": "Elaboração do projeto para o auditório da Casa da Cultura de Ponte da Barca",
+   "adjudicante": "505676770 - Município de Ponte da Barca",
+   "adjudicatario": "502180960 - PROGITAPE-PROJECTOS DE ARQUITECTURA, PLEANEAMENTO E ENGENHARIA LDA",
+   "procedimento": "Ajuste Direto Regime Geral",
+   "tipo_contrato": [
+    "Aquisição de serviços"
+   ],
+   "cpv": "['71000000-8 - Serviços de arquitectura, construção, engenharia e inspecção']",
+   "preco": 35000.0,
+   "data_publicacao": "2026-10-13",
+   "data_celebracao": "2026-05-21",
+   "local": [
+    "Portugal, Viana do Castelo, Ponte da Barca"
+   ],
+   "prazo": 30,
+   "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15762975",
+   "categorias": [
+    "projeto"
+   ]
+  },
+  {
+   "id": "15759309",
+   "objeto": "CONFIGURAÇÃO, INTEGRAÇÃO E MANUTENÇÃO NA PLATAFORMA DE GESTÃO URBANA",
+   "adjudicante": "506907619 - Município de Terras de Bouro",
+   "adjudicatario": "510174132 - FBCPS - Business Consulting and Professional Services, Lda",
+   "procedimento": "Ajuste Direto Regime Geral",
+   "tipo_contrato": [
+    "Aquisição de serviços"
+   ],
+   "cpv": "['72600000-6 - Serviços de consultoria e assistência informáticas']",
+   "preco": 17500.0,
+   "data_publicacao": "2026-10-12",
+   "data_celebracao": "2026-10-09",
+   "local": [
+    "Portugal, Braga, Terras de Bouro"
+   ],
+   "prazo": 15,
+   "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15759309",
+   "categorias": [
+    "software_ti"
+   ]
+  },
+  {
+   "id": "15760047",
+   "objeto": "2026/AJD/024 - Serviços de Manutenção da Rede Privativa de Voz da UNIPVC",
+   "adjudicante": "503761877 - Universidade Politécnica de Viana do Castelo",
+   "adjudicatario": "518194671 - UMAINWRKS, LDA",
+   "procedimento": "Ajuste Direto Regime Geral",
+   "tipo_contrato": [
+    "Aquisição de serviços"
+   ],
+   "cpv": "['72600000-6 - Serviços de consultoria e assistência informáticas']",
+   "preco": 17500.0,
+   "data_publicacao": "2026-10-12",
+   "data_celebracao": "2026-10-12",
+   "local": [
+    "Portugal"
+   ],
+   "prazo": 1096,
+   "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15760047",
+   "categorias": [
+    "software_ti"
+   ]
+  },
+  {
+   "id": "15760487",
+   "objeto": "Aquisição de serviços de evolução tecnológica da plataforma de gestão documental, implementação de soluções de interoperabilidade e modernização dos serviços digitais da Vimágua, por Lotes",
+   "adjudicante": "505993082 - Vimágua - Empresa de Água e Saneamento de Guimarães e Vizela, EIM, SA",
+   "adjudicatario": "503909637 - ANO SOFTWARE - SISTEMAS DE INFORMAÇÃO, LDA",
+   "procedimento": "Concurso público",
+   "tipo_contrato": [
+    "Aquisição de serviços"
+   ],
+   "cpv": "['72267100-0 - Manutenção de software para as tecnologias da infomação']",
+   "preco": 30730.0,
+   "data_publicacao": "2026-10-12",
+   "data_celebracao": "2026-10-12",
+   "local": [
+    "Portugal"
+   ],
+   "prazo": 731,
+   "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15760487",
+   "categorias": [
+    "software_ti"
+   ]
+  },
+  {
+   "id": "15760504",
+   "objeto": "Aquisição de serviços de evolução tecnológica da plataforma de gestão documental, implementação de soluções de interoperabilidade e modernização dos serviços digitais da Vimágua, por Lotes",
+   "adjudicante": "505993082 - Vimágua - Empresa de Água e Saneamento de Guimarães e Vizela, EIM, SA",
+   "adjudicatario": "503909637 - ANO SOFTWARE - SISTEMAS DE INFORMAÇÃO, LDA",
+   "procedimento": "Concurso público",
+   "tipo_contrato": [
+    "Aquisição de serviços"
+   ],
+   "cpv": "['72267100-0 - Manutenção de software para as tecnologias da infomação']",
+   "preco": 33500.0,
+   "data_publicacao": "2026-10-12",
+   "data_celebracao": "2026-10-12",
+   "local": [
+    "Portugal"
+   ],
+   "prazo": 731,
+   "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15760504",
+   "categorias": [
+    "software_ti"
+   ]
+  },
   {
    "id": "15746032",
    "objeto": "Aquisição de firewall FortiGate-121G, com serviço SOCaaS",
@@ -41613,360 +42165,6 @@
    "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=11382886",
    "categorias": [
     "eletricidade"
-   ]
-  },
-  {
-   "id": "11369785",
-   "objeto": "Aquisição de serviços de fiscalização de obra pública de 12 edifícios \nInvestimento TC-C13-i02_“Eficiência Energética em Edifícios da Administração Pública Central” | AAC N.º 01/C13-i02/2021\n",
-   "adjudicante": "510342647 - Instituto da Conservação da Natureza e das Florestas, I. P.",
-   "adjudicatario": "509333036 - FEATUREPOINT – Engenharia e Topografia, Lda.",
-   "procedimento": "Concurso público",
-   "tipo_contrato": [
-    "Aquisição de serviços"
-   ],
-   "cpv": "['71520000-9 - Serviços de supervisão da construção']",
-   "preco": 34820.0,
-   "data_publicacao": "2025-04-24",
-   "data_celebracao": "2025-04-16",
-   "local": [
-    "Portugal, Braga, Braga"
-   ],
-   "prazo": 244,
-   "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=11369785",
-   "categorias": [
-    "projeto"
-   ]
-  },
-  {
-   "id": "11370722",
-   "objeto": "Ajuste Direto - Aqusição central de incêndio",
-   "adjudicante": "501324550 - Centro de Solidariedade Social de Valdozende",
-   "adjudicatario": "507086546 - Silsafe, Lda",
-   "procedimento": "Ajuste Direto Regime Geral",
-   "tipo_contrato": [
-    "Aquisição de bens móveis"
-   ],
-   "cpv": "['31625200-5 - Sistemas de alarme contra incêndios']",
-   "preco": 8396.85,
-   "data_publicacao": "2025-04-24",
-   "data_celebracao": "2025-03-20",
-   "local": [
-    "Portugal, Braga, Terras de Bouro"
-   ],
-   "prazo": 30,
-   "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=11370722",
-   "categorias": [
-    "seguranca_incendio"
-   ]
-  },
-  {
-   "id": "11370749",
-   "objeto": "Prestação de serviços de elaboração de Projeto de Arquitetura e Especialidades de Engenharia – Requalificação de Ruas e do Cemitério",
-   "adjudicante": "507330536 - Freguesia de Palmeira",
-   "adjudicatario": "510105831 - Bizz Box, Lda",
-   "procedimento": "Consulta Prévia",
-   "tipo_contrato": [
-    "Aquisição de serviços"
-   ],
-   "cpv": "['71240000-2 - Serviços de arquitectura, engenharia e planeamento']",
-   "preco": 14250.0,
-   "data_publicacao": "2025-04-24",
-   "data_celebracao": "2025-03-25",
-   "local": [
-    "Portugal, Braga, Braga"
-   ],
-   "prazo": 40,
-   "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=11370749",
-   "categorias": [
-    "projeto"
-   ]
-  },
-  {
-   "id": "11370778",
-   "objeto": "Prestação de serviços de elaboração de Projeto de Arquitetura e Especialidades de Engenharia – Requalificação de Ruas e do Cemitério",
-   "adjudicante": "507330536 - Freguesia de Palmeira",
-   "adjudicatario": "510105831 - Bizz Box, Lda",
-   "procedimento": "Consulta Prévia",
-   "tipo_contrato": [
-    "Aquisição de serviços"
-   ],
-   "cpv": "['71240000-2 - Serviços de arquitectura, engenharia e planeamento']",
-   "preco": 37500.0,
-   "data_publicacao": "2025-04-24",
-   "data_celebracao": "2025-03-25",
-   "local": [
-    "Portugal, Braga, Braga"
-   ],
-   "prazo": 40,
-   "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=11370778",
-   "categorias": [
-    "projeto"
-   ]
-  },
-  {
-   "id": "11371513",
-   "objeto": "Aquisição de serviços de coordenação, fiscalização segurança e ambiente da empreitada Execução de Arruamentos e Edifícios de habitação a custo controlado - Bairro da Imaculada Conceição (BIC)",
-   "adjudicante": "501937471 - Município de Monção",
-   "adjudicatario": "518388859 - Iramar Engenharia e Arquitetura , Unipessoal Lda.",
-   "procedimento": "Concurso público",
-   "tipo_contrato": [
-    "Aquisição de serviços"
-   ],
-   "cpv": "['71520000-9 - Serviços de supervisão da construção']",
-   "preco": 63819.91,
-   "data_publicacao": "2025-04-24",
-   "data_celebracao": "2025-04-09",
-   "local": [
-    "Portugal, Viana do Castelo, Monção"
-   ],
-   "prazo": 455,
-   "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=11371513",
-   "categorias": [
-    "projeto"
-   ]
-  },
-  {
-   "id": "11371535",
-   "objeto": "Aquisição de equipamento informático para o IPCA",
-   "adjudicante": "503494933 - Instituto Politécnico do Cávado e do Ave",
-   "adjudicatario": "513154990 - ConfigBit, Lda",
-   "procedimento": "Concurso público",
-   "tipo_contrato": [
-    "Aquisição de bens móveis"
-   ],
-   "cpv": "['30200000-1 - Equipamento e material informático']",
-   "preco": 43630.0,
-   "data_publicacao": "2025-04-24",
-   "data_celebracao": "2025-04-24",
-   "local": [
-    "Portugal"
-   ],
-   "prazo": 60,
-   "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=11371535",
-   "categorias": [
-    "software_ti"
-   ]
-  },
-  {
-   "id": "11367520",
-   "objeto": "SERVIÇOS DE ASSISTÊNCIA TÉCNICA DOS SOFTWARES DA B-SIMPLE INSTALADOS NAS ENTIDADES DO MINISTÉRIO DA SAÚDE PARA O ANO DE 2025",
-   "adjudicante": "508093937 - Unidade Local de Saúde do Médio Ave, E.P.E.",
-   "adjudicatario": "506188841 - B-Simple Sistemas de Informação,Lda.",
-   "procedimento": "Ajuste Direto Regime Geral",
-   "tipo_contrato": [
-    "Aquisição de serviços"
-   ],
-   "cpv": "['72500000-0 - Serviços relacionados com a informática']",
-   "preco": 29737.81,
-   "data_publicacao": "2025-04-23",
-   "data_celebracao": "2025-02-21",
-   "local": [
-    "Portugal, Braga, Vila Nova de Famalicão",
-    "Portugal, Porto, Santo Tirso"
-   ],
-   "prazo": 365,
-   "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=11367520",
-   "categorias": [
-    "software_ti"
-   ]
-  },
-  {
-   "id": "11367533",
-   "objeto": "Aquisição de Serviços de Manutenção dos Sistemas de Gestão da RISI, instaladas nas Entidades do Ministério da Saúde para o ano 2025",
-   "adjudicante": "506361381 - Unidade Local de Saúde Barcelos/Esposende, E.P.E.",
-   "adjudicatario": "503754803 - Recursos, Ideias e Soluções Informáticas, Lda.",
-   "procedimento": "Ajuste Direto Regime Geral",
-   "tipo_contrato": [
-    "Aquisição de serviços"
-   ],
-   "cpv": "['72500000-0 - Serviços relacionados com a informática']",
-   "preco": 25197.6,
-   "data_publicacao": "2025-04-23",
-   "data_celebracao": "2025-03-06",
-   "local": [
-    "Portugal, Braga, Barcelos"
-   ],
-   "prazo": 306,
-   "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=11367533",
-   "categorias": [
-    "software_ti"
-   ]
-  },
-  {
-   "id": "11368172",
-   "objeto": "Aquisição de equipamento informático para o IPCA",
-   "adjudicante": "503494933 - Instituto Politécnico do Cávado e do Ave",
-   "adjudicatario": "501333401 - BASE2, LDA",
-   "procedimento": "Concurso público",
-   "tipo_contrato": [
-    "Aquisição de bens móveis"
-   ],
-   "cpv": "['30200000-1 - Equipamento e material informático']",
-   "preco": 6586.0,
-   "data_publicacao": "2025-04-23",
-   "data_celebracao": "2025-04-22",
-   "local": [
-    "Portugal"
-   ],
-   "prazo": 60,
-   "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=11368172",
-   "categorias": [
-    "software_ti"
-   ]
-  },
-  {
-   "id": "11368881",
-   "objeto": "AQUISIÇÃO DE CANDEEIROS DE ILUMINAÇÃO PÚBLICA",
-   "adjudicante": "506811913 - Município de Ponte de Lima",
-   "adjudicatario": "501755616 - C.I.T.A.C.",
-   "procedimento": "Ajuste Direto Regime Geral",
-   "tipo_contrato": [
-    "Aquisição de bens móveis"
-   ],
-   "cpv": "['44470000-5 - Produtos de ferro fundido']",
-   "preco": 11550.0,
-   "data_publicacao": "2025-04-23",
-   "data_celebracao": "2025-04-22",
-   "local": [
-    "Portugal, Viana do Castelo, Ponte de Lima"
-   ],
-   "prazo": 20,
-   "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=11368881",
-   "categorias": [
-    "eletricidade"
-   ]
-  },
-  {
-   "id": "11369053",
-   "objeto": "Aquisição de serviços de aluguer de fibra ótica escura FOE para Rede Privada de FOIPVC-ESCE",
-   "adjudicante": "600041212 - Serviços de Acção Social do Instituto Politécnico de Viana do Castelo",
-   "adjudicatario": "508533457 - dstelecom, S.A.",
-   "procedimento": "Ajuste Direto Regime Geral",
-   "tipo_contrato": [
-    "Aquisição de serviços"
-   ],
-   "cpv": "['72700000-7 - Serviços de rede informática']",
-   "preco": 8212.45,
-   "data_publicacao": "2025-04-23",
-   "data_celebracao": "2025-04-23",
-   "local": [
-    "Portugal"
-   ],
-   "prazo": 1096,
-   "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=11369053",
-   "categorias": [
-    "software_ti"
-   ]
-  },
-  {
-   "id": "11364647",
-   "objeto": "Aquisição de serviços de Assessoria Informática dedicada à Digitalização da CIM Alto Minho",
-   "adjudicante": "508754496 - Comunidade Intermunicipal do Alto Minho",
-   "adjudicatario": "517218356 - ARROBABIT  TECHNOLOGY LDA",
-   "procedimento": "Consulta Prévia",
-   "tipo_contrato": [
-    "Aquisição de serviços"
-   ],
-   "cpv": "['72610000-9 - Serviços de assistência informática']",
-   "preco": 36000.0,
-   "data_publicacao": "2025-04-22",
-   "data_celebracao": "2025-04-14",
-   "local": [
-    "Portugal, Viana do Castelo, Viana do Castelo"
-   ],
-   "prazo": 1095,
-   "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=11364647",
-   "categorias": [
-    "software_ti"
-   ]
-  },
-  {
-   "id": "11366015",
-   "objeto": "Prestação de serviços de mão-de-obra de eletricista para os edifícios municipais e fornecimento de materiais/equipamentos/peças diversas",
-   "adjudicante": "506632938 - Município de Paredes de Coura",
-   "adjudicatario": "506211029 - Energicoura",
-   "procedimento": "Consulta Prévia",
-   "tipo_contrato": [
-    "Aquisição de serviços"
-   ],
-   "cpv": "['71314100-3 - Serviços de electricidade']",
-   "preco": 14600.0,
-   "data_publicacao": "2025-04-22",
-   "data_celebracao": "2025-04-16",
-   "local": [
-    "Portugal, Viana do Castelo, Paredes de Coura"
-   ],
-   "prazo": 260,
-   "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=11366015",
-   "categorias": [
-    "eletricidade",
-    "projeto"
-   ]
-  },
-  {
-   "id": "11366159",
-   "objeto": "Aquisição de Upgrade do Sistema de Segurança Checkpoint ",
-   "adjudicante": "506617599 - Município de Esposende",
-   "adjudicatario": "510267440 - Digiheart, Lda",
-   "procedimento": "Concurso público",
-   "tipo_contrato": [
-    "Aquisição de bens móveis"
-   ],
-   "cpv": "['48000000-8 - Pacotes de software e sistemas de informação']",
-   "preco": 199980.0,
-   "data_publicacao": "2025-04-22",
-   "data_celebracao": "2025-03-20",
-   "local": [
-    "Portugal, Braga, Esposende"
-   ],
-   "prazo": 730,
-   "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=11366159",
-   "categorias": [
-    "software_ti"
-   ]
-  },
-  {
-   "id": "11366439",
-   "objeto": "Prestação do serviço de manutenção e suporte ao software Archeevo",
-   "adjudicante": "506632938 - Município de Paredes de Coura",
-   "adjudicatario": "508496870 - KEEP SOLUTIONS, LDA ",
-   "procedimento": "Ajuste Direto Regime Geral",
-   "tipo_contrato": [
-    "Aquisição de serviços"
-   ],
-   "cpv": "['72267000-4 - Serviços de manutenção e reparação de software']",
-   "preco": 15050.0,
-   "data_publicacao": "2025-04-22",
-   "data_celebracao": "2025-04-16",
-   "local": [
-    "Portugal, Viana do Castelo, Paredes de Coura"
-   ],
-   "prazo": 1096,
-   "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=11366439",
-   "categorias": [
-    "software_ti"
-   ]
-  },
-  {
-   "id": "11366830",
-   "objeto": "2025/Cpre/010 - Aquisição de serviços de desenvolvimento e administrativos",
-   "adjudicante": "503761877 - Instituto Politécnico de Viana do Castelo",
-   "adjudicatario": "- - António José Alves Antunes Viana",
-   "procedimento": "Consulta Prévia",
-   "tipo_contrato": [
-    "Aquisição de serviços"
-   ],
-   "cpv": "['72000000-5 - Serviços de TI: consultoria, desenvolvimento de software, Internet e apoio']",
-   "preco": 31800.0,
-   "data_publicacao": "2025-04-22",
-   "data_celebracao": "2025-04-18",
-   "local": [
-    "Portugal"
-   ],
-   "prazo": 487,
-   "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=11366830",
-   "categorias": [
-    "software_ti"
    ]
   }
  ]

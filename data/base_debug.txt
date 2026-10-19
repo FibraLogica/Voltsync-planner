@@ -1,17 +1,5 @@
 title='Pesquisa'
-pedidos ajax capturados=1; https://www.base.gov.pt/Base4/pt/resultados/ :: type=search_anuncios&version=87.0&query=tipocontrato%3D0%26desdedatapublicacao%3D13-10-2026%26tipoacto%3D0%26tipomodelo%3D0&sort=-drPublicationDate&page=0&size=25
-pagina 1 (DOM): 25 linhas; primeira pub=15-10-2026; ultima pub=15-10-2026
-exemplo=[{'origem': 'BASE', 'id': '458462', 'url': 'https://www.base.gov.pt/Base4/pt/detalhe/?type=anuncios&id=458462', 'titulo': 'Execução Trabalhos de Reparações e Melhorias em Infraestruturas de Saneamento do Sistema Multimunicipal de Abastecimento de Água e Saneamento do Algarve \x96 4.º Contrato', 'tipo_ato': 'Anúncio de procedimento', 'procedimento': 'Concurso público', 'entidade': 'Águas do Algarve, SA', 'preco_base': 3319800.0, 'publicado': '15-10-2026'}, {'origem': 'BASE', 'id': '458460', 'url': 'https://www.base.gov.pt/Base4/pt/detalhe/?type=anuncios&id=458460', 'titulo': 'PC.150.2026.0001029 - D82.031S e D82.032S - Reabilitação das frações nº 80011958 e 80011959 sitas em Ponta Delgada, Açores', 'tipo_ato': 'Anúncio de procedimento', 'procedimento': 'Concurso público', 'entidade': 'Instituto da Habitação e da Reabilitação Urbana, IP', 'preco_base': 160000.0, 'publicado': '15-10-2026'}]
-form_base={'type': 'search_anuncios', 'version': '87.0', 'query': 'tipocontrato=0&desdedatapublicacao=13-10-2026&tipoacto=0&tipomodelo=0', 'sort': '-drPublicationDate', 'page': '0', 'size': '25'}
-ajax status=200 inicio='\t\t\t\t\t{ "total": 253553, "items": [{"basePrice":"3.319.800,00 €","contractingProcedureType":"Concurso público","contractingEntity":"Águas do Algarve, SA","drPublicationDate":"15-10-2026","contractDesignation":"Execução Trabalhos de Reparações e Melhorias em Infraestruturas de Saneamento do Sistema Multimunicipal de Abastecimento de Água e Saneamento do Algarve \x96 4.º Contrato","proposalDeadline":"05-11-2026","id":458462,"type":"Anúncio de procedimento"},{"basePrice":"160.000,00 €","contractingProcedureType":"Concurso público","contractingEntity":"Instituto da Habitação e da Reabilitação Urbana, '
-pagina 1 (ajax): 20 linhas; ultima pub=15-10-2026
-pagina 2 (ajax): 20 linhas; ultima pub=15-10-2026
-pagina 3 (ajax): 20 linhas; ultima pub=15-10-2026
-pagina 4 (ajax): 20 linhas; ultima pub=14-10-2026
-pagina 5 (ajax): 20 linhas; ultima pub=14-10-2026
-pagina 6 (ajax): 20 linhas; ultima pub=14-10-2026
-pagina 7 (ajax): 20 linhas; ultima pub=14-10-2026
-pagina 8 (ajax): 20 linhas; ultima pub=13-10-2026
-pagina 9 (ajax): 20 linhas; ultima pub=13-10-2026
-pagina 10 (ajax): 20 linhas; ultima pub=13-10-2026
-pagina 11 (ajax): 20 linhas; ultima pub=12-10-2026
+erro=Page.wait_for_selector: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator("table tbody tr") to be visible
+
