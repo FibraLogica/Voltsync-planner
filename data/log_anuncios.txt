@@ -1,9 +1,5 @@
 1) Portal BASE via browser…
-  BASE via browser falhou: Page.wait_for_selector: Timeout 60000ms exceeded.
-Call log:
-  - waiting for locator("table tbody tr") to be visible
-
-   0 linhas
-   0 relevantes (perfil ou Minho)
+   120 linhas
+   21 relevantes (perfil ou Minho)
 2) BidsFactory (recurso)…
-OK: 17 candidatos.
+OK: 37 candidatos.

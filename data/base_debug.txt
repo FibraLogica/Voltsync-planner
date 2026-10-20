@@ -1,5 +1,12 @@
 title='Pesquisa'
-erro=Page.wait_for_selector: Timeout 60000ms exceeded.
-Call log:
-  - waiting for locator("table tbody tr") to be visible
-
+pedidos ajax capturados=1; https://www.base.gov.pt/Base4/pt/resultados/ :: type=search_anuncios&version=154.0&query=tipocontrato%3D0%26desdedatapublicacao%3D17-10-2026%26tipoacto%3D0%26tipomodelo%3D0&sort=-drPublicationDate&page=0&size=25
+pagina 1 (DOM): 25 linhas; primeira pub=20-10-2026; ultima pub=20-10-2026
+exemplo=[{'origem': 'BASE', 'id': '458672', 'url': 'https://www.base.gov.pt/Base4/pt/detalhe/?type=anuncios&id=458672', 'titulo': 'Aquisição de Material Cirúrgico – Próteses Totais da Anca, ULSAALE, EPE, ano 2027', 'tipo_ato': 'Anúncio de procedimento', 'procedimento': 'Concurso público', 'entidade': 'Unidade Local de Saúde do Alto Alentejo, EPE', 'preco_base': 209652.5, 'publicado': '20-10-2026'}, {'origem': 'BASE', 'id': '458671', 'url': 'https://www.base.gov.pt/Base4/pt/detalhe/?type=anuncios&id=458671', 'titulo': 'PRC/77/2026 - Aquisição de serviços de gestão de resíduos hospitalares, 2027-2029, para a Unidade de Saúde da Ilha de São Jorge', 'tipo_ato': 'Anúncio de procedimento', 'procedimento': 'Concurso público', 'entidade': 'Unidade de Saúde de Ilha de São Jorge', 'preco_base': 167627.71, 'publicado': '20-10-2026'}]
+form_base={'type': 'search_anuncios', 'version': '154.0', 'query': 'tipocontrato=0&desdedatapublicacao=17-10-2026&tipoacto=0&tipomodelo=0', 'sort': '-drPublicationDate', 'page': '0', 'size': '25'}
+ajax status=200 inicio='\t\t\t\t\t{ "total": 253712, "items": [{"contractingProcedureType":"Concurso público","drPublicationDate":"20-10-2026","contractDesignation":"Aquisição de Material Cirúrgico – Próteses Totais da Anca, ULSAALE, EPE, ano 2027","basePrice":"209.652,50 €","proposalDeadline":"29-10-2026","contractingEntity":"Unidade Local de Saúde do Alto Alentejo, EPE","id":458672,"type":"Anúncio de procedimento"},{"contractingProcedureType":"Concurso público","drPublicationDate":"20-10-2026","contractDesignation":"PRC/77/2026 - Aquisição de serviços de gestão de resíduos hospitalares, 2027-2029, para a Unidade de Saúd'
+pagina 1 (ajax): 20 linhas; ultima pub=20-10-2026
+pagina 2 (ajax): 20 linhas; ultima pub=19-10-2026
+pagina 3 (ajax): 20 linhas; ultima pub=19-10-2026
+pagina 4 (ajax): 20 linhas; ultima pub=19-10-2026
+pagina 5 (ajax): 20 linhas; ultima pub=19-10-2026
+pagina 6 (ajax): 20 linhas; ultima pub=16-10-2026
