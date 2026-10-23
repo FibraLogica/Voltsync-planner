@@ -1,6 +1,6 @@
-# Radar VoltSync — anúncios abertos (2026-10-22)
+# Radar VoltSync — anúncios abertos (2026-10-23)
 
-Fontes: BASE via browser (25 anúncios lidos desde 2026-10-19), BidsFactory. Candidatos: 26.
+Fontes: BASE via browser (25 anúncios lidos desde 2026-10-20), BidsFactory. Candidatos: 22.
 
 | Classe | Entidade | Objeto | Preço base (€) | Prazo propostas | Procedimento | CPV | N.º DR | Link |
 |---|---|---|---|---|---|---|---|---|
@@ -9,17 +9,14 @@ Fontes: BASE via browser (25 anúncios lidos desde 2026-10-19), BidsFactory. Can
 | B | Conselho Superior da Magistratura | Aquisição de servidor de inteligência artificial com quatro GPUs para a infraestrutura computacional do ALTEC | ? | ? | ? | ? |  | https://bidsfactory.com/en/tenders/aquisicao-de-servidor-de-inteligencia-artificial-c-ted-d52fe5b49acf5d54 |
 | B | Instituto Português da Qualidade, IP | Renovação da rede de dados do Instituto Português da Qualidade, IP. (IPQ) | ? | ? | ? | ? |  | https://bidsfactory.com/en/tenders/renovacao-da-rede-de-dados-do-instituto-portugues-ted-1b5d02ad5c0b6847 |
 | B | Município de Sintra | aquisição de serviços de administração de sistemas, redes e cibersegurança para 24 meses | 185 950 | ? | Public tender | 72910000-2 | 25204/2026 | https://bidsfactory.com/en/tenders/aquisicao-de-servicos-de-administracao-de-sistemas-base_gov_pt-2921b9edd238b5dd |
-| B | Unidade Local de Saúde de Santo António, EPE | Concurso Público nº 884/2026: Aquisição de 160 (cento e sessenta) discos de computador (SSD), para Unidade Local de Saúd | 19 200 | ? | Public tender | 30200000-1 | 25184/2026 | https://bidsfactory.com/en/tenders/concurso-publico-no-8842026-aquisicao-de-160-cento-base_gov_pt-f3449584b2845f3a |
 
 ## Fora de perfil / só subempreitada (C)
 
-- Unidade Local de Saúde do Alto Minho, EPE — MCC - Artigos para tratamento endoscópico de obstrução das vias biliares 2026-2029 — https://www.base.gov.pt/Base4/pt/detalhe/?type=anuncios&id=458832
-- Unidade Local de Saúde do Alto Minho, EPE — Aquisição de Equipamentos para o Serviço de Esterilização - EM-3319-CPI-V-261014-A — https://www.base.gov.pt/Base4/pt/detalhe/?type=anuncios&id=458827
-- Unidade Local de Saúde de Braga, EPE — Aquisição de testes aplicados ao estudo de doenças do sistema nervoso, com colocação de equipamento  — https://www.base.gov.pt/Base4/pt/detalhe/?type=anuncios&id=458838
-- Unidade Local de Saúde de Braga, EPE — Aquisição de Consumíveis de Ablação por Campo Elétrico Pulsado (PFA) — https://www.base.gov.pt/Base4/pt/detalhe/?type=anuncios&id=458837
-- Unidade Local de Saúde de Braga, EPE — Aquisição de Consumíveis de Ablação Híbrido — https://www.base.gov.pt/Base4/pt/detalhe/?type=anuncios&id=458836
-- Unidade Local de Saúde de Braga, EPE — Aquisição de Consumíveis de Ablação por Radiofrequência — https://www.base.gov.pt/Base4/pt/detalhe/?type=anuncios&id=458834
-- EPAL - Empresa Portuguesa das Águas Livres, SA — Empreitada de Conceção/Construção das Subestações, Transformadores, Linhas Subterrâneas, Sistemas de — https://www.base.gov.pt/Base4/pt/detalhe/?type=anuncios&id=458831
+- Município de Arcos de Valdevez — PF 1266/2026 - Aquisição de serviços de limpeza e desinfeção em vários edifícios municipais - Mercad — https://www.base.gov.pt/Base4/pt/detalhe/?type=anuncios&id=458927
+- Município de Guimarães — Aquisição de serviços de programação e produção do projeto Guimarães Cidade Natal 2026. — https://www.base.gov.pt/Base4/pt/detalhe/?type=anuncios&id=458930
+- Unidade Local de Saúde de Santo António, EPE — Concurso público nº 911/2026: Aquisição de UPS’s Modulares para o Centro Materno Infantil do Norte d — https://www.base.gov.pt/Base4/pt/detalhe/?type=anuncios&id=458921
+- Município de Arcos de Valdevez — PO 557/2024 - Requalificação do espaço social do Estádio Municipal da Coutada — https://www.base.gov.pt/Base4/pt/detalhe/?type=anuncios&id=458928
+- EPAL - Empresa Portuguesa das Águas Livres, SA — Empreitada de Conceção/Construção das Subestações, Transformadores, Linhas Subterrâneas, Sistemas de — https://bidsfactory.com/en/tenders/empreitada-de-concecaoconstrucao-das-subestacoes-t-ted-8516858fb819ee2f
 - Município de Esposende — Trata-se da execução da obra de estabilização do muro de suporte existente na Rua dos Cucos, em Palm — https://bidsfactory.com/en/tenders/trata-se-da-execucao-da-obra-de-estabilizacao-do-m-base_gov_pt-0e9b4172f732ef76
 - Município da Covilhã — CONCESSÃO DO DIREITO DE USO PRIVATIVO DE ESPAÇO PÚBLICO, PARA A INSTALAÇÃO DE 11 POSTOS DE CARREGAME — https://bidsfactory.com/en/tenders/concessao-do-direito-de-uso-privativo-de-espaco-pu-base_gov_pt-4b90ba44ba5ee929
 - AMBILITAL - Investimentos Ambientais no Alentejo, EIM — Fornecimento, instalação e manutenção de central de produção fotovoltaica — https://bidsfactory.com/en/tenders/fornecimento-instalacao-e-manutencao-de-central-de-base_gov_pt-5825657a3340cb44
@@ -30,6 +27,5 @@ Fontes: BASE via browser (25 anúncios lidos desde 2026-10-19), BidsFactory. Can
 - Município de Vila Franca de Xira — Aquisição de licenciamento e serviços de suporte de software Microsoft — https://bidsfactory.com/en/tenders/aquisicao-de-licenciamento-e-servicos-de-suporte-d-base_gov_pt-aa8787e62f416f25
 - Instituto da Conservação da Natureza e das Florestas, IP — Aquisição de licenciamento de software Microsoft e serviços conexos (2026-2027) — https://bidsfactory.com/en/tenders/aquisicao-de-licenciamento-de-software-microsoft-e-base_gov_pt-9aada9c30e5e3be2
 - EDA - ELECTRICIDADE DOS AÇORES, S.A. — Serviços de manutenção e suporte às redes WAN/LAN corporativas — https://bidsfactory.com/en/tenders/servicos-de-manutencao-e-suporte-as-redes-wanlan-c-base_gov_pt-08960d0abc2e70a9
-- Secretaria Regional de Equipamentos e Infraestruturas — EMPREITADA PARA A INSTALAÇÃO E CONFIGURAÇÃO DE UMA REDE EM FIBRA ÓTICA MULTIPONTO PARA O SISTEMA DE  — https://bidsfactory.com/en/tenders/empreitada-para-a-instalacao-e-configuracao-de-uma-base_gov_pt-fe9b5484597995bb
 - Unidade Local de Saúde de Braga, EPE — Produtos de Apoio: Próteses Endosqueléticas — https://bidsfactory.com/en/tenders/produtos-de-apoio-proteses-endosqueleticas-base_gov_pt-88749ca7db1e8166
 - Lisboa Ocidental, SRU - Sociedade de Reabilitação Urbana EM, SA — Elaboração de Elaboração do Projeto de Execução para Obras de Reabilitação e Restauro do Palácio da  — https://bidsfactory.com/en/tenders/elaboracao-de-elaboracao-do-projeto-de-execucao-pa-base_gov_pt-46fc16b7a951c8b7
