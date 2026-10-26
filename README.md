@@ -12,14 +12,36 @@ Corre no GitHub Actions todos os dias úteis às 06:40 (Lisboa) e escreve em `da
 
 Fontes: Portal BASE (base.gov.pt), dataset oficial do IMPIC em dados.gov.pt, Diário da República (Parte L), BidsFactory (agregador, recurso).
 
-Como lê o BASE: abre o portal num Chromium real (Playwright), escolhe "Anúncios DR", pesquisa, e depois repete o
-pedido ajax do próprio portal (`/Base4/pt/resultados/`, `type=search_anuncios`) na mesma sessão para ler as páginas
-seguintes (JSON com `contractDesignation`, `contractingEntity`, `basePrice`, `proposalDeadline`, `drPublicationDate`, `id`).
-Pedidos diretos sem browser são bloqueados pelo portal (devolvem `null`).
+Como lê o BASE (desde 2026-10-26): abre o portal num Chromium real (Playwright), escolhe "Anúncios DR", pesquisa, e
+depois faz os pedidos ajax do próprio portal (`/Base4/pt/resultados/`, `type=search_anuncios`) **a partir do browser**
+(`page.evaluate(fetch)`), página a página (25 por página), até passar a data de início da janela. Pedidos feitos pelo
+Node/Playwright fora do browser falham desde 2026-10-20 porque o portal deixou de enviar o certificado intermédio;
+pedidos sem browser são bloqueados (devolvem `null`). Para cada anúncio lê o detalhe (`type=detail_anuncios`): CPV,
+NIF, tipo de contrato, prazo, plataforma, n.º no DR, PDF do DR e id do procedimento — a classificação usa o CPV e o
+objeto, não só o título.
+
+Ritmo: ~1 pedido por segundo. O portal tem uma firewall (WebKnight) que bloqueia o IP depois de algumas centenas de
+pedidos rápidos; se isso acontecer a execução pára, o que ficou por ler fica marcado `detalhe_pendente` (classificado
+só pelo título) e completa-se na execução seguinte.
+
+A lista é **cumulativa**: cada execução lê os últimos 7 dias (30 na primeira, ou até à última leitura completa),
+funde com a lista anterior e só retira os anúncios cujo prazo de propostas já passou (ou, sem prazo conhecido, com
+mais de 45 dias). Uma retificação/prorrogação fica registada no anúncio original (`alteracoes`) e pode alargar-lhe o
+prazo; não aparece como concurso novo. Campos por anúncio: `origem`, `id`, `url`, `titulo`, `entidade`, `nif`,
+`tipo_ato`, `procedimento`, `tipo_contrato`, `preco_base`, `publicado`, `prazo_propostas` (ISO; `prazo_estimado`
+quando foi calculado a partir de «N dias»), `cpv`, `n_dr`, `dr_pdf`, `plataforma_url`, `procedimento_id`,
+`categorias`, `minho`, `classe`, `primeira_vez`, `ultima_vez`, `alteracoes`, `detalhe_pendente`. O cabeçalho do
+ficheiro traz `estatisticas` (base_ok, leitura_completa, ultima_leitura_ok, firewall_bloqueou, detalhes_pendentes…).
+
+BidsFactory só entra quando o BASE não responde (é um espelho do próprio BASE e enviesava a lista para compras de
+material informático). Compras puras de bens (sem instalação) e de licenças/equipamento informático ficam de fora.
 
 Classes: **A** = perfil + Minho (distritos de Braga e Viana do Castelo). **B** = perfil, fora do Minho, mas
 alcançável: obra/instalação só no Norte (`DISTRITOS_NORTE`), serviços/projeto/software em qualquer ponto do país até
-`TETO_B_SERVICOS_EUR` (250.000 €). **C** = resto (listado em 1 linha, para subempreitada).
+`TETO_B_SERVICOS_EUR` (250.000 €). **C** = Minho mas fora de perfil, acima do alvará (classe 2: 332.000 €) ou só
+fornecimento (listado em 1 linha, para subempreitada/consórcio). Fora do Minho e fora de perfil não entra.
+
+Correr à mão com outra janela: `RADAR_DESDE=AAAA-MM-DD python anuncios.py` (máximo 45 dias para trás).
 
 O perfil (CPV, palavras-chave, exclusões, concelhos, tetos) está em `radar/config.py`. Nada mais precisa de ser tocado.
 Diagnóstico de cada execução: `data/log_anuncios.txt`, `data/log_base.txt`, `data/base_debug.txt`.
