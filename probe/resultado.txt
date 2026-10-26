@@ -1,0 +1,24 @@
+goto 200 Pesquisa
+campos relacionados: ['close_anuncios', 'cpv', 'form_anuncios', 'numeroanuncio', 'search_anuncios', 'texto']
+  ctx: numeroanuncio">Nº do anúncio DR</label>
+  ctx: numeroanuncio" name="numeroanuncio">
+scripts: ['/Base4/Scripts/jQuery/jquery-3.4.1.min.js', '/Base4/Scripts/Bootstrap/bootstrap.bundle.min.js', '/Base4/Scripts/AutoNumeric/autoNumeric.min.js', '/Base4/Scripts/jQueryUI/jquery-ui.min.js']
+
+Q numeroanuncio=25368/2026&tipocontrato=0&tipoacto=0&tipomodelo=0
+  status=200 total=1
+    (458446, 'Prestação de Serviços de Fiscalização da Exploração da Centr', '15-10-2026')
+
+Q numeroanuncio=25368&tipocontrato=0&tipoacto=0&tipomodelo=0
+  status=200 total=3
+    (458446, 'Prestação de Serviços de Fiscalização da Exploração da Centr', '15-10-2026')
+    (424970, 'Aquisição de refeições escolares', '26-09-2025')
+    (392643, 'Prestação de Serviços de limpeza para as instalações da   AM', '25-11-2024')
+
+Q numeroanuncio=25343/2026&tipocontrato=0&tipoacto=0&tipomodelo=0
+  status=200 total=1
+    (458405, 'Serviços de Manutenção da Rede Informática – ULSVDL', '15-10-2026')
+
+Q numeroanuncio=25343&tipocontrato=0&tipoacto=0&tipomodelo=0
+  status=200 total=2
+    (458405, 'Serviços de Manutenção da Rede Informática – ULSVDL', '15-10-2026')
+    (424854, 'Aquisição de Software para o Agrupamento de Escolas de Moime', '26-09-2025')
