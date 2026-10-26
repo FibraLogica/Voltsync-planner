@@ -357,7 +357,7 @@ def base_anuncios_playwright(desde: date, conhecidos: set[str] | None = None, pe
     conhecidos = conhecidos or set()
     pendentes = pendentes or set()
     titulos_seguidos = titulos_seguidos or set()
-    estado: dict = {"bloqueado": False, "ja_esperou": False, "sem_tempo": False, "detalhes_por_ler": 0,
+    estado: dict = {"bloqueado": False, "ja_esperou": False, "sem_tempo": False, "detalhes_por_ler": 0, "descoberta_por_ler": 0,
                     "pedidos": 0, "pedidos_lote": 0, "lote": 1, "inicio": time.time()}
     try:
         from playwright.sync_api import sync_playwright
@@ -434,6 +434,12 @@ def base_anuncios_playwright(desde: date, conhecidos: set[str] | None = None, pe
             ids_rows = {x["id"] for x in rows}
             prioridade[1] += [i for i in sorted(pendentes) if i not in ids_rows]
             candidatos = prioridade[1] + prioridade[2] + prioridade[3] + prioridade[4]
+            essenciais = len(prioridade[1]) + len(prioridade[2]) + len(prioridade[3])
+
+            def por_ler(n: int) -> None:
+                # O que fica por ler: os essenciais contam como leitura incompleta; a descoberta pelo CPV não.
+                estado["detalhes_por_ler"] = max(0, essenciais - n)
+                estado["descoberta_por_ler"] = max(0, len(candidatos) - max(n, essenciais))
             debug.append(f"candidatos a detalhe: {len(candidatos)} (pendentes {len(prioridade[1])}, relevantes pelo título {len(prioridade[2])}, "
                          f"alterações {len(prioridade[3])}, descoberta por CPV {len(prioridade[4])}; {n_conhecidos} já conhecidos, "
                          f"{n_alt_ignoradas} alterações sem interesse) de {len(rows)} linhas")
@@ -441,11 +447,11 @@ def base_anuncios_playwright(desde: date, conhecidos: set[str] | None = None, pe
             t0 = time.time()
             for n, aid in enumerate(candidatos[:MAX_DETALHES]):
                 if estado["bloqueado"] or estado["sem_tempo"]:
-                    estado["detalhes_por_ler"] = len(candidatos) - n
+                    por_ler(n)
                     break
                 r = _pedir_com_pausa(page, {"type": "detail_anuncios", "version": "155.0", "id": aid}, estado, debug)
                 if r is None:
-                    estado["detalhes_por_ler"] = len(candidatos) - n
+                    por_ler(n)
                     break
                 d = _detalhe_de_resposta(r)
                 if d.get("erro"):
@@ -454,12 +460,13 @@ def base_anuncios_playwright(desde: date, conhecidos: set[str] | None = None, pe
                         debug.append(f"detalhe {aid} falhou: {d['erro']}")
                     if falhas >= 25 and falhas > len(detalhes):
                         debug.append("demasiadas falhas nos detalhes; paro")
-                        estado["detalhes_por_ler"] = len(candidatos) - n
+                        por_ler(n)
                         break
                 else:
                     detalhes[aid] = d
                 time.sleep(PAUSA_DETALHE_S)
-            debug.append(f"detalhes: {len(detalhes)} ok, {falhas} falhas, {estado['detalhes_por_ler']} por ler, {round(time.time() - t0)} s; "
+            debug.append(f"detalhes: {len(detalhes)} ok, {falhas} falhas, {estado['detalhes_por_ler']} essenciais por ler, "
+                         f"{estado['descoberta_por_ler']} de descoberta por ler, {round(time.time() - t0)} s; "
                          f"{estado['pedidos']} pedidos em {estado['lote']} lote(s)")
         except Exception as e:
             print(f"  BASE via browser falhou: {e}")
@@ -618,6 +625,25 @@ def _normalizar_datas(a: dict) -> None:
     a["prazo_estimado"] = bool(estimado) if prazo_iso else False
 
 
+VISTOS_DIAS = 60
+
+
+def carregar_vistos() -> dict[str, str]:
+    """Ids do BASE cujo detalhe já foi lido e não interessou (id → data de publicação ISO). Evita reler
+    todos os dias os mesmos anúncios fora de perfil."""
+    try:
+        d = json.loads((DATA_DIR / "anuncios_vistos.json").read_text(encoding="utf-8"))
+        return {str(k): str(v) for k, v in d.get("vistos", {}).items()}
+    except Exception:
+        return {}
+
+
+def guardar_vistos(vistos: dict[str, str], hoje: date) -> None:
+    limite = (hoje - timedelta(days=VISTOS_DIAS)).isoformat()
+    vivos = {k: v for k, v in vistos.items() if v >= limite}
+    save_json("anuncios_vistos.json", {"gerado_em": hoje.isoformat(), "n": len(vivos), "vistos": vivos})
+
+
 def carregar_anterior() -> tuple[dict[str, dict], dict]:
     """Lista da execução anterior (a lista é cumulativa), indexada pela chave origem-id, e o seu cabeçalho."""
     p = DATA_DIR / "anuncios.json"
@@ -679,7 +705,8 @@ def main() -> int:
     # ---- 1. BASE: lista + detalhes
     print("1) Portal BASE via browser…", flush=True)
     base_ant = {a["id"]: a for a in anteriores.values() if a.get("origem") == "BASE" and a.get("id")}
-    conhecidos = {i for i, a in base_ant.items() if a.get("procedimento_id") or a.get("cpv")}
+    vistos = carregar_vistos()
+    conhecidos = {i for i, a in base_ant.items() if a.get("procedimento_id") or a.get("cpv")} | set(vistos)
     pendentes = {i for i, a in base_ant.items() if a.get("detalhe_pendente")}
     titulos_seguidos = {norm(a.get("titulo"))[:70] for a in base_ant.values() if a.get("titulo")}
     base_rows, detalhes, debug, estado_base = base_anuncios_playwright(desde, conhecidos, pendentes, titulos_seguidos)
@@ -700,8 +727,10 @@ def main() -> int:
         if (_data_pt(r["publicado"]) or desde) < desde:
             continue
         d = detalhes.get(r["id"])
-        if not d and r["id"] in conhecidos:
+        if not d and r["id"] in base_ant and r["id"] in conhecidos:
             d = {k: v for k, v in base_ant[r["id"]].items() if k in CAMPOS_DETALHE}
+        if not d and r["id"] in vistos:
+            continue  # já lido numa execução anterior e sem interesse
         pendente = False
         if not d:
             # Sem detalhe (firewall ou falha): classifica pelo título e fica pendente para a próxima execução.
@@ -727,6 +756,8 @@ def main() -> int:
             continue
         if not a["categorias"] and not a["minho"]:
             n_excluidos += 1
+            if not pendente and a.get("publicado"):
+                vistos[r["id"]] = a["publicado"]  # lido e sem interesse: não voltar a ler
             continue
         k = _chave(a)
         novos[k] = a
@@ -854,6 +885,8 @@ def main() -> int:
         "ultima_leitura_ok": hoje_iso if leitura_completa else estat_ant.get("ultima_leitura_ok"),
         "firewall_bloqueou": bool(estado_base.get("bloqueado")),
         "detalhes_pendentes": sum(1 for a in anuncios if a.get("detalhe_pendente")),
+        "descoberta_por_ler": int(estado_base.get("descoberta_por_ler") or 0),
+        "vistos_sem_interesse": len(vistos),
         "janela_desde": desde.isoformat(),
         "base_lidos": len(base_rows),
         "base_detalhes": len(detalhes),
@@ -869,6 +902,7 @@ def main() -> int:
     debug.append("estatisticas=" + json.dumps(estat, ensure_ascii=False))
     save_text("base_debug.txt", "\n".join(debug) + "\n")
     save_json("anuncios.json", {"gerado_em": datetime.now().isoformat(timespec="minutes"), "n": len(anuncios), "estatisticas": estat, "anuncios": anuncios})
+    guardar_vistos(vistos, hoje)
 
     linhas = [f"# Radar VoltSync — anúncios abertos ({hoje.isoformat()})", "",
               f"Fontes: BASE via browser ({len(base_rows)} anúncios lidos desde {desde.isoformat()}, {len(detalhes)} detalhes)"

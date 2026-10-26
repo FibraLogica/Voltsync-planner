@@ -36,6 +36,8 @@ prazo; não aparece como concurso novo. Campos por anúncio: `origem`, `id`, `ur
 quando foi calculado a partir de «N dias»), `cpv`, `n_dr`, `dr_pdf`, `plataforma_url`, `procedimento_id`,
 `categorias`, `minho`, `classe`, `primeira_vez`, `ultima_vez`, `alteracoes`, `detalhe_pendente`. O cabeçalho do
 ficheiro traz `estatisticas` (base_ok, leitura_completa, ultima_leitura_ok, firewall_bloqueou, detalhes_pendentes…).
+`data/anuncios_vistos.json` guarda, por 60 dias, os ids cujo detalhe já foi lido e não interessou, para não os
+reler todos os dias (uma alteração ao perfil só se aplica a esses passados os 60 dias).
 
 BidsFactory só entra quando o BASE não responde (é um espelho do próprio BASE e enviesava a lista para compras de
 material informático). Compras puras de bens (sem instalação) e de licenças/equipamento informático ficam de fora.
