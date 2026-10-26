@@ -56,10 +56,11 @@ CPV_PREFIXOS = {
         "72500",  # serviços informáticos
         "72600",  # apoio e consultoria informática
         "72700",  # redes informáticas
-        "48000",  # pacotes de software e sistemas de informação
         "32400",  # redes
         "32420",  # equipamento de rede
-        "30200",  # equipamento informático
+        # Fora desde 2026-10-26: 48000 (pacotes de software = licenças) e 30200 (equipamento informático) são
+        # fornecimentos puros; enchiam a lista de compras de computadores e licenciamento. Os serviços de
+        # software continuam apanhados por 72xxx e pelas palavras-chave.
     ],
 }
 
@@ -102,8 +103,11 @@ KEYWORDS = {
         "rede informatica", "redes informaticas", "rede estruturada", "cablagem estruturada", "ciberseguranca",
         "seguranca informatica", "servicos informaticos", "consultoria informatica", "assistencia informatica",
         "manutencao informatica", "inteligencia artificial", "transformacao digital", "digitalizacao",
-        "automatizacao", "automacao", "servidor", "servidores", "cloud", "backup", "firewall", "wi-fi", "wifi",
-        "base de dados", "erp", "crm", "integracao de sistemas", "networking", "rede de dados", "switches", "data center", "datacenter",
+        "automatizacao", "automacao", "wi-fi", "wifi",
+        "base de dados", "erp", "crm", "integracao de sistemas", "networking", "rede de dados",
+        # Fora desde 2026-10-26: "servidor(es)", "cloud", "backup", "firewall", "switches", "data center" — apanhavam
+        # sobretudo compras de equipamento e licenças (a VoltSync não é distribuidora). Os serviços continuam a
+        # entrar pelo CPV 72xxx e pelas restantes palavras.
     ],
 }
 
@@ -126,6 +130,10 @@ EXCLUIR_REGEX = [
     r"\bplataformas? elevatori", r"\bmobiliario\b", r"\btablets?\b", r"\bleasing\b", r"\bfurg", r"\bcadeiras?\b",
     r"\bacesso a internet\b", r"\bservicos? de comunicacoes\b", r"\bcircuitos? de dados\b", r"\bcomunicacoes de voz\b",
     r"\bbombas?\b", r"\beletrobomba", r"\bequipamento medico\b", r"\bcirurgic",
+    # Compras de material informático e licenças (a VoltSync não é distribuidora). "projeto de licenciamento" não cai aqui.
+    r"\b(aquisicao|fornecimento|compra|locacao|aluguer|renting|renovacao) de (\d+ )?(equipamentos? informaticos?|computadores|portateis|monitores|impressoras|ecras|desktops?|servidor(es)?|licencas?|licenciamento)\b",
+    r"\b(licencas?|licenciamento|subscricao|subscricoes|renovacao)\b.*\b(software|microsoft|office|windows|adobe|autodesk|oracle|sap|vmware|antivirus|firewall|check ?point|fortinet|veeam|cisco|citrix|google|aws|azure)\b",
+    r"\b(servidor(es)?|storage|firewall|switch(es)?|ups) (fisic|de rede|para o? ?data ?cent)",
 ]
 
 # Geografia prioritária: concelhos do Minho (distritos de Braga e Viana do Castelo).
