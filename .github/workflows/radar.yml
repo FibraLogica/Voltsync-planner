@@ -15,7 +15,7 @@ concurrency:
 jobs:
   radar:
     runs-on: ubuntu-latest
-    timeout-minutes: 180   # o BASE limita o ritmo: lotes de ~100 pedidos com pausas de 20 min (radar/anuncios.py)
+    timeout-minutes: 180   # o BASE limita o ritmo: lotes de ~150 pedidos com uma hora de pausa (radar/anuncios.py)
     steps:
       - uses: actions/checkout@v4
 

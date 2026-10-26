@@ -20,9 +20,9 @@ pedidos sem browser são bloqueados (devolvem `null`). Para cada anúncio lê o 
 NIF, tipo de contrato, prazo, plataforma, n.º no DR, PDF do DR e id do procedimento — a classificação usa o CPV e o
 objeto, não só o título.
 
-Ritmo: ~1 pedido por segundo, em **lotes de ~100 pedidos com pausas de 20 min** (o portal tem uma firewall,
-WebKnight, que bloqueia o IP por mais de 15 min ao fim de ~200 pedidos em poucos minutos — daí o `timeout-minutes:
-180` no workflow). Os detalhes lêem-se por prioridade: pendentes da execução anterior → relevantes pelo título ou
+Ritmo: ~1 pedido por segundo, em **lotes de ~150 pedidos com uma hora de pausa entre lotes** (o portal tem uma
+firewall, WebKnight, que bloqueia o IP por mais de 15 min ao fim de ~200 pedidos numa janela de cerca de uma hora,
+independentemente do ritmo — daí o `timeout-minutes: 180` no workflow; cada execução do Actions tem IP novo). Os detalhes lêem-se por prioridade: pendentes da execução anterior → relevantes pelo título ou
 Minho → alterações de procedimentos seguidos → o resto (descoberta pelo CPV). Se a firewall bloquear ou acabar o
 tempo, o que ficou por ler fica marcado `detalhe_pendente` (classificado só pelo título) e completa-se na execução
 seguinte. A data-limite das propostas vem da lista (data absoluta); o detalhe só traz «N dias», usado como

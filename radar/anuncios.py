@@ -53,14 +53,15 @@ DIAS_SEM_PRAZO = 45
 # Limites de proteção (25 anúncios por página; ~60 anúncios por dia útil).
 MAX_PAGINAS = 120
 MAX_DETALHES = 2500
-# Ritmo. O BASE tem uma firewall (WebKnight) que bloqueia o IP ao fim de ~200 pedidos em poucos minutos
-# (viu-se com ~200 em 4-5 min, a 2,5/s e a 1/s; 123 pedidos em 9 min passaram). Por isso trabalha-se por
-# lotes: MAX_PEDIDOS_POR_LOTE pedidos, pausa longa, outro lote — até TEMPO_MAX_S. O que ficar por ler passa
-# para a execução seguinte (a lista é cumulativa).
+# Ritmo. O BASE tem uma firewall (WebKnight) que bloqueia o IP (status 999, ≥ 15-25 min) ao fim de ~200 pedidos
+# numa janela que parece ser de cerca de uma hora, independentemente do ritmo (viu-se com ~200 em 4-5 min a
+# 2,5/s e a 1/s, e com ~200 repartidos por 35 min; 123 pedidos em 9 min passaram). Por isso trabalha-se por
+# lotes de MAX_PEDIDOS_POR_LOTE pedidos com uma pausa de uma hora entre lotes, até TEMPO_MAX_S. O que ficar por
+# ler passa para a execução seguinte (a lista é cumulativa; cada execução do GitHub Actions tem IP novo).
 PAUSA_PAGINA_S = 1.0
 PAUSA_DETALHE_S = 1.2
-MAX_PEDIDOS_POR_LOTE = int(os.environ.get("RADAR_MAX_PEDIDOS_LOTE") or 100)
-PAUSA_ENTRE_LOTES_S = int(os.environ.get("RADAR_PAUSA_LOTE_S") or 1200)
+MAX_PEDIDOS_POR_LOTE = int(os.environ.get("RADAR_MAX_PEDIDOS_LOTE") or 150)
+PAUSA_ENTRE_LOTES_S = int(os.environ.get("RADAR_PAUSA_LOTE_S") or 3600)
 TEMPO_MAX_S = int(os.environ.get("RADAR_TEMPO_MAX_S") or 150 * 60)
 # Ao primeiro bloqueio espera-se isto e tenta-se outra vez; ao segundo, pára-se.
 ESPERA_BLOQUEIO_S = int(os.environ.get("RADAR_ESPERA_BLOQUEIO_S") or 1500)
