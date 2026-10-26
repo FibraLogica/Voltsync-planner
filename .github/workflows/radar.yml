@@ -1,53 +1,29 @@
 name: Radar VoltSync
 
+# RAMO DESCARTÁVEL (probe/ndr-base): nesta versão o workflow só corre a sonda
+# probe/ndr_probe.py — não lê anúncios nem faz commit de dados.
 on:
-  schedule:
-    - cron: "40 5 * * 1-5"   # dias úteis, 05:40 UTC (06:40 Lisboa)
   workflow_dispatch:
 
 permissions:
-  contents: write
+  contents: read
 
 concurrency:
-  group: radar
+  group: radar-sonda
   cancel-in-progress: false
 
 jobs:
-  radar:
+  sonda:
     runs-on: ubuntu-latest
-    timeout-minutes: 45
+    timeout-minutes: 15
     steps:
       - uses: actions/checkout@v4
-
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-
       - name: Dependências
         run: |
-          pip install --quiet requests beautifulsoup4 playwright
+          pip install --quiet playwright
           python -m playwright install --with-deps chromium
-
-      - name: Anúncios abertos (BASE via browser + BidsFactory)
-        working-directory: radar
-        run: python anuncios.py 2>&1 | tee ../data/log_anuncios.txt
-        continue-on-error: true
-
-      - name: Mapa de quem contrata (segundas-feiras ou execução manual)
-        working-directory: radar
-        run: |
-          if [ "${{ github.event_name }}" = "workflow_dispatch" ] || [ "$(date -u +%u)" = "1" ]; then python base_contratos.py 2>&1 | tee ../data/log_base.txt && python prospecao.py; else echo "não é segunda-feira; salto"; fi
-        continue-on-error: true
-
-      - name: Commit dos dados
-        run: |
-          git config user.name "radar-voltsync"
-          git config user.email "radar@voltsync.pt"
-          git add -A data
-          if git diff --cached --quiet; then echo "sem alterações"; exit 0; fi
-          git commit -m "radar: dados de $(date -u +%F)"
-          for i in 1 2 3; do
-            git pull --rebase -X theirs origin main && git push && exit 0
-            sleep 10
-          done
-          exit 1
+      - name: Sonda
+        run: python probe/ndr_probe.py
