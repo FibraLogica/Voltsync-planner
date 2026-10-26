@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: read
+  contents: write
 
 concurrency:
   group: radar-sonda
@@ -26,4 +26,11 @@ jobs:
           pip install --quiet playwright
           python -m playwright install --with-deps chromium
       - name: Sonda
-        run: python probe/ndr_probe.py
+        run: python probe/ndr_probe.py 2>&1 | tee probe/resultado.txt
+        continue-on-error: true
+      - name: Guardar resultado no ramo (os logs do Actions não são legíveis daqui)
+        run: |
+          git config user.name "radar-voltsync"
+          git config user.email "radar@voltsync.pt"
+          git add probe/resultado.txt
+          git commit -m "sonda: resultado" && git push
