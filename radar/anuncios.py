@@ -53,13 +53,14 @@ DIAS_SEM_PRAZO = 45
 # Limites de proteção (25 anúncios por página; ~60 anúncios por dia útil).
 MAX_PAGINAS = 120
 MAX_DETALHES = 2500
-# Ritmo. O BASE tem uma firewall (WebKnight) que bloqueia o IP ao fim de ~200 pedidos num curto espaço de
-# tempo (viu-se a 2,5/s e a 1/s). Por isso trabalha-se por lotes: MAX_PEDIDOS_POR_LOTE pedidos, pausa longa,
-# outro lote — até TEMPO_MAX_S. O que ficar por ler passa para a execução seguinte (a lista é cumulativa).
+# Ritmo. O BASE tem uma firewall (WebKnight) que bloqueia o IP ao fim de ~200 pedidos em poucos minutos
+# (viu-se com ~200 em 4-5 min, a 2,5/s e a 1/s; 123 pedidos em 9 min passaram). Por isso trabalha-se por
+# lotes: MAX_PEDIDOS_POR_LOTE pedidos, pausa longa, outro lote — até TEMPO_MAX_S. O que ficar por ler passa
+# para a execução seguinte (a lista é cumulativa).
 PAUSA_PAGINA_S = 1.0
 PAUSA_DETALHE_S = 1.2
-MAX_PEDIDOS_POR_LOTE = int(os.environ.get("RADAR_MAX_PEDIDOS_LOTE") or 120)
-PAUSA_ENTRE_LOTES_S = int(os.environ.get("RADAR_PAUSA_LOTE_S") or 1500)
+MAX_PEDIDOS_POR_LOTE = int(os.environ.get("RADAR_MAX_PEDIDOS_LOTE") or 100)
+PAUSA_ENTRE_LOTES_S = int(os.environ.get("RADAR_PAUSA_LOTE_S") or 1200)
 TEMPO_MAX_S = int(os.environ.get("RADAR_TEMPO_MAX_S") or 150 * 60)
 # Ao primeiro bloqueio espera-se isto e tenta-se outra vez; ao segundo, pára-se.
 ESPERA_BLOQUEIO_S = int(os.environ.get("RADAR_ESPERA_BLOQUEIO_S") or 1500)
@@ -710,6 +711,9 @@ def main() -> int:
             pendente = True
             n_sem_detalhe += 1
         a = {**r, **{k: v for k, v in d.items() if v not in (None, "", [])}}
+        # A lista traz a data-limite absoluta («04-11-2026»); o detalhe só «N dias.». Fica a data.
+        if parse_date(r.get("prazo_propostas")):
+            a["prazo_propostas"] = r["prazo_propostas"]
         a["detalhe_pendente"] = pendente
         a["categorias"] = categorias(a.get("cpv"), a.get("titulo"))
         a["minho"] = e_minho(a.get("entidade"), a.get("titulo"), local=a.get("local"))
@@ -824,13 +828,18 @@ def main() -> int:
             continue
         lista.setdefault(k, antigo)
 
-    # ---- 4. Expiração, classificação e corte do que não interessa fora do Minho
+    # ---- 4. Expiração, classificação e corte do que não interessa fora do Minho.
+    # As categorias são recalculadas para toda a lista: uma alteração ao perfil (config.py) aplica-se também
+    # ao que já lá estava.
     expirados = [k for k, a in lista.items() if not ainda_aberto(a, hoje)]
     for k in expirados:
         lista.pop(k)
     anuncios = []
     n_c_fora = 0
     for a in lista.values():
+        a["categorias"] = categorias(a.get("cpv"), a.get("titulo"))
+        a["minho"] = e_minho(a.get("entidade"), a.get("titulo"), local=a.get("local"))
+        a.setdefault("primeira_vez", a.get("publicado") or hoje_iso)
         a["classe"] = classifica(a)
         if a["classe"] == "C" and not a.get("minho"):
             n_c_fora += 1  # fora de perfil E fora do Minho: não há nada a fazer com isto
