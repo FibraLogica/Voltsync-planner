@@ -1,7 +1,26 @@
 {
- "gerado_em": "2026-10-26T11:32",
- "n": 18,
+ "gerado_em": "2026-10-27T10:57",
+ "n": 25,
  "anuncios": [
+  {
+   "origem": "BASE",
+   "id": "459076",
+   "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=anuncios&id=459076",
+   "titulo": "Fiscalização, Coordenação de Segurança em Obra e Coordenação de Gestão Ambiental e Acompanhamento Arqueológico da Empreitada de Adução ao Subsistema de São Teotónio.",
+   "tipo_ato": "Anúncio de procedimento",
+   "procedimento": "Concurso público",
+   "entidade": "AgdA - Águas Públicas do Alentejo, SA",
+   "preco_base": 189000.0,
+   "publicado": "2026-10-26",
+   "categorias": [
+    "projeto"
+   ],
+   "minho": false,
+   "objeto": "Fiscalização, Coordenação de Segurança em Obra e Coordenação de Gestão Ambiental e Acompanhamento Arqueológico da Empreitada de Adução ao Subsistema de São Teotónio.",
+   "prazo_propostas": "28 dias.",
+   "cpv": "71300000-1, Serviços de engenharia",
+   "classe": "B"
+  },
   {
    "origem": "BidsFactory",
    "url": "https://bidsfactory.com/en/tenders/prestacao-de-servicos-de-fiscalizacao-da-exploraca-base_gov_pt-f189d8128b0a491b",
@@ -42,6 +61,25 @@
   },
   {
    "origem": "BidsFactory",
+   "url": "https://bidsfactory.com/en/tenders/aquisicao-de-servicos-de-implementacao-de-infraest-ted-62e1d3bcc54aa0df",
+   "titulo": "Aquisição de serviços de implementação de infraestrutura de plataforma como serviço (IAAS, PAAS E SAAS) e serviços de consultoria para a operação e monitorização da plataforma BUPI CLOUD 2027",
+   "titulo_en": "Acquisition of services for the implementation of infrastructure as a service platform (IAAS, PAAS AND SAAS) and consulting services for the operation and monitoring of the BUPI CLOUD 2027 platform",
+   "titulo_pt": "Aquisição de serviços de implementação de infraestrutura de plataforma como serviço (IAAS, PAAS E SAAS) e serviços de consultoria para a operação e monitorização da plataforma BUPI CLOUD 2027",
+   "entidade": "Instituto dos Registos e do Notariado, IP",
+   "preco_base": null,
+   "publicado": "Oct 27, 2026",
+   "prazo_propostas": null,
+   "procedimento": null,
+   "cpv": null,
+   "n_dr": null,
+   "categorias": [
+    "software_ti"
+   ],
+   "minho": false,
+   "classe": "B"
+  },
+  {
+   "origem": "BidsFactory",
    "url": "https://bidsfactory.com/en/tenders/aquisicao-de-servidor-de-inteligencia-artificial-c-ted-d52fe5b49acf5d54",
    "titulo": "Aquisição de servidor de inteligência artificial com quatro GPUs para a infraestrutura computacional do ALTEC",
    "titulo_en": "Acquisition of an artificial intelligence server with four GPUs for ALTEC's computational infrastructure",
@@ -61,22 +99,17 @@
   },
   {
    "origem": "BidsFactory",
-   "url": "https://bidsfactory.com/en/tenders/subscricao-por-1-um-ano-do-licenciamento-do-softwa-ted-db01bcad63ba283e",
-   "titulo": "Subscription for 1 (one) year, of Microsoft software licensing under the Cloud Solution Provider (CSP) model.",
-   "titulo_en": "Subscription for 1 (one) year, of Microsoft software licensing under the Cloud Solution Provider (CSP) model.",
-   "erro": "503 Server Error: Service Temporarily Unavailable for url: https://bidsfactory.com/en/tenders/subscricao-por-1-um-ano-do-licenciamento-do-softwa-ted-db01bcad63ba283e",
-   "categorias": [
-    "software_ti"
-   ],
-   "minho": false,
-   "classe": "B"
-  },
-  {
-   "origem": "BidsFactory",
-   "url": "https://bidsfactory.com/en/tenders/aquisicao-de-licenciamento-e-servicos-de-suporte-d-base_gov_pt-aa8787e62f416f25",
-   "titulo": "Acquisition of Microsoft software licensing and support services",
-   "titulo_en": "Acquisition of Microsoft software licensing and support services",
-   "erro": "503 Server Error: Service Temporarily Unavailable for url: https://bidsfactory.com/en/tenders/aquisicao-de-licenciamento-e-servicos-de-suporte-d-base_gov_pt-aa8787e62f416f25",
+   "url": "https://bidsfactory.com/en/tenders/renovacao-da-rede-de-dados-do-instituto-portugues-ted-1b5d02ad5c0b6847",
+   "titulo": "Renovação da rede de dados do Instituto Português da Qualidade, IP. (IPQ)",
+   "titulo_en": "Renovation of the data network of the Portuguese Institute for Quality, IP. (IPQ)",
+   "titulo_pt": "Renovação da rede de dados do Instituto Português da Qualidade, IP. (IPQ)",
+   "entidade": "Instituto Português da Qualidade, IP",
+   "preco_base": null,
+   "publicado": "Oct 20, 2026",
+   "prazo_propostas": null,
+   "procedimento": null,
+   "cpv": null,
+   "n_dr": null,
    "categorias": [
     "software_ti"
    ],
@@ -104,16 +137,72 @@
   },
   {
    "origem": "BASE",
-   "id": "459020",
-   "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=anuncios&id=459020",
-   "titulo": "Aquisição de Equipamentos de Proteção Individual",
+   "id": "459084",
+   "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=anuncios&id=459084",
+   "titulo": "Concurso Público Internacional prestação serviços de fiscalização e controlo de títulos transporte, fiscalização do cumprimento dos deveres dos passageiros e vigilância modo rodoviário e ferroviário",
    "tipo_ato": "Anúncio de procedimento",
    "procedimento": "Concurso público",
-   "entidade": "Associação H. B. de Bombeiros Voluntários de Braga",
-   "preco_base": 105100.0,
+   "entidade": "Sociedade dos Transportes Colectivos do Porto, SA",
+   "preco_base": 1750000.0,
+   "publicado": "2026-10-27",
+   "categorias": [
+    "projeto"
+   ],
+   "minho": false,
+   "objeto": "Concurso Público Internacional prestação serviços de fiscalização e controlo de títulos transporte, fiscalização do cumprimento dos deveres dos passageiros e vigilância modo rodoviário e ferroviário",
+   "prazo_propostas": "27 dias.",
+   "cpv": "79714000-2, Serviços de vigilância",
+   "classe": "C"
+  },
+  {
+   "origem": "BASE",
+   "id": "458219",
+   "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=anuncios&id=458219",
+   "titulo": "execução de empreitada de requalificação e modernização da Piscina Coberta de Arco de Baúlhe",
+   "tipo_ato": "Anúncio de Alteração",
+   "procedimento": "Concurso público",
+   "entidade": "Município de Cabeceiras de Basto",
+   "preco_base": 359950.61,
+   "publicado": "2026-10-27",
+   "categorias": [],
+   "minho": true,
+   "objeto": "execução de empreitada de requalificação e modernização da Piscina Coberta de Arco de Baúlhe",
+   "prazo_propostas": "6 dias.",
+   "cpv": "45453100-8, Obras de recuperação",
+   "classe": "C"
+  },
+  {
+   "origem": "BASE",
+   "id": "458211",
+   "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=anuncios&id=458211",
+   "titulo": "Concurso público para execução da empreitada de “Requalificação da Casa do Tempo\"",
+   "tipo_ato": "Anúncio de Alteração",
+   "procedimento": "Concurso público",
+   "entidade": "Município de Cabeceiras de Basto",
+   "preco_base": 590849.24,
+   "publicado": "2026-10-27",
+   "categorias": [],
+   "minho": true,
+   "objeto": "Concurso público para execução da empreitada de “Requalificação da Casa do Tempo\"",
+   "prazo_propostas": "6 dias.",
+   "cpv": "45453000-7, Obras de revisão e recuperação",
+   "classe": "C"
+  },
+  {
+   "origem": "BASE",
+   "id": "459074",
+   "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=anuncios&id=459074",
+   "titulo": "AQUISIÇÃO DE PRODUÇÃO E FORNECIMENTO DE MATERIAIS DE PROMOÇÃO INSTITUCIONAL, NATAL 2026",
+   "tipo_ato": "Anúncio de procedimento",
+   "procedimento": "Concurso público",
+   "entidade": "Município de Viana do Castelo",
+   "preco_base": 6761.0,
    "publicado": "2026-10-26",
    "categorias": [],
    "minho": true,
+   "objeto": "AQUISIÇÃO DE PRODUÇÃO E FORNECIMENTO DE MATERIAIS DE PROMOÇÃO INSTITUCIONAL, NATAL 2026",
+   "prazo_propostas": "7 dias.",
+   "cpv": "18530000-3, Prendas e brindes",
    "classe": "C"
   },
   {
@@ -211,6 +300,44 @@
   },
   {
    "origem": "BidsFactory",
+   "url": "https://bidsfactory.com/en/tenders/em-2600134-empreitada-de-instalacao-eletrica-no-si-base_gov_pt-eb7b8b50c2d64953",
+   "titulo": "EM-26/00134 - Empreitada de Instalação Elétrica no site no Monte de Sta. Eufémia",
+   "titulo_en": "EM-26/00134 - Electrical Installation Works at the Monte de Sta. Eufémia site",
+   "titulo_pt": "EM-26/00134 - Empreitada de Instalação Elétrica no site no Monte de Sta. Eufémia",
+   "entidade": "Município de Sintra",
+   "preco_base": 18000.0,
+   "publicado": "Oct 7, 2026",
+   "prazo_propostas": null,
+   "procedimento": "Public tender",
+   "cpv": "45310000-3",
+   "n_dr": "24802/2026",
+   "categorias": [
+    "eletricidade"
+   ],
+   "minho": false,
+   "classe": "C"
+  },
+  {
+   "origem": "BidsFactory",
+   "url": "https://bidsfactory.com/en/tenders/aquisicao-de-servicos-de-manutencao-dos-equipament-base_gov_pt-384eb314a3cede5b",
+   "titulo": "Aquisição de Serviços de \"Manutenção dos Equipamentos de Transformação de Energia Elétrica\"",
+   "titulo_en": "Acquisition of Services for \"Maintenance of Electrical Power Transformation Equipment\"",
+   "titulo_pt": "Aquisição de Serviços de \"Manutenção dos Equipamentos de Transformação de Energia Elétrica\"",
+   "entidade": "Águas de Santo André, SA",
+   "preco_base": 120000.0,
+   "publicado": "Oct 2, 2026",
+   "prazo_propostas": null,
+   "procedimento": "Restricted competition with prior qualification",
+   "cpv": "50532200-5",
+   "n_dr": "24488/2026",
+   "categorias": [
+    "eletricidade"
+   ],
+   "minho": false,
+   "classe": "C"
+  },
+  {
+   "origem": "BidsFactory",
    "url": "https://bidsfactory.com/en/tenders/aquisicao-de-servicos-de-manutencao-de-variadores-base_gov_pt-e1c79553a165e771",
    "titulo": "Aquisição de Serviços de Manutenção de Variadores de Velocidade em Instalações da Tejo Atlântico, por Lotes - Zona Sul",
    "titulo_en": "Acquisition of Maintenance Services for Variable Speed Drives in Tejo Atlântico Facilities, by Lots - South Zone",
@@ -224,6 +351,44 @@
    "n_dr": "24545/2026",
    "categorias": [
     "eletricidade"
+   ],
+   "minho": false,
+   "classe": "C"
+  },
+  {
+   "origem": "BidsFactory",
+   "url": "https://bidsfactory.com/en/tenders/empreitada-para-fornecimento-e-montagem-de-equipam-base_gov_pt-04ca9075673c2667",
+   "titulo": "Empreitada para fornecimento e montagem de Equipamentos Mecânicos de Produção de Água Quente, de Água Quente Sanitária, de Aquecimento, Ventilação e Ar Condicionado e de Digitalização Energética repartida por três (3) lotes.",
+   "titulo_en": "Construction work for the supply and installation of Mechanical Equipment for the Production of Hot Water, Domestic Hot Water, Heating, Ventilation and Air Conditioning and Energy Digitization, divided into three (3) lots.",
+   "titulo_pt": "Empreitada para fornecimento e montagem de Equipamentos Mecânicos de Produção de Água Quente, de Água Quente Sanitária, de Aquecimento, Ventilação e Ar Condicionado e de Digitalização Energética repartida por três (3) lotes.",
+   "entidade": "Município de Santarém",
+   "preco_base": 1933917.0,
+   "publicado": "Sep 16, 2026",
+   "prazo_propostas": null,
+   "procedimento": "Restricted tender with prior qualification",
+   "cpv": "45331000-6",
+   "n_dr": "23050/2026",
+   "categorias": [
+    "software_ti"
+   ],
+   "minho": false,
+   "classe": "C"
+  },
+  {
+   "origem": "BidsFactory",
+   "url": "https://bidsfactory.com/en/tenders/aquisicao-de-licenciamento-e-servicos-de-suporte-d-base_gov_pt-aa8787e62f416f25",
+   "titulo": "Aquisição de licenciamento e serviços de suporte de software Microsoft",
+   "titulo_en": "Acquisition of Microsoft software licensing and support services",
+   "titulo_pt": "Aquisição de licenciamento e serviços de suporte de software Microsoft",
+   "entidade": "Município de Vila Franca de Xira",
+   "preco_base": 2242500.0,
+   "publicado": "Oct 15, 2026",
+   "prazo_propostas": null,
+   "procedimento": "Public tender",
+   "cpv": "48000000-8",
+   "n_dr": "25339/2026",
+   "categorias": [
+    "software_ti"
    ],
    "minho": false,
    "classe": "C"
@@ -281,25 +446,6 @@
    "n_dr": "25095/2026",
    "categorias": [
     "eletricidade"
-   ],
-   "minho": false,
-   "classe": "C"
-  },
-  {
-   "origem": "BidsFactory",
-   "url": "https://bidsfactory.com/en/tenders/aquisicao-de-licenciamento-instalacao-e-manutencao-base_gov_pt-026cc5eed1fb04c0",
-   "titulo": "Aquisição de Licenciamento, Instalação e Manutenção de Serviços AZURE",
-   "titulo_en": "Acquisition of Licensing, Installation and Maintenance of AZURE Services",
-   "titulo_pt": "Aquisição de Licenciamento, Instalação e Manutenção de Serviços AZURE",
-   "entidade": "Companhia Carris de Ferro de Lisboa, EM, SA",
-   "preco_base": 900000.0,
-   "publicado": "Oct 9, 2026",
-   "prazo_propostas": null,
-   "procedimento": "Public tender",
-   "cpv": "48000000-8",
-   "n_dr": "25016/2026",
-   "categorias": [
-    "software_ti"
    ],
    "minho": false,
    "classe": "C"
