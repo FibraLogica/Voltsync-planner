@@ -1,26 +1,7 @@
 {
- "gerado_em": "2026-10-27T10:57",
- "n": 25,
+ "gerado_em": "2026-10-28T11:38",
+ "n": 24,
  "anuncios": [
-  {
-   "origem": "BASE",
-   "id": "459076",
-   "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=anuncios&id=459076",
-   "titulo": "Fiscalização, Coordenação de Segurança em Obra e Coordenação de Gestão Ambiental e Acompanhamento Arqueológico da Empreitada de Adução ao Subsistema de São Teotónio.",
-   "tipo_ato": "Anúncio de procedimento",
-   "procedimento": "Concurso público",
-   "entidade": "AgdA - Águas Públicas do Alentejo, SA",
-   "preco_base": 189000.0,
-   "publicado": "2026-10-26",
-   "categorias": [
-    "projeto"
-   ],
-   "minho": false,
-   "objeto": "Fiscalização, Coordenação de Segurança em Obra e Coordenação de Gestão Ambiental e Acompanhamento Arqueológico da Empreitada de Adução ao Subsistema de São Teotónio.",
-   "prazo_propostas": "28 dias.",
-   "cpv": "71300000-1, Serviços de engenharia",
-   "classe": "B"
-  },
   {
    "origem": "BidsFactory",
    "url": "https://bidsfactory.com/en/tenders/prestacao-de-servicos-de-fiscalizacao-da-exploraca-base_gov_pt-f189d8128b0a491b",
@@ -137,72 +118,74 @@
   },
   {
    "origem": "BASE",
-   "id": "459084",
-   "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=anuncios&id=459084",
-   "titulo": "Concurso Público Internacional prestação serviços de fiscalização e controlo de títulos transporte, fiscalização do cumprimento dos deveres dos passageiros e vigilância modo rodoviário e ferroviário",
+   "id": "459176",
+   "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=anuncios&id=459176",
+   "titulo": "Locação de central de produção de energia elétrica de emergência para a Central Termoelétrica do Caldeirão (São Miguel, Açores)",
    "tipo_ato": "Anúncio de procedimento",
    "procedimento": "Concurso público",
-   "entidade": "Sociedade dos Transportes Colectivos do Porto, SA",
-   "preco_base": 1750000.0,
-   "publicado": "2026-10-27",
+   "entidade": "EDA - Electricidade dos Açores, SA",
+   "preco_base": 3400000.0,
+   "publicado": "2026-10-28",
+   "categorias": [
+    "fotovoltaico"
+   ],
+   "minho": false,
+   "objeto": "Locação de central de produção de energia elétrica de emergência para a Central Termoelétrica do Caldeirão (São Miguel, Açores)",
+   "prazo_propostas": "28 dias.",
+   "cpv": "31682500-5, Equipamento eléctrico de emergência",
+   "classe": "C"
+  },
+  {
+   "origem": "BASE",
+   "id": "459170",
+   "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=anuncios&id=459170",
+   "titulo": "MCC - Dispositivos médicos para o tratamento de obstrução e deiscências do tubo digestivo 2026-2029",
+   "tipo_ato": "Anúncio de procedimento",
+   "procedimento": "Concurso público",
+   "entidade": "Unidade Local de Saúde do Alto Minho, EPE",
+   "preco_base": 252375.0,
+   "publicado": "2026-10-28",
+   "categorias": [],
+   "minho": true,
+   "objeto": "MCC - Dispositivos médicos para o tratamento de obstrução e deiscências do tubo digestivo 2026-2029",
+   "prazo_propostas": "28 dias.",
+   "cpv": "33140000-3, Material médico de consumo",
+   "classe": "C"
+  },
+  {
+   "origem": "BASE",
+   "id": "459159",
+   "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=anuncios&id=459159",
+   "titulo": "Concurso público para prestação de serviços de elaboração do projeto de execução e peças processuais para a melhoria das condições de operacionalidade do porto do Caniçal – Fase 2",
+   "tipo_ato": "Anúncio de procedimento",
+   "procedimento": "Concurso público",
+   "entidade": "APRAM - Administração dos Portos da Região Autónoma da Madeira, SA",
+   "preco_base": 500000.0,
+   "publicado": "2026-10-28",
    "categorias": [
     "projeto"
    ],
    "minho": false,
-   "objeto": "Concurso Público Internacional prestação serviços de fiscalização e controlo de títulos transporte, fiscalização do cumprimento dos deveres dos passageiros e vigilância modo rodoviário e ferroviário",
-   "prazo_propostas": "27 dias.",
-   "cpv": "79714000-2, Serviços de vigilância",
+   "objeto": "Concurso público para prestação de serviços de elaboração do projeto de execução e peças processuais para a melhoria das condições de operacionalidade do porto do Caniçal – Fase 2",
+   "prazo_propostas": "28 dias.",
+   "cpv": "71322000-1, Serviços de concepção técnica para a construção de obras de engenharia civil",
    "classe": "C"
   },
   {
    "origem": "BASE",
-   "id": "458219",
-   "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=anuncios&id=458219",
-   "titulo": "execução de empreitada de requalificação e modernização da Piscina Coberta de Arco de Baúlhe",
-   "tipo_ato": "Anúncio de Alteração",
-   "procedimento": "Concurso público",
-   "entidade": "Município de Cabeceiras de Basto",
-   "preco_base": 359950.61,
-   "publicado": "2026-10-27",
-   "categorias": [],
-   "minho": true,
-   "objeto": "execução de empreitada de requalificação e modernização da Piscina Coberta de Arco de Baúlhe",
-   "prazo_propostas": "6 dias.",
-   "cpv": "45453100-8, Obras de recuperação",
-   "classe": "C"
-  },
-  {
-   "origem": "BASE",
-   "id": "458211",
-   "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=anuncios&id=458211",
-   "titulo": "Concurso público para execução da empreitada de “Requalificação da Casa do Tempo\"",
-   "tipo_ato": "Anúncio de Alteração",
-   "procedimento": "Concurso público",
-   "entidade": "Município de Cabeceiras de Basto",
-   "preco_base": 590849.24,
-   "publicado": "2026-10-27",
-   "categorias": [],
-   "minho": true,
-   "objeto": "Concurso público para execução da empreitada de “Requalificação da Casa do Tempo\"",
-   "prazo_propostas": "6 dias.",
-   "cpv": "45453000-7, Obras de revisão e recuperação",
-   "classe": "C"
-  },
-  {
-   "origem": "BASE",
-   "id": "459074",
-   "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=anuncios&id=459074",
-   "titulo": "AQUISIÇÃO DE PRODUÇÃO E FORNECIMENTO DE MATERIAIS DE PROMOÇÃO INSTITUCIONAL, NATAL 2026",
+   "id": "459182",
+   "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=anuncios&id=459182",
+   "titulo": "PF 1230/2026 - Aquisição de viatura nova de recolha de resíduos sólidos urbanos de 16 m3",
    "tipo_ato": "Anúncio de procedimento",
    "procedimento": "Concurso público",
-   "entidade": "Município de Viana do Castelo",
-   "preco_base": 6761.0,
-   "publicado": "2026-10-26",
+   "entidade": "Município de Arcos de Valdevez",
+   "preco_base": 182600.0,
+   "publicado": "2026-10-28",
    "categorias": [],
    "minho": true,
-   "objeto": "AQUISIÇÃO DE PRODUÇÃO E FORNECIMENTO DE MATERIAIS DE PROMOÇÃO INSTITUCIONAL, NATAL 2026",
+   "objeto": "PF 1230/2026 - Aquisição de viatura nova de recolha de resíduos sólidos urbanos de 16 m3",
    "prazo_propostas": "7 dias.",
-   "cpv": "18530000-3, Prendas e brindes",
+   "cpv": "34144511-3, Veículos para recolha de lixo",
    "classe": "C"
   },
   {
@@ -300,25 +283,6 @@
   },
   {
    "origem": "BidsFactory",
-   "url": "https://bidsfactory.com/en/tenders/em-2600134-empreitada-de-instalacao-eletrica-no-si-base_gov_pt-eb7b8b50c2d64953",
-   "titulo": "EM-26/00134 - Empreitada de Instalação Elétrica no site no Monte de Sta. Eufémia",
-   "titulo_en": "EM-26/00134 - Electrical Installation Works at the Monte de Sta. Eufémia site",
-   "titulo_pt": "EM-26/00134 - Empreitada de Instalação Elétrica no site no Monte de Sta. Eufémia",
-   "entidade": "Município de Sintra",
-   "preco_base": 18000.0,
-   "publicado": "Oct 7, 2026",
-   "prazo_propostas": null,
-   "procedimento": "Public tender",
-   "cpv": "45310000-3",
-   "n_dr": "24802/2026",
-   "categorias": [
-    "eletricidade"
-   ],
-   "minho": false,
-   "classe": "C"
-  },
-  {
-   "origem": "BidsFactory",
    "url": "https://bidsfactory.com/en/tenders/aquisicao-de-servicos-de-manutencao-dos-equipament-base_gov_pt-384eb314a3cede5b",
    "titulo": "Aquisição de Serviços de \"Manutenção dos Equipamentos de Transformação de Energia Elétrica\"",
    "titulo_en": "Acquisition of Services for \"Maintenance of Electrical Power Transformation Equipment\"",
@@ -376,6 +340,45 @@
   },
   {
    "origem": "BidsFactory",
+   "url": "https://bidsfactory.com/en/tenders/empreitada-l-norte-entroncamento-parque-solar-foto-base_gov_pt-82fd43eb8ee4ce77",
+   "titulo": "Empreitada - L. NORTE - ENTRONCAMENTO - PARQUE SOLAR FOTOVOLTAICO E ADAPTAÇÃO DA SUBESTAÇÃO - FASE1 (ATÉ 9MWP)",
+   "titulo_en": "Works Contract - N. LINE - JUNCTION - SOLAR PHOTOVOLTAIC PARK AND SUBSTATION ADAPTATION - PHASE 1 (UP TO 9MWP)",
+   "titulo_pt": "Empreitada - L. NORTE - ENTRONCAMENTO - PARQUE SOLAR FOTOVOLTAICO E ADAPTAÇÃO DA SUBESTAÇÃO - FASE1 (ATÉ 9MWP)",
+   "entidade": "Infraestruturas de Portugal, SA",
+   "preco_base": 10000000.0,
+   "publicado": "Aug 4, 2026",
+   "prazo_propostas": null,
+   "procedimento": "Public tender",
+   "cpv": "45317000-2",
+   "n_dr": "19868/2026",
+   "categorias": [
+    "eletricidade",
+    "fotovoltaico"
+   ],
+   "minho": false,
+   "classe": "C"
+  },
+  {
+   "origem": "BidsFactory",
+   "url": "https://bidsfactory.com/en/tenders/atribuicao-de-concessao-de-captacao-de-agua-para-a-base_gov_pt-5c43266775e63ec4",
+   "titulo": "ATRIBUIÇÃO DE CONCESSÃO DE CAPTAÇÃO DE ÁGUA, PARA A PRODUÇÃO DE ENERGIA HIDROELÉTRICA E CONCEPÇÃO, CONSTRUÇÃO, EXPLORAÇÃO E CONSERVAÇÃO DE OBRA PÚBLICA DA RESPECTIVA INFRAESTRUTURA HIDRÁULICA DO APROVEITAMENTO HIDRÁULICO DE FINS MÚLTIPLOS DE GIRABOLHOS",
+   "titulo_en": "AWARD OF A CONCESSION FOR WATER INTAKE, FOR HYDROELECTRIC POWER PRODUCTION AND DESIGN, CONSTRUCTION, OPERATION AND CONSERVATION OF PUBLIC WORKS OF THE RESPECTIVE HYDRAULIC INFRASTRUCTURE OF THE MULTIPURPOSE HYDRAULIC DEVELOPMENT OF GIRABOLHOS",
+   "titulo_pt": "ATRIBUIÇÃO DE CONCESSÃO DE CAPTAÇÃO DE ÁGUA, PARA A PRODUÇÃO DE ENERGIA HIDROELÉTRICA E CONCEPÇÃO, CONSTRUÇÃO, EXPLORAÇÃO E CONSERVAÇÃO DE OBRA PÚBLICA DA RESPECTIVA INFRAESTRUTURA HIDRÁULICA DO APROVEITAMENTO HIDRÁULICO DE FINS MÚLTIPLOS DE GIRABOLHOS",
+   "entidade": "Agência Portuguesa do Ambiente, IP",
+   "preco_base": null,
+   "publicado": "Jul 15, 2026",
+   "prazo_propostas": null,
+   "procedimento": "Concurso público",
+   "cpv": "45247240-4",
+   "n_dr": "18141/2026",
+   "categorias": [
+    "fotovoltaico"
+   ],
+   "minho": false,
+   "classe": "C"
+  },
+  {
+   "origem": "BidsFactory",
    "url": "https://bidsfactory.com/en/tenders/aquisicao-de-licenciamento-e-servicos-de-suporte-d-base_gov_pt-aa8787e62f416f25",
    "titulo": "Aquisição de licenciamento e serviços de suporte de software Microsoft",
    "titulo_en": "Acquisition of Microsoft software licensing and support services",
@@ -427,25 +430,6 @@
    "n_dr": "25261/2026",
    "categorias": [
     "software_ti"
-   ],
-   "minho": false,
-   "classe": "C"
-  },
-  {
-   "origem": "BidsFactory",
-   "url": "https://bidsfactory.com/en/tenders/empreitada-para-a-instalacao-e-configuracao-de-uma-base_gov_pt-fe9b5484597995bb",
-   "titulo": "EMPREITADA PARA A INSTALAÇÃO E CONFIGURAÇÃO DE UMA REDE EM FIBRA ÓTICA MULTIPONTO PARA O SISTEMA DE MONITORIZAÇÃO E ALERTA DE RISCOS NATURAIS (SIMARN)",
-   "titulo_en": "CONTRACT FOR THE INSTALLATION AND CONFIGURATION OF A MULTIPOINT FIBER OPTIC NETWORK FOR THE NATURAL RISKS MONITORING AND ALERT SYSTEM (SIMARN)",
-   "titulo_pt": "EMPREITADA PARA A INSTALAÇÃO E CONFIGURAÇÃO DE UMA REDE EM FIBRA ÓTICA MULTIPONTO PARA O SISTEMA DE MONITORIZAÇÃO E ALERTA DE RISCOS NATURAIS (SIMARN)",
-   "entidade": "Secretaria Regional de Equipamentos e Infraestruturas",
-   "preco_base": 280000.0,
-   "publicado": "Oct 12, 2026",
-   "prazo_propostas": null,
-   "procedimento": "Public tender",
-   "cpv": "45314310-7",
-   "n_dr": "25095/2026",
-   "categorias": [
-    "eletricidade"
    ],
    "minho": false,
    "classe": "C"
