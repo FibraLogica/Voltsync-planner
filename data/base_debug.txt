@@ -1,17 +1,17 @@
 title='Pesquisa'
-pedidos ajax capturados=1; https://www.base.gov.pt/Base4/pt/resultados/ :: type=search_anuncios&version=154.0&query=tipocontrato%3D0%26desdedatapublicacao%3D25-10-2026%26tipoacto%3D0%26tipomodelo%3D0&sort=-drPublicationDate&page=0&size=25
-pagina 1 (DOM): 25 linhas; primeira pub=28-10-2026; ultima pub=28-10-2026
-exemplo=[{'origem': 'BASE', 'id': '459188', 'url': 'https://www.base.gov.pt/Base4/pt/detalhe/?type=anuncios&id=459188', 'titulo': 'Fornecimento de materiais para as redes de abastecimento e drenagem de águas Acessórios em ferro galvanizado ou latão', 'tipo_ato': 'Anúncio de concurso urgente', 'procedimento': 'Concurso público', 'entidade': 'Serviços Municipalizados de Águas e Saneamento de Mafra - SMAS de Mafra', 'preco_base': 25000.0, 'publicado': '28-10-2026'}, {'origem': 'BASE', 'id': '459186', 'url': 'https://www.base.gov.pt/Base4/pt/detalhe/?type=anuncios&id=459186', 'titulo': 'P325/2026 - Controlo de Pragas em Edifícios Municipais, para um período de 3 anos (112719/2025)', 'tipo_ato': 'Anúncio de procedimento', 'procedimento': 'Concurso público', 'entidade': 'Município de Ourém', 'preco_base': 67551.75, 'publicado': '28-10-2026'}]
-form_base={'type': 'search_anuncios', 'version': '154.0', 'query': 'tipocontrato=0&desdedatapublicacao=25-10-2026&tipoacto=0&tipomodelo=0', 'sort': '-drPublicationDate', 'page': '0', 'size': '25'}
+pedidos ajax capturados=1; https://www.base.gov.pt/Base4/pt/resultados/ :: type=search_anuncios&version=156.0&query=tipocontrato%3D0%26desdedatapublicacao%3D26-10-2026%26tipoacto%3D0%26tipomodelo%3D0&sort=-drPublicationDate&page=0&size=25
+pagina 1 (DOM): 25 linhas; primeira pub=29-10-2026; ultima pub=29-10-2026
+exemplo=[{'origem': 'BASE', 'id': '459276', 'url': 'https://www.base.gov.pt/Base4/pt/detalhe/?type=anuncios&id=459276', 'titulo': 'ANESTESIOLOGIA - VENTILAÇÃO', 'tipo_ato': 'Anúncio de procedimento', 'procedimento': 'Concurso público', 'entidade': 'Unidade Local de Saúde de Viseu Dão-Lafões, EPE', 'preco_base': 166848.0, 'publicado': '29-10-2026'}, {'origem': 'BASE', 'id': '459275', 'url': 'https://www.base.gov.pt/Base4/pt/detalhe/?type=anuncios&id=459275', 'titulo': 'Renovação dos sistemas de Data Center da CONFAGRI – Fase 2', 'tipo_ato': 'Anúncio de procedimento', 'procedimento': 'Concurso público', 'entidade': 'CONFAGRI - Confederação Nacional das Cooperativas Agrícolas e do Crédito Agrícola de Portugal, CCRL', 'preco_base': 215500.0, 'publicado': '29-10-2026'}]
+form_base={'type': 'search_anuncios', 'version': '156.0', 'query': 'tipocontrato=0&desdedatapublicacao=26-10-2026&tipoacto=0&tipomodelo=0', 'sort': '-drPublicationDate', 'page': '0', 'size': '25'}
 ajax pagina 0 falhou: APIRequestContext.post: unable to verify the first certificate; if the root CA is installed locally, try running Node.js with --use-system-ca
 Call log:
   - → POST https://www.base.gov.pt/Base4/pt/resultados/
     - user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0 Safari/537.36
     - accept: text/plain, */*; q=0.01
     - accept-encoding: gzip,deflate,br
-    - referer: https://www.base.gov.pt/Base4/pt/pesquisa/?type=anuncios&texto2=&numeroanuncio=&emissora=&tipocontrato=0&desdedatapublicacao=25-10-2026&atedatapublicacao=&tipoacto=0&tipomodelo=0&cpv=&desdeprecobase=&ateprecobase=
+    - referer: https://www.base.gov.pt/Base4/pt/pesquisa/?type=anuncios&texto2=&numeroanuncio=&emissora=&tipocontrato=0&desdedatapublicacao=26-10-2026&atedatapublicacao=&tipoacto=0&tipomodelo=0&cpv=&desdeprecobase=&ateprecobase=
     - x-requested-with: XMLHttpRequest
     - content-type: application/x-www-form-urlencoded; charset=UTF-8
     - content-length: 164
-    - cookie: f5avraaaaaaaaaaaaaaaa_session_=BAHOBFJHELJBKHGIOHKJKLGJDKGHMEHHFFFNILGPHLHBCGABFJLNOCDJKLLBGFHJLIMDEELIBNIDDPAKFGBAFGEINNBLLKLDFGNNBEMIPDJBJJOBAACODGINBEOIJFJM
+    - cookie: f5avraaaaaaaaaaaaaaaa_session_=FMGIPOOHDDNEHDMDEDAEDDCNOGEOPLODLNPIPICHFENIFGILAEENFNKACAEKFDAGEFEDGCMJCBOGFLMNJAGAGBDECDMAKCHCHPPGHCNNGKFMANMHGOBMMMMOMBJBFJPN
 

@@ -1,9 +1,10 @@
-# Radar VoltSync — anúncios abertos (2026-10-28)
+# Radar VoltSync — anúncios abertos (2026-10-29)
 
-Fontes: BASE via browser (25 anúncios lidos desde 2026-10-25), BidsFactory. Candidatos: 24.
+Fontes: BASE via browser (25 anúncios lidos desde 2026-10-26), BidsFactory. Candidatos: 25.
 
 | Classe | Entidade | Objeto | Preço base (€) | Prazo propostas | Procedimento | CPV | N.º DR | Link |
 |---|---|---|---|---|---|---|---|---|
+| B | CONFAGRI - Confederação Nacional das Cooperativas Agrícolas e do Crédito Agrícola de Portugal, CCRL | Renovação dos sistemas de Data Center da CONFAGRI – Fase 2 | 215 500 | 15 dias. | Concurso público | 48821000-9 |  | https://www.base.gov.pt/Base4/pt/detalhe/?type=anuncios&id=459275 |
 | B | LIPOR - Associação de Municípios para a Gestão Sustentável de Resíduos do Grande Porto | Prestação de Serviços de Fiscalização da Exploração da Central de Valorização Energética | 213 000 | ? | Public tender | 71356200-0 | 25368/2026 | https://bidsfactory.com/en/tenders/prestacao-de-servicos-de-fiscalizacao-da-exploraca-base_gov_pt-f189d8128b0a491b |
 | B | Unidade Local de Saúde de Viseu Dão-Lafões, EPE | Serviços de Manutenção da Rede Informática – ULSVDL | 230 000 | ? | Public tender | 72500000-0 | 25343/2026 | https://bidsfactory.com/en/tenders/servicos-de-manutencao-da-rede-informatica-ulsvdl-base_gov_pt-788244041c8c1156 |
 | B | Instituto dos Registos e do Notariado, IP | Aquisição de serviços de implementação de infraestrutura de plataforma como serviço (IAAS, PAAS E SAAS) e serviços de co | ? | ? | ? | ? |  | https://bidsfactory.com/en/tenders/aquisicao-de-servicos-de-implementacao-de-infraest-ted-62e1d3bcc54aa0df |
@@ -13,21 +14,21 @@ Fontes: BASE via browser (25 anúncios lidos desde 2026-10-25), BidsFactory. Can
 
 ## Fora de perfil / só subempreitada (C)
 
-- EDA - Electricidade dos Açores, SA — Locação de central de produção de energia elétrica de emergência para a Central Termoelétrica do Cal — https://www.base.gov.pt/Base4/pt/detalhe/?type=anuncios&id=459176
-- Unidade Local de Saúde do Alto Minho, EPE — MCC - Dispositivos médicos para o tratamento de obstrução e deiscências do tubo digestivo 2026-2029 — https://www.base.gov.pt/Base4/pt/detalhe/?type=anuncios&id=459170
-- APRAM - Administração dos Portos da Região Autónoma da Madeira, SA — Concurso público para prestação de serviços de elaboração do projeto de execução e peças processuais — https://www.base.gov.pt/Base4/pt/detalhe/?type=anuncios&id=459159
-- Município de Arcos de Valdevez — PF 1230/2026 - Aquisição de viatura nova de recolha de resíduos sólidos urbanos de 16 m3 — https://www.base.gov.pt/Base4/pt/detalhe/?type=anuncios&id=459182
+- Unidade Local de Saúde de Braga, EPE — Aquisição de solução de Contact Center (Call Center) em modelo SaaS — https://www.base.gov.pt/Base4/pt/detalhe/?type=anuncios&id=459273
+- Unidade Local de Saúde do Alto Minho, EPE — Aquisição de 1 (um) Sistema de Anestesia para o Bloco Ambulatório - EM-3310-CP-V-261020-A — https://www.base.gov.pt/Base4/pt/detalhe/?type=anuncios&id=459269
+- APDL - Administração dos Portos do Douro, Leixões e Viana do Castelo — Empreitada de reconstrução do Cais da Ferradosa e estabilização dos taludes adjacentes — https://www.base.gov.pt/Base4/pt/detalhe/?type=anuncios&id=459258
+- Imprensa Nacional - Casa da Moeda - INCM — Aquisição de serviços de manutenção e suporte do licenciamento de Software SAP — https://www.base.gov.pt/Base4/pt/detalhe/?type=anuncios&id=459252
+- Município de Valença — ALUGUER, MONTAGEM E DESMONTAGEM DE TENDAS E ESTRUTURAS PARA EVENTOS DE NATAL — https://www.base.gov.pt/Base4/pt/detalhe/?type=anuncios&id=459271
 - EPAL - Empresa Portuguesa das Águas Livres, SA — Empreitada de Conceção/Construção das Subestações, Transformadores, Linhas Subterrâneas, Sistemas de — https://bidsfactory.com/en/tenders/empreitada-de-concecaoconstrucao-das-subestacoes-t-ted-8516858fb819ee2f
 - Município de Esposende — Trata-se da execução da obra de estabilização do muro de suporte existente na Rua dos Cucos, em Palm — https://bidsfactory.com/en/tenders/trata-se-da-execucao-da-obra-de-estabilizacao-do-m-base_gov_pt-0e9b4172f732ef76
 - Município da Covilhã — CONCESSÃO DO DIREITO DE USO PRIVATIVO DE ESPAÇO PÚBLICO, PARA A INSTALAÇÃO DE 11 POSTOS DE CARREGAME — https://bidsfactory.com/en/tenders/concessao-do-direito-de-uso-privativo-de-espaco-pu-base_gov_pt-4b90ba44ba5ee929
 - AMBILITAL - Investimentos Ambientais no Alentejo, EIM — Fornecimento, instalação e manutenção de central de produção fotovoltaica — https://bidsfactory.com/en/tenders/fornecimento-instalacao-e-manutencao-de-central-de-base_gov_pt-5825657a3340cb44
-- Município de Montemor-o-Novo — Implementação de medidas de eficiência energética no Parque Desportivo Municipal — https://bidsfactory.com/en/tenders/implementacao-de-medidas-de-eficiencia-energetica-base_gov_pt-d066a94f31901a4a
 - Águas de Santo André, SA — Aquisição de Serviços de "Manutenção dos Equipamentos de Transformação de Energia Elétrica" — https://bidsfactory.com/en/tenders/aquisicao-de-servicos-de-manutencao-dos-equipament-base_gov_pt-384eb314a3cede5b
 - Águas do Tejo Atlântico, SA — Aquisição de Serviços de Manutenção de Variadores de Velocidade em Instalações da Tejo Atlântico, po — https://bidsfactory.com/en/tenders/aquisicao-de-servicos-de-manutencao-de-variadores-base_gov_pt-e1c79553a165e771
 - Município de Santarém — Empreitada para fornecimento e montagem de Equipamentos Mecânicos de Produção de Água Quente, de Águ — https://bidsfactory.com/en/tenders/empreitada-para-fornecimento-e-montagem-de-equipam-base_gov_pt-04ca9075673c2667
-- Infraestruturas de Portugal, SA — Empreitada - L. NORTE - ENTRONCAMENTO - PARQUE SOLAR FOTOVOLTAICO E ADAPTAÇÃO DA SUBESTAÇÃO - FASE1  — https://bidsfactory.com/en/tenders/empreitada-l-norte-entroncamento-parque-solar-foto-base_gov_pt-82fd43eb8ee4ce77
 - Agência Portuguesa do Ambiente, IP — ATRIBUIÇÃO DE CONCESSÃO DE CAPTAÇÃO DE ÁGUA, PARA A PRODUÇÃO DE ENERGIA HIDROELÉTRICA E CONCEPÇÃO, C — https://bidsfactory.com/en/tenders/atribuicao-de-concessao-de-captacao-de-agua-para-a-base_gov_pt-5c43266775e63ec4
 - Município de Vila Franca de Xira — Aquisição de licenciamento e serviços de suporte de software Microsoft — https://bidsfactory.com/en/tenders/aquisicao-de-licenciamento-e-servicos-de-suporte-d-base_gov_pt-aa8787e62f416f25
 - Instituto da Conservação da Natureza e das Florestas, IP — Aquisição de licenciamento de software Microsoft e serviços conexos (2026-2027) — https://bidsfactory.com/en/tenders/aquisicao-de-licenciamento-de-software-microsoft-e-base_gov_pt-9aada9c30e5e3be2
 - EDA - ELECTRICIDADE DOS AÇORES, S.A. — Serviços de manutenção e suporte às redes WAN/LAN corporativas — https://bidsfactory.com/en/tenders/servicos-de-manutencao-e-suporte-as-redes-wanlan-c-base_gov_pt-08960d0abc2e70a9
 - Lisboa Ocidental, SRU - Sociedade de Reabilitação Urbana EM, SA — Elaboração de Elaboração do Projeto de Execução para Obras de Reabilitação e Restauro do Palácio da  — https://bidsfactory.com/en/tenders/elaboracao-de-elaboracao-do-projeto-de-execucao-pa-base_gov_pt-46fc16b7a951c8b7
+- Águas do Norte, SA — PRC_0270/2026_CLG - Aquisição de material de instrumentação para a Águas do Norte, S.A. — https://bidsfactory.com/en/tenders/prc_02702026_clg-aquisicao-de-material-de-instrume-base_gov_pt-83ff43354ca5e385
