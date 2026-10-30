@@ -1,10 +1,9 @@
-# Radar VoltSync — anúncios abertos (2026-10-29)
+# Radar VoltSync — anúncios abertos (2026-10-30)
 
-Fontes: BASE via browser (25 anúncios lidos desde 2026-10-26), BidsFactory. Candidatos: 25.
+Fontes: BASE via browser (0 anúncios lidos desde 2026-10-27), BidsFactory. Candidatos: 21.
 
 | Classe | Entidade | Objeto | Preço base (€) | Prazo propostas | Procedimento | CPV | N.º DR | Link |
 |---|---|---|---|---|---|---|---|---|
-| B | CONFAGRI - Confederação Nacional das Cooperativas Agrícolas e do Crédito Agrícola de Portugal, CCRL | Renovação dos sistemas de Data Center da CONFAGRI – Fase 2 | 215 500 | 15 dias. | Concurso público | 48821000-9 |  | https://www.base.gov.pt/Base4/pt/detalhe/?type=anuncios&id=459275 |
 | B | LIPOR - Associação de Municípios para a Gestão Sustentável de Resíduos do Grande Porto | Prestação de Serviços de Fiscalização da Exploração da Central de Valorização Energética | 213 000 | ? | Public tender | 71356200-0 | 25368/2026 | https://bidsfactory.com/en/tenders/prestacao-de-servicos-de-fiscalizacao-da-exploraca-base_gov_pt-f189d8128b0a491b |
 | B | Unidade Local de Saúde de Viseu Dão-Lafões, EPE | Serviços de Manutenção da Rede Informática – ULSVDL | 230 000 | ? | Public tender | 72500000-0 | 25343/2026 | https://bidsfactory.com/en/tenders/servicos-de-manutencao-da-rede-informatica-ulsvdl-base_gov_pt-788244041c8c1156 |
 | B | Instituto dos Registos e do Notariado, IP | Aquisição de serviços de implementação de infraestrutura de plataforma como serviço (IAAS, PAAS E SAAS) e serviços de co | ? | ? | ? | ? |  | https://bidsfactory.com/en/tenders/aquisicao-de-servicos-de-implementacao-de-infraest-ted-62e1d3bcc54aa0df |
@@ -14,13 +13,10 @@ Fontes: BASE via browser (25 anúncios lidos desde 2026-10-26), BidsFactory. Can
 
 ## Fora de perfil / só subempreitada (C)
 
-- Unidade Local de Saúde de Braga, EPE — Aquisição de solução de Contact Center (Call Center) em modelo SaaS — https://www.base.gov.pt/Base4/pt/detalhe/?type=anuncios&id=459273
-- Unidade Local de Saúde do Alto Minho, EPE — Aquisição de 1 (um) Sistema de Anestesia para o Bloco Ambulatório - EM-3310-CP-V-261020-A — https://www.base.gov.pt/Base4/pt/detalhe/?type=anuncios&id=459269
-- APDL - Administração dos Portos do Douro, Leixões e Viana do Castelo — Empreitada de reconstrução do Cais da Ferradosa e estabilização dos taludes adjacentes — https://www.base.gov.pt/Base4/pt/detalhe/?type=anuncios&id=459258
-- Imprensa Nacional - Casa da Moeda - INCM — Aquisição de serviços de manutenção e suporte do licenciamento de Software SAP — https://www.base.gov.pt/Base4/pt/detalhe/?type=anuncios&id=459252
-- Município de Valença — ALUGUER, MONTAGEM E DESMONTAGEM DE TENDAS E ESTRUTURAS PARA EVENTOS DE NATAL — https://www.base.gov.pt/Base4/pt/detalhe/?type=anuncios&id=459271
+- APDL - Administração dos Portos do Douro, Leixões e Viana do Castelo, SA — Empreitada de reconstrução do Cais da Ferradosa e estabilização dos taludes adjacentes — https://bidsfactory.com/en/tenders/empreitada-de-reconstrucao-do-cais-da-ferradosa-e-ted-f1022df5b25aa335
 - EPAL - Empresa Portuguesa das Águas Livres, SA — Empreitada de Conceção/Construção das Subestações, Transformadores, Linhas Subterrâneas, Sistemas de — https://bidsfactory.com/en/tenders/empreitada-de-concecaoconstrucao-das-subestacoes-t-ted-8516858fb819ee2f
 - Município de Esposende — Trata-se da execução da obra de estabilização do muro de suporte existente na Rua dos Cucos, em Palm — https://bidsfactory.com/en/tenders/trata-se-da-execucao-da-obra-de-estabilizacao-do-m-base_gov_pt-0e9b4172f732ef76
+- Agência Portuguesa do Ambiente, IP — CONCURSO PARA ATRIBUIÇÃO DA CONCESSÃO DESTINADA À CAPTAÇÃO DE ÁGUA DO DOMÍNIO PÚBLICO HÍDRICO, NO RI — https://bidsfactory.com/en/tenders/concurso-para-atribuicao-da-concessao-destinada-a-ted-51449a181594ccef
 - Município da Covilhã — CONCESSÃO DO DIREITO DE USO PRIVATIVO DE ESPAÇO PÚBLICO, PARA A INSTALAÇÃO DE 11 POSTOS DE CARREGAME — https://bidsfactory.com/en/tenders/concessao-do-direito-de-uso-privativo-de-espaco-pu-base_gov_pt-4b90ba44ba5ee929
 - AMBILITAL - Investimentos Ambientais no Alentejo, EIM — Fornecimento, instalação e manutenção de central de produção fotovoltaica — https://bidsfactory.com/en/tenders/fornecimento-instalacao-e-manutencao-de-central-de-base_gov_pt-5825657a3340cb44
 - Águas de Santo André, SA — Aquisição de Serviços de "Manutenção dos Equipamentos de Transformação de Energia Elétrica" — https://bidsfactory.com/en/tenders/aquisicao-de-servicos-de-manutencao-dos-equipament-base_gov_pt-384eb314a3cede5b
