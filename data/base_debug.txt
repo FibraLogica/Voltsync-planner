@@ -1,6 +1,17 @@
 title='Pesquisa'
-erro=Page.wait_for_selector: Timeout 20000ms exceeded.
+pedidos ajax capturados=1; https://www.base.gov.pt/Base4/pt/resultados/ :: type=search_anuncios&version=149.0&query=tipocontrato%3D0%26desdedatapublicacao%3D30-10-2026%26tipoacto%3D0%26tipomodelo%3D0&sort=-drPublicationDate&page=0&size=25
+pagina 1 (DOM): 25 linhas; primeira pub=02-11-2026; ultima pub=02-11-2026
+exemplo=[{'origem': 'BASE', 'id': '459456', 'url': 'https://www.base.gov.pt/Base4/pt/detalhe/?type=anuncios&id=459456', 'titulo': 'Concurso Público para a Empreitada de reparação de roturas na rede e ramais de abastecimento de água na Amadora (2027-2030)', 'tipo_ato': 'Anúncio de procedimento', 'procedimento': 'Concurso público', 'entidade': 'Serviços Intermunicipalizados de Água e Saneamento dos Municípios de Oeiras e Amadora', 'preco_base': 756000.0, 'publicado': '02-11-2026'}, {'origem': 'BASE', 'id': '459455', 'url': 'https://www.base.gov.pt/Base4/pt/detalhe/?type=anuncios&id=459455', 'titulo': 'Concurso Público para Empreitada de obras públicas para a remodelação da rede de saneamento, designadamente o COLETOR 91, abrangendo intervenções na Avenida Dom Pedro V e na zona do Estádio Nacional e', 'tipo_ato': 'Anúncio de procedimento', 'procedimento': 'Concurso público', 'entidade': 'Serviços Intermunicipalizados de Água e Saneamento dos Municípios de Oeiras e Amadora', 'preco_base': 477320.0, 'publicado': '02-11-2026'}]
+form_base={'type': 'search_anuncios', 'version': '149.0', 'query': 'tipocontrato=0&desdedatapublicacao=30-10-2026&tipoacto=0&tipomodelo=0', 'sort': '-drPublicationDate', 'page': '0', 'size': '25'}
+ajax pagina 0 falhou: APIRequestContext.post: unable to verify the first certificate; if the root CA is installed locally, try running Node.js with --use-system-ca
 Call log:
-  - waiting for locator("#desdedatapublicacao") to be visible
-    44 × locator resolved to hidden <input type="text" placeholder="Desde:" id="desdedatapublicacao" name="desdedatapublicacao" class="form-control date mr-1"/>
+  - → POST https://www.base.gov.pt/Base4/pt/resultados/
+    - user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0 Safari/537.36
+    - accept: text/plain, */*; q=0.01
+    - accept-encoding: gzip,deflate,br
+    - referer: https://www.base.gov.pt/Base4/pt/pesquisa/?type=anuncios&texto2=&numeroanuncio=&emissora=&tipocontrato=0&desdedatapublicacao=30-10-2026&atedatapublicacao=&tipoacto=0&tipomodelo=0&cpv=&desdeprecobase=&ateprecobase=
+    - x-requested-with: XMLHttpRequest
+    - content-type: application/x-www-form-urlencoded; charset=UTF-8
+    - content-length: 164
+    - cookie: f5avraaaaaaaaaaaaaaaa_session_=KEABAFIIMHNNGPBBIFEFFECCHELPNLGNNMPIGNMOIHIPJCKCFNMFHLPMCBMFANCBMBGDLGMHOEMJMAMMAKKALHHDJJNPOAIDCDOIAKHIBPIKBCBOHDKOPKLBMHHMFKIM
 

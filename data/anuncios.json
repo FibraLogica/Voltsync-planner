@@ -1,6 +1,6 @@
 {
- "gerado_em": "2026-10-30T11:37",
- "n": 21,
+ "gerado_em": "2026-11-02T13:51",
+ "n": 20,
  "anuncios": [
   {
    "origem": "BidsFactory",
@@ -98,29 +98,29 @@
    "classe": "B"
   },
   {
-   "origem": "BidsFactory",
-   "url": "https://bidsfactory.com/en/tenders/aquisicao-de-servicos-de-administracao-de-sistemas-base_gov_pt-2921b9edd238b5dd",
-   "titulo": "aquisição de serviços de administração de sistemas, redes e cibersegurança para 24 meses",
-   "titulo_en": "Acquisition of system administration, network and cybersecurity services for 24 months",
-   "titulo_pt": "aquisição de serviços de administração de sistemas, redes e cibersegurança para 24 meses",
-   "entidade": "Município de Sintra",
-   "preco_base": 185950.0,
-   "publicado": "Oct 13, 2026",
-   "prazo_propostas": null,
-   "procedimento": "Public tender",
-   "cpv": "72910000-2",
-   "n_dr": "25204/2026",
+   "origem": "BASE",
+   "id": "459431",
+   "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=anuncios&id=459431",
+   "titulo": "AQUISIÇÃO DE SERVIÇOS PARA A ELABORAÇÃO DE PROJETODE REQUALIFICAÇÃO E AMPLIAÇÃO DA ESCOLA BÁSICA DO CONDADO, FREGUESIA DE MARVILA",
+   "tipo_ato": "Anúncio de procedimento",
+   "procedimento": "Concurso público",
+   "entidade": "Lisboa Ocidental, SRU - Sociedade de Reabilitação Urbana EM, SA",
+   "preco_base": 385000.0,
+   "publicado": "2026-11-02",
    "categorias": [
-    "software_ti"
+    "projeto"
    ],
    "minho": false,
-   "classe": "B"
+   "objeto": "AQUISIÇÃO DE SERVIÇOS PARA A ELABORAÇÃO DE PROJETODE REQUALIFICAÇÃO E AMPLIAÇÃO DA ESCOLA BÁSICA DO CONDADO, FREGUESIA DE MARVILA",
+   "prazo_propostas": "26 dias.",
+   "cpv": "71000000-8, Serviços de arquitectura, construção, engenharia e inspecção",
+   "classe": "C"
   },
   {
    "origem": "BidsFactory",
    "url": "https://bidsfactory.com/en/tenders/empreitada-de-reconstrucao-do-cais-da-ferradosa-e-ted-f1022df5b25aa335",
    "titulo": "Empreitada de reconstrução do Cais da Ferradosa e estabilização dos taludes adjacentes",
-   "titulo_en": "Reconstruction of the Ferradosa Quay and stabilization of the adjacent slopes",
+   "titulo_en": "Contract for the reconstruction of the Ferradosa Quay and stabilization of the adjacent slopes",
    "titulo_pt": "Empreitada de reconstrução do Cais da Ferradosa e estabilização dos taludes adjacentes",
    "entidade": "APDL - Administração dos Portos do Douro, Leixões e Viana do Castelo, SA",
    "preco_base": null,
@@ -173,7 +173,7 @@
    "origem": "BidsFactory",
    "url": "https://bidsfactory.com/en/tenders/concurso-para-atribuicao-da-concessao-destinada-a-ted-51449a181594ccef",
    "titulo": "CONCURSO PARA ATRIBUIÇÃO DA CONCESSÃO DESTINADA À CAPTAÇÃO DE ÁGUA DO DOMÍNIO PÚBLICO HÍDRICO, NO RIO ZÊZERE, PARA A PRODUÇÃO DE ENERGIA HIDROELÉTRICA E PARA A EXPLORAÇÃO, MANUTENÇÃO E CONSERVAÇÃO DAS INFRAESTRUTURAS HIDRÁULICAS DO APROVEITAMENTO HIDROELÉTRICO DO CABRIL",
-   "titulo_en": "[Portuguese (Brazilian)] TENDER FOR THE AWARD OF THE CONCESSION FOR THE EXTRACTION OF WATER FROM THE PUBLIC WATER DOMAIN, IN THE ZÊZERE RIVER, FOR THE PRODUCTION OF HYDROELECTRIC ENERGY AND FOR THE OPERATION, MAINTENANCE AND CONSERVATION OF THE HYDRAULIC INFRASTRUCTURES OF THE CABRIL HYDROELECTRIC DEVELOPMENT",
+   "titulo_en": "COMPETITION FOR THE AWARD OF THE CONCESSION FOR THE CAPTATION OF WATER FROM THE PUBLIC WATER DOMAIN, IN THE ZÊZERE RIVER, FOR THE PRODUCTION OF HYDROELECTRIC ENERGY AND FOR THE OPERATION, MAINTENANCE AND CONSERVATION OF THE HYDRAULIC INFRASTRUCTURES OF THE CABRIL HYDROELECTRIC PROJECT",
    "titulo_pt": "CONCURSO PARA ATRIBUIÇÃO DA CONCESSÃO DESTINADA À CAPTAÇÃO DE ÁGUA DO DOMÍNIO PÚBLICO HÍDRICO, NO RIO ZÊZERE, PARA A PRODUÇÃO DE ENERGIA HIDROELÉTRICA E PARA A EXPLORAÇÃO, MANUTENÇÃO E CONSERVAÇÃO DAS INFRAESTRUTURAS HIDRÁULICAS DO APROVEITAMENTO HIDROELÉTRICO DO CABRIL",
    "entidade": "Agência Portuguesa do Ambiente, IP",
    "preco_base": null,
@@ -241,44 +241,6 @@
    "n_dr": "24488/2026",
    "categorias": [
     "eletricidade"
-   ],
-   "minho": false,
-   "classe": "C"
-  },
-  {
-   "origem": "BidsFactory",
-   "url": "https://bidsfactory.com/en/tenders/aquisicao-de-servicos-de-manutencao-de-variadores-base_gov_pt-e1c79553a165e771",
-   "titulo": "Aquisição de Serviços de Manutenção de Variadores de Velocidade em Instalações da Tejo Atlântico, por Lotes - Zona Sul",
-   "titulo_en": "Acquisition of Maintenance Services for Variable Speed Drives in Tejo Atlântico Facilities, by Lots - South Zone",
-   "titulo_pt": "Aquisição de Serviços de Manutenção de Variadores de Velocidade em Instalações da Tejo Atlântico, por Lotes - Zona Sul",
-   "entidade": "Águas do Tejo Atlântico, SA",
-   "preco_base": 475000.0,
-   "publicado": "Oct 2, 2026",
-   "prazo_propostas": null,
-   "procedimento": "Public tender",
-   "cpv": "50532000-3",
-   "n_dr": "24545/2026",
-   "categorias": [
-    "eletricidade"
-   ],
-   "minho": false,
-   "classe": "C"
-  },
-  {
-   "origem": "BidsFactory",
-   "url": "https://bidsfactory.com/en/tenders/empreitada-para-fornecimento-e-montagem-de-equipam-base_gov_pt-04ca9075673c2667",
-   "titulo": "Empreitada para fornecimento e montagem de Equipamentos Mecânicos de Produção de Água Quente, de Água Quente Sanitária, de Aquecimento, Ventilação e Ar Condicionado e de Digitalização Energética repartida por três (3) lotes.",
-   "titulo_en": "Construction work for the supply and installation of Mechanical Equipment for the Production of Hot Water, Domestic Hot Water, Heating, Ventilation and Air Conditioning and Energy Digitization, divided into three (3) lots.",
-   "titulo_pt": "Empreitada para fornecimento e montagem de Equipamentos Mecânicos de Produção de Água Quente, de Água Quente Sanitária, de Aquecimento, Ventilação e Ar Condicionado e de Digitalização Energética repartida por três (3) lotes.",
-   "entidade": "Município de Santarém",
-   "preco_base": 1933917.0,
-   "publicado": "Sep 16, 2026",
-   "prazo_propostas": null,
-   "procedimento": "Restricted tender with prior qualification",
-   "cpv": "45331000-6",
-   "n_dr": "23050/2026",
-   "categorias": [
-    "software_ti"
    ],
    "minho": false,
    "classe": "C"
@@ -391,6 +353,23 @@
    "procedimento": "Public tender",
    "cpv": "38420000-5",
    "n_dr": "25331/2026",
+   "categorias": [],
+   "minho": true,
+   "classe": "C"
+  },
+  {
+   "origem": "BidsFactory",
+   "url": "https://bidsfactory.com/en/tenders/prc_02532026_clg-aquisicao-de-material-mecanico-pa-base_gov_pt-08ace3ee1143c1a0",
+   "titulo": "PRC_0253/2026_CLG - Aquisição de material mecânico para a Águas do Norte, S.A. (II)",
+   "titulo_en": "PRC_0253/2026_CLG - Acquisition of mechanical material for Águas do Norte, S.A. (II)",
+   "titulo_pt": "PRC_0253/2026_CLG - Aquisição de material mecânico para a Águas do Norte, S.A. (II)",
+   "entidade": "Águas do Norte, SA",
+   "preco_base": 182500.0,
+   "publicado": "Oct 15, 2026",
+   "prazo_propostas": null,
+   "procedimento": "Public tender",
+   "cpv": "42124000-4",
+   "n_dr": "25326/2026",
    "categorias": [],
    "minho": true,
    "classe": "C"

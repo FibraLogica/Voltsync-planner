@@ -1,6 +1,6 @@
 {
- "gerado_em": "2026-10-26",
- "n": 227,
+ "gerado_em": "2026-11-02",
+ "n": 230,
  "entidades": [
   {
    "nif": "506663264",
@@ -120,13 +120,13 @@
   {
    "nif": "506901173",
    "entidade": "Município de Braga",
-   "prioridade": 61.9,
-   "contratos": 89,
-   "por_convite": 65,
-   "valor_total": 5030400,
-   "valor_por_convite": 1962482,
+   "prioridade": 61.1,
+   "contratos": 88,
+   "por_convite": 64,
+   "valor_total": 4945666,
+   "valor_por_convite": 1877749,
    "categorias": {
-    "software_ti": 41,
+    "software_ti": 40,
     "eletricidade": 30,
     "projeto": 18,
     "seguranca_incendio": 3,
@@ -134,7 +134,7 @@
    },
    "procedimentos": {
     "Ajuste Direto Regime Geral": 33,
-    "Consulta Prévia": 30,
+    "Consulta Prévia": 29,
     "Concurso público": 20,
     "Ao abrigo de acordo-quadro (art.º 258.º)": 3,
     "Consulta Prévia Simplificada": 2,
@@ -142,7 +142,7 @@
    },
    "faixas_preco": {
     "<20k": 40,
-    "20-75k": 39,
+    "20-75k": 38,
     "75-150k": 5,
     ">150k": 5
    },
@@ -168,14 +168,36 @@
      "contratos": 3
     },
     {
-     "nif": "513216960",
-     "nome": "WATTLAMP Unipessoal Lda",
+     "nif": "- - la forja sistemas",
+     "nome": "La Forja Sistemas",
      "contratos": 2
     }
    ],
-   "fornecedor_dominante_pct": 4,
-   "ultimo_contrato": "2026-09-21",
+   "fornecedor_dominante_pct": 5,
+   "ultimo_contrato": "2026-10-30",
    "ultimos_contratos": [
+    {
+     "data": "2026-10-30",
+     "objeto": "Serviços de manutenção de software de gestão operacional do CCTB",
+     "preco": 14971.0,
+     "procedimento": "Ajuste Direto Regime Geral",
+     "fornecedor": "La Forja Sistemas",
+     "categorias": [
+      "software_ti"
+     ],
+     "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15881020"
+    },
+    {
+     "data": "2026-10-30",
+     "objeto": "Serviços de consultoria em matéria de rendimento energético",
+     "preco": 35820.0,
+     "procedimento": "Consulta Prévia",
+     "fornecedor": "E4S, Lda",
+     "categorias": [
+      "projeto"
+     ],
+     "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15881098"
+    },
     {
      "data": "2026-09-21",
      "objeto": "CPR/96/26/DCP - Aquisição de Plataformas de Gestão de Ocorrências",
@@ -208,28 +230,6 @@
       "eletricidade"
      ],
      "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15627263"
-    },
-    {
-     "data": "2026-09-10",
-     "objeto": "Aquisição de material elétrico em regime de fornecimento contínuo",
-     "preco": 25000.0,
-     "procedimento": "Concurso público",
-     "fornecedor": "WATTLAMP Unipessoal Lda",
-     "categorias": [
-      "eletricidade"
-     ],
-     "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15601705"
-    },
-    {
-     "data": "2026-08-31",
-     "objeto": "CPR/105/26/DCP - Aquisição de serviços para a produção audiovisual e multimédia da instalação artística de vídeomapping ",
-     "preco": 41000.0,
-     "procedimento": "Consulta Prévia",
-     "fornecedor": "Immersivus, LdA",
-     "categorias": [
-      "software_ti"
-     ],
-     "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15563794"
     }
    ],
    "base_url": "https://www.base.gov.pt/Base4/pt/pesquisa/?type=contratos&adjudicante=506901173"
@@ -237,26 +237,26 @@
   {
    "nif": "505948605",
    "entidade": "Município de Guimarães",
-   "prioridade": 58.2,
-   "contratos": 74,
-   "por_convite": 66,
-   "valor_total": 8510421,
-   "valor_por_convite": 1565834,
+   "prioridade": 57.3,
+   "contratos": 73,
+   "por_convite": 65,
+   "valor_total": 8508199,
+   "valor_por_convite": 1563612,
    "categorias": {
     "software_ti": 35,
     "projeto": 16,
     "eletricidade": 11,
-    "seguranca_incendio": 9,
+    "seguranca_incendio": 8,
     "fotovoltaico": 3,
     "mobilidade_eletrica": 1
    },
    "procedimentos": {
     "Ajuste Direto Regime Geral": 36,
-    "Consulta Prévia": 30,
+    "Consulta Prévia": 29,
     "Concurso público": 8
    },
    "faixas_preco": {
-    "<20k": 37,
+    "<20k": 36,
     "20-75k": 31,
     "75-150k": 4,
     ">150k": 2
@@ -278,14 +278,14 @@
      "contratos": 3
     },
     {
-     "nif": "500251118",
-     "nome": "SINTIMEX - Soc. Internacional de Imp. e Exp. S.A",
-     "contratos": 3
-    },
-    {
      "nif": "505331187",
      "nome": "WireMaze - Sistemas de Informação S.A.",
      "contratos": 3
+    },
+    {
+     "nif": "504813480",
+     "nome": "Wavecom-Soluções Rádio, SA",
+     "contratos": 2
     }
    ],
    "fornecedor_dominante_pct": 7,
@@ -351,26 +351,26 @@
   },
   {
    "nif": "515545180",
-   "entidade": "Unidade Local Saúde de Braga, E.P.E.",
-   "prioridade": 36.4,
-   "contratos": 49,
+   "entidade": "Unidade Local de Saúde de Braga, EPE",
+   "prioridade": 36.3,
+   "contratos": 50,
    "por_convite": 46,
-   "valor_total": 1676867,
+   "valor_total": 1745695,
    "valor_por_convite": 1413609,
    "categorias": {
-    "software_ti": 43,
+    "software_ti": 44,
     "eletricidade": 5,
     "seguranca_incendio": 1,
     "projeto": 1
    },
    "procedimentos": {
     "Ajuste Direto Regime Geral": 44,
-    "Concurso público": 3,
+    "Concurso público": 4,
     "Consulta Prévia": 2
    },
    "faixas_preco": {
     "<20k": 30,
-    "20-75k": 13,
+    "20-75k": 14,
     "75-150k": 4,
     ">150k": 2
    },
@@ -402,8 +402,19 @@
     }
    ],
    "fornecedor_dominante_pct": 6,
-   "ultimo_contrato": "2026-09-24",
+   "ultimo_contrato": "2026-10-30",
    "ultimos_contratos": [
+    {
+     "data": "2026-10-30",
+     "objeto": "Aquisição de serviços de arquivo, custódia e digitalização do arquivo",
+     "preco": 68828.2,
+     "procedimento": "Concurso público",
+     "fornecedor": "EAD - Empresa de Arquivo de Documentação, S.A.",
+     "categorias": [
+      "software_ti"
+     ],
+     "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15879790"
+    },
     {
      "data": "2026-09-24",
      "objeto": "Aquisição de serviços de Gestão de Projetos para acompanhamento do portefólio de projetos de Transformação Digital e Tec",
@@ -448,17 +459,6 @@
       "software_ti"
      ],
      "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15586700"
-    },
-    {
-     "data": "2026-09-03",
-     "objeto": "Manutenção de Software (Wiremaze / WireRecruit).",
-     "preco": 5289.0,
-     "procedimento": "Ajuste Direto Regime Geral",
-     "fornecedor": "Wire Maze - Sistemas Informação, Sa",
-     "categorias": [
-      "software_ti"
-     ],
-     "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15575957"
     }
    ],
    "base_url": "https://www.base.gov.pt/Base4/pt/pesquisa/?type=contratos&adjudicante=515545180"
@@ -466,20 +466,20 @@
   {
    "nif": "508786193",
    "entidade": "Unidade Local de Saúde do Alto Minho, EPE",
-   "prioridade": 35.8,
-   "contratos": 62,
-   "por_convite": 42,
-   "valor_total": 3452870,
-   "valor_por_convite": 1138608,
+   "prioridade": 35.0,
+   "contratos": 61,
+   "por_convite": 41,
+   "valor_total": 3379994,
+   "valor_por_convite": 1065732,
    "categorias": {
-    "software_ti": 45,
+    "software_ti": 44,
     "eletricidade": 10,
     "projeto": 6,
     "fotovoltaico": 2,
     "seguranca_incendio": 1
    },
    "procedimentos": {
-    "Ajuste Direto Regime Geral": 40,
+    "Ajuste Direto Regime Geral": 39,
     "Concurso público": 15,
     "Contratação excluída II": 4,
     "Consulta Prévia": 2,
@@ -487,7 +487,7 @@
    },
    "faixas_preco": {
     "<20k": 31,
-    "20-75k": 20,
+    "20-75k": 19,
     "75-150k": 6,
     ">150k": 5
    },
@@ -513,8 +513,8 @@
      "contratos": 2
     },
     {
-     "nif": "513270396",
-     "nome": "ART CES - UNIPESSOAL, LDA.",
+     "nif": "508284538",
+     "nome": "SEAMLINK-SEAMLESS ENTERPRISE LINK, LDA",
      "contratos": 2
     }
    ],
@@ -582,14 +582,14 @@
   {
    "nif": "502011378",
    "entidade": "Universidade do Minho",
-   "prioridade": 30.8,
+   "prioridade": 30.9,
    "contratos": 111,
    "por_convite": 34,
-   "valor_total": 3508293,
+   "valor_total": 3444334,
    "valor_por_convite": 1328949,
    "categorias": {
-    "software_ti": 83,
-    "eletricidade": 22,
+    "software_ti": 82,
+    "eletricidade": 23,
     "seguranca_incendio": 6,
     "projeto": 6,
     "fotovoltaico": 2,
@@ -604,8 +604,8 @@
    "faixas_preco": {
     "<20k": 77,
     "20-75k": 25,
-    ">150k": 5,
-    "75-150k": 4
+    "75-150k": 5,
+    ">150k": 4
    },
    "fornecedores_habituais": [
     {
@@ -635,8 +635,19 @@
     }
    ],
    "fornecedor_dominante_pct": 3,
-   "ultimo_contrato": "2026-10-22",
+   "ultimo_contrato": "2026-10-26",
    "ultimos_contratos": [
+    {
+     "data": "2026-10-26",
+     "objeto": "PROCEDIMENTO PARA FORMAÇÃO DE CONTRATO DE AQUISIÇÃO DE BENS MÓVEIS NECESSÁRIOS AO DESENVOLVIMENTO DE ATIVIDADES DE I&D –",
+     "preco": 89461.31,
+     "procedimento": "Contratação excluída II",
+     "fornecedor": "AIXACCT Systems GMBH",
+     "categorias": [
+      "eletricidade"
+     ],
+     "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15836988"
+    },
     {
      "data": "2026-10-22",
      "objeto": "AQUISIÇÃO DE SERVIÇOS DE MANUTENÇÃO DE GRUPOS ELETROGÉNEOS, NAS INSTALAÇÕES DA UNIVERSIDADE DO MINHO, EM BRAGA E GUIMARÃ",
@@ -680,17 +691,6 @@
       "software_ti"
      ],
      "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15748671"
-    },
-    {
-     "data": "2026-10-07",
-     "objeto": "PROCEDIMENTO DE AJUSTE DIRETO REF.ª AJDELACH-02/2026 PARA AQUISIÇÃO DE SERVIÇOS DE APOIO TÉCNICO, ORGANIZAÇÃO DOCUMENTAL",
-     "preco": 5600.0,
-     "procedimento": "Ajuste Direto Regime Geral",
-     "fornecedor": "Marco Rodrigues Lima",
-     "categorias": [
-      "software_ti"
-     ],
-     "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15737195"
     }
    ],
    "base_url": "https://www.base.gov.pt/Base4/pt/pesquisa/?type=contratos&adjudicante=502011378"
@@ -1264,24 +1264,24 @@
   {
    "nif": "508093937",
    "entidade": "Unidade Local de Saúde do Médio Ave, EPE",
-   "prioridade": 23.2,
-   "contratos": 38,
-   "por_convite": 29,
-   "valor_total": 1753487,
-   "valor_por_convite": 1284301,
+   "prioridade": 23.9,
+   "contratos": 39,
+   "por_convite": 30,
+   "valor_total": 1795247,
+   "valor_por_convite": 1326061,
    "categorias": {
-    "software_ti": 29,
+    "software_ti": 30,
     "projeto": 7,
     "eletricidade": 3
    },
    "procedimentos": {
     "Ajuste Direto Regime Geral": 17,
-    "Consulta Prévia": 12,
+    "Consulta Prévia": 13,
     "Concurso público": 8,
     "Contratação excluída II": 1
    },
    "faixas_preco": {
-    "20-75k": 22,
+    "20-75k": 23,
     "<20k": 12,
     "75-150k": 4
    },
@@ -1313,8 +1313,19 @@
     }
    ],
    "fornecedor_dominante_pct": 8,
-   "ultimo_contrato": "2026-09-08",
+   "ultimo_contrato": "2026-10-26",
    "ultimos_contratos": [
+    {
+     "data": "2026-10-26",
+     "objeto": "Aquisição de serviços de consultadoria informática para a Unidade Local de Saúde do Médio Ave, E.P.E.",
+     "preco": 41760.0,
+     "procedimento": "Consulta Prévia",
+     "fornecedor": "Renato Ferreira Magalhães",
+     "categorias": [
+      "software_ti"
+     ],
+     "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15836024"
+    },
     {
      "data": "2026-09-08",
      "objeto": "VP2600553 - ELABORAÇÃO DE PROJECTO DE SUBSTITUIÇÃO DO GRUPO GERADOR",
@@ -1359,133 +1370,120 @@
       "software_ti"
      ],
      "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15521770"
-    },
-    {
-     "data": "2026-08-24",
-     "objeto": "Aquisição de solução avançada de segurança e proteção de postos de trabalho e servidores para os Cuidados de Saúde Primá",
-     "preco": 67717.14,
-     "procedimento": "Concurso público",
-     "fornecedor": "ReLoad - Consultoria Informática, Unipessoal Lda.",
-     "categorias": [
-      "software_ti"
-     ],
-     "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15521962"
     }
    ],
    "base_url": "https://www.base.gov.pt/Base4/pt/pesquisa/?type=contratos&adjudicante=508093937"
   },
   {
-   "nif": "506884929",
-   "entidade": "Município de Celorico de Basto",
-   "prioridade": 23.0,
-   "contratos": 33,
-   "por_convite": 27,
-   "valor_total": 1022650,
-   "valor_por_convite": 800498,
+   "nif": "505676770",
+   "entidade": "Município de Ponte da Barca",
+   "prioridade": 22.8,
+   "contratos": 26,
+   "por_convite": 26,
+   "valor_total": 477577,
+   "valor_por_convite": 477577,
    "categorias": {
-    "software_ti": 16,
-    "projeto": 14,
+    "software_ti": 15,
+    "projeto": 6,
+    "fotovoltaico": 3,
     "eletricidade": 2,
-    "fotovoltaico": 2
+    "seguranca_incendio": 1
    },
    "procedimentos": {
-    "Ajuste Direto Regime Geral": 16,
-    "Consulta Prévia": 11,
-    "Contratação excluída II": 5,
-    "Concurso público": 1
+    "Consulta Prévia": 14,
+    "Ajuste Direto Regime Geral": 12
    },
    "faixas_preco": {
-    "<20k": 19,
-    "20-75k": 13,
-    "75-150k": 1
+    "<20k": 21,
+    "20-75k": 5
    },
    "fornecedores_habituais": [
     {
-     "nif": "500900469",
-     "nome": "SUCH | Serviço de Utilização Comum dos Hospitais",
-     "contratos": 4
-    },
-    {
-     "nif": "509888550",
-     "nome": "Ricardo Jorge da Cunha Alves, Unipessoal, Lda.",
+     "nif": "505292386",
+     "nome": "João Cerqueira Pereira, Lda.",
      "contratos": 2
     },
     {
-     "nif": "504112686",
-     "nome": "CBL - Computadores de Basto, Lda",
+     "nif": "518272192",
+     "nome": "TLCI ENERGIA, LDA.,",
      "contratos": 2
     },
     {
-     "nif": "508641055",
-     "nome": "DelicatePlan - Consultoria e Engenharia, Lda",
+     "nif": "- - marina daniela monteiro goncalves",
+     "nome": "Marina Daniela Monteiro Gonçalves",
      "contratos": 2
     },
     {
-     "nif": "510728189",
-     "nome": "Claranet II Solutions, SA",
+     "nif": "510174132",
+     "nome": "FBCPS - Business Consulting and Professional Services, Lda",
      "contratos": 2
+    },
+    {
+     "nif": "503888460",
+     "nome": "Tabique - Engenharia, Lda.",
+     "contratos": 1
     }
    ],
-   "fornecedor_dominante_pct": 12,
-   "ultimo_contrato": "2026-10-21",
+   "fornecedor_dominante_pct": 8,
+   "ultimo_contrato": "2026-10-29",
    "ultimos_contratos": [
     {
-     "data": "2026-10-21",
-     "objeto": "Aquisição de Módulos de Software",
-     "preco": 10253.0,
-     "procedimento": "Ajuste Direto Regime Geral",
-     "fornecedor": "MEDIDATA ESPUBLICO, UNIPESSOAL, LDA",
+     "data": "2026-10-29",
+     "objeto": "Aquisição de serviços para reparação da iluminação do Centro Escolar de Crasto e Bloco H da Escola Diogo Bernardes",
+     "preco": 14891.57,
+     "procedimento": "Consulta Prévia",
+     "fornecedor": "João Cerqueira Pereira, Lda.",
      "categorias": [
-      "software_ti"
+      "eletricidade"
      ],
-     "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15798807"
+     "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15878583"
     },
     {
-     "data": "2026-10-01",
-     "objeto": "Projeto de Execução AVAC e Certificação Energética - Edifício dos Paços do Concelho",
-     "preco": 16300.0,
-     "procedimento": "Ajuste Direto Regime Geral",
-     "fornecedor": "JOTA96 - Projectos de Enguenharia Auditorias e Formação, Lda",
+     "data": "2026-10-21",
+     "objeto": "Prestação de serviços de Fiscalização e Coordenação de Segurança em obra - \"Construção de Edifício de Apoio à Praça da R",
+     "preco": 19950.0,
+     "procedimento": "Consulta Prévia",
+     "fornecedor": "Tabique - Engenharia, Lda.",
      "categorias": [
       "projeto"
      ],
-     "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15718759"
+     "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15801783"
     },
     {
-     "data": "2026-09-30",
-     "objeto": "Prestação dos serviços relativos ao desenvolvimento da Plataforma Digital Territorial «Visit Celorico de Basto»",
-     "preco": 68850.0,
+     "data": "2026-10-20",
+     "objeto": "Aplicação de módulos fotovoltaicos no centro escolar de Entre Ambos os Rios",
+     "preco": 44956.65,
      "procedimento": "Consulta Prévia",
-     "fornecedor": "Ricardo Jorge da Cunha Alves, Unipessoal, Lda.",
+     "fornecedor": "TLCI ENERGIA, LDA.,",
      "categorias": [
-      "software_ti"
+      "fotovoltaico"
      ],
-     "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15714671"
+     "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15795279"
     },
     {
-     "data": "2026-09-16",
-     "objeto": "Prestação do serviço de manutenção e apoio informático aos serviços do Agrupamento de Escolas de Celorico de Basto",
-     "preco": 13188.0,
+     "data": "2026-10-20",
+     "objeto": "Serviço de eletricista para atividades culturais",
+     "preco": 15448.65,
      "procedimento": "Consulta Prévia",
-     "fornecedor": "CBL - Computadores de Basto, Lda",
+     "fornecedor": "João Cerqueira Pereira, Lda.",
      "categorias": [
-      "software_ti"
+      "eletricidade"
      ],
-     "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15625408"
+     "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15797419"
     },
     {
-     "data": "2026-08-27",
-     "objeto": "Contratação de um recurso humano, na área da Geografia com conhecimento em Sistemas de Informação Geográfica, na modalid",
-     "preco": 19200.0,
-     "procedimento": "Ajuste Direto Regime Geral",
-     "fornecedor": "Filipe Rafael Oliveira de Sousa",
+     "data": "2026-10-15",
+     "objeto": "Loteamento de Lestriz - Estudo Prévio de Loteamento e Projeto de Execução de Arquitetura",
+     "preco": 4100.0,
+     "procedimento": "Consulta Prévia",
+     "fornecedor": "Vitor Hugo - Coordenação e Gestão de Projectos, SA",
      "categorias": [
-      "software_ti"
+      "projeto"
      ],
-     "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15539231"
+     "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15778707"
     }
    ],
-   "base_url": "https://www.base.gov.pt/Base4/pt/pesquisa/?type=contratos&adjudicante=506884929"
+   "base_url": "https://www.base.gov.pt/Base4/pt/pesquisa/?type=contratos&adjudicante=505676770"
   },
   {
    "nif": "506797627",
@@ -1598,142 +1596,36 @@
    "base_url": "https://www.base.gov.pt/Base4/pt/pesquisa/?type=contratos&adjudicante=506797627"
   },
   {
-   "nif": "505676770",
-   "entidade": "Município de Ponte da Barca",
-   "prioridade": 21.6,
-   "contratos": 25,
-   "por_convite": 25,
-   "valor_total": 462685,
-   "valor_por_convite": 462685,
-   "categorias": {
-    "software_ti": 15,
-    "projeto": 6,
-    "fotovoltaico": 3,
-    "eletricidade": 1,
-    "seguranca_incendio": 1
-   },
-   "procedimentos": {
-    "Consulta Prévia": 13,
-    "Ajuste Direto Regime Geral": 12
-   },
-   "faixas_preco": {
-    "<20k": 20,
-    "20-75k": 5
-   },
-   "fornecedores_habituais": [
-    {
-     "nif": "518272192",
-     "nome": "TLCI ENERGIA, LDA.,",
-     "contratos": 2
-    },
-    {
-     "nif": "- - marina daniela monteiro goncalves",
-     "nome": "Marina Daniela Monteiro Gonçalves",
-     "contratos": 2
-    },
-    {
-     "nif": "510174132",
-     "nome": "FBCPS - Business Consulting and Professional Services, Lda",
-     "contratos": 2
-    },
-    {
-     "nif": "503888460",
-     "nome": "Tabique - Engenharia, Lda.",
-     "contratos": 1
-    },
-    {
-     "nif": "505292386",
-     "nome": "João Cerqueira Pereira, Lda.",
-     "contratos": 1
-    }
-   ],
-   "fornecedor_dominante_pct": 8,
-   "ultimo_contrato": "2026-10-21",
-   "ultimos_contratos": [
-    {
-     "data": "2026-10-21",
-     "objeto": "Prestação de serviços de Fiscalização e Coordenação de Segurança em obra - \"Construção de Edifício de Apoio à Praça da R",
-     "preco": 19950.0,
-     "procedimento": "Consulta Prévia",
-     "fornecedor": "Tabique - Engenharia, Lda.",
-     "categorias": [
-      "projeto"
-     ],
-     "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15801783"
-    },
-    {
-     "data": "2026-10-20",
-     "objeto": "Aplicação de módulos fotovoltaicos no centro escolar de Entre Ambos os Rios",
-     "preco": 44956.65,
-     "procedimento": "Consulta Prévia",
-     "fornecedor": "TLCI ENERGIA, LDA.,",
-     "categorias": [
-      "fotovoltaico"
-     ],
-     "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15795279"
-    },
-    {
-     "data": "2026-10-20",
-     "objeto": "Serviço de eletricista para atividades culturais",
-     "preco": 15448.65,
-     "procedimento": "Consulta Prévia",
-     "fornecedor": "João Cerqueira Pereira, Lda.",
-     "categorias": [
-      "eletricidade"
-     ],
-     "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15797419"
-    },
-    {
-     "data": "2026-10-15",
-     "objeto": "Loteamento de Lestriz - Estudo Prévio de Loteamento e Projeto de Execução de Arquitetura",
-     "preco": 4100.0,
-     "procedimento": "Consulta Prévia",
-     "fornecedor": "Vitor Hugo - Coordenação e Gestão de Projectos, SA",
-     "categorias": [
-      "projeto"
-     ],
-     "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15778707"
-    },
-    {
-     "data": "2026-10-13",
-     "objeto": "Elaboração do projeto para o auditório da Casa da Cultura de Ponte da Barca",
-     "preco": 35000.0,
-     "procedimento": "Ajuste Direto Regime Geral",
-     "fornecedor": "PROGITAPE-PROJECTOS DE ARQUITECTURA, PLEANEAMENTO E ENGENHARIA LDA",
-     "categorias": [
-      "projeto"
-     ],
-     "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15762975"
-    }
-   ],
-   "base_url": "https://www.base.gov.pt/Base4/pt/pesquisa/?type=contratos&adjudicante=505676770"
-  },
-  {
    "nif": "506632920",
    "entidade": "Município da Póvoa de Lanhoso",
-   "prioridade": 21.5,
-   "contratos": 29,
-   "por_convite": 27,
-   "valor_total": 1450716,
-   "valor_por_convite": 763783,
+   "prioridade": 22.1,
+   "contratos": 30,
+   "por_convite": 28,
+   "valor_total": 1401570,
+   "valor_por_convite": 714637,
    "categorias": {
-    "software_ti": 17,
-    "projeto": 10,
+    "software_ti": 19,
+    "projeto": 9,
     "eletricidade": 2
    },
    "procedimentos": {
     "Ajuste Direto Regime Geral": 15,
-    "Consulta Prévia": 12,
+    "Consulta Prévia": 13,
     "Concurso público": 1,
     "Concurso limitado por prévia qualificação": 1
    },
    "faixas_preco": {
-    "<20k": 14,
-    "20-75k": 12,
+    "<20k": 16,
+    "20-75k": 11,
     "75-150k": 2,
     ">150k": 1
    },
    "fornecedores_habituais": [
+    {
+     "nif": "- - lucas rafael leite goncalves",
+     "nome": "Lucas Rafael Leite Gonçalves",
+     "contratos": 2
+    },
     {
      "nif": "- - henrique do vale martins",
      "nome": "HENRIQUE DO VALE MARTINS",
@@ -1745,24 +1637,41 @@
      "contratos": 2
     },
     {
-     "nif": "503888460",
-     "nome": "Tabique - Engenharia, Lda",
-     "contratos": 2
+     "nif": "- - micael alexandre alves araujo –",
+     "nome": "Micael Alexandre Alves Araújo –",
+     "contratos": 1
     },
     {
      "nif": "504827715",
      "nome": "EUROTUX INFORMATICA, S.A",
      "contratos": 1
-    },
-    {
-     "nif": "517175274",
-     "nome": "IMO JP, LDA",
-     "contratos": 1
     }
    ],
    "fornecedor_dominante_pct": 7,
-   "ultimo_contrato": "2026-09-17",
+   "ultimo_contrato": "2026-10-29",
    "ultimos_contratos": [
+    {
+     "data": "2026-10-29",
+     "objeto": "DESEMPENHO DE FUNÇÕES NO ÂMBITO DOS SERVIÇOS INFORMÁTICOS – APOIO AOS ESTABELECIMENTOS DE ENSINO E GABINETE DE INFORMÁTI",
+     "preco": 12676.8,
+     "procedimento": "Consulta Prévia",
+     "fornecedor": "Lucas Rafael Leite Gonçalves",
+     "categorias": [
+      "software_ti"
+     ],
+     "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15877569"
+    },
+    {
+     "data": "2026-10-29",
+     "objeto": "DESEMPENHO DE FUNÇÕES NO ÂMBITO DOS SERVIÇOS INFORMÁTICOS – APOIO AOS ESTABELECIMENTOS DE ENSINO E GABINETE DE INFORMÁTI",
+     "preco": 12676.8,
+     "procedimento": "Consulta Prévia",
+     "fornecedor": "Micael Alexandre Alves Araújo –",
+     "categorias": [
+      "software_ti"
+     ],
+     "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15877611"
+    },
     {
      "data": "2026-09-17",
      "objeto": "Aquisição de equipamento de rede, incluindo a substituição de equipamentos de distribuição e switches de acesso não norm",
@@ -1795,28 +1704,6 @@
       "software_ti"
      ],
      "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15505073"
-    },
-    {
-     "data": "2026-07-15",
-     "objeto": "CONTRATAÇÃO DE UM TÉCNICO DE SISTEMA DE INFORMAÇÃO GEOGRÁFICO (SIG)",
-     "preco": 8700.0,
-     "procedimento": "Ajuste Direto Regime Geral",
-     "fornecedor": "HENRIQUE DO VALE MARTINS",
-     "categorias": [
-      "software_ti"
-     ],
-     "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15294548"
-    },
-    {
-     "data": "2026-06-24",
-     "objeto": "AQUISIÇÃO, INSTALAÇÃO, EQUIPAMENTOS MOBILIÁRIOS, HARDWARE E SOFTWARE PARA O FUNCIONAMENTO DO BAIRRO COMERCIAL DIGITAL DO",
-     "preco": 30566.81,
-     "procedimento": "Consulta Prévia",
-     "fornecedor": "NOS COMUNICAÇÕES, S.A.",
-     "categorias": [
-      "software_ti"
-     ],
-     "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15195030"
     }
    ],
    "base_url": "https://www.base.gov.pt/Base4/pt/pesquisa/?type=contratos&adjudicante=506632920"
@@ -1937,27 +1824,141 @@
    "base_url": "https://www.base.gov.pt/Base4/pt/pesquisa/?type=contratos&adjudicante=506841561"
   },
   {
+   "nif": "506884929",
+   "entidade": "Município de Celorico de Basto",
+   "prioridade": 21.0,
+   "contratos": 30,
+   "por_convite": 25,
+   "valor_total": 948109,
+   "valor_por_convite": 732698,
+   "categorias": {
+    "software_ti": 16,
+    "projeto": 12,
+    "fotovoltaico": 2,
+    "eletricidade": 1
+   },
+   "procedimentos": {
+    "Ajuste Direto Regime Geral": 15,
+    "Consulta Prévia": 10,
+    "Contratação excluída II": 4,
+    "Concurso público": 1
+   },
+   "faixas_preco": {
+    "<20k": 17,
+    "20-75k": 12,
+    "75-150k": 1
+   },
+   "fornecedores_habituais": [
+    {
+     "nif": "500900469",
+     "nome": "SUCH | Serviço de Utilização Comum dos Hospitais",
+     "contratos": 4
+    },
+    {
+     "nif": "509888550",
+     "nome": "Ricardo Jorge da Cunha Alves, Unipessoal, Lda.",
+     "contratos": 2
+    },
+    {
+     "nif": "504112686",
+     "nome": "CBL - Computadores de Basto, Lda",
+     "contratos": 2
+    },
+    {
+     "nif": "508641055",
+     "nome": "DelicatePlan - Consultoria e Engenharia, Lda",
+     "contratos": 2
+    },
+    {
+     "nif": "510728189",
+     "nome": "Claranet II Solutions, SA",
+     "contratos": 2
+    }
+   ],
+   "fornecedor_dominante_pct": 13,
+   "ultimo_contrato": "2026-10-21",
+   "ultimos_contratos": [
+    {
+     "data": "2026-10-21",
+     "objeto": "Aquisição de Módulos de Software",
+     "preco": 10253.0,
+     "procedimento": "Ajuste Direto Regime Geral",
+     "fornecedor": "MEDIDATA ESPUBLICO, UNIPESSOAL, LDA",
+     "categorias": [
+      "software_ti"
+     ],
+     "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15798807"
+    },
+    {
+     "data": "2026-10-01",
+     "objeto": "Projeto de Execução AVAC e Certificação Energética - Edifício dos Paços do Concelho",
+     "preco": 16300.0,
+     "procedimento": "Ajuste Direto Regime Geral",
+     "fornecedor": "JOTA96 - Projectos de Enguenharia Auditorias e Formação, Lda",
+     "categorias": [
+      "projeto"
+     ],
+     "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15718759"
+    },
+    {
+     "data": "2026-09-30",
+     "objeto": "Prestação dos serviços relativos ao desenvolvimento da Plataforma Digital Territorial «Visit Celorico de Basto»",
+     "preco": 68850.0,
+     "procedimento": "Consulta Prévia",
+     "fornecedor": "Ricardo Jorge da Cunha Alves, Unipessoal, Lda.",
+     "categorias": [
+      "software_ti"
+     ],
+     "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15714671"
+    },
+    {
+     "data": "2026-09-16",
+     "objeto": "Prestação do serviço de manutenção e apoio informático aos serviços do Agrupamento de Escolas de Celorico de Basto",
+     "preco": 13188.0,
+     "procedimento": "Consulta Prévia",
+     "fornecedor": "CBL - Computadores de Basto, Lda",
+     "categorias": [
+      "software_ti"
+     ],
+     "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15625408"
+    },
+    {
+     "data": "2026-08-27",
+     "objeto": "Contratação de um recurso humano, na área da Geografia com conhecimento em Sistemas de Informação Geográfica, na modalid",
+     "preco": 19200.0,
+     "procedimento": "Ajuste Direto Regime Geral",
+     "fornecedor": "Filipe Rafael Oliveira de Sousa",
+     "categorias": [
+      "software_ti"
+     ],
+     "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15539231"
+    }
+   ],
+   "base_url": "https://www.base.gov.pt/Base4/pt/pesquisa/?type=contratos&adjudicante=506884929"
+  },
+  {
    "nif": "506632938",
    "entidade": "Município de Paredes de Coura",
-   "prioridade": 19.8,
-   "contratos": 23,
+   "prioridade": 20.6,
+   "contratos": 24,
    "por_convite": 18,
-   "valor_total": 974032,
+   "valor_total": 1079977,
    "valor_por_convite": 307594,
    "categorias": {
     "projeto": 11,
+    "eletricidade": 9,
     "software_ti": 9,
-    "eletricidade": 8
+    "seguranca_incendio": 1
    },
    "procedimentos": {
     "Consulta Prévia": 10,
     "Ajuste Direto Regime Geral": 8,
-    "Concurso público": 5
+    "Concurso público": 6
    },
    "faixas_preco": {
     "<20k": 15,
     "20-75k": 6,
-    "75-150k": 1,
+    "75-150k": 2,
     ">150k": 1
    },
    "fornecedores_habituais": [
@@ -1972,6 +1973,11 @@
      "contratos": 2
     },
     {
+     "nif": "506370836",
+     "nome": "Soltráfego - Soluções de Transito, Estacionamento e Comunicações, S.a.",
+     "contratos": 1
+    },
+    {
      "nif": "514338938",
      "nome": "EVONIC - EVOLUTION AND INNOVATION CONSULTING, LDA",
      "contratos": 1
@@ -1980,16 +1986,23 @@
      "nif": "510728189",
      "nome": "CLARANET II SOLUTIONS, S.A.",
      "contratos": 1
-    },
-    {
-     "nif": "505743990",
-     "nome": "Nortaluga Lda.",
-     "contratos": 1
     }
    ],
-   "fornecedor_dominante_pct": 13,
-   "ultimo_contrato": "2026-10-08",
+   "fornecedor_dominante_pct": 12,
+   "ultimo_contrato": "2026-10-28",
    "ultimos_contratos": [
+    {
+     "data": "2026-10-28",
+     "objeto": "Aquisição de serviços de fornecimento e instalação de equipamentos de controlo de acessos para parques de estacionamento",
+     "preco": 105945.0,
+     "procedimento": "Concurso público",
+     "fornecedor": "Soltráfego - Soluções de Transito, Estacionamento e Comunicações, S.a.",
+     "categorias": [
+      "eletricidade",
+      "seguranca_incendio"
+     ],
+     "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15859949"
+    },
     {
      "data": "2026-10-08",
      "objeto": "Prestação de serviços de renovação do software de virtualização Vmware",
@@ -2034,154 +2047,31 @@
       "projeto"
      ],
      "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15349460"
-    },
-    {
-     "data": "2026-07-24",
-     "objeto": "Aquisição de unidade de proteção de energia – UPS",
-     "preco": 7879.9,
-     "procedimento": "Ajuste Direto Regime Geral",
-     "fornecedor": "GAP - GUEDES, ALVES & PACHECO, LDA",
-     "categorias": [
-      "eletricidade"
-     ],
-     "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15352660"
     }
    ],
    "base_url": "https://www.base.gov.pt/Base4/pt/pesquisa/?type=contratos&adjudicante=506632938"
   },
   {
-   "nif": "506907619",
-   "entidade": "Município de Terras de Bouro",
-   "prioridade": 19.6,
-   "contratos": 32,
-   "por_convite": 23,
-   "valor_total": 719338,
-   "valor_por_convite": 389768,
-   "categorias": {
-    "software_ti": 16,
-    "seguranca_incendio": 7,
-    "projeto": 5,
-    "eletricidade": 4
-   },
-   "procedimentos": {
-    "Ajuste Direto Regime Geral": 17,
-    "Concurso público": 9,
-    "Consulta Prévia": 6
-   },
-   "faixas_preco": {
-    "<20k": 24,
-    "20-75k": 5,
-    "75-150k": 3
-   },
-   "fornecedores_habituais": [
-    {
-     "nif": "509033237",
-     "nome": "Interfire, Lda.",
-     "contratos": 4
-    },
-    {
-     "nif": "501854371",
-     "nome": "F3M Information Systems, S.A.",
-     "contratos": 2
-    },
-    {
-     "nif": "514027657",
-     "nome": "LAURA SILVA, UNIPESSOAL, LDA",
-     "contratos": 2
-    },
-    {
-     "nif": "510592147",
-     "nome": "MAGNETIKVALUE - UNIPESSOAL, LDA",
-     "contratos": 2
-    },
-    {
-     "nif": "514411317",
-     "nome": "Cerdeira & Correia, Lda",
-     "contratos": 2
-    }
-   ],
-   "fornecedor_dominante_pct": 12,
-   "ultimo_contrato": "2026-10-12",
-   "ultimos_contratos": [
-    {
-     "data": "2026-10-12",
-     "objeto": "CONFIGURAÇÃO, INTEGRAÇÃO E MANUTENÇÃO NA PLATAFORMA DE GESTÃO URBANA",
-     "preco": 17500.0,
-     "procedimento": "Ajuste Direto Regime Geral",
-     "fornecedor": "FBCPS - Business Consulting and Professional Services, Lda",
-     "categorias": [
-      "software_ti"
-     ],
-     "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15759309"
-    },
-    {
-     "data": "2026-09-24",
-     "objeto": "CENTRAL DE INCÊNCIOS-ESCOLA DE TERRAS DE BOURO",
-     "preco": 7683.51,
-     "procedimento": "Ajuste Direto Regime Geral",
-     "fornecedor": "SILSAFE, LDA",
-     "categorias": [
-      "eletricidade"
-     ],
-     "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15664472"
-    },
-    {
-     "data": "2026-09-22",
-     "objeto": "FORNECIMENTO E IMPLEMENTAÇÃO DE PLATAFORMA/PORTAL - GESTÃO DE EVENTO",
-     "preco": 6650.0,
-     "procedimento": "Ajuste Direto Regime Geral",
-     "fornecedor": "F3M Information Systems, S.A.",
-     "categorias": [
-      "software_ti"
-     ],
-     "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15651860"
-    },
-    {
-     "data": "2026-07-20",
-     "objeto": "Aquisição de Equipamentos de Proteção Individual (EPI) e Material para o Serviço Municipal de Proteção Civil e Corpo de ",
-     "preco": 1222.0,
-     "procedimento": "Concurso público",
-     "fornecedor": "Bricantel, Comércio de Material Electrico de Bragança, S.A.",
-     "categorias": [
-      "seguranca_incendio"
-     ],
-     "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15310375"
-    },
-    {
-     "data": "2026-07-15",
-     "objeto": "Aquisição de Equipamentos de Proteção Individual (EPI) e Material para o Serviço Municipal de Proteção Civil e Corpo de ",
-     "preco": 76919.25,
-     "procedimento": "Concurso público",
-     "fornecedor": "Tecniquitel - Soc. Equip. Tecnico, Lda",
-     "categorias": [
-      "seguranca_incendio"
-     ],
-     "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15294159"
-    }
-   ],
-   "base_url": "https://www.base.gov.pt/Base4/pt/pesquisa/?type=contratos&adjudicante=506907619"
-  },
-  {
    "nif": "503494933",
    "entidade": "Instituto Politécnico do Cávado e do Ave",
-   "prioridade": 19.2,
-   "contratos": 34,
+   "prioridade": 19.3,
+   "contratos": 33,
    "por_convite": 22,
-   "valor_total": 1970444,
+   "valor_total": 1965244,
    "valor_por_convite": 624044,
    "categorias": {
-    "software_ti": 22,
+    "software_ti": 21,
     "eletricidade": 7,
     "projeto": 5,
     "fotovoltaico": 1
    },
    "procedimentos": {
     "Ajuste Direto Regime Geral": 14,
-    "Concurso público": 12,
+    "Concurso público": 11,
     "Consulta Prévia": 8
    },
    "faixas_preco": {
-    "<20k": 18,
+    "<20k": 17,
     "20-75k": 10,
     ">150k": 4,
     "75-150k": 2
@@ -2275,38 +2165,152 @@
    "base_url": "https://www.base.gov.pt/Base4/pt/pesquisa/?type=contratos&adjudicante=503494933"
   },
   {
+   "nif": "504807692",
+   "entidade": "AGERE – Emp. Águas, Efluentes e Resíduos de Braga",
+   "prioridade": 18.4,
+   "contratos": 38,
+   "por_convite": 22,
+   "valor_total": 1798442,
+   "valor_por_convite": 593461,
+   "categorias": {
+    "software_ti": 26,
+    "projeto": 7,
+    "eletricidade": 4,
+    "fotovoltaico": 2
+   },
+   "procedimentos": {
+    "Ajuste Direto Regime Geral": 16,
+    "Concurso público": 15,
+    "Consulta Prévia": 6,
+    "Concurso limitado por prévia qualificação": 1
+   },
+   "faixas_preco": {
+    "<20k": 19,
+    "20-75k": 15,
+    ">150k": 3,
+    "75-150k": 1
+   },
+   "fornecedores_habituais": [
+    {
+     "nif": "506172813",
+     "nome": "Orbcom, Lda.",
+     "contratos": 4
+    },
+    {
+     "nif": "502539909",
+     "nome": "Aquasis - Sistemas de Informação, S.a.",
+     "contratos": 4
+    },
+    {
+     "nif": "503140600",
+     "nome": "Primavera",
+     "contratos": 3
+    },
+    {
+     "nif": "501213350",
+     "nome": "Noraqua, Consultores de Engenharia, Lda.",
+     "contratos": 2
+    },
+    {
+     "nif": "- - jose m. goncalves",
+     "nome": "José M. Gonçalves",
+     "contratos": 2
+    }
+   ],
+   "fornecedor_dominante_pct": 11,
+   "ultimo_contrato": "2026-10-27",
+   "ultimos_contratos": [
+    {
+     "data": "2026-10-27",
+     "objeto": "Aquisição de plataforma para gestão operacional de ativos, infraestruturas e equipamentos",
+     "preco": 59996.0,
+     "procedimento": "Ajuste Direto Regime Geral",
+     "fornecedor": "Infraspeak S.A.",
+     "categorias": [
+      "software_ti"
+     ],
+     "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15846832"
+    },
+    {
+     "data": "2026-10-22",
+     "objeto": "Prestação de serviços de consultoria e elaboração de projetos de execução SUSTENTÁVEL 2030",
+     "preco": 16500.0,
+     "procedimento": "Ajuste Direto Regime Geral",
+     "fornecedor": "Noraqua, Consultores de Engenharia, Lda.",
+     "categorias": [
+      "projeto"
+     ],
+     "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15806867"
+    },
+    {
+     "data": "2026-10-22",
+     "objeto": "Aquisição de micro datacenters e smart IT racks ",
+     "preco": 275004.29,
+     "procedimento": "Concurso público",
+     "fornecedor": "ActiveSys - Consulting and Services, Lda.",
+     "categorias": [
+      "software_ti"
+     ],
+     "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15808124"
+    },
+    {
+     "data": "2026-09-25",
+     "objeto": "Aquisição de 50 licenças de software para a solução de Secure Service Edge (SSE) da Netskope",
+     "preco": 10234.75,
+     "procedimento": "Concurso público",
+     "fornecedor": "Orbcom, Lda.",
+     "categorias": [
+      "software_ti"
+     ],
+     "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15678967"
+    },
+    {
+     "data": "2026-09-08",
+     "objeto": "Serviços de fiscalização e coordenação de segurança na obra das infraestruturas hidráulicas do prolongamento do emissári",
+     "preco": 14500.0,
+     "procedimento": "Concurso público",
+     "fornecedor": "SMARTGOV - S I , S.A.",
+     "categorias": [
+      "projeto"
+     ],
+     "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15594345"
+    }
+   ],
+   "base_url": "https://www.base.gov.pt/Base4/pt/pesquisa/?type=contratos&adjudicante=504807692"
+  },
+  {
    "nif": "506617599",
    "entidade": "Município de Esposende",
-   "prioridade": 18.5,
-   "contratos": 26,
-   "por_convite": 22,
-   "valor_total": 903222,
-   "valor_por_convite": 462931,
+   "prioridade": 17.7,
+   "contratos": 25,
+   "por_convite": 21,
+   "valor_total": 895173,
+   "valor_por_convite": 454882,
    "categorias": {
-    "software_ti": 16,
+    "software_ti": 15,
     "projeto": 8,
     "eletricidade": 3
    },
    "procedimentos": {
-    "Ajuste Direto Regime Geral": 16,
+    "Ajuste Direto Regime Geral": 15,
     "Consulta Prévia": 6,
     "Concurso público": 4
    },
    "faixas_preco": {
-    "<20k": 15,
+    "<20k": 14,
     "20-75k": 9,
     ">150k": 1,
     "75-150k": 1
    },
    "fornecedores_habituais": [
     {
-     "nif": "505331187",
-     "nome": "Wire Maze - Sistemas de Informação, S.A.",
-     "contratos": 3
-    },
-    {
      "nif": "504813480",
      "nome": "Wavecom-Soluções Rádio, SA",
+     "contratos": 2
+    },
+    {
+     "nif": "505331187",
+     "nome": "Wire Maze - Sistemas de Informação, S.A.",
      "contratos": 2
     },
     {
@@ -2325,7 +2329,7 @@
      "contratos": 1
     }
    ],
-   "fornecedor_dominante_pct": 12,
+   "fornecedor_dominante_pct": 8,
    "ultimo_contrato": "2026-10-09",
    "ultimos_contratos": [
     {
@@ -2388,140 +2392,138 @@
    "base_url": "https://www.base.gov.pt/Base4/pt/pesquisa/?type=contratos&adjudicante=506617599"
   },
   {
-   "nif": "504807692",
-   "entidade": "AGERE – Emp. Águas, Efluentes e Resíduos de Braga",
+   "nif": "506907619",
+   "entidade": "Município de Terras de Bouro",
    "prioridade": 17.6,
-   "contratos": 37,
+   "contratos": 30,
    "por_convite": 21,
-   "valor_total": 1738446,
-   "valor_por_convite": 533465,
+   "valor_total": 644848,
+   "valor_por_convite": 315278,
    "categorias": {
-    "software_ti": 25,
-    "projeto": 7,
-    "eletricidade": 4,
-    "fotovoltaico": 2
+    "software_ti": 16,
+    "seguranca_incendio": 7,
+    "projeto": 4,
+    "eletricidade": 3
    },
    "procedimentos": {
-    "Ajuste Direto Regime Geral": 15,
-    "Concurso público": 15,
-    "Consulta Prévia": 6,
-    "Concurso limitado por prévia qualificação": 1
+    "Ajuste Direto Regime Geral": 16,
+    "Concurso público": 9,
+    "Consulta Prévia": 5
    },
    "faixas_preco": {
-    "<20k": 19,
-    "20-75k": 14,
-    ">150k": 3,
-    "75-150k": 1
+    "<20k": 23,
+    "20-75k": 4,
+    "75-150k": 3
    },
    "fornecedores_habituais": [
     {
-     "nif": "506172813",
-     "nome": "Orbcom, Lda.",
+     "nif": "509033237",
+     "nome": "Interfire, Lda.",
      "contratos": 4
     },
     {
-     "nif": "502539909",
-     "nome": "Aquasis - Sistemas de Informação, S.a.",
-     "contratos": 4
-    },
-    {
-     "nif": "503140600",
-     "nome": "Primavera",
-     "contratos": 3
-    },
-    {
-     "nif": "501213350",
-     "nome": "Noraqua, Consultores de Engenharia, Lda.",
+     "nif": "501854371",
+     "nome": "F3M Information Systems, S.A.",
      "contratos": 2
     },
     {
-     "nif": "- - jose m. goncalves",
-     "nome": "José M. Gonçalves",
+     "nif": "510592147",
+     "nome": "MAGNETIKVALUE - UNIPESSOAL, LDA",
      "contratos": 2
+    },
+    {
+     "nif": "503536717",
+     "nome": "Visualforma - Tecnologias de Informação, S.A.",
+     "contratos": 2
+    },
+    {
+     "nif": "510174132",
+     "nome": "FBCPS - Business Consulting and Professional Services, Lda",
+     "contratos": 1
     }
    ],
-   "fornecedor_dominante_pct": 11,
-   "ultimo_contrato": "2026-10-22",
+   "fornecedor_dominante_pct": 13,
+   "ultimo_contrato": "2026-10-12",
    "ultimos_contratos": [
     {
-     "data": "2026-10-22",
-     "objeto": "Prestação de serviços de consultoria e elaboração de projetos de execução SUSTENTÁVEL 2030",
-     "preco": 16500.0,
+     "data": "2026-10-12",
+     "objeto": "CONFIGURAÇÃO, INTEGRAÇÃO E MANUTENÇÃO NA PLATAFORMA DE GESTÃO URBANA",
+     "preco": 17500.0,
      "procedimento": "Ajuste Direto Regime Geral",
-     "fornecedor": "Noraqua, Consultores de Engenharia, Lda.",
-     "categorias": [
-      "projeto"
-     ],
-     "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15806867"
-    },
-    {
-     "data": "2026-10-22",
-     "objeto": "Aquisição de micro datacenters e smart IT racks ",
-     "preco": 275004.29,
-     "procedimento": "Concurso público",
-     "fornecedor": "ActiveSys - Consulting and Services, Lda.",
+     "fornecedor": "FBCPS - Business Consulting and Professional Services, Lda",
      "categorias": [
       "software_ti"
      ],
-     "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15808124"
+     "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15759309"
     },
     {
-     "data": "2026-09-25",
-     "objeto": "Aquisição de 50 licenças de software para a solução de Secure Service Edge (SSE) da Netskope",
-     "preco": 10234.75,
-     "procedimento": "Concurso público",
-     "fornecedor": "Orbcom, Lda.",
-     "categorias": [
-      "software_ti"
-     ],
-     "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15678967"
-    },
-    {
-     "data": "2026-09-08",
-     "objeto": "Serviços de fiscalização e coordenação de segurança na obra das infraestruturas hidráulicas do prolongamento do emissári",
-     "preco": 14500.0,
-     "procedimento": "Concurso público",
-     "fornecedor": "SMARTGOV - S I , S.A.",
-     "categorias": [
-      "projeto"
-     ],
-     "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15594345"
-    },
-    {
-     "data": "2026-08-25",
-     "objeto": "Aquisição de serviços de eletricidade automóvel.",
-     "preco": 69500.0,
-     "procedimento": "Concurso público",
-     "fornecedor": "José M. Gonçalves",
+     "data": "2026-09-24",
+     "objeto": "CENTRAL DE INCÊNCIOS-ESCOLA DE TERRAS DE BOURO",
+     "preco": 7683.51,
+     "procedimento": "Ajuste Direto Regime Geral",
+     "fornecedor": "SILSAFE, LDA",
      "categorias": [
       "eletricidade"
      ],
-     "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15526625"
+     "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15664472"
+    },
+    {
+     "data": "2026-09-22",
+     "objeto": "FORNECIMENTO E IMPLEMENTAÇÃO DE PLATAFORMA/PORTAL - GESTÃO DE EVENTO",
+     "preco": 6650.0,
+     "procedimento": "Ajuste Direto Regime Geral",
+     "fornecedor": "F3M Information Systems, S.A.",
+     "categorias": [
+      "software_ti"
+     ],
+     "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15651860"
+    },
+    {
+     "data": "2026-07-20",
+     "objeto": "Aquisição de Equipamentos de Proteção Individual (EPI) e Material para o Serviço Municipal de Proteção Civil e Corpo de ",
+     "preco": 1222.0,
+     "procedimento": "Concurso público",
+     "fornecedor": "Bricantel, Comércio de Material Electrico de Bragança, S.A.",
+     "categorias": [
+      "seguranca_incendio"
+     ],
+     "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15310375"
+    },
+    {
+     "data": "2026-07-15",
+     "objeto": "Aquisição de Equipamentos de Proteção Individual (EPI) e Material para o Serviço Municipal de Proteção Civil e Corpo de ",
+     "preco": 76919.25,
+     "procedimento": "Concurso público",
+     "fornecedor": "Tecniquitel - Soc. Equip. Tecnico, Lda",
+     "categorias": [
+      "seguranca_incendio"
+     ],
+     "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15294159"
     }
    ],
-   "base_url": "https://www.base.gov.pt/Base4/pt/pesquisa/?type=contratos&adjudicante=504807692"
+   "base_url": "https://www.base.gov.pt/Base4/pt/pesquisa/?type=contratos&adjudicante=506907619"
   },
   {
    "nif": "508080827",
    "entidade": "Unidade Local de Saúde do Alto Ave, EPE",
-   "prioridade": 17.2,
-   "contratos": 47,
-   "por_convite": 21,
-   "valor_total": 2008218,
-   "valor_por_convite": 700461,
+   "prioridade": 16.4,
+   "contratos": 46,
+   "por_convite": 20,
+   "valor_total": 2000218,
+   "valor_por_convite": 692461,
    "categorias": {
-    "software_ti": 33,
+    "software_ti": 32,
     "eletricidade": 8,
     "projeto": 6
    },
    "procedimentos": {
     "Concurso público": 22,
-    "Ajuste Direto Regime Geral": 16,
+    "Ajuste Direto Regime Geral": 15,
     "Consulta Prévia": 5,
     "Contratação excluída II": 4
    },
    "faixas_preco": {
-    "<20k": 22,
+    "<20k": 21,
     "20-75k": 19,
     "75-150k": 4,
     ">150k": 2
@@ -2531,11 +2533,6 @@
      "nif": "500900469",
      "nome": "SUCH | Serviço de Utilização Comum dos Hospitais",
      "contratos": 4
-    },
-    {
-     "nif": "508888093",
-     "nome": "IDRYL Consulting, Lda",
-     "contratos": 3
     },
     {
      "nif": "506951405",
@@ -2550,6 +2547,11 @@
     {
      "nif": "501333401",
      "nome": "BASE2, LDA",
+     "contratos": 2
+    },
+    {
+     "nif": "502250259",
+     "nome": "MAXDATA SOFTWARE, S.A.",
      "contratos": 2
     }
    ],
@@ -2613,119 +2615,6 @@
     }
    ],
    "base_url": "https://www.base.gov.pt/Base4/pt/pesquisa/?type=contratos&adjudicante=508080827"
-  },
-  {
-   "nif": "506641376",
-   "entidade": "Município de Vila Verde",
-   "prioridade": 16.6,
-   "contratos": 21,
-   "por_convite": 20,
-   "valor_total": 740651,
-   "valor_por_convite": 635702,
-   "categorias": {
-    "software_ti": 13,
-    "projeto": 7,
-    "eletricidade": 1,
-    "seguranca_incendio": 1
-   },
-   "procedimentos": {
-    "Consulta Prévia": 10,
-    "Ajuste Direto Regime Geral": 10,
-    "Concurso público": 1
-   },
-   "faixas_preco": {
-    "<20k": 12,
-    "20-75k": 8,
-    "75-150k": 1
-   },
-   "fornecedores_habituais": [
-    {
-     "nif": "504813480",
-     "nome": "Wavecom-Soluções Rádio, SA",
-     "contratos": 2
-    },
-    {
-     "nif": "- - americo jose da cunha sousa",
-     "nome": "Américo José da Cunha Sousa",
-     "contratos": 1
-    },
-    {
-     "nif": "509768725",
-     "nome": "PROTERRITORIO, LDA",
-     "contratos": 1
-    },
-    {
-     "nif": "503441430",
-     "nome": "Trialarmes Lda.",
-     "contratos": 1
-    },
-    {
-     "nif": "501213350",
-     "nome": "NORAQUA, Consultores de Engenharia, Lda",
-     "contratos": 1
-    }
-   ],
-   "fornecedor_dominante_pct": 10,
-   "ultimo_contrato": "2026-09-02",
-   "ultimos_contratos": [
-    {
-     "data": "2026-09-02",
-     "objeto": "Implementação do Vertical Gestão de Consumos Energéticos na Plataforma de Gestão Urbana (PGU)",
-     "preco": 14520.0,
-     "procedimento": "Consulta Prévia",
-     "fornecedor": "Américo José da Cunha Sousa",
-     "categorias": [
-      "software_ti"
-     ],
-     "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15569124"
-    },
-    {
-     "data": "2026-08-24",
-     "objeto": "Aquisição de Serviços para a Revisão do Projeto de Execução do Parque Urbano de Vila Verde",
-     "preco": 19200.0,
-     "procedimento": "Ajuste Direto Regime Geral",
-     "fornecedor": "PROTERRITORIO, LDA",
-     "categorias": [
-      "projeto"
-     ],
-     "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15523333"
-    },
-    {
-     "data": "2026-08-12",
-     "objeto": "Aquisição de Servidos para Instalação de uma Rede LoRaWAN  Ação Financiada pelo Projeto Transformação Digital 2.0",
-     "preco": 55681.57,
-     "procedimento": "Consulta Prévia",
-     "fornecedor": "Wavecom-Soluções Rádio, SA",
-     "categorias": [
-      "software_ti"
-     ],
-     "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15480373"
-    },
-    {
-     "data": "2026-08-07",
-     "objeto": "Aquisição, Instalação e Integração de Verticais de Gestão Urbana Inteligente para Integração com Plataforma de Gestão Ur",
-     "preco": 55227.51,
-     "procedimento": "Consulta Prévia",
-     "fornecedor": "Wavecom-Soluções Rádio, SA",
-     "categorias": [
-      "software_ti"
-     ],
-     "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15470811"
-    },
-    {
-     "data": "2026-07-09",
-     "objeto": "Videovigilância no Espaço Multiusos  Adega Cultural\n",
-     "preco": 12715.42,
-     "procedimento": "Ajuste Direto Regime Geral",
-     "fornecedor": "Trialarmes Lda.",
-     "categorias": [
-      "eletricidade",
-      "seguranca_incendio"
-     ],
-     "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15259428"
-    }
-   ],
-   "base_url": "https://www.base.gov.pt/Base4/pt/pesquisa/?type=contratos&adjudicante=506641376"
   },
   {
    "nif": "505592940",
@@ -2841,25 +2730,25 @@
   {
    "nif": "505211696",
    "entidade": "Município de Arcos de Valdevez",
-   "prioridade": 14.2,
+   "prioridade": 15.0,
    "contratos": 20,
-   "por_convite": 17,
-   "valor_total": 924076,
-   "valor_por_convite": 573753,
+   "por_convite": 18,
+   "valor_total": 839694,
+   "valor_por_convite": 588489,
    "categorias": {
     "software_ti": 10,
     "projeto": 7,
     "eletricidade": 3
    },
    "procedimentos": {
-    "Ajuste Direto Regime Geral": 11,
+    "Ajuste Direto Regime Geral": 12,
     "Consulta Prévia": 6,
-    "Concurso público": 3
+    "Concurso público": 2
    },
    "faixas_preco": {
-    "<20k": 9,
+    "<20k": 10,
     "20-75k": 6,
-    "75-150k": 4,
+    "75-150k": 3,
     ">150k": 1
    },
    "fornecedores_habituais": [
@@ -2879,9 +2768,9 @@
      "contratos": 2
     },
     {
-     "nif": "505292386",
-     "nome": "João Cerqueira Pereira, Lda.",
-     "contratos": 2
+     "nif": "515291102",
+     "nome": "Celoslux, Lda.",
+     "contratos": 1
     },
     {
      "nif": "501378669",
@@ -2890,8 +2779,19 @@
     }
    ],
    "fornecedor_dominante_pct": 15,
-   "ultimo_contrato": "2026-10-16",
+   "ultimo_contrato": "2026-10-29",
    "ultimos_contratos": [
+    {
+     "data": "2026-10-29",
+     "objeto": "PO 628/2026 - Execução de Ramal Elétrico, Estrada Senhora da Cabeça, UF de Guilhadeses e Santar, Arcos de Valdevez",
+     "preco": 14736.0,
+     "procedimento": "Ajuste Direto Regime Geral",
+     "fornecedor": "Celoslux, Lda.",
+     "categorias": [
+      "eletricidade"
+     ],
+     "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15878853"
+    },
     {
      "data": "2026-10-16",
      "objeto": "PF 1237/2026 - Fornecimento de software para suporte ao atendimento desmaterializado",
@@ -2935,45 +2835,260 @@
       "software_ti"
      ],
      "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=14842306"
-    },
-    {
-     "data": "2026-03-26",
-     "objeto": "PF 1165/2026 - Elaboração do projeto da rede de calor junto à igreja de São Jorge",
-     "preco": 12000.0,
-     "procedimento": "Ajuste Direto Regime Geral",
-     "fornecedor": "DUARTE & GODINHO, LDA",
-     "categorias": [
-      "projeto"
-     ],
-     "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=14346047"
     }
    ],
    "base_url": "https://www.base.gov.pt/Base4/pt/pesquisa/?type=contratos&adjudicante=505211696"
   },
   {
-   "nif": "501937471",
-   "entidade": "Município de Monção",
-   "prioridade": 13.0,
+   "nif": "506641376",
+   "entidade": "Município de Vila Verde",
+   "prioridade": 15.0,
+   "contratos": 19,
+   "por_convite": 18,
+   "valor_total": 709571,
+   "valor_por_convite": 604622,
+   "categorias": {
+    "software_ti": 12,
+    "projeto": 6,
+    "eletricidade": 1,
+    "seguranca_incendio": 1
+   },
+   "procedimentos": {
+    "Consulta Prévia": 9,
+    "Ajuste Direto Regime Geral": 9,
+    "Concurso público": 1
+   },
+   "faixas_preco": {
+    "<20k": 10,
+    "20-75k": 8,
+    "75-150k": 1
+   },
+   "fornecedores_habituais": [
+    {
+     "nif": "504813480",
+     "nome": "Wavecom-Soluções Rádio, SA",
+     "contratos": 2
+    },
+    {
+     "nif": "- - americo jose da cunha sousa",
+     "nome": "Américo José da Cunha Sousa",
+     "contratos": 1
+    },
+    {
+     "nif": "509768725",
+     "nome": "PROTERRITORIO, LDA",
+     "contratos": 1
+    },
+    {
+     "nif": "503441430",
+     "nome": "Trialarmes Lda.",
+     "contratos": 1
+    },
+    {
+     "nif": "501213350",
+     "nome": "NORAQUA, Consultores de Engenharia, Lda",
+     "contratos": 1
+    }
+   ],
+   "fornecedor_dominante_pct": 11,
+   "ultimo_contrato": "2026-09-02",
+   "ultimos_contratos": [
+    {
+     "data": "2026-09-02",
+     "objeto": "Implementação do Vertical Gestão de Consumos Energéticos na Plataforma de Gestão Urbana (PGU)",
+     "preco": 14520.0,
+     "procedimento": "Consulta Prévia",
+     "fornecedor": "Américo José da Cunha Sousa",
+     "categorias": [
+      "software_ti"
+     ],
+     "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15569124"
+    },
+    {
+     "data": "2026-08-24",
+     "objeto": "Aquisição de Serviços para a Revisão do Projeto de Execução do Parque Urbano de Vila Verde",
+     "preco": 19200.0,
+     "procedimento": "Ajuste Direto Regime Geral",
+     "fornecedor": "PROTERRITORIO, LDA",
+     "categorias": [
+      "projeto"
+     ],
+     "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15523333"
+    },
+    {
+     "data": "2026-08-12",
+     "objeto": "Aquisição de Servidos para Instalação de uma Rede LoRaWAN  Ação Financiada pelo Projeto Transformação Digital 2.0",
+     "preco": 55681.57,
+     "procedimento": "Consulta Prévia",
+     "fornecedor": "Wavecom-Soluções Rádio, SA",
+     "categorias": [
+      "software_ti"
+     ],
+     "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15480373"
+    },
+    {
+     "data": "2026-08-07",
+     "objeto": "Aquisição, Instalação e Integração de Verticais de Gestão Urbana Inteligente para Integração com Plataforma de Gestão Ur",
+     "preco": 55227.51,
+     "procedimento": "Consulta Prévia",
+     "fornecedor": "Wavecom-Soluções Rádio, SA",
+     "categorias": [
+      "software_ti"
+     ],
+     "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15470811"
+    },
+    {
+     "data": "2026-07-09",
+     "objeto": "Videovigilância no Espaço Multiusos  Adega Cultural\n",
+     "preco": 12715.42,
+     "procedimento": "Ajuste Direto Regime Geral",
+     "fornecedor": "Trialarmes Lda.",
+     "categorias": [
+      "eletricidade",
+      "seguranca_incendio"
+     ],
+     "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15259428"
+    }
+   ],
+   "base_url": "https://www.base.gov.pt/Base4/pt/pesquisa/?type=contratos&adjudicante=506641376"
+  },
+  {
+   "nif": "504807684",
+   "entidade": "TUB - Transportes Urbanos de Braga, EM",
+   "prioridade": 14.4,
    "contratos": 20,
-   "por_convite": 12,
-   "valor_total": 972036,
-   "valor_por_convite": 255610,
+   "por_convite": 15,
+   "valor_total": 17523827,
+   "valor_por_convite": 818602,
    "categorias": {
     "software_ti": 9,
     "projeto": 8,
+    "eletricidade": 5
+   },
+   "procedimentos": {
+    "Ajuste Direto Regime Geral": 10,
+    "Concurso público": 5,
+    "Consulta Prévia": 4,
+    "Consulta Prévia Simplificada": 1
+   },
+   "faixas_preco": {
+    "<20k": 8,
+    "20-75k": 7,
+    ">150k": 4,
+    "75-150k": 1
+   },
+   "fornecedores_habituais": [
+    {
+     "nif": "503888460",
+     "nome": "Tabique - Engenharia, Lda.",
+     "contratos": 3
+    },
+    {
+     "nif": "508221099",
+     "nome": "NSOFT - SOLUÇÕES E INTEGRAÇÃO DE SISTEMAS, LDA",
+     "contratos": 3
+    },
+    {
+     "nif": "509900690",
+     "nome": "Inovflow, Business Solutions S.A.",
+     "contratos": 1
+    },
+    {
+     "nif": "501854371",
+     "nome": "F3M Information Systems, S.A.",
+     "contratos": 1
+    },
+    {
+     "nif": "514778865",
+     "nome": "MTI Consulting, Lda",
+     "contratos": 1
+    }
+   ],
+   "fornecedor_dominante_pct": 15,
+   "ultimo_contrato": "2026-10-30",
+   "ultimos_contratos": [
+    {
+     "data": "2026-10-30",
+     "objeto": "Fornecimento do Software PHC Evolution Ultimate - Licenciamento, Assinaturas Qualificadas, Serviços de Migraçao e Bolsa ",
+     "preco": 45980.6,
+     "procedimento": "Ajuste Direto Regime Geral",
+     "fornecedor": "Inovflow, Business Solutions S.A.",
+     "categorias": [
+      "software_ti"
+     ],
+     "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15880911"
+    },
+    {
+     "data": "2026-10-28",
+     "objeto": "Serviços de Apoio à Implementação do Regime Jurídico de Cibersegurança (RJC) e Revisão do Sistema Implementado Relativo ",
+     "preco": 9756.0,
+     "procedimento": "Ajuste Direto Regime Geral",
+     "fornecedor": "F3M Information Systems, S.A.",
+     "categorias": [
+      "software_ti"
+     ],
+     "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15850119"
+    },
+    {
+     "data": "2026-10-15",
+     "objeto": "Aquisição de Material Informático Diverso para os TUB- Transportes Urbanos de Braga, E.M..",
+     "preco": 19022.65,
+     "procedimento": "Consulta Prévia",
+     "fornecedor": "MTI Consulting, Lda",
+     "categorias": [
+      "software_ti"
+     ],
+     "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15778853"
+    },
+    {
+     "data": "2026-09-23",
+     "objeto": "Fiscalização da Empreitada de Construção da 2.ª fase do Parque Nascente do Parque de Material e Oficinas (PMO)",
+     "preco": 45825.0,
+     "procedimento": "Concurso público",
+     "fornecedor": "VINSO II, Lda.",
+     "categorias": [
+      "projeto"
+     ],
+     "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15652876"
+    },
+    {
+     "data": "2026-09-03",
+     "objeto": "Fornecimento dos Módulos de Gestão e Informação ao Público (IPNET) do Software 4Planning",
+     "preco": 43524.0,
+     "procedimento": "Ajuste Direto Regime Geral",
+     "fornecedor": "CARD4B SYSTEMS S.A.",
+     "categorias": [
+      "software_ti"
+     ],
+     "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15577775"
+    }
+   ],
+   "base_url": "https://www.base.gov.pt/Base4/pt/pesquisa/?type=contratos&adjudicante=504807684"
+  },
+  {
+   "nif": "501937471",
+   "entidade": "Município de Monção",
+   "prioridade": 13.1,
+   "contratos": 19,
+   "por_convite": 12,
+   "valor_total": 922036,
+   "valor_por_convite": 255610,
+   "categorias": {
+    "software_ti": 9,
+    "projeto": 7,
     "eletricidade": 4,
     "mobilidade_eletrica": 3
    },
    "procedimentos": {
     "Ajuste Direto Regime Geral": 10,
-    "Concurso público": 5,
+    "Concurso público": 4,
     "Contratação excluída II": 2,
     "Consulta Prévia": 2,
     "Ao abrigo de acordo-quadro (art.º 258.º)": 1
    },
    "faixas_preco": {
     "<20k": 11,
-    "20-75k": 7,
+    "20-75k": 6,
     ">150k": 2
    },
    "fornecedores_habituais": [
@@ -3003,7 +3118,7 @@
      "contratos": 2
     }
    ],
-   "fornecedor_dominante_pct": 10,
+   "fornecedor_dominante_pct": 11,
    "ultimo_contrato": "2026-10-02",
    "ultimos_contratos": [
     {
@@ -3068,228 +3183,119 @@
    "base_url": "https://www.base.gov.pt/Base4/pt/pesquisa/?type=contratos&adjudicante=501937471"
   },
   {
-   "nif": "504807684",
-   "entidade": "TUB - Transportes Urbanos de Braga, EM",
-   "prioridade": 12.8,
-   "contratos": 18,
+   "nif": "506728897",
+   "entidade": "Município de Valença",
+   "prioridade": 13.0,
+   "contratos": 16,
    "por_convite": 13,
-   "valor_total": 17468091,
-   "valor_por_convite": 762866,
+   "valor_total": 963782,
+   "valor_por_convite": 323487,
    "categorias": {
-    "projeto": 8,
-    "software_ti": 7,
-    "eletricidade": 5
+    "projeto": 7,
+    "software_ti": 6,
+    "eletricidade": 4,
+    "seguranca_incendio": 1
    },
    "procedimentos": {
     "Ajuste Direto Regime Geral": 8,
-    "Concurso público": 5,
-    "Consulta Prévia": 4,
-    "Consulta Prévia Simplificada": 1
+    "Consulta Prévia": 5,
+    "Concurso público": 3
    },
    "faixas_preco": {
-    "<20k": 7,
-    "20-75k": 6,
-    ">150k": 4,
+    "<20k": 8,
+    "20-75k": 5,
+    ">150k": 2,
     "75-150k": 1
    },
    "fornecedores_habituais": [
     {
-     "nif": "503888460",
-     "nome": "Tabique - Engenharia, Lda.",
-     "contratos": 3
+     "nif": "517319152",
+     "nome": "TAILOR – Advanced Analytics, LDA",
+     "contratos": 2
     },
     {
-     "nif": "508221099",
-     "nome": "NSOFT - SOLUÇÕES E INTEGRAÇÃO DE SISTEMAS, LDA",
-     "contratos": 3
-    },
-    {
-     "nif": "514778865",
-     "nome": "MTI Consulting, Lda",
+     "nif": "504309323",
+     "nome": "Top - Informática, L.da",
      "contratos": 1
     },
     {
-     "nif": "518519015",
-     "nome": "VINSO II, Lda.",
+     "nif": "508813719",
+     "nome": "Refracção - Sociedade Unipessoal, L.da",
      "contratos": 1
     },
     {
-     "nif": "508357748",
-     "nome": "CARD4B SYSTEMS S.A.",
+     "nif": "514299495",
+     "nome": "Manuel Pombo, L.da",
+     "contratos": 1
+    },
+    {
+     "nif": "507395395",
+     "nome": "Look Home - Central Receptora de Alarmes, L.da",
      "contratos": 1
     }
    ],
-   "fornecedor_dominante_pct": 17,
-   "ultimo_contrato": "2026-10-15",
+   "fornecedor_dominante_pct": 12,
+   "ultimo_contrato": "2026-10-30",
    "ultimos_contratos": [
     {
-     "data": "2026-10-15",
-     "objeto": "Aquisição de Material Informático Diverso para os TUB- Transportes Urbanos de Braga, E.M..",
-     "preco": 19022.65,
-     "procedimento": "Consulta Prévia",
-     "fornecedor": "MTI Consulting, Lda",
+     "data": "2026-10-30",
+     "objeto": "SOFTWARE CYPE M169 - SOLUÇÃO COMPLETA",
+     "preco": 13754.0,
+     "procedimento": "Ajuste Direto Regime Geral",
+     "fornecedor": "Top - Informática, L.da",
      "categorias": [
       "software_ti"
      ],
-     "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15778853"
+     "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15881409"
     },
     {
-     "data": "2026-09-23",
-     "objeto": "Fiscalização da Empreitada de Construção da 2.ª fase do Parque Nascente do Parque de Material e Oficinas (PMO)",
-     "preco": 45825.0,
-     "procedimento": "Concurso público",
-     "fornecedor": "VINSO II, Lda.",
+     "data": "2026-10-30",
+     "objeto": "REFORMULAÇÃO DO PROJECTO DE EXECUÇÃO DA LIGAÇÃO DA EN 13, KM 115+000 E O PARQUE EMPRESARIAL DE GANDRA",
+     "preco": 10040.0,
+     "procedimento": "Ajuste Direto Regime Geral",
+     "fornecedor": "Refracção - Sociedade Unipessoal, L.da",
      "categorias": [
       "projeto"
      ],
-     "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15652876"
+     "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15881588"
     },
     {
-     "data": "2026-09-03",
-     "objeto": "Fornecimento dos Módulos de Gestão e Informação ao Público (IPNET) do Software 4Planning",
-     "preco": 43524.0,
-     "procedimento": "Ajuste Direto Regime Geral",
-     "fornecedor": "CARD4B SYSTEMS S.A.",
-     "categorias": [
-      "software_ti"
-     ],
-     "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15577775"
-    },
-    {
-     "data": "2026-05-25",
-     "objeto": "Aquisição de Serviços de Fiscalização da Empreitada de Construção da Paragem \"TUB III - Hospital de Braga\"",
-     "preco": 12995.0,
+     "data": "2026-09-14",
+     "objeto": " AQUISIÇÃO DE SERVIÇOS DE DISTRIBUIÇÃO E MANUTENÇÃO DE ILUMINAÇÃO E REDE ELÉTRICA",
+     "preco": 23000.0,
      "procedimento": "Consulta Prévia",
-     "fornecedor": "Tabique - Engenharia, Lda.",
-     "categorias": [
-      "projeto"
-     ],
-     "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=14973896"
-    },
-    {
-     "data": "2026-02-27",
-     "objeto": "Aquisição de Serviços de Elaboração de um Projeto de Infraestrutura Elétrica, para os TUB  Transportes Urbanos de Braga",
-     "preco": 17499.0,
-     "procedimento": "Ajuste Direto Regime Geral",
-     "fornecedor": "PIEL ? projetos de instalações elétricas, Lda",
+     "fornecedor": "Manuel Pombo, L.da",
      "categorias": [
       "eletricidade",
       "projeto"
      ],
-     "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=13708565"
-    }
-   ],
-   "base_url": "https://www.base.gov.pt/Base4/pt/pesquisa/?type=contratos&adjudicante=504807684"
-  },
-  {
-   "nif": "505985217",
-   "entidade": "Município de Vizela",
-   "prioridade": 12.7,
-   "contratos": 15,
-   "por_convite": 15,
-   "valor_total": 128266,
-   "valor_por_convite": 128266,
-   "categorias": {
-    "software_ti": 13,
-    "eletricidade": 2,
-    "seguranca_incendio": 1
-   },
-   "procedimentos": {
-    "Ajuste Direto Regime Geral": 14,
-    "Consulta Prévia": 1
-   },
-   "faixas_preco": {
-    "<20k": 13,
-    "20-75k": 2
-   },
-   "fornecedores_habituais": [
-    {
-     "nif": "507415132",
-     "nome": "MICROABREU- Sistemas Informáticos, Ldª",
-     "contratos": 2
+     "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15612147"
     },
     {
-     "nif": "503265560",
-     "nome": "JPM & Abreu, Lda.",
-     "contratos": 2
-    },
-    {
-     "nif": "505106841",
-     "nome": "Shortcut, Lda.",
-     "contratos": 2
-    },
-    {
-     "nif": "510033067",
-     "nome": "Gofox - Tecnologias de Informação, Unipessoal Lda.",
-     "contratos": 1
-    },
-    {
-     "nif": "- - rui pedro da silva mendes",
-     "nome": "Rui Pedro da Silva Mendes",
-     "contratos": 1
-    }
-   ],
-   "fornecedor_dominante_pct": 13,
-   "ultimo_contrato": "2026-09-28",
-   "ultimos_contratos": [
-    {
-     "data": "2026-09-28",
-     "objeto": "Aquisição de serviços de assistência técnica para plataforma digital.",
-     "preco": 2304.0,
+     "data": "2026-07-30",
+     "objeto": "MANUTENÇÃO DE SISTEMAS DE INTRUSÃO, SEGURANÇA CONTRA INCÊNDIOS E VÍDEOVIGILÂNCIA NOS EDIFÍCIOS MUNICIPAIS",
+     "preco": 7380.67,
      "procedimento": "Ajuste Direto Regime Geral",
-     "fornecedor": "Gofox - Tecnologias de Informação, Unipessoal Lda.",
-     "categorias": [
-      "software_ti"
-     ],
-     "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15680517"
-    },
-    {
-     "data": "2026-09-16",
-     "objeto": "Aquisição de serviços de captação e edição de vídeo com recurso a inteligência artificial para apresentação e projeção d",
-     "preco": 4000.0,
-     "procedimento": "Ajuste Direto Regime Geral",
-     "fornecedor": "Rui Pedro da Silva Mendes",
-     "categorias": [
-      "software_ti"
-     ],
-     "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15624943"
-    },
-    {
-     "data": "2026-08-21",
-     "objeto": "Aquisição de serviços de licenciamento de software informático para os agrupamentos escolares.",
-     "preco": 5805.0,
-     "procedimento": "Ajuste Direto Regime Geral",
-     "fornecedor": "MICROABREU- Sistemas Informáticos, Ldª",
-     "categorias": [
-      "software_ti"
-     ],
-     "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15518237"
-    },
-    {
-     "data": "2026-08-17",
-     "objeto": "Aquisição de sistema automático de deteção de incêndios (SADI) endereçável para o Centro de Saúde de Vizela",
-     "preco": 7039.08,
-     "procedimento": "Ajuste Direto Regime Geral",
-     "fornecedor": "Extinvale - Segurança Contra Incêndios, Lda.",
+     "fornecedor": "Look Home - Central Receptora de Alarmes, L.da",
      "categorias": [
       "eletricidade",
       "seguranca_incendio"
      ],
-     "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15504836"
+     "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15417134"
     },
     {
-     "data": "2026-08-14",
-     "objeto": "Aquisição de serviços de manutenção de software para gestão e administração escolar",
-     "preco": 3160.0,
+     "data": "2026-06-02",
+     "objeto": "PROJECTO DE EXECUÇÃO DAS ESPECIALIDADES DA REABILITAÇÃO DO EDIFÍCIO DO ALBERGUE DO PEREGRINO, DA ALTERAÇÃO DO EDIFÍCIO C",
+     "preco": 19950.0,
      "procedimento": "Ajuste Direto Regime Geral",
-     "fornecedor": "JPM & Abreu, Lda.",
+     "fornecedor": "Minhabita - Projectos de Arquitectura e Engenharia, L.da",
      "categorias": [
-      "software_ti"
+      "projeto"
      ],
-     "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15496705"
+     "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15057687"
     }
    ],
-   "base_url": "https://www.base.gov.pt/Base4/pt/pesquisa/?type=contratos&adjudicante=505985217"
+   "base_url": "https://www.base.gov.pt/Base4/pt/pesquisa/?type=contratos&adjudicante=506728897"
   },
   {
    "nif": "505993082",
@@ -3405,119 +3411,114 @@
    "base_url": "https://www.base.gov.pt/Base4/pt/pesquisa/?type=contratos&adjudicante=505993082"
   },
   {
-   "nif": "506728897",
-   "entidade": "Município de Valença",
+   "nif": "505985217",
+   "entidade": "Município de Vizela",
    "prioridade": 11.3,
-   "contratos": 14,
-   "por_convite": 11,
-   "valor_total": 939988,
-   "valor_por_convite": 299693,
+   "contratos": 13,
+   "por_convite": 13,
+   "valor_total": 118546,
+   "valor_por_convite": 118546,
    "categorias": {
-    "projeto": 6,
-    "software_ti": 5,
-    "eletricidade": 4,
+    "software_ti": 11,
+    "eletricidade": 2,
     "seguranca_incendio": 1
    },
    "procedimentos": {
-    "Ajuste Direto Regime Geral": 6,
-    "Consulta Prévia": 5,
-    "Concurso público": 3
+    "Ajuste Direto Regime Geral": 12,
+    "Consulta Prévia": 1
    },
    "faixas_preco": {
-    "<20k": 6,
-    "20-75k": 5,
-    ">150k": 2,
-    "75-150k": 1
+    "<20k": 11,
+    "20-75k": 2
    },
    "fornecedores_habituais": [
     {
-     "nif": "517319152",
-     "nome": "TAILOR – Advanced Analytics, LDA",
+     "nif": "503265560",
+     "nome": "JPM & Abreu, Lda.",
      "contratos": 2
     },
     {
-     "nif": "514299495",
-     "nome": "Manuel Pombo, L.da",
+     "nif": "505106841",
+     "nome": "Shortcut, Lda.",
+     "contratos": 2
+    },
+    {
+     "nif": "510033067",
+     "nome": "Gofox - Tecnologias de Informação, Unipessoal Lda.",
      "contratos": 1
     },
     {
-     "nif": "507395395",
-     "nome": "Look Home - Central Receptora de Alarmes, L.da",
+     "nif": "- - rui pedro da silva mendes",
+     "nome": "Rui Pedro da Silva Mendes",
      "contratos": 1
     },
     {
-     "nif": "507057678",
-     "nome": "Minhabita - Projectos de Arquitectura e Engenharia, L.da",
-     "contratos": 1
-    },
-    {
-     "nif": "510874169",
-     "nome": "GONKSYS, S.A.",
+     "nif": "507415132",
+     "nome": "MICROABREU- Sistemas Informáticos, Ldª",
      "contratos": 1
     }
    ],
-   "fornecedor_dominante_pct": 14,
-   "ultimo_contrato": "2026-09-14",
+   "fornecedor_dominante_pct": 15,
+   "ultimo_contrato": "2026-09-28",
    "ultimos_contratos": [
     {
-     "data": "2026-09-14",
-     "objeto": " AQUISIÇÃO DE SERVIÇOS DE DISTRIBUIÇÃO E MANUTENÇÃO DE ILUMINAÇÃO E REDE ELÉTRICA",
-     "preco": 23000.0,
-     "procedimento": "Consulta Prévia",
-     "fornecedor": "Manuel Pombo, L.da",
+     "data": "2026-09-28",
+     "objeto": "Aquisição de serviços de assistência técnica para plataforma digital.",
+     "preco": 2304.0,
+     "procedimento": "Ajuste Direto Regime Geral",
+     "fornecedor": "Gofox - Tecnologias de Informação, Unipessoal Lda.",
      "categorias": [
-      "eletricidade",
-      "projeto"
+      "software_ti"
      ],
-     "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15612147"
+     "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15680517"
     },
     {
-     "data": "2026-07-30",
-     "objeto": "MANUTENÇÃO DE SISTEMAS DE INTRUSÃO, SEGURANÇA CONTRA INCÊNDIOS E VÍDEOVIGILÂNCIA NOS EDIFÍCIOS MUNICIPAIS",
-     "preco": 7380.67,
+     "data": "2026-09-16",
+     "objeto": "Aquisição de serviços de captação e edição de vídeo com recurso a inteligência artificial para apresentação e projeção d",
+     "preco": 4000.0,
      "procedimento": "Ajuste Direto Regime Geral",
-     "fornecedor": "Look Home - Central Receptora de Alarmes, L.da",
+     "fornecedor": "Rui Pedro da Silva Mendes",
+     "categorias": [
+      "software_ti"
+     ],
+     "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15624943"
+    },
+    {
+     "data": "2026-08-21",
+     "objeto": "Aquisição de serviços de licenciamento de software informático para os agrupamentos escolares.",
+     "preco": 5805.0,
+     "procedimento": "Ajuste Direto Regime Geral",
+     "fornecedor": "MICROABREU- Sistemas Informáticos, Ldª",
+     "categorias": [
+      "software_ti"
+     ],
+     "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15518237"
+    },
+    {
+     "data": "2026-08-17",
+     "objeto": "Aquisição de sistema automático de deteção de incêndios (SADI) endereçável para o Centro de Saúde de Vizela",
+     "preco": 7039.08,
+     "procedimento": "Ajuste Direto Regime Geral",
+     "fornecedor": "Extinvale - Segurança Contra Incêndios, Lda.",
      "categorias": [
       "eletricidade",
       "seguranca_incendio"
      ],
-     "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15417134"
+     "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15504836"
     },
     {
-     "data": "2026-06-02",
-     "objeto": "PROJECTO DE EXECUÇÃO DAS ESPECIALIDADES DA REABILITAÇÃO DO EDIFÍCIO DO ALBERGUE DO PEREGRINO, DA ALTERAÇÃO DO EDIFÍCIO C",
-     "preco": 19950.0,
+     "data": "2026-08-14",
+     "objeto": "Aquisição de serviços de manutenção de software para gestão e administração escolar",
+     "preco": 3160.0,
      "procedimento": "Ajuste Direto Regime Geral",
-     "fornecedor": "Minhabita - Projectos de Arquitectura e Engenharia, L.da",
-     "categorias": [
-      "projeto"
-     ],
-     "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15057687"
-    },
-    {
-     "data": "2026-04-01",
-     "objeto": "Desenvolvimento e Disponibilização de Sistema de Realidade Aumentada e Experiência Virtual, Acessível Através de Um Síti",
-     "preco": 69430.0,
-     "procedimento": "Consulta Prévia",
-     "fornecedor": "TAILOR – Advanced Analytics, LDA",
+     "fornecedor": "JPM & Abreu, Lda.",
      "categorias": [
       "software_ti"
      ],
-     "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=14431719"
-    },
-    {
-     "data": "2026-03-23",
-     "objeto": "Renovação Sistema de Virtualização, Switching - CORE /ToR e Segurança e Proteção de Aplicações WEB",
-     "preco": 238695.52,
-     "procedimento": "Concurso público",
-     "fornecedor": "GONKSYS, S.A.",
-     "categorias": [
-      "software_ti"
-     ],
-     "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=14277909"
+     "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15496705"
     }
    ],
-   "base_url": "https://www.base.gov.pt/Base4/pt/pesquisa/?type=contratos&adjudicante=506728897"
+   "base_url": "https://www.base.gov.pt/Base4/pt/pesquisa/?type=contratos&adjudicante=505985217"
   },
   {
    "nif": "505330334",
@@ -3744,6 +3745,122 @@
    "base_url": "https://www.base.gov.pt/Base4/pt/pesquisa/?type=contratos&adjudicante=503190985"
   },
   {
+   "nif": "513606084",
+   "entidade": "Águas do Norte, SA",
+   "prioridade": 10.4,
+   "contratos": 51,
+   "por_convite": 11,
+   "valor_total": 6212535,
+   "valor_por_convite": 157095,
+   "categorias": {
+    "software_ti": 25,
+    "eletricidade": 19,
+    "projeto": 4,
+    "seguranca_incendio": 3,
+    "fotovoltaico": 1
+   },
+   "procedimentos": {
+    "Concurso público": 27,
+    "Concurso limitado por prévia qualificação": 8,
+    "Ajuste Direto Regime Geral": 7,
+    "Ao abrigo de acordo-quadro (art.º 258.º)": 5,
+    "Consulta Prévia": 4
+   },
+   "faixas_preco": {
+    "<20k": 24,
+    ">150k": 11,
+    "20-75k": 10,
+    "75-150k": 6
+   },
+   "fornecedores_habituais": [
+    {
+     "nif": "506210855",
+     "nome": "Reload - Consultoria Informática Unipessoal, Lda",
+     "contratos": 5
+    },
+    {
+     "nif": "513718737",
+     "nome": "4Energy - Comércio e Instalações Técnicas, Lda.",
+     "contratos": 4
+    },
+    {
+     "nif": "510793266",
+     "nome": "EASYPOINT - ENGINEERING AND INNOVATION, LDA",
+     "contratos": 4
+    },
+    {
+     "nif": "?",
+     "nome": "?",
+     "contratos": 3
+    },
+    {
+     "nif": "515198951",
+     "nome": "NEUTRO CARDINAL MANUTENÇÃO ENERGÉTICA, LDA",
+     "contratos": 3
+    }
+   ],
+   "fornecedor_dominante_pct": 10,
+   "ultimo_contrato": "2026-10-26",
+   "ultimos_contratos": [
+    {
+     "data": "2026-10-26",
+     "objeto": "PRC_0230/2026_TII-Aquisição de serviços consultadoria para implementação do Building Information Modeling (BIM) na Águas",
+     "preco": 11999.04,
+     "procedimento": "Ajuste Direto Regime Geral",
+     "fornecedor": "Milestone Consulting SA",
+     "categorias": [
+      "software_ti"
+     ],
+     "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15835756"
+    },
+    {
+     "data": "2026-10-21",
+     "objeto": "PRC_0134/2026_TII- Renovação de Licenciamento, Manutenção Operativa e Evolutiva do Sistema Aplicacional INLAB LIMS® da Á",
+     "preco": 110700.0,
+     "procedimento": "Concurso público",
+     "fornecedor": "INELCIS - Informática e Electrónica, Circuitos e Sistemas, Lda.",
+     "categorias": [
+      "software_ti"
+     ],
+     "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15799226"
+    },
+    {
+     "data": "2026-10-15",
+     "objeto": "PRC_0105/2026_TII - Aquisição de bens e serviços da infraestrutura de Datacenter da Águas do Norte, S.A.\n",
+     "preco": 63000.0,
+     "procedimento": "Concurso público",
+     "fornecedor": "?",
+     "categorias": [
+      "software_ti"
+     ],
+     "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15781395"
+    },
+    {
+     "data": "2026-10-09",
+     "objeto": "PRC_0109/2026_DEX - Aquisição de serviços de manutenção preventiva e corretiva em 53 equipamentos do parque de CVE da Ág",
+     "preco": 48543.69,
+     "procedimento": "Concurso público",
+     "fornecedor": "Mota-Engil Ativ - Gestão e Manutenção de Ativos, S.A",
+     "categorias": [
+      "eletricidade"
+     ],
+     "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15751090"
+    },
+    {
+     "data": "2026-08-12",
+     "objeto": "PRC_0374/2024_TII - Aquisição de serviços de desenvolvimento aplicacional e programação para a Águas do Norte, S.A.",
+     "preco": 0.0,
+     "procedimento": "Concurso limitado por prévia qualificação",
+     "fornecedor": "Between Dialogues Lda (+1)",
+     "categorias": [
+      "software_ti"
+     ],
+     "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15482413"
+    }
+   ],
+   "base_url": "https://www.base.gov.pt/Base4/pt/pesquisa/?type=contratos&adjudicante=513606084"
+  },
+  {
    "nif": "600034984",
    "entidade": "Escola Profissional de Fermil, Celorico de Basto.",
    "prioridade": 10.0,
@@ -3857,120 +3974,115 @@
    "base_url": "https://www.base.gov.pt/Base4/pt/pesquisa/?type=contratos&adjudicante=600034984"
   },
   {
-   "nif": "513606084",
-   "entidade": "Águas do Norte, SA",
-   "prioridade": 9.5,
-   "contratos": 50,
-   "por_convite": 10,
-   "valor_total": 6200536,
-   "valor_por_convite": 145096,
+   "nif": "506659682",
+   "entidade": "Município de Vieira do Minho",
+   "prioridade": 9.9,
+   "contratos": 13,
+   "por_convite": 12,
+   "valor_total": 436917,
+   "valor_por_convite": 259523,
    "categorias": {
-    "software_ti": 24,
-    "eletricidade": 19,
-    "projeto": 4,
-    "seguranca_incendio": 3,
-    "fotovoltaico": 1
+    "software_ti": 8,
+    "projeto": 3,
+    "eletricidade": 2
    },
    "procedimentos": {
-    "Concurso público": 27,
-    "Concurso limitado por prévia qualificação": 8,
-    "Ajuste Direto Regime Geral": 6,
-    "Ao abrigo de acordo-quadro (art.º 258.º)": 5,
-    "Consulta Prévia": 4
+    "Ajuste Direto Regime Geral": 8,
+    "Consulta Prévia": 4,
+    "Concurso público": 1
    },
    "faixas_preco": {
-    "<20k": 23,
-    ">150k": 11,
-    "20-75k": 10,
-    "75-150k": 6
+    "<20k": 8,
+    "20-75k": 4,
+    ">150k": 1
    },
    "fornecedores_habituais": [
     {
-     "nif": "506210855",
-     "nome": "Reload - Consultoria Informática Unipessoal, Lda",
-     "contratos": 5
-    },
-    {
-     "nif": "513718737",
-     "nome": "4Energy - Comércio e Instalações Técnicas, Lda.",
-     "contratos": 4
-    },
-    {
-     "nif": "510793266",
-     "nome": "EASYPOINT - ENGINEERING AND INNOVATION, LDA",
-     "contratos": 4
-    },
-    {
-     "nif": "?",
-     "nome": "?",
+     "nif": "508453259",
+     "nome": "Divultec-Serviços de Informática, Lda.",
      "contratos": 3
     },
     {
-     "nif": "515198951",
-     "nome": "NEUTRO CARDINAL MANUTENÇÃO ENERGÉTICA, LDA",
-     "contratos": 3
+     "nif": "504990926",
+     "nome": "Medidata.net - Sistemas de Informação para Autarquias, S.A.",
+     "contratos": 2
+    },
+    {
+     "nif": "510174132",
+     "nome": "FBCPS - Business Consulting and Professional Services, Lda",
+     "contratos": 1
+    },
+    {
+     "nif": "513696814",
+     "nome": "SOFTCODE- SOFTWARE E SISTEMAS, LDA.",
+     "contratos": 1
+    },
+    {
+     "nif": "516880756",
+     "nome": "CLARA MARTINS COELHO - ARQUITETURA, UNIPESSOAL LDA",
+     "contratos": 1
     }
    ],
-   "fornecedor_dominante_pct": 10,
-   "ultimo_contrato": "2026-10-21",
+   "fornecedor_dominante_pct": 23,
+   "ultimo_contrato": "2026-10-26",
    "ultimos_contratos": [
     {
-     "data": "2026-10-21",
-     "objeto": "PRC_0134/2026_TII- Renovação de Licenciamento, Manutenção Operativa e Evolutiva do Sistema Aplicacional INLAB LIMS® da Á",
-     "preco": 110700.0,
-     "procedimento": "Concurso público",
-     "fornecedor": "INELCIS - Informática e Electrónica, Circuitos e Sistemas, Lda.",
+     "data": "2026-10-26",
+     "objeto": "AQUISIÇÃO DE SERVIÇOS DE LICENCIAMENTO, DISPONIBILIZAÇÃO, CONFIGURAÇÃO, PARAMETRIZAÇÃO, INTEGRAÇÃO, MANUTENÇÃO E SUPORTE",
+     "preco": 43000.0,
+     "procedimento": "Consulta Prévia",
+     "fornecedor": "FBCPS - Business Consulting and Professional Services, Lda",
      "categorias": [
       "software_ti"
      ],
-     "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15799226"
+     "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15835895"
     },
     {
-     "data": "2026-10-15",
-     "objeto": "PRC_0105/2026_TII - Aquisição de bens e serviços da infraestrutura de Datacenter da Águas do Norte, S.A.\n",
-     "preco": 63000.0,
-     "procedimento": "Concurso público",
-     "fornecedor": "?",
+     "data": "2026-10-21",
+     "objeto": "AQUISIÇÃO DE EQUIPAMENTO INFORMÁTICO PARA OS SERVIÇOS MUNICIPAIS - REFORÇO",
+     "preco": 10333.1,
+     "procedimento": "Ajuste Direto Regime Geral",
+     "fornecedor": "SOFTCODE- SOFTWARE E SISTEMAS, LDA.",
      "categorias": [
       "software_ti"
      ],
-     "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15781395"
+     "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15799229"
     },
     {
      "data": "2026-10-09",
-     "objeto": "PRC_0109/2026_DEX - Aquisição de serviços de manutenção preventiva e corretiva em 53 equipamentos do parque de CVE da Ág",
-     "preco": 48543.69,
-     "procedimento": "Concurso público",
-     "fornecedor": "Mota-Engil Ativ - Gestão e Manutenção de Ativos, S.A",
+     "objeto": "ELABORAÇÃO DE PROJETO DE ARQUITETURA PARA RECONSTRUÇÃO DE EDIFÍCIO PARA ALBERGAR CASA DA MEMÓRIA E OUTROS USOS DE INTERE",
+     "preco": 11500.0,
+     "procedimento": "Ajuste Direto Regime Geral",
+     "fornecedor": "CLARA MARTINS COELHO - ARQUITETURA, UNIPESSOAL LDA",
+     "categorias": [
+      "projeto"
+     ],
+     "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15747701"
+    },
+    {
+     "data": "2026-10-08",
+     "objeto": "ADAPTAÇÃO ELÉTRICA NA ESCOLA EBS-2,3 VIEIRA DE ARAÚJO PARA ALIMENTAÇÃO DO CENTRO TECNOLÓGICO",
+     "preco": 28485.75,
+     "procedimento": "Ajuste Direto Regime Geral",
+     "fornecedor": "Eletroramos",
      "categorias": [
       "eletricidade"
      ],
-     "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15751090"
+     "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15740858"
     },
     {
-     "data": "2026-08-12",
-     "objeto": "PRC_0374/2024_TII - Aquisição de serviços de desenvolvimento aplicacional e programação para a Águas do Norte, S.A.",
-     "preco": 0.0,
-     "procedimento": "Concurso limitado por prévia qualificação",
-     "fornecedor": "Between Dialogues Lda (+1)",
-     "categorias": [
-      "software_ti"
-     ],
-     "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15482413"
-    },
-    {
-     "data": "2026-08-11",
-     "objeto": "PRC_0218/2026_TII- Aquisição de licenciamento CDE (Common Data Environment) para a Águas do Norte, S.A..",
-     "preco": 8270.0,
+     "data": "2026-06-12",
+     "objeto": "ELABORAÇÃO DOS PROJETOS DE ESPECIALIDADES PARA A CRECHE MUNICIPAL DE TABUAÇAS",
+     "preco": 19900.0,
      "procedimento": "Ajuste Direto Regime Geral",
-     "fornecedor": "Sttei - Soc.Técnica de Telecomun. e Equip.Informático,Lda",
+     "fornecedor": "NORAQUA, Consultores de Engenharia, Lda",
      "categorias": [
-      "software_ti"
+      "projeto"
      ],
-     "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15477644"
+     "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15131415"
     }
    ],
-   "base_url": "https://www.base.gov.pt/Base4/pt/pesquisa/?type=contratos&adjudicante=513606084"
+   "base_url": "https://www.base.gov.pt/Base4/pt/pesquisa/?type=contratos&adjudicante=506659682"
   },
   {
    "nif": "504595067",
@@ -4084,117 +4196,6 @@
     }
    ],
    "base_url": "https://www.base.gov.pt/Base4/pt/pesquisa/?type=contratos&adjudicante=504595067"
-  },
-  {
-   "nif": "506659682",
-   "entidade": "Município de Vieira do Minho",
-   "prioridade": 9.1,
-   "contratos": 12,
-   "por_convite": 11,
-   "valor_total": 393917,
-   "valor_por_convite": 216523,
-   "categorias": {
-    "software_ti": 7,
-    "projeto": 3,
-    "eletricidade": 2
-   },
-   "procedimentos": {
-    "Ajuste Direto Regime Geral": 8,
-    "Consulta Prévia": 3,
-    "Concurso público": 1
-   },
-   "faixas_preco": {
-    "<20k": 8,
-    "20-75k": 3,
-    ">150k": 1
-   },
-   "fornecedores_habituais": [
-    {
-     "nif": "508453259",
-     "nome": "Divultec-Serviços de Informática, Lda.",
-     "contratos": 3
-    },
-    {
-     "nif": "504990926",
-     "nome": "Medidata.net - Sistemas de Informação para Autarquias, S.A.",
-     "contratos": 2
-    },
-    {
-     "nif": "513696814",
-     "nome": "SOFTCODE- SOFTWARE E SISTEMAS, LDA.",
-     "contratos": 1
-    },
-    {
-     "nif": "516880756",
-     "nome": "CLARA MARTINS COELHO - ARQUITETURA, UNIPESSOAL LDA",
-     "contratos": 1
-    },
-    {
-     "nif": "510948600",
-     "nome": "Eletroramos",
-     "contratos": 1
-    }
-   ],
-   "fornecedor_dominante_pct": 25,
-   "ultimo_contrato": "2026-10-21",
-   "ultimos_contratos": [
-    {
-     "data": "2026-10-21",
-     "objeto": "AQUISIÇÃO DE EQUIPAMENTO INFORMÁTICO PARA OS SERVIÇOS MUNICIPAIS - REFORÇO",
-     "preco": 10333.1,
-     "procedimento": "Ajuste Direto Regime Geral",
-     "fornecedor": "SOFTCODE- SOFTWARE E SISTEMAS, LDA.",
-     "categorias": [
-      "software_ti"
-     ],
-     "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15799229"
-    },
-    {
-     "data": "2026-10-09",
-     "objeto": "ELABORAÇÃO DE PROJETO DE ARQUITETURA PARA RECONSTRUÇÃO DE EDIFÍCIO PARA ALBERGAR CASA DA MEMÓRIA E OUTROS USOS DE INTERE",
-     "preco": 11500.0,
-     "procedimento": "Ajuste Direto Regime Geral",
-     "fornecedor": "CLARA MARTINS COELHO - ARQUITETURA, UNIPESSOAL LDA",
-     "categorias": [
-      "projeto"
-     ],
-     "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15747701"
-    },
-    {
-     "data": "2026-10-08",
-     "objeto": "ADAPTAÇÃO ELÉTRICA NA ESCOLA EBS-2,3 VIEIRA DE ARAÚJO PARA ALIMENTAÇÃO DO CENTRO TECNOLÓGICO",
-     "preco": 28485.75,
-     "procedimento": "Ajuste Direto Regime Geral",
-     "fornecedor": "Eletroramos",
-     "categorias": [
-      "eletricidade"
-     ],
-     "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15740858"
-    },
-    {
-     "data": "2026-06-12",
-     "objeto": "ELABORAÇÃO DOS PROJETOS DE ESPECIALIDADES PARA A CRECHE MUNICIPAL DE TABUAÇAS",
-     "preco": 19900.0,
-     "procedimento": "Ajuste Direto Regime Geral",
-     "fornecedor": "NORAQUA, Consultores de Engenharia, Lda",
-     "categorias": [
-      "projeto"
-     ],
-     "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15131415"
-    },
-    {
-     "data": "2026-05-18",
-     "objeto": "ELABORAÇÃO DO PROJETO DE EXECUÇÃO DO MIRADOURO DA NOSSA SENHORA DA FÉ",
-     "preco": 5750.0,
-     "procedimento": "Ajuste Direto Regime Geral",
-     "fornecedor": "Open Services, Lda",
-     "categorias": [
-      "projeto"
-     ],
-     "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=14905593"
-    }
-   ],
-   "base_url": "https://www.base.gov.pt/Base4/pt/pesquisa/?type=contratos&adjudicante=506659682"
   },
   {
    "nif": "502201886",
@@ -4754,115 +4755,6 @@
    "base_url": "https://www.base.gov.pt/Base4/pt/pesquisa/?type=contratos&adjudicante=503730947"
   },
   {
-   "nif": "504537784",
-   "entidade": "BRAGAHABIT - Empresa Municipal de Habitação de Braga, EM",
-   "prioridade": 7.8,
-   "contratos": 9,
-   "por_convite": 9,
-   "valor_total": 209037,
-   "valor_por_convite": 209037,
-   "categorias": {
-    "software_ti": 4,
-    "projeto": 3,
-    "eletricidade": 2
-   },
-   "procedimentos": {
-    "Ajuste Direto Regime Geral": 6,
-    "Consulta Prévia": 3
-   },
-   "faixas_preco": {
-    "<20k": 5,
-    "20-75k": 4
-   },
-   "fornecedores_habituais": [
-    {
-     "nif": "514125306",
-     "nome": "José Carlos Oliveira Marques, Consultor de Engenharia - Fiscalização, Coordenação e Planeamento de Projectos, Unipessoal Limitada",
-     "contratos": 1
-    },
-    {
-     "nif": "516347969",
-     "nome": "YUK Data Consulting, Lda.",
-     "contratos": 1
-    },
-    {
-     "nif": "504242334",
-     "nome": "Professor Engenheiro Vasco Peixoto de Freitas, Lda.",
-     "contratos": 1
-    },
-    {
-     "nif": "502000406",
-     "nome": "Santana e Pogeira SA",
-     "contratos": 1
-    },
-    {
-     "nif": "- - carlos manuel de sousa santos",
-     "nome": "Carlos Manuel de Sousa Santos",
-     "contratos": 1
-    }
-   ],
-   "fornecedor_dominante_pct": 11,
-   "ultimo_contrato": "2026-08-27",
-   "ultimos_contratos": [
-    {
-     "data": "2026-08-27",
-     "objeto": "Prestação de serviços de fiscalização da empreitada relativa ao BNAUT, compreendendo o acompanhamento e controlo técnico",
-     "preco": 10000.0,
-     "procedimento": "Ajuste Direto Regime Geral",
-     "fornecedor": "José Carlos Oliveira Marques, Consultor de Engenharia - Fiscalização, Coordenação e Planeamento de Projectos, Unipessoal Limitada",
-     "categorias": [
-      "projeto"
-     ],
-     "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15544014"
-    },
-    {
-     "data": "2026-08-06",
-     "objeto": "O contrato a celebrar tem como objeto Prestação de serviços de implementação do Regime Geral da Proteção de Dados (RGPD",
-     "preco": 15000.0,
-     "procedimento": "Ajuste Direto Regime Geral",
-     "fornecedor": "YUK Data Consulting, Lda.",
-     "categorias": [
-      "software_ti"
-     ],
-     "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15459455"
-    },
-    {
-     "data": "2026-07-30",
-     "objeto": "Procedimento enquadrado na Estratégia Local de Habitação (ELH), no âmbito do Programa 1.º Direito  Programa de Apoio ao",
-     "preco": 36120.0,
-     "procedimento": "Consulta Prévia",
-     "fornecedor": "Professor Engenheiro Vasco Peixoto de Freitas, Lda.",
-     "categorias": [
-      "projeto"
-     ],
-     "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15417388"
-    },
-    {
-     "data": "2026-05-19",
-     "objeto": "O contrato a celebrar tem como objeto a “aquisição de material elétrico necessário à execução das intervenções de manute",
-     "preco": 19936.02,
-     "procedimento": "Ajuste Direto Regime Geral",
-     "fornecedor": "Santana e Pogeira SA",
-     "categorias": [
-      "eletricidade"
-     ],
-     "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=14921907"
-    },
-    {
-     "data": "2025-12-29",
-     "objeto": "Necessidade de aquisição de serviços de Coordenação dos Programas de Aceleração e apoio na dinamização da Rede URBACT Hu",
-     "preco": 19950.0,
-     "procedimento": "Ajuste Direto Regime Geral",
-     "fornecedor": "Carlos Manuel de Sousa Santos",
-     "categorias": [
-      "software_ti"
-     ],
-     "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=12204907"
-    }
-   ],
-   "base_url": "https://www.base.gov.pt/Base4/pt/pesquisa/?type=contratos&adjudicante=504537784"
-  },
-  {
    "nif": "504885855",
    "entidade": "CASFIG - Coordenação de Âmbito Social e Financeiro das Habitações do Município de Guimarães, E.M., Unipessoal, Lda.",
    "prioridade": 7.7,
@@ -5190,114 +5082,113 @@
    "base_url": "https://www.base.gov.pt/Base4/pt/pesquisa/?type=contratos&adjudicante=500463964"
   },
   {
-   "nif": "508887780",
-   "entidade": "CIM do Ave - Comunidade Intermunicipal do Ave",
-   "prioridade": 6.0,
-   "contratos": 10,
+   "nif": "504537784",
+   "entidade": "BRAGAHABIT - Empresa Municipal de Habitação de Braga, EM",
+   "prioridade": 7.1,
+   "contratos": 8,
    "por_convite": 8,
-   "valor_total": 475276,
-   "valor_por_convite": 236128,
+   "valor_total": 187628,
+   "valor_por_convite": 187628,
    "categorias": {
-    "software_ti": 9,
-    "seguranca_incendio": 1
+    "projeto": 3,
+    "software_ti": 3,
+    "eletricidade": 2
    },
    "procedimentos": {
-    "Consulta Prévia": 6,
-    "Ajuste Direto Regime Geral": 2,
-    "Concurso público": 2
+    "Ajuste Direto Regime Geral": 5,
+    "Consulta Prévia": 3
    },
    "faixas_preco": {
     "<20k": 5,
-    "20-75k": 4,
-    ">150k": 1
+    "20-75k": 3
    },
    "fornecedores_habituais": [
     {
-     "nif": "503720097",
-     "nome": "17 da Bomba, Lda",
+     "nif": "514125306",
+     "nome": "José Carlos Oliveira Marques, Consultor de Engenharia - Fiscalização, Coordenação e Planeamento de Projectos, Unipessoal Limitada",
      "contratos": 1
     },
     {
-     "nif": "503092584",
-     "nome": "Associação CCG/ZGDV - Centro de Computação Gráfica",
+     "nif": "516347969",
+     "nome": "YUK Data Consulting, Lda.",
      "contratos": 1
     },
     {
-     "nif": "519104021",
-     "nome": "XERCODE SOLUÇÕES EM TECNOLOGIA, UNIPESSOAL Lda.",
+     "nif": "504242334",
+     "nome": "Professor Engenheiro Vasco Peixoto de Freitas, Lda.",
      "contratos": 1
     },
     {
-     "nif": "515170720",
-     "nome": "AD EVOLUTIO, LDA",
+     "nif": "502000406",
+     "nome": "Santana e Pogeira SA",
      "contratos": 1
     },
     {
-     "nif": "503063851",
-     "nome": "Vimaponto, Equipamentos e Serviços de Informática, Lda",
+     "nif": "- - carlos manuel de sousa santos",
+     "nome": "Carlos Manuel de Sousa Santos",
      "contratos": 1
     }
    ],
-   "fornecedor_dominante_pct": 10,
-   "ultimo_contrato": "2026-10-22",
+   "fornecedor_dominante_pct": 12,
+   "ultimo_contrato": "2026-08-27",
    "ultimos_contratos": [
     {
-     "data": "2026-10-22",
-     "objeto": "Aquisição de equipamento e sistema automático de deteção de incêndios",
-     "preco": 9684.18,
-     "procedimento": "Consulta Prévia",
-     "fornecedor": "17 da Bomba, Lda",
-     "categorias": [
-      "seguranca_incendio"
-     ],
-     "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15812574"
-    },
-    {
-     "data": "2026-08-07",
-     "objeto": "Aquisição de serviços de housing e serviços de gestão e operação de DataCenter",
-     "preco": 68947.42,
-     "procedimento": "Consulta Prévia",
-     "fornecedor": "Associação CCG/ZGDV - Centro de Computação Gráfica",
-     "categorias": [
-      "software_ti"
-     ],
-     "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15465489"
-    },
-    {
-     "data": "2026-07-15",
-     "objeto": "Aquisição de Serviços de Instalação e Configuração de um software agregador para o Catálogo Integrado da RIBMAVE - Rede ",
-     "preco": 19900.0,
-     "procedimento": "Consulta Prévia",
-     "fornecedor": "XERCODE SOLUÇÕES EM TECNOLOGIA, UNIPESSOAL Lda.",
-     "categorias": [
-      "software_ti"
-     ],
-     "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15297031"
-    },
-    {
-     "data": "2026-04-13",
-     "objeto": "Serviços Especializados para Ferramenta de Showcase Territorial - Solução de Location Intelligence para Atração de Inves",
-     "preco": 73500.0,
-     "procedimento": "Consulta Prévia",
-     "fornecedor": "AD EVOLUTIO, LDA",
-     "categorias": [
-      "software_ti"
-     ],
-     "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=14504987"
-    },
-    {
-     "data": "2025-12-03",
-     "objeto": "Aquisição de Equipamento de Rede e Solução WIFI",
-     "preco": 6407.1,
+     "data": "2026-08-27",
+     "objeto": "Prestação de serviços de fiscalização da empreitada relativa ao BNAUT, compreendendo o acompanhamento e controlo técnico",
+     "preco": 10000.0,
      "procedimento": "Ajuste Direto Regime Geral",
-     "fornecedor": "Vimaponto, Equipamentos e Serviços de Informática, Lda",
+     "fornecedor": "José Carlos Oliveira Marques, Consultor de Engenharia - Fiscalização, Coordenação e Planeamento de Projectos, Unipessoal Limitada",
+     "categorias": [
+      "projeto"
+     ],
+     "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15544014"
+    },
+    {
+     "data": "2026-08-06",
+     "objeto": "O contrato a celebrar tem como objeto Prestação de serviços de implementação do Regime Geral da Proteção de Dados (RGPD",
+     "preco": 15000.0,
+     "procedimento": "Ajuste Direto Regime Geral",
+     "fornecedor": "YUK Data Consulting, Lda.",
      "categorias": [
       "software_ti"
      ],
-     "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=12007987"
+     "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15459455"
+    },
+    {
+     "data": "2026-07-30",
+     "objeto": "Procedimento enquadrado na Estratégia Local de Habitação (ELH), no âmbito do Programa 1.º Direito  Programa de Apoio ao",
+     "preco": 36120.0,
+     "procedimento": "Consulta Prévia",
+     "fornecedor": "Professor Engenheiro Vasco Peixoto de Freitas, Lda.",
+     "categorias": [
+      "projeto"
+     ],
+     "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15417388"
+    },
+    {
+     "data": "2026-05-19",
+     "objeto": "O contrato a celebrar tem como objeto a “aquisição de material elétrico necessário à execução das intervenções de manute",
+     "preco": 19936.02,
+     "procedimento": "Ajuste Direto Regime Geral",
+     "fornecedor": "Santana e Pogeira SA",
+     "categorias": [
+      "eletricidade"
+     ],
+     "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=14921907"
+    },
+    {
+     "data": "2025-12-29",
+     "objeto": "Necessidade de aquisição de serviços de Coordenação dos Programas de Aceleração e apoio na dinamização da Rede URBACT Hu",
+     "preco": 19950.0,
+     "procedimento": "Ajuste Direto Regime Geral",
+     "fornecedor": "Carlos Manuel de Sousa Santos",
+     "categorias": [
+      "software_ti"
+     ],
+     "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=12204907"
     }
    ],
-   "base_url": "https://www.base.gov.pt/Base4/pt/pesquisa/?type=contratos&adjudicante=508887780"
+   "base_url": "https://www.base.gov.pt/Base4/pt/pesquisa/?type=contratos&adjudicante=504537784"
   },
   {
    "nif": "504443127",
@@ -5514,86 +5405,6 @@
     }
    ],
    "base_url": "https://www.base.gov.pt/Base4/pt/pesquisa/?type=contratos&adjudicante=510361242"
-  },
-  {
-   "nif": "517842920",
-   "entidade": "Património Cultural, IP",
-   "prioridade": 5.5,
-   "contratos": 3,
-   "por_convite": 3,
-   "valor_total": 46872,
-   "valor_por_convite": 46872,
-   "categorias": {
-    "eletricidade": 2,
-    "projeto": 2,
-    "software_ti": 2
-   },
-   "procedimentos": {
-    "Ajuste Direto Regime Geral": 2,
-    "Consulta Prévia": 1
-   },
-   "faixas_preco": {
-    "<20k": 2,
-    "20-75k": 1
-   },
-   "fornecedores_habituais": [
-    {
-     "nif": "502460458",
-     "nome": "Pórtico-Arquitetura e Engenharia, Ldª",
-     "contratos": 1
-    },
-    {
-     "nif": "503040630",
-     "nome": "Vitor Hugo - Coordenação e Gestão de Projectos, SA",
-     "contratos": 1
-    },
-    {
-     "nif": "516934821",
-     "nome": "Paulo Providência Arquitetos, Lda",
-     "contratos": 1
-    }
-   ],
-   "fornecedor_dominante_pct": 33,
-   "ultimo_contrato": "2026-06-29",
-   "ultimos_contratos": [
-    {
-     "data": "2026-06-29",
-     "objeto": "PRR-Fiscalização e Coordenação de Segurança e Gestão Ambiental em obra da empreitada de Reestruturação das infraestrutur",
-     "preco": 12030.3,
-     "procedimento": "Ajuste Direto Regime Geral",
-     "fornecedor": "Pórtico-Arquitetura e Engenharia, Ldª",
-     "categorias": [
-      "eletricidade",
-      "projeto",
-      "software_ti"
-     ],
-     "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15220886"
-    },
-    {
-     "data": "2026-04-24",
-     "objeto": "ID 10725 PRR (32-A), Igreja de Santa Marinha da Costa: Fiscalização e Coordenação de Segurança e Gestão Ambiental em obr",
-     "preco": 25600.0,
-     "procedimento": "Consulta Prévia",
-     "fornecedor": "Vitor Hugo - Coordenação e Gestão de Projectos, SA",
-     "categorias": [
-      "projeto"
-     ],
-     "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=14642699"
-    },
-    {
-     "data": "2025-05-05",
-     "objeto": "PRR - Aquisição de Serviços de Assistência Técnica de Arquitetura à Empreitada de “Reestruturação das infraestruturas de",
-     "preco": 9242.0,
-     "procedimento": "Ajuste Direto Regime Geral",
-     "fornecedor": "Paulo Providência Arquitetos, Lda",
-     "categorias": [
-      "eletricidade",
-      "software_ti"
-     ],
-     "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=11391816"
-    }
-   ],
-   "base_url": "https://www.base.gov.pt/Base4/pt/pesquisa/?type=contratos&adjudicante=517842920"
   },
   {
    "nif": "504769642",
@@ -5816,6 +5627,116 @@
    "base_url": "https://www.base.gov.pt/Base4/pt/pesquisa/?type=contratos&adjudicante=509584888"
   },
   {
+   "nif": "508887780",
+   "entidade": "CIM do Ave - Comunidade Intermunicipal do Ave",
+   "prioridade": 5.2,
+   "contratos": 9,
+   "por_convite": 7,
+   "valor_total": 447187,
+   "valor_por_convite": 208039,
+   "categorias": {
+    "software_ti": 8,
+    "seguranca_incendio": 1
+   },
+   "procedimentos": {
+    "Consulta Prévia": 5,
+    "Ajuste Direto Regime Geral": 2,
+    "Concurso público": 2
+   },
+   "faixas_preco": {
+    "<20k": 5,
+    "20-75k": 3,
+    ">150k": 1
+   },
+   "fornecedores_habituais": [
+    {
+     "nif": "503720097",
+     "nome": "17 da Bomba, Lda",
+     "contratos": 1
+    },
+    {
+     "nif": "503092584",
+     "nome": "Associação CCG/ZGDV - Centro de Computação Gráfica",
+     "contratos": 1
+    },
+    {
+     "nif": "519104021",
+     "nome": "XERCODE SOLUÇÕES EM TECNOLOGIA, UNIPESSOAL Lda.",
+     "contratos": 1
+    },
+    {
+     "nif": "515170720",
+     "nome": "AD EVOLUTIO, LDA",
+     "contratos": 1
+    },
+    {
+     "nif": "503063851",
+     "nome": "Vimaponto, Equipamentos e Serviços de Informática, Lda",
+     "contratos": 1
+    }
+   ],
+   "fornecedor_dominante_pct": 11,
+   "ultimo_contrato": "2026-10-22",
+   "ultimos_contratos": [
+    {
+     "data": "2026-10-22",
+     "objeto": "Aquisição de equipamento e sistema automático de deteção de incêndios",
+     "preco": 9684.18,
+     "procedimento": "Consulta Prévia",
+     "fornecedor": "17 da Bomba, Lda",
+     "categorias": [
+      "seguranca_incendio"
+     ],
+     "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15812574"
+    },
+    {
+     "data": "2026-08-07",
+     "objeto": "Aquisição de serviços de housing e serviços de gestão e operação de DataCenter",
+     "preco": 68947.42,
+     "procedimento": "Consulta Prévia",
+     "fornecedor": "Associação CCG/ZGDV - Centro de Computação Gráfica",
+     "categorias": [
+      "software_ti"
+     ],
+     "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15465489"
+    },
+    {
+     "data": "2026-07-15",
+     "objeto": "Aquisição de Serviços de Instalação e Configuração de um software agregador para o Catálogo Integrado da RIBMAVE - Rede ",
+     "preco": 19900.0,
+     "procedimento": "Consulta Prévia",
+     "fornecedor": "XERCODE SOLUÇÕES EM TECNOLOGIA, UNIPESSOAL Lda.",
+     "categorias": [
+      "software_ti"
+     ],
+     "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15297031"
+    },
+    {
+     "data": "2026-04-13",
+     "objeto": "Serviços Especializados para Ferramenta de Showcase Territorial - Solução de Location Intelligence para Atração de Inves",
+     "preco": 73500.0,
+     "procedimento": "Consulta Prévia",
+     "fornecedor": "AD EVOLUTIO, LDA",
+     "categorias": [
+      "software_ti"
+     ],
+     "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=14504987"
+    },
+    {
+     "data": "2025-12-03",
+     "objeto": "Aquisição de Equipamento de Rede e Solução WIFI",
+     "preco": 6407.1,
+     "procedimento": "Ajuste Direto Regime Geral",
+     "fornecedor": "Vimaponto, Equipamentos e Serviços de Informática, Lda",
+     "categorias": [
+      "software_ti"
+     ],
+     "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=12007987"
+    }
+   ],
+   "base_url": "https://www.base.gov.pt/Base4/pt/pesquisa/?type=contratos&adjudicante=508887780"
+  },
+  {
    "nif": "509906478",
    "entidade": "Centro de Formação Profissional da Indústria Têxtil, Vestuário, Confecção e Lanifícios (MODATEX)",
    "prioridade": 5.0,
@@ -6015,114 +5936,6 @@
     }
    ],
    "base_url": "https://www.base.gov.pt/Base4/pt/pesquisa/?type=contratos&adjudicante=517804417"
-  },
-  {
-   "nif": "502077352",
-   "entidade": "Centro de Formação Profissional da Industria Metalúrgica e Metalomecânica (CENFIM)",
-   "prioridade": 4.8,
-   "contratos": 5,
-   "por_convite": 3,
-   "valor_total": 115002,
-   "valor_por_convite": 55901,
-   "categorias": {
-    "eletricidade": 3,
-    "seguranca_incendio": 3,
-    "software_ti": 2
-   },
-   "procedimentos": {
-    "Concurso público": 2,
-    "Consulta Prévia": 2,
-    "Ajuste Direto Regime Geral": 1
-   },
-   "faixas_preco": {
-    "20-75k": 3,
-    "<20k": 2
-   },
-   "fornecedores_habituais": [
-    {
-     "nif": "500243719",
-     "nome": "Securitas - Serviço e Tecnologias de Segurança, SA",
-     "contratos": 2
-    },
-    {
-     "nif": "503258121",
-     "nome": "EDNI-EMPRESA DISTRIBUIDORA DE MATERIAL INFORMATICO, LDA.",
-     "contratos": 1
-    },
-    {
-     "nif": "507555562",
-     "nome": "Paulo Dias - Soluções para Informática, Unipessoal, Lda,",
-     "contratos": 1
-    },
-    {
-     "nif": "507011724",
-     "nome": "Ronsegur, Rondas e Segurança, S.A",
-     "contratos": 1
-    }
-   ],
-   "fornecedor_dominante_pct": 40,
-   "ultimo_contrato": "2026-04-16",
-   "ultimos_contratos": [
-    {
-     "data": "2026-04-16",
-     "objeto": "Aquisição, por LOTES, de Equipamentos Informáticos",
-     "preco": 29324.35,
-     "procedimento": "Concurso público",
-     "fornecedor": "EDNI-EMPRESA DISTRIBUIDORA DE MATERIAL INFORMATICO, LDA.",
-     "categorias": [
-      "software_ti"
-     ],
-     "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=14546116"
-    },
-    {
-     "data": "2026-03-18",
-     "objeto": "Aquisição de serviços de Gestão e Manutenção dos Sistemas Automáticos de Deteção de Incêndios (SADI), Sistema Automático",
-     "preco": 2409.76,
-     "procedimento": "Ajuste Direto Regime Geral",
-     "fornecedor": "Securitas - Serviço e Tecnologias de Segurança, SA",
-     "categorias": [
-      "eletricidade",
-      "seguranca_incendio"
-     ],
-     "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=14180622"
-    },
-    {
-     "data": "2026-03-18",
-     "objeto": "Aquisição, por LOTES, de Serviços de Vigilância e de Gestão e Manutenção dos Sistemas Automáticos de Deteção de Incêndio",
-     "preco": 29775.8,
-     "procedimento": "Concurso público",
-     "fornecedor": "Securitas - Serviço e Tecnologias de Segurança, SA",
-     "categorias": [
-      "eletricidade",
-      "seguranca_incendio"
-     ],
-     "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=14182641"
-    },
-    {
-     "data": "2026-02-16",
-     "objeto": "Aquisição de Serviços de Gestão e Manutenção da Rede Informática (Porto, Departamentos do Porto, Ermesinde, DQASO, Arcos",
-     "preco": 48401.0,
-     "procedimento": "Consulta Prévia",
-     "fornecedor": "Paulo Dias - Soluções para Informática, Unipessoal, Lda,",
-     "categorias": [
-      "software_ti"
-     ],
-     "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=13451351"
-    },
-    {
-     "data": "2025-05-05",
-     "objeto": "Aquisição de Serviços, por LOTE, de Gestão e Manutenção dos Sistemas Automáticos de Deteção de Incêndio (SADI), de Intru",
-     "preco": 5090.68,
-     "procedimento": "Consulta Prévia",
-     "fornecedor": "Ronsegur, Rondas e Segurança, S.A",
-     "categorias": [
-      "eletricidade",
-      "seguranca_incendio"
-     ],
-     "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=11391517"
-    }
-   ],
-   "base_url": "https://www.base.gov.pt/Base4/pt/pesquisa/?type=contratos&adjudicante=502077352"
   },
   {
    "nif": "506034976",
@@ -6326,24 +6139,25 @@
   {
    "nif": "503904040",
    "entidade": "Fundação para a Ciência e a Tecnologia, IP",
-   "prioridade": 4.3,
-   "contratos": 6,
+   "prioridade": 4.2,
+   "contratos": 7,
    "por_convite": 5,
-   "valor_total": 296525,
+   "valor_total": 596525,
    "valor_por_convite": 156525,
    "categorias": {
+    "software_ti": 3,
     "projeto": 3,
-    "software_ti": 2,
     "mobilidade_eletrica": 1
    },
    "procedimentos": {
     "Consulta Prévia": 3,
-    "Ajuste Direto Regime Geral": 2,
-    "Concurso público": 1
+    "Concurso público": 2,
+    "Ajuste Direto Regime Geral": 2
    },
    "faixas_preco": {
     "20-75k": 3,
     "<20k": 2,
+    ">150k": 1,
     "75-150k": 1
    },
    "fornecedores_habituais": [
@@ -6351,6 +6165,11 @@
      "nif": "513770267",
      "nome": "TUU Building Design Management, Lda",
      "contratos": 2
+    },
+    {
+     "nif": "504320882",
+     "nome": "MAXIGLOBAL - Equipamentos e Serviços de Informática, S.A.",
+     "contratos": 1
     },
     {
      "nif": "501290567",
@@ -6366,16 +6185,22 @@
      "nif": "517463075",
      "nome": "Waypoint Lda",
      "contratos": 1
-    },
-    {
-     "nif": "503888460",
-     "nome": "Tabique - Engenharia, Lda.",
-     "contratos": 1
     }
    ],
-   "fornecedor_dominante_pct": 33,
-   "ultimo_contrato": "2026-09-29",
+   "fornecedor_dominante_pct": 29,
+   "ultimo_contrato": "2026-10-27",
    "ultimos_contratos": [
+    {
+     "data": "2026-10-27",
+     "objeto": "Aquisição de unidades de refrigeração para datacenter - Azurém 2",
+     "preco": 300000.0,
+     "procedimento": "Concurso público",
+     "fornecedor": "MAXIGLOBAL - Equipamentos e Serviços de Informática, S.A.",
+     "categorias": [
+      "software_ti"
+     ],
+     "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15848320"
+    },
     {
      "data": "2026-09-29",
      "objeto": "Aquisição de Serviços de Elaboração dos Projetos",
@@ -6419,17 +6244,6 @@
       "software_ti"
      ],
      "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15510220"
-    },
-    {
-     "data": "2026-06-24",
-     "objeto": "Aquisição de serviço de fiscalização e coordenação de segurança em obra em empreitadas",
-     "preco": 35100.0,
-     "procedimento": "Consulta Prévia",
-     "fornecedor": "Tabique - Engenharia, Lda.",
-     "categorias": [
-      "projeto"
-     ],
-     "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15195313"
     }
    ],
    "base_url": "https://www.base.gov.pt/Base4/pt/pesquisa/?type=contratos&adjudicante=503904040"
@@ -6623,237 +6437,24 @@
    "base_url": "https://www.base.gov.pt/Base4/pt/pesquisa/?type=contratos&adjudicante=600084892"
   },
   {
-   "nif": "501442600",
-   "entidade": "Instituto do Emprego e da Formação Profissional, IP",
-   "prioridade": 3.6,
-   "contratos": 17,
-   "por_convite": 4,
-   "valor_total": 168538,
-   "valor_por_convite": 36698,
-   "categorias": {
-    "software_ti": 10,
-    "eletricidade": 4,
-    "projeto": 3,
-    "seguranca_incendio": 1
-   },
-   "procedimentos": {
-    "Contratação excluída II": 12,
-    "Ajuste Direto Regime Geral": 4,
-    "Concurso público": 1
-   },
-   "faixas_preco": {
-    "<20k": 16,
-    "20-75k": 1
-   },
-   "fornecedores_habituais": [
-    {
-     "nif": "- - carlos jorge goncalves ferraz",
-     "nome": "CARLOS JORGE GONÇALVES FERRAZ",
-     "contratos": 2
-    },
-    {
-     "nif": "- - guilherme manuel machado horta",
-     "nome": "GUILHERME MANUEL MACHADO HORTA",
-     "contratos": 2
-    },
-    {
-     "nif": "514565560",
-     "nome": "João Pedro Lameira - Engenharia Unipessoal, Lda",
-     "contratos": 1
-    },
-    {
-     "nif": "501060073",
-     "nome": "Barreiros, Costa & Sampaio, Sa",
-     "contratos": 1
-    },
-    {
-     "nif": "- - ricardo nuno goncalves silveira",
-     "nome": "RICARDO NUNO GONÇALVES SILVEIRA",
-     "contratos": 1
-    }
-   ],
-   "fornecedor_dominante_pct": 12,
-   "ultimo_contrato": "2026-09-16",
-   "ultimos_contratos": [
-    {
-     "data": "2026-09-16",
-     "objeto": "2021.005.02.E1  SFP Braga - Bloco C - Cuidados Pessoais - Elaboração de Relatório Auditoria/Certificação Energética - P",
-     "preco": 2170.0,
-     "procedimento": "Ajuste Direto Regime Geral",
-     "fornecedor": "João Pedro Lameira - Engenharia Unipessoal, Lda",
-     "categorias": [
-      "projeto"
-     ],
-     "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15623258"
-    },
-    {
-     "data": "2026-03-11",
-     "objeto": "Manutenção e reparação da instalação elétrica e cablagens do Serviço de Formação",
-     "preco": 9180.6,
-     "procedimento": "Ajuste Direto Regime Geral",
-     "fornecedor": "Barreiros, Costa & Sampaio, Sa",
-     "categorias": [
-      "eletricidade"
-     ],
-     "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=14014404"
-    },
-    {
-     "data": "2026-02-23",
-     "objeto": "PR2026328/25 - Formador APZ+ - Técnico/a Especialista em Cibersegurança - 25.0479",
-     "preco": 7802.0,
-     "procedimento": "Contratação excluída II",
-     "fornecedor": "RICARDO NUNO GONÇALVES SILVEIRA",
-     "categorias": [
-      "software_ti"
-     ],
-     "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=13570030"
-    },
-    {
-     "data": "2026-01-08",
-     "objeto": "12/01/2026 - Contratação Formador ID:25.0648 - Nº FIN: 481070E0004 - CET - Especialista em Tecnologias e Programação de ",
-     "preco": 5625.0,
-     "procedimento": "Contratação excluída II",
-     "fornecedor": "FRANCISCO MIGUEL NOGUEIRA DA COSTA",
-     "categorias": [
-      "software_ti"
-     ],
-     "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=12472953"
-    },
-    {
-     "data": "2025-12-22",
-     "objeto": "FORMADOR PARA AÇÃO ID: 25.0596 (481070E/0002) - CET - Cursos de Especialização Tecnológica [PESSOAS2030] - TÉCNICO ESPEC",
-     "preco": 5625.0,
-     "procedimento": "Contratação excluída II",
-     "fornecedor": "CARLOS JORGE GONÇALVES FERRAZ",
-     "categorias": [
-      "software_ti"
-     ],
-     "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=12170450"
-    }
-   ],
-   "base_url": "https://www.base.gov.pt/Base4/pt/pesquisa/?type=contratos&adjudicante=501442600"
-  },
-  {
-   "nif": "600070298",
-   "entidade": "Agrupamento de Escolas Gonçalo Nunes, Barcelos",
-   "prioridade": 3.6,
-   "contratos": 5,
-   "por_convite": 5,
-   "valor_total": 56476,
-   "valor_por_convite": 56476,
-   "categorias": {
-    "software_ti": 5
-   },
-   "procedimentos": {
-    "Consulta Prévia": 3,
-    "Ajuste Direto Regime Geral": 2
-   },
-   "faixas_preco": {
-    "<20k": 4,
-    "20-75k": 1
-   },
-   "fornecedores_habituais": [
-    {
-     "nif": "514360194",
-     "nome": "Mega Barcelos - Informatica e Tecnologia Unip., Lda.",
-     "contratos": 2
-    },
-    {
-     "nif": "508303451",
-     "nome": "ASNET Unipessoal, Lda",
-     "contratos": 1
-    },
-    {
-     "nif": "508792886",
-     "nome": "Inforários Software, Lda",
-     "contratos": 1
-    },
-    {
-     "nif": "503041688",
-     "nome": "UTIL-SOFT UTILITÁRIOS E SOFTWARE, LDA",
-     "contratos": 1
-    }
-   ],
-   "fornecedor_dominante_pct": 40,
-   "ultimo_contrato": "2026-09-02",
-   "ultimos_contratos": [
-    {
-     "data": "2026-09-02",
-     "objeto": "AQUISIÇÃO DE MATERIAL INFORMÁTICO",
-     "preco": 1743.3,
-     "procedimento": "Consulta Prévia",
-     "fornecedor": "ASNET Unipessoal, Lda",
-     "categorias": [
-      "software_ti"
-     ],
-     "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15572419"
-    },
-    {
-     "data": "2026-06-02",
-     "objeto": "AQUISIÇÃO DE MATERIAL INFORMÁTICO – Kits Digitais e Equipamento informático diverso",
-     "preco": 48249.2,
-     "procedimento": "Consulta Prévia",
-     "fornecedor": "Mega Barcelos - Informatica e Tecnologia Unip., Lda.",
-     "categorias": [
-      "software_ti"
-     ],
-     "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15056887"
-    },
-    {
-     "data": "2026-02-03",
-     "objeto": "Aquisição da continuidade do licenciamento do software do Sistema de Gestão de Horários Escolares.",
-     "preco": 671.55,
-     "procedimento": "Ajuste Direto Regime Geral",
-     "fornecedor": "Inforários Software, Lda",
-     "categorias": [
-      "software_ti"
-     ],
-     "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=13118008"
-    },
-    {
-     "data": "2025-05-07",
-     "objeto": "Aquisição da continuidade do licenciamento do Software de Convocatórias e Atas de Reunião",
-     "preco": 205.0,
-     "procedimento": "Ajuste Direto Regime Geral",
-     "fornecedor": "UTIL-SOFT UTILITÁRIOS E SOFTWARE, LDA",
-     "categorias": [
-      "software_ti"
-     ],
-     "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=11406679"
-    },
-    {
-     "data": "2025-05-05",
-     "objeto": "Aquisição de Equipamento e Software Informático.",
-     "preco": 5607.19,
-     "procedimento": "Consulta Prévia",
-     "fornecedor": "Megabarcelos – Informática e Tecnologia, Unipessoal, Lda",
-     "categorias": [
-      "software_ti"
-     ],
-     "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=11392165"
-    }
-   ],
-   "base_url": "https://www.base.gov.pt/Base4/pt/pesquisa/?type=contratos&adjudicante=600070298"
-  },
-  {
    "nif": "504943782",
    "entidade": "PIEP Associação Pólo de Inovação em Engenharia de Polímeros",
    "prioridade": 3.6,
-   "contratos": 7,
+   "contratos": 8,
    "por_convite": 5,
-   "valor_total": 162484,
+   "valor_total": 168034,
    "valor_por_convite": 67190,
    "categorias": {
-    "software_ti": 7
+    "software_ti": 8
    },
    "procedimentos": {
     "Ajuste Direto Regime Geral": 3,
+    "Contratação excluída II": 2,
     "Consulta Prévia": 2,
-    "Contratação excluída II": 1,
     "Concurso público": 1
    },
    "faixas_preco": {
-    "<20k": 4,
+    "<20k": 5,
     "20-75k": 3
    },
    "fornecedores_habituais": [
@@ -6861,6 +6462,11 @@
      "nif": "504099388",
      "nome": "Ricoh Portrugal IT Services Lda.",
      "contratos": 2
+    },
+    {
+     "nif": "- - stat-ease, inc",
+     "nome": "STAT-EASE, Inc",
+     "contratos": 1
     },
     {
      "nif": "506210855",
@@ -6876,16 +6482,22 @@
      "nif": "503092584",
      "nome": "Associação CCG / ZGDV - Centro de Computação Gráfica",
      "contratos": 1
-    },
-    {
-     "nif": "509101143",
-     "nome": "NEXUS SOLUTIONS SA",
-     "contratos": 1
     }
    ],
-   "fornecedor_dominante_pct": 29,
-   "ultimo_contrato": "2026-07-20",
+   "fornecedor_dominante_pct": 25,
+   "ultimo_contrato": "2026-10-30",
    "ultimos_contratos": [
+    {
+     "data": "2026-10-30",
+     "objeto": "Formação de utilização do software State-Ease",
+     "preco": 5550.0,
+     "procedimento": "Contratação excluída II",
+     "fornecedor": "STAT-EASE, Inc",
+     "categorias": [
+      "software_ti"
+     ],
+     "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15882080"
+    },
     {
      "data": "2026-07-20",
      "objeto": "Aquisição, instalação e configuração do Software Harmony Endpoint Advanced",
@@ -6929,20 +6541,164 @@
       "software_ti"
      ],
      "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=13505445"
-    },
-    {
-     "data": "2025-09-22",
-     "objeto": "Aquisição de workstation",
-     "preco": 5699.0,
-     "procedimento": "Consulta Prévia",
-     "fornecedor": "NEXUS SOLUTIONS SA",
-     "categorias": [
-      "software_ti"
-     ],
-     "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=11732559"
     }
    ],
    "base_url": "https://www.base.gov.pt/Base4/pt/pesquisa/?type=contratos&adjudicante=504943782"
+  },
+  {
+   "nif": "600085481",
+   "entidade": "Agrupamento de Escolas de Amares",
+   "prioridade": 3.6,
+   "contratos": 5,
+   "por_convite": 5,
+   "valor_total": 58067,
+   "valor_por_convite": 58067,
+   "categorias": {
+    "software_ti": 5
+   },
+   "procedimentos": {
+    "Ajuste Direto Regime Geral": 3,
+    "Consulta Prévia": 2
+   },
+   "faixas_preco": {
+    "<20k": 4,
+    "20-75k": 1
+   },
+   "fornecedores_habituais": [
+    {
+     "nif": "508303451",
+     "nome": "ASNET Unipessoal, Lda",
+     "contratos": 3
+    },
+    {
+     "nif": "508792886",
+     "nome": "INFORARIOS SOFTWARE LDA",
+     "contratos": 2
+    }
+   ],
+   "fornecedor_dominante_pct": 60,
+   "ultimo_contrato": "2026-10-29",
+   "ultimos_contratos": [
+    {
+     "data": "2026-10-29",
+     "objeto": "LICENCIAMENTO DE SOFTWARE",
+     "preco": 1434.83,
+     "procedimento": "Ajuste Direto Regime Geral",
+     "fornecedor": "INFORARIOS SOFTWARE LDA",
+     "categorias": [
+      "software_ti"
+     ],
+     "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15877754"
+    },
+    {
+     "data": "2026-09-11",
+     "objeto": "AQUISIÇÃO DE MATERIAL INFORMÁTICO",
+     "preco": 2719.9,
+     "procedimento": "Consulta Prévia",
+     "fornecedor": "ASNET Unipessoal, Lda",
+     "categorias": [
+      "software_ti"
+     ],
+     "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15604991"
+    },
+    {
+     "data": "2025-12-26",
+     "objeto": "Aquisição De Material Informático E Pedagógico",
+     "preco": 11033.14,
+     "procedimento": "Ajuste Direto Regime Geral",
+     "fornecedor": "ASNET",
+     "categorias": [
+      "software_ti"
+     ],
+     "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=12199181"
+    },
+    {
+     "data": "2025-10-29",
+     "objeto": "AQUISIÇÃO DE MATERIAL INFORMÁTICO E SOFTWARE",
+     "preco": 41479.45,
+     "procedimento": "Consulta Prévia",
+     "fornecedor": "ASNET UNIPESSOAL, LDA.",
+     "categorias": [
+      "software_ti"
+     ],
+     "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=11865353"
+    },
+    {
+     "data": "2025-06-27",
+     "objeto": "LICENCIAMENTO DE SOFTWARE",
+     "preco": 1399.83,
+     "procedimento": "Ajuste Direto Regime Geral",
+     "fornecedor": "Inforários Software, Lda.",
+     "categorias": [
+      "software_ti"
+     ],
+     "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=11540818"
+    }
+   ],
+   "base_url": "https://www.base.gov.pt/Base4/pt/pesquisa/?type=contratos&adjudicante=600085481"
+  },
+  {
+   "nif": "517842920",
+   "entidade": "Património Cultural, IP",
+   "prioridade": 3.6,
+   "contratos": 2,
+   "por_convite": 2,
+   "valor_total": 37630,
+   "valor_por_convite": 37630,
+   "categorias": {
+    "projeto": 2,
+    "eletricidade": 1,
+    "software_ti": 1
+   },
+   "procedimentos": {
+    "Ajuste Direto Regime Geral": 1,
+    "Consulta Prévia": 1
+   },
+   "faixas_preco": {
+    "<20k": 1,
+    "20-75k": 1
+   },
+   "fornecedores_habituais": [
+    {
+     "nif": "502460458",
+     "nome": "Pórtico-Arquitetura e Engenharia, Ldª",
+     "contratos": 1
+    },
+    {
+     "nif": "503040630",
+     "nome": "Vitor Hugo - Coordenação e Gestão de Projectos, SA",
+     "contratos": 1
+    }
+   ],
+   "fornecedor_dominante_pct": 50,
+   "ultimo_contrato": "2026-06-29",
+   "ultimos_contratos": [
+    {
+     "data": "2026-06-29",
+     "objeto": "PRR-Fiscalização e Coordenação de Segurança e Gestão Ambiental em obra da empreitada de Reestruturação das infraestrutur",
+     "preco": 12030.3,
+     "procedimento": "Ajuste Direto Regime Geral",
+     "fornecedor": "Pórtico-Arquitetura e Engenharia, Ldª",
+     "categorias": [
+      "eletricidade",
+      "projeto",
+      "software_ti"
+     ],
+     "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15220886"
+    },
+    {
+     "data": "2026-04-24",
+     "objeto": "ID 10725 PRR (32-A), Igreja de Santa Marinha da Costa: Fiscalização e Coordenação de Segurança e Gestão Ambiental em obr",
+     "preco": 25600.0,
+     "procedimento": "Consulta Prévia",
+     "fornecedor": "Vitor Hugo - Coordenação e Gestão de Projectos, SA",
+     "categorias": [
+      "projeto"
+     ],
+     "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=14642699"
+    }
+   ],
+   "base_url": "https://www.base.gov.pt/Base4/pt/pesquisa/?type=contratos&adjudicante=517842920"
   },
   {
    "nif": "502622393",
@@ -7004,6 +6760,117 @@
     }
    ],
    "base_url": "https://www.base.gov.pt/Base4/pt/pesquisa/?type=contratos&adjudicante=502622393"
+  },
+  {
+   "nif": "501442600",
+   "entidade": "Instituto do Emprego e da Formação Profissional, IP",
+   "prioridade": 3.5,
+   "contratos": 21,
+   "por_convite": 4,
+   "valor_total": 193438,
+   "valor_por_convite": 36698,
+   "categorias": {
+    "software_ti": 14,
+    "eletricidade": 4,
+    "projeto": 3,
+    "seguranca_incendio": 1
+   },
+   "procedimentos": {
+    "Contratação excluída II": 16,
+    "Ajuste Direto Regime Geral": 4,
+    "Concurso público": 1
+   },
+   "faixas_preco": {
+    "<20k": 20,
+    "20-75k": 1
+   },
+   "fornecedores_habituais": [
+    {
+     "nif": "- - ricardo nuno goncalves silveira",
+     "nome": "RICARDO NUNO GONÇALVES SILVEIRA",
+     "contratos": 2
+    },
+    {
+     "nif": "- - carlos jorge goncalves ferraz",
+     "nome": "CARLOS JORGE GONÇALVES FERRAZ",
+     "contratos": 2
+    },
+    {
+     "nif": "- - guilherme manuel machado horta",
+     "nome": "GUILHERME MANUEL MACHADO HORTA",
+     "contratos": 2
+    },
+    {
+     "nif": "- - tiago lucas alves",
+     "nome": "Tiago Lucas Alves",
+     "contratos": 1
+    },
+    {
+     "nif": "- - ana margarida dantas cajeira azevedo ataide",
+     "nome": "ANA MARGARIDA DANTAS CAJEIRA AZEVEDO ATAIDE",
+     "contratos": 1
+    }
+   ],
+   "fornecedor_dominante_pct": 10,
+   "ultimo_contrato": "2026-10-28",
+   "ultimos_contratos": [
+    {
+     "data": "2026-10-28",
+     "objeto": "PR2026328/889 - Formador APZ+ - Tec. Especialista em Cibersegurança",
+     "preco": 5310.0,
+     "procedimento": "Contratação excluída II",
+     "fornecedor": "RICARDO NUNO GONÇALVES SILVEIRA",
+     "categorias": [
+      "software_ti"
+     ],
+     "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15869105"
+    },
+    {
+     "data": "2026-10-28",
+     "objeto": "PR2026328/892 - Formador APZ+ - Tec. Especialista em Cibersegurança",
+     "preco": 6185.0,
+     "procedimento": "Contratação excluída II",
+     "fornecedor": "Tiago Lucas Alves",
+     "categorias": [
+      "software_ti"
+     ],
+     "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15869111"
+    },
+    {
+     "data": "2026-10-28",
+     "objeto": "PR2026328/895 - Formador APZ+ - Tec. Especialista em Cibersegurança",
+     "preco": 6165.0,
+     "procedimento": "Contratação excluída II",
+     "fornecedor": "ANA MARGARIDA DANTAS CAJEIRA AZEVEDO ATAIDE",
+     "categorias": [
+      "software_ti"
+     ],
+     "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15869191"
+    },
+    {
+     "data": "2026-10-28",
+     "objeto": "PR2026328/898 - Formador APZ+ - Tec. Especialista em Cibersegurança",
+     "preco": 7240.0,
+     "procedimento": "Contratação excluída II",
+     "fornecedor": "Nuno Miguel Silva Reisinho Campos",
+     "categorias": [
+      "software_ti"
+     ],
+     "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15869198"
+    },
+    {
+     "data": "2026-09-16",
+     "objeto": "2021.005.02.E1  SFP Braga - Bloco C - Cuidados Pessoais - Elaboração de Relatório Auditoria/Certificação Energética - P",
+     "preco": 2170.0,
+     "procedimento": "Ajuste Direto Regime Geral",
+     "fornecedor": "João Pedro Lameira - Engenharia Unipessoal, Lda",
+     "categorias": [
+      "projeto"
+     ],
+     "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15623258"
+    }
+   ],
+   "base_url": "https://www.base.gov.pt/Base4/pt/pesquisa/?type=contratos&adjudicante=501442600"
   },
   {
    "nif": "508754496",
@@ -7550,94 +7417,95 @@
    "base_url": "https://www.base.gov.pt/Base4/pt/pesquisa/?type=contratos&adjudicante=600070476"
   },
   {
-   "nif": "600076881",
-   "entidade": "Agrupamento de Escolas de Vila Verde",
+   "nif": "502077352",
+   "entidade": "Centro de Formação Profissional da Industria Metalúrgica e Metalomecânica (CENFIM)",
    "prioridade": 2.9,
    "contratos": 4,
-   "por_convite": 4,
-   "valor_total": 12214,
-   "valor_por_convite": 12214,
+   "por_convite": 2,
+   "valor_total": 109911,
+   "valor_por_convite": 50811,
    "categorias": {
-    "software_ti": 4
+    "software_ti": 2,
+    "eletricidade": 2,
+    "seguranca_incendio": 2
    },
    "procedimentos": {
-    "Consulta Prévia": 3,
-    "Ajuste Direto Regime Geral": 1
+    "Concurso público": 2,
+    "Ajuste Direto Regime Geral": 1,
+    "Consulta Prévia": 1
    },
    "faixas_preco": {
-    "<20k": 4
+    "20-75k": 3,
+    "<20k": 1
    },
    "fornecedores_habituais": [
     {
-     "nif": "508303451",
-     "nome": "ASNET UNIPESSOAL, LDA.",
+     "nif": "500243719",
+     "nome": "Securitas - Serviço e Tecnologias de Segurança, SA",
+     "contratos": 2
+    },
+    {
+     "nif": "503258121",
+     "nome": "EDNI-EMPRESA DISTRIBUIDORA DE MATERIAL INFORMATICO, LDA.",
      "contratos": 1
     },
     {
-     "nif": "505459671",
-     "nome": "Ataraxia - Estudos e Sist.Tec. de Informação, Lda.",
-     "contratos": 1
-    },
-    {
-     "nif": "503991767",
-     "nome": "Verdedata - Sistemas de Informática, Lda.",
-     "contratos": 1
-    },
-    {
-     "nif": "508775876",
-     "nome": "INOVAR",
+     "nif": "507555562",
+     "nome": "Paulo Dias - Soluções para Informática, Unipessoal, Lda,",
      "contratos": 1
     }
    ],
-   "fornecedor_dominante_pct": 25,
-   "ultimo_contrato": "2025-10-28",
+   "fornecedor_dominante_pct": 50,
+   "ultimo_contrato": "2026-04-16",
    "ultimos_contratos": [
     {
-     "data": "2025-10-28",
-     "objeto": "AQUISIÇÃO DE EQUIPAMENTOS INFORMÁTICOS, LEITOR AUTÓNOMO e SOFTWARES",
-     "preco": 1855.3,
-     "procedimento": "Consulta Prévia",
-     "fornecedor": "ASNET UNIPESSOAL, LDA.",
+     "data": "2026-04-16",
+     "objeto": "Aquisição, por LOTES, de Equipamentos Informáticos",
+     "preco": 29324.35,
+     "procedimento": "Concurso público",
+     "fornecedor": "EDNI-EMPRESA DISTRIBUIDORA DE MATERIAL INFORMATICO, LDA.",
      "categorias": [
       "software_ti"
      ],
-     "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=11854280"
+     "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=14546116"
     },
     {
-     "data": "2025-10-28",
-     "objeto": "AQUISIÇÃO DE EQUIPAMENTOS INFORMÁTICOS, LEITOR AUTÓNOMO e SOFTWARES",
-     "preco": 2150.64,
-     "procedimento": "Consulta Prévia",
-     "fornecedor": "Ataraxia - Estudos e Sist.Tec. de Informação, Lda.",
-     "categorias": [
-      "software_ti"
-     ],
-     "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=11854486"
-    },
-    {
-     "data": "2025-10-28",
-     "objeto": "AQUISIÇÃO DE EQUIPAMENTOS INFORMÁTICOS, LEITOR AUTÓNOMO e SOFTWARES",
-     "preco": 1882.6,
-     "procedimento": "Consulta Prévia",
-     "fornecedor": "Verdedata - Sistemas de Informática, Lda.",
-     "categorias": [
-      "software_ti"
-     ],
-     "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=11854650"
-    },
-    {
-     "data": "2025-06-09",
-     "objeto": "Integração de torniquetes no software escolar",
-     "preco": 6325.0,
+     "data": "2026-03-18",
+     "objeto": "Aquisição de serviços de Gestão e Manutenção dos Sistemas Automáticos de Deteção de Incêndios (SADI), Sistema Automático",
+     "preco": 2409.76,
      "procedimento": "Ajuste Direto Regime Geral",
-     "fornecedor": "INOVAR",
+     "fornecedor": "Securitas - Serviço e Tecnologias de Segurança, SA",
+     "categorias": [
+      "eletricidade",
+      "seguranca_incendio"
+     ],
+     "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=14180622"
+    },
+    {
+     "data": "2026-03-18",
+     "objeto": "Aquisição, por LOTES, de Serviços de Vigilância e de Gestão e Manutenção dos Sistemas Automáticos de Deteção de Incêndio",
+     "preco": 29775.8,
+     "procedimento": "Concurso público",
+     "fornecedor": "Securitas - Serviço e Tecnologias de Segurança, SA",
+     "categorias": [
+      "eletricidade",
+      "seguranca_incendio"
+     ],
+     "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=14182641"
+    },
+    {
+     "data": "2026-02-16",
+     "objeto": "Aquisição de Serviços de Gestão e Manutenção da Rede Informática (Porto, Departamentos do Porto, Ermesinde, DQASO, Arcos",
+     "preco": 48401.0,
+     "procedimento": "Consulta Prévia",
+     "fornecedor": "Paulo Dias - Soluções para Informática, Unipessoal, Lda,",
      "categorias": [
       "software_ti"
      ],
-     "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=11489458"
+     "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=13451351"
     }
    ],
-   "base_url": "https://www.base.gov.pt/Base4/pt/pesquisa/?type=contratos&adjudicante=600076881"
+   "base_url": "https://www.base.gov.pt/Base4/pt/pesquisa/?type=contratos&adjudicante=502077352"
   },
   {
    "nif": "513753362",
@@ -7714,82 +7582,6 @@
     }
    ],
    "base_url": "https://www.base.gov.pt/Base4/pt/pesquisa/?type=contratos&adjudicante=513753362"
-  },
-  {
-   "nif": "503879614",
-   "entidade": "Esposende 2000 - Actividades Desportivas e Recreativas, E. M. - Sociedade Unipessoal, L.da",
-   "prioridade": 2.7,
-   "contratos": 3,
-   "por_convite": 3,
-   "valor_total": 39450,
-   "valor_por_convite": 39450,
-   "categorias": {
-    "eletricidade": 2,
-    "seguranca_incendio": 1,
-    "software_ti": 1
-   },
-   "procedimentos": {
-    "Ajuste Direto Regime Geral": 3
-   },
-   "faixas_preco": {
-    "<20k": 3
-   },
-   "fornecedores_habituais": [
-    {
-     "nif": "502627760",
-     "nome": "Tecnofão - Instalações Eléctricas E Electrodomésticos, Lda",
-     "contratos": 1
-    },
-    {
-     "nif": "503154725",
-     "nome": "ESPO24-SISTEMAS DE SEGURANÇA LDA",
-     "contratos": 1
-    },
-    {
-     "nif": "513138188",
-     "nome": "Sincelo, Sistemas de Informação, Lda.",
-     "contratos": 1
-    }
-   ],
-   "fornecedor_dominante_pct": 33,
-   "ultimo_contrato": "2025-06-17",
-   "ultimos_contratos": [
-    {
-     "data": "2025-06-17",
-     "objeto": "Fornecimento e instalação de quadros elétricos para as Piscinas Exteriores do Complexo Piscinas Foz do Cávado",
-     "preco": 12500.0,
-     "procedimento": "Ajuste Direto Regime Geral",
-     "fornecedor": "Tecnofão - Instalações Eléctricas E Electrodomésticos, Lda",
-     "categorias": [
-      "eletricidade"
-     ],
-     "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=11524619"
-    },
-    {
-     "data": "2025-05-13",
-     "objeto": "Aquisição de sistemas de deteção de incêndio, de intrusão e de vigilância eletrónica (CCTV) para o Pavilhão Gimnodesport",
-     "preco": 13450.0,
-     "procedimento": "Ajuste Direto Regime Geral",
-     "fornecedor": "ESPO24-SISTEMAS DE SEGURANÇA LDA",
-     "categorias": [
-      "eletricidade",
-      "seguranca_incendio"
-     ],
-     "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=11426909"
-    },
-    {
-     "data": "2025-05-08",
-     "objeto": "Aquisição de serviços de assistência técnica e tecnológica a software GRID",
-     "preco": 13500.0,
-     "procedimento": "Ajuste Direto Regime Geral",
-     "fornecedor": "Sincelo, Sistemas de Informação, Lda.",
-     "categorias": [
-      "software_ti"
-     ],
-     "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=11408996"
-    }
-   ],
-   "base_url": "https://www.base.gov.pt/Base4/pt/pesquisa/?type=contratos&adjudicante=503879614"
   },
   {
    "nif": "507682734",
@@ -8205,6 +7997,81 @@
     }
    ],
    "base_url": "https://www.base.gov.pt/Base4/pt/pesquisa/?type=contratos&adjudicante=516844156"
+  },
+  {
+   "nif": "600070298",
+   "entidade": "Agrupamento de Escolas Gonçalo Nunes, Barcelos",
+   "prioridade": 2.2,
+   "contratos": 3,
+   "por_convite": 3,
+   "valor_total": 50664,
+   "valor_por_convite": 50664,
+   "categorias": {
+    "software_ti": 3
+   },
+   "procedimentos": {
+    "Consulta Prévia": 2,
+    "Ajuste Direto Regime Geral": 1
+   },
+   "faixas_preco": {
+    "<20k": 2,
+    "20-75k": 1
+   },
+   "fornecedores_habituais": [
+    {
+     "nif": "508303451",
+     "nome": "ASNET Unipessoal, Lda",
+     "contratos": 1
+    },
+    {
+     "nif": "514360194",
+     "nome": "Mega Barcelos - Informatica e Tecnologia Unip., Lda.",
+     "contratos": 1
+    },
+    {
+     "nif": "508792886",
+     "nome": "Inforários Software, Lda",
+     "contratos": 1
+    }
+   ],
+   "fornecedor_dominante_pct": 33,
+   "ultimo_contrato": "2026-09-02",
+   "ultimos_contratos": [
+    {
+     "data": "2026-09-02",
+     "objeto": "AQUISIÇÃO DE MATERIAL INFORMÁTICO",
+     "preco": 1743.3,
+     "procedimento": "Consulta Prévia",
+     "fornecedor": "ASNET Unipessoal, Lda",
+     "categorias": [
+      "software_ti"
+     ],
+     "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15572419"
+    },
+    {
+     "data": "2026-06-02",
+     "objeto": "AQUISIÇÃO DE MATERIAL INFORMÁTICO – Kits Digitais e Equipamento informático diverso",
+     "preco": 48249.2,
+     "procedimento": "Consulta Prévia",
+     "fornecedor": "Mega Barcelos - Informatica e Tecnologia Unip., Lda.",
+     "categorias": [
+      "software_ti"
+     ],
+     "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15056887"
+    },
+    {
+     "data": "2026-02-03",
+     "objeto": "Aquisição da continuidade do licenciamento do software do Sistema de Gestão de Horários Escolares.",
+     "preco": 671.55,
+     "procedimento": "Ajuste Direto Regime Geral",
+     "fornecedor": "Inforários Software, Lda",
+     "categorias": [
+      "software_ti"
+     ],
+     "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=13118008"
+    }
+   ],
+   "base_url": "https://www.base.gov.pt/Base4/pt/pesquisa/?type=contratos&adjudicante=600070298"
   },
   {
    "nif": "600084779",
@@ -8708,110 +8575,88 @@
    "base_url": "https://www.base.gov.pt/Base4/pt/pesquisa/?type=contratos&adjudicante=600078248"
   },
   {
-   "nif": "600085481",
-   "entidade": "Agrupamento de Escolas de Amares",
-   "prioridade": 2.0,
-   "contratos": 4,
-   "por_convite": 4,
-   "valor_total": 56632,
-   "valor_por_convite": 56632,
+   "nif": "503879614",
+   "entidade": "Esposende 2000 - Actividades Desportivas e Recreativas, E. M. - Sociedade Unipessoal, L.da",
+   "prioridade": 2.2,
+   "contratos": 2,
+   "por_convite": 2,
+   "valor_total": 25950,
+   "valor_por_convite": 25950,
    "categorias": {
-    "software_ti": 4
+    "eletricidade": 2,
+    "seguranca_incendio": 1
    },
    "procedimentos": {
-    "Consulta Prévia": 2,
     "Ajuste Direto Regime Geral": 2
    },
    "faixas_preco": {
-    "<20k": 3,
-    "20-75k": 1
+    "<20k": 2
    },
    "fornecedores_habituais": [
     {
-     "nif": "508303451",
-     "nome": "ASNET Unipessoal, Lda",
-     "contratos": 3
+     "nif": "502627760",
+     "nome": "Tecnofão - Instalações Eléctricas E Electrodomésticos, Lda",
+     "contratos": 1
     },
     {
-     "nif": "508792886",
-     "nome": "Inforários Software, Lda.",
+     "nif": "503154725",
+     "nome": "ESPO24-SISTEMAS DE SEGURANÇA LDA",
      "contratos": 1
     }
    ],
-   "fornecedor_dominante_pct": 75,
-   "ultimo_contrato": "2026-09-11",
+   "fornecedor_dominante_pct": 50,
+   "ultimo_contrato": "2025-06-17",
    "ultimos_contratos": [
     {
-     "data": "2026-09-11",
-     "objeto": "AQUISIÇÃO DE MATERIAL INFORMÁTICO",
-     "preco": 2719.9,
-     "procedimento": "Consulta Prévia",
-     "fornecedor": "ASNET Unipessoal, Lda",
-     "categorias": [
-      "software_ti"
-     ],
-     "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15604991"
-    },
-    {
-     "data": "2025-12-26",
-     "objeto": "Aquisição De Material Informático E Pedagógico",
-     "preco": 11033.14,
+     "data": "2025-06-17",
+     "objeto": "Fornecimento e instalação de quadros elétricos para as Piscinas Exteriores do Complexo Piscinas Foz do Cávado",
+     "preco": 12500.0,
      "procedimento": "Ajuste Direto Regime Geral",
-     "fornecedor": "ASNET",
+     "fornecedor": "Tecnofão - Instalações Eléctricas E Electrodomésticos, Lda",
      "categorias": [
-      "software_ti"
+      "eletricidade"
      ],
-     "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=12199181"
+     "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=11524619"
     },
     {
-     "data": "2025-10-29",
-     "objeto": "AQUISIÇÃO DE MATERIAL INFORMÁTICO E SOFTWARE",
-     "preco": 41479.45,
-     "procedimento": "Consulta Prévia",
-     "fornecedor": "ASNET UNIPESSOAL, LDA.",
-     "categorias": [
-      "software_ti"
-     ],
-     "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=11865353"
-    },
-    {
-     "data": "2025-06-27",
-     "objeto": "LICENCIAMENTO DE SOFTWARE",
-     "preco": 1399.83,
+     "data": "2025-05-13",
+     "objeto": "Aquisição de sistemas de deteção de incêndio, de intrusão e de vigilância eletrónica (CCTV) para o Pavilhão Gimnodesport",
+     "preco": 13450.0,
      "procedimento": "Ajuste Direto Regime Geral",
-     "fornecedor": "Inforários Software, Lda.",
+     "fornecedor": "ESPO24-SISTEMAS DE SEGURANÇA LDA",
      "categorias": [
-      "software_ti"
+      "eletricidade",
+      "seguranca_incendio"
      ],
-     "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=11540818"
+     "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=11426909"
     }
    ],
-   "base_url": "https://www.base.gov.pt/Base4/pt/pesquisa/?type=contratos&adjudicante=600085481"
+   "base_url": "https://www.base.gov.pt/Base4/pt/pesquisa/?type=contratos&adjudicante=503879614"
   },
   {
    "nif": "515486159",
    "entidade": "A. D. A. M. - Águas do Alto Minho, SA",
-   "prioridade": 2.0,
-   "contratos": 17,
+   "prioridade": 2.1,
+   "contratos": 16,
    "por_convite": 2,
-   "valor_total": 1484620,
+   "valor_total": 1403560,
    "valor_por_convite": 17940,
    "categorias": {
     "projeto": 5,
     "eletricidade": 5,
-    "software_ti": 5,
+    "software_ti": 4,
     "mobilidade_eletrica": 2,
     "seguranca_incendio": 1
    },
    "procedimentos": {
-    "Concurso público": 12,
+    "Concurso público": 11,
     "Ajuste Direto Regime Geral": 2,
     "Setores especiais – isenção parte II": 2,
     "Concurso limitado por prévia qualificação": 1
    },
    "faixas_preco": {
     "<20k": 6,
-    "75-150k": 6,
+    "75-150k": 5,
     "20-75k": 3,
     ">150k": 2
    },
@@ -8842,7 +8687,7 @@
      "contratos": 1
     }
    ],
-   "fornecedor_dominante_pct": 24,
+   "fornecedor_dominante_pct": 25,
    "ultimo_contrato": "2026-07-14",
    "ultimos_contratos": [
     {
@@ -8949,63 +8794,94 @@
    "base_url": "https://www.base.gov.pt/Base4/pt/pesquisa/?type=contratos&adjudicante=600075168"
   },
   {
-   "nif": "600079619",
-   "entidade": "Agrupamento de Escolas de Prado, Vila Verde",
+   "nif": "600076881",
+   "entidade": "Agrupamento de Escolas de Vila Verde",
    "prioridade": 1.9,
-   "contratos": 2,
-   "por_convite": 2,
-   "valor_total": 8792,
-   "valor_por_convite": 8792,
+   "contratos": 4,
+   "por_convite": 4,
+   "valor_total": 12214,
+   "valor_por_convite": 12214,
    "categorias": {
-    "eletricidade": 1,
-    "software_ti": 1
+    "software_ti": 4
    },
    "procedimentos": {
-    "Ajuste Direto Regime Geral": 1,
-    "Consulta Prévia": 1
+    "Consulta Prévia": 3,
+    "Ajuste Direto Regime Geral": 1
    },
    "faixas_preco": {
-    "<20k": 2
+    "<20k": 4
    },
    "fornecedores_habituais": [
     {
-     "nif": "516043315",
-     "nome": "ELECTRO FERNANDES, LDA",
+     "nif": "508303451",
+     "nome": "ASNET UNIPESSOAL, LDA.",
      "contratos": 1
     },
     {
-     "nif": "508303451",
-     "nome": "Asnet",
+     "nif": "505459671",
+     "nome": "Ataraxia - Estudos e Sist.Tec. de Informação, Lda.",
+     "contratos": 1
+    },
+    {
+     "nif": "503991767",
+     "nome": "Verdedata - Sistemas de Informática, Lda.",
+     "contratos": 1
+    },
+    {
+     "nif": "508775876",
+     "nome": "INOVAR",
      "contratos": 1
     }
    ],
-   "fornecedor_dominante_pct": 50,
-   "ultimo_contrato": "2026-07-10",
+   "fornecedor_dominante_pct": 25,
+   "ultimo_contrato": "2025-10-28",
    "ultimos_contratos": [
     {
-     "data": "2026-07-10",
-     "objeto": "AQUISIÇÃO DE MATERIAL ELETRICO E SERVIÇOS DE INSTALAÇÃO",
-     "preco": 4791.94,
-     "procedimento": "Ajuste Direto Regime Geral",
-     "fornecedor": "ELECTRO FERNANDES, LDA",
-     "categorias": [
-      "eletricidade"
-     ],
-     "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15263166"
-    },
-    {
-     "data": "2025-05-05",
-     "objeto": "AQUISIÇÃO DE SERVIÇOS DE ASSISTÊNCIA INFORMÁTICA",
-     "preco": 4000.0,
+     "data": "2025-10-28",
+     "objeto": "AQUISIÇÃO DE EQUIPAMENTOS INFORMÁTICOS, LEITOR AUTÓNOMO e SOFTWARES",
+     "preco": 1855.3,
      "procedimento": "Consulta Prévia",
-     "fornecedor": "Asnet",
+     "fornecedor": "ASNET UNIPESSOAL, LDA.",
      "categorias": [
       "software_ti"
      ],
-     "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=11392565"
+     "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=11854280"
+    },
+    {
+     "data": "2025-10-28",
+     "objeto": "AQUISIÇÃO DE EQUIPAMENTOS INFORMÁTICOS, LEITOR AUTÓNOMO e SOFTWARES",
+     "preco": 2150.64,
+     "procedimento": "Consulta Prévia",
+     "fornecedor": "Ataraxia - Estudos e Sist.Tec. de Informação, Lda.",
+     "categorias": [
+      "software_ti"
+     ],
+     "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=11854486"
+    },
+    {
+     "data": "2025-10-28",
+     "objeto": "AQUISIÇÃO DE EQUIPAMENTOS INFORMÁTICOS, LEITOR AUTÓNOMO e SOFTWARES",
+     "preco": 1882.6,
+     "procedimento": "Consulta Prévia",
+     "fornecedor": "Verdedata - Sistemas de Informática, Lda.",
+     "categorias": [
+      "software_ti"
+     ],
+     "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=11854650"
+    },
+    {
+     "data": "2025-06-09",
+     "objeto": "Integração de torniquetes no software escolar",
+     "preco": 6325.0,
+     "procedimento": "Ajuste Direto Regime Geral",
+     "fornecedor": "INOVAR",
+     "categorias": [
+      "software_ti"
+     ],
+     "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=11489458"
     }
    ],
-   "base_url": "https://www.base.gov.pt/Base4/pt/pesquisa/?type=contratos&adjudicante=600079619"
+   "base_url": "https://www.base.gov.pt/Base4/pt/pesquisa/?type=contratos&adjudicante=600076881"
   },
   {
    "nif": "501449752",
@@ -9123,65 +8999,6 @@
     }
    ],
    "base_url": "https://www.base.gov.pt/Base4/pt/pesquisa/?type=contratos&adjudicante=501676430"
-  },
-  {
-   "nif": "504807706",
-   "entidade": "IB - Agência para a Dinamização Económica, EM",
-   "prioridade": 1.7,
-   "contratos": 2,
-   "por_convite": 2,
-   "valor_total": 94400,
-   "valor_por_convite": 94400,
-   "categorias": {
-    "projeto": 2
-   },
-   "procedimentos": {
-    "Ajuste Direto Regime Geral": 1,
-    "Consulta Prévia": 1
-   },
-   "faixas_preco": {
-    "<20k": 1,
-    "20-75k": 1
-   },
-   "fornecedores_habituais": [
-    {
-     "nif": "503888460",
-     "nome": "Tabique - Engenharia, Lda.",
-     "contratos": 1
-    },
-    {
-     "nif": "503040630",
-     "nome": "Vitor Hugo - Coordenação e Gestão de Projetos, S.A.",
-     "contratos": 1
-    }
-   ],
-   "fornecedor_dominante_pct": 50,
-   "ultimo_contrato": "2026-05-05",
-   "ultimos_contratos": [
-    {
-     "data": "2026-05-05",
-     "objeto": "A D N.º 14/2026 - Revisão do projeto de especialidades no âmbito do projeto Bio-MedTech Hub",
-     "preco": 19900.0,
-     "procedimento": "Ajuste Direto Regime Geral",
-     "fornecedor": "Tabique - Engenharia, Lda.",
-     "categorias": [
-      "projeto"
-     ],
-     "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=14730900"
-    },
-    {
-     "data": "2025-05-09",
-     "objeto": "Consulta Prévia n.º 15/2025 - Elaboração de Projeto de Execução referente à construção de um Centro de Valorização e Tra",
-     "preco": 74500.0,
-     "procedimento": "Consulta Prévia",
-     "fornecedor": "Vitor Hugo - Coordenação e Gestão de Projetos, S.A.",
-     "categorias": [
-      "projeto"
-     ],
-     "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=11410884"
-    }
-   ],
-   "base_url": "https://www.base.gov.pt/Base4/pt/pesquisa/?type=contratos&adjudicante=504807706"
   },
   {
    "nif": "502503874",
@@ -9584,6 +9401,76 @@
     }
    ],
    "base_url": "https://www.base.gov.pt/Base4/pt/pesquisa/?type=contratos&adjudicante=515113859"
+  },
+  {
+   "nif": "600081702",
+   "entidade": "Agrupamento de Escolas André Soares, Braga",
+   "prioridade": 1.5,
+   "contratos": 3,
+   "por_convite": 3,
+   "valor_total": 41978,
+   "valor_por_convite": 41978,
+   "categorias": {
+    "software_ti": 3
+   },
+   "procedimentos": {
+    "Consulta Prévia": 2,
+    "Ajuste Direto Regime Geral": 1
+   },
+   "faixas_preco": {
+    "<20k": 2,
+    "20-75k": 1
+   },
+   "fornecedores_habituais": [
+    {
+     "nif": "508303451",
+     "nome": "ASNET UNIPESSOAL, LDA.",
+     "contratos": 2
+    },
+    {
+     "nif": "517896982",
+     "nome": "Amplitude Portatil, Unip. Lda",
+     "contratos": 1
+    }
+   ],
+   "fornecedor_dominante_pct": 67,
+   "ultimo_contrato": "2026-10-29",
+   "ultimos_contratos": [
+    {
+     "data": "2026-10-29",
+     "objeto": "AQUISIÇÃO DE MATERIAL INFORMÁTICO",
+     "preco": 4369.29,
+     "procedimento": "Ajuste Direto Regime Geral",
+     "fornecedor": "Amplitude Portatil, Unip. Lda",
+     "categorias": [
+      "software_ti"
+     ],
+     "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15873553"
+    },
+    {
+     "data": "2025-07-15",
+     "objeto": "Aquisição De Material Informático – kits Digitais II",
+     "preco": 5689.6,
+     "procedimento": "Consulta Prévia",
+     "fornecedor": "ASNET UNIPESSOAL, LDA.",
+     "categorias": [
+      "software_ti"
+     ],
+     "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=11584705"
+    },
+    {
+     "data": "2025-06-11",
+     "objeto": "Aquisição De Material Informático – kits Digitais e carregador de portáteis",
+     "preco": 31919.5,
+     "procedimento": "Consulta Prévia",
+     "fornecedor": "Asnet",
+     "categorias": [
+      "software_ti"
+     ],
+     "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=11513085"
+    }
+   ],
+   "base_url": "https://www.base.gov.pt/Base4/pt/pesquisa/?type=contratos&adjudicante=600081702"
   },
   {
    "nif": "502530863",
@@ -11486,6 +11373,47 @@
    "base_url": "https://www.base.gov.pt/Base4/pt/pesquisa/?type=contratos&adjudicante=505552060"
   },
   {
+   "nif": "600079619",
+   "entidade": "Agrupamento de Escolas de Prado, Vila Verde",
+   "prioridade": 0.8,
+   "contratos": 1,
+   "por_convite": 1,
+   "valor_total": 4792,
+   "valor_por_convite": 4792,
+   "categorias": {
+    "eletricidade": 1
+   },
+   "procedimentos": {
+    "Ajuste Direto Regime Geral": 1
+   },
+   "faixas_preco": {
+    "<20k": 1
+   },
+   "fornecedores_habituais": [
+    {
+     "nif": "516043315",
+     "nome": "ELECTRO FERNANDES, LDA",
+     "contratos": 1
+    }
+   ],
+   "fornecedor_dominante_pct": 100,
+   "ultimo_contrato": "2026-07-10",
+   "ultimos_contratos": [
+    {
+     "data": "2026-07-10",
+     "objeto": "AQUISIÇÃO DE MATERIAL ELETRICO E SERVIÇOS DE INSTALAÇÃO",
+     "preco": 4791.94,
+     "procedimento": "Ajuste Direto Regime Geral",
+     "fornecedor": "ELECTRO FERNANDES, LDA",
+     "categorias": [
+      "eletricidade"
+     ],
+     "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15263166"
+    }
+   ],
+   "base_url": "https://www.base.gov.pt/Base4/pt/pesquisa/?type=contratos&adjudicante=600079619"
+  },
+  {
    "nif": "500886342",
    "entidade": "LAR DE SANTO ANTÓNIO",
    "prioridade": 0.8,
@@ -11814,65 +11742,6 @@
    "base_url": "https://www.base.gov.pt/Base4/pt/pesquisa/?type=contratos&adjudicante=510837913"
   },
   {
-   "nif": "507068076",
-   "entidade": "EAmb - Esposende Ambiente, EM",
-   "prioridade": 0.7,
-   "contratos": 2,
-   "por_convite": 1,
-   "valor_total": 272273,
-   "valor_por_convite": 89412,
-   "categorias": {
-    "software_ti": 2
-   },
-   "procedimentos": {
-    "Concurso público": 1,
-    "Ajuste Direto Regime Geral": 1
-   },
-   "faixas_preco": {
-    ">150k": 1,
-    "75-150k": 1
-   },
-   "fornecedores_habituais": [
-    {
-     "nif": "510267440",
-     "nome": "Digiheart, Lda",
-     "contratos": 1
-    },
-    {
-     "nif": "501472657",
-     "nome": "CASO - Consultores Associados de Organizações e Informática , Lda.",
-     "contratos": 1
-    }
-   ],
-   "fornecedor_dominante_pct": 50,
-   "ultimo_contrato": "2026-09-16",
-   "ultimos_contratos": [
-    {
-     "data": "2026-09-16",
-     "objeto": "Aquisição da Renovação do Sistema de CiberSegurança Checkpoint e Serviços Especializados Security e Compliance",
-     "preco": 182861.38,
-     "procedimento": "Concurso público",
-     "fornecedor": "Digiheart, Lda",
-     "categorias": [
-      "software_ti"
-     ],
-     "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15625476"
-    },
-    {
-     "data": "2025-05-07",
-     "objeto": "Aquisição de serviços de evolução, manutenção e assistência técnica da aplicação IGweb",
-     "preco": 89412.0,
-     "procedimento": "Ajuste Direto Regime Geral",
-     "fornecedor": "CASO - Consultores Associados de Organizações e Informática , Lda.",
-     "categorias": [
-      "software_ti"
-     ],
-     "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=11406682"
-    }
-   ],
-   "base_url": "https://www.base.gov.pt/Base4/pt/pesquisa/?type=contratos&adjudicante=507068076"
-  },
-  {
    "nif": "508905435",
    "entidade": "Turismo do Porto e Norte de Portugal",
    "prioridade": 0.7,
@@ -11991,57 +11860,86 @@
    "base_url": "https://www.base.gov.pt/Base4/pt/pesquisa/?type=contratos&adjudicante=504731475"
   },
   {
-   "nif": "600081702",
-   "entidade": "Agrupamento de Escolas André Soares, Braga",
-   "prioridade": 0.7,
-   "contratos": 2,
-   "por_convite": 2,
-   "valor_total": 37609,
-   "valor_por_convite": 37609,
+   "nif": "510836356",
+   "entidade": "União das Freguesias de Creixomil e Mariz",
+   "prioridade": 0.6,
+   "contratos": 1,
+   "por_convite": 1,
+   "valor_total": 11250,
+   "valor_por_convite": 11250,
    "categorias": {
-    "software_ti": 2
+    "projeto": 1
    },
    "procedimentos": {
-    "Consulta Prévia": 2
+    "Ajuste Direto Regime Geral": 1
    },
    "faixas_preco": {
-    "<20k": 1,
+    "<20k": 1
+   },
+   "fornecedores_habituais": [
+    {
+     "nif": "509963706",
+     "nome": "INCEPTION ARCHITECTS STUDIO, UNIPESSOAL, LDA.",
+     "contratos": 1
+    }
+   ],
+   "fornecedor_dominante_pct": 100,
+   "ultimo_contrato": "2026-10-28",
+   "ultimos_contratos": [
+    {
+     "data": "2026-10-28",
+     "objeto": "Projeto de licenciamento (arquitetura e especialidades) para o muro da Rua da Calçada",
+     "preco": 11250.0,
+     "procedimento": "Ajuste Direto Regime Geral",
+     "fornecedor": "INCEPTION ARCHITECTS STUDIO, UNIPESSOAL, LDA.",
+     "categorias": [
+      "projeto"
+     ],
+     "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15849981"
+    }
+   ],
+   "base_url": "https://www.base.gov.pt/Base4/pt/pesquisa/?type=contratos&adjudicante=510836356"
+  },
+  {
+   "nif": "500788499",
+   "entidade": "Associação de Pais e Amigos Centrada na Inclusão - APACI",
+   "prioridade": 0.6,
+   "contratos": 1,
+   "por_convite": 1,
+   "valor_total": 45050,
+   "valor_por_convite": 45050,
+   "categorias": {
+    "projeto": 1
+   },
+   "procedimentos": {
+    "Consulta Prévia": 1
+   },
+   "faixas_preco": {
     "20-75k": 1
    },
    "fornecedores_habituais": [
     {
-     "nif": "508303451",
-     "nome": "ASNET UNIPESSOAL, LDA.",
-     "contratos": 2
+     "nif": "514384557",
+     "nome": "Joist Concept Engenharia Unipessoal Lda.",
+     "contratos": 1
     }
    ],
    "fornecedor_dominante_pct": 100,
-   "ultimo_contrato": "2025-07-15",
+   "ultimo_contrato": "2026-10-27",
    "ultimos_contratos": [
     {
-     "data": "2025-07-15",
-     "objeto": "Aquisição De Material Informático – kits Digitais II",
-     "preco": 5689.6,
+     "data": "2026-10-27",
+     "objeto": "Prestação de serviços de fiscalização e coordenação para a Empreitada de Alteração e Ampliação do Centro Actividades e C",
+     "preco": 45050.0,
      "procedimento": "Consulta Prévia",
-     "fornecedor": "ASNET UNIPESSOAL, LDA.",
+     "fornecedor": "Joist Concept Engenharia Unipessoal Lda.",
      "categorias": [
-      "software_ti"
+      "projeto"
      ],
-     "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=11584705"
-    },
-    {
-     "data": "2025-06-11",
-     "objeto": "Aquisição De Material Informático – kits Digitais e carregador de portáteis",
-     "preco": 31919.5,
-     "procedimento": "Consulta Prévia",
-     "fornecedor": "Asnet",
-     "categorias": [
-      "software_ti"
-     ],
-     "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=11513085"
+     "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15849141"
     }
    ],
-   "base_url": "https://www.base.gov.pt/Base4/pt/pesquisa/?type=contratos&adjudicante=600081702"
+   "base_url": "https://www.base.gov.pt/Base4/pt/pesquisa/?type=contratos&adjudicante=500788499"
   },
   {
    "nif": "501947744",
@@ -12247,6 +12145,47 @@
     }
    ],
    "base_url": "https://www.base.gov.pt/Base4/pt/pesquisa/?type=contratos&adjudicante=508666236"
+  },
+  {
+   "nif": "508184509",
+   "entidade": "Agência para a Reforma Tecnológica do Estado, IP",
+   "prioridade": 0.6,
+   "contratos": 1,
+   "por_convite": 1,
+   "valor_total": 32250,
+   "valor_por_convite": 32250,
+   "categorias": {
+    "projeto": 1
+   },
+   "procedimentos": {
+    "Consulta Prévia": 1
+   },
+   "faixas_preco": {
+    "20-75k": 1
+   },
+   "fornecedores_habituais": [
+    {
+     "nif": "503040630",
+     "nome": "Vitor Hugo - Coordenação e Gestão de Projectos, SA",
+     "contratos": 1
+    }
+   ],
+   "fornecedor_dominante_pct": 100,
+   "ultimo_contrato": "2026-07-29",
+   "ultimos_contratos": [
+    {
+     "data": "2026-07-29",
+     "objeto": "SERVIÇOS DE FISCALIZAÇÃO E COORDENAÇÃO DE SEGURANÇA EM OBRA DAS EMPREITADAS DE REMODELAÇÃO DAS LOJAS DE CIDADÃO DO PORTO",
+     "preco": 32250.0,
+     "procedimento": "Consulta Prévia",
+     "fornecedor": "Vitor Hugo - Coordenação e Gestão de Projectos, SA",
+     "categorias": [
+      "projeto"
+     ],
+     "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15409355"
+    }
+   ],
+   "base_url": "https://www.base.gov.pt/Base4/pt/pesquisa/?type=contratos&adjudicante=508184509"
   },
   {
    "nif": "507064402",
@@ -12534,6 +12473,47 @@
     }
    ],
    "base_url": "https://www.base.gov.pt/Base4/pt/pesquisa/?type=contratos&adjudicante=507007239"
+  },
+  {
+   "nif": "504807706",
+   "entidade": "IB - Agência para a Dinamização Económica, EM",
+   "prioridade": 0.6,
+   "contratos": 1,
+   "por_convite": 1,
+   "valor_total": 19900,
+   "valor_por_convite": 19900,
+   "categorias": {
+    "projeto": 1
+   },
+   "procedimentos": {
+    "Ajuste Direto Regime Geral": 1
+   },
+   "faixas_preco": {
+    "<20k": 1
+   },
+   "fornecedores_habituais": [
+    {
+     "nif": "503888460",
+     "nome": "Tabique - Engenharia, Lda.",
+     "contratos": 1
+    }
+   ],
+   "fornecedor_dominante_pct": 100,
+   "ultimo_contrato": "2026-05-05",
+   "ultimos_contratos": [
+    {
+     "data": "2026-05-05",
+     "objeto": "A D N.º 14/2026 - Revisão do projeto de especialidades no âmbito do projeto Bio-MedTech Hub",
+     "preco": 19900.0,
+     "procedimento": "Ajuste Direto Regime Geral",
+     "fornecedor": "Tabique - Engenharia, Lda.",
+     "categorias": [
+      "projeto"
+     ],
+     "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=14730900"
+    }
+   ],
+   "base_url": "https://www.base.gov.pt/Base4/pt/pesquisa/?type=contratos&adjudicante=504807706"
   },
   {
    "nif": "501994556",
@@ -13028,47 +13008,6 @@
    "base_url": "https://www.base.gov.pt/Base4/pt/pesquisa/?type=contratos&adjudicante=510840850"
   },
   {
-   "nif": "504781995",
-   "entidade": "Centro Paroquial e Social de São João Baptista de Bico",
-   "prioridade": 0.6,
-   "contratos": 1,
-   "por_convite": 1,
-   "valor_total": 5850,
-   "valor_por_convite": 5850,
-   "categorias": {
-    "projeto": 1
-   },
-   "procedimentos": {
-    "Ajuste Direto Regime Geral": 1
-   },
-   "faixas_preco": {
-    "<20k": 1
-   },
-   "fornecedores_habituais": [
-    {
-     "nif": "519020073",
-     "nome": "R2P Consultoria Lda.",
-     "contratos": 1
-    }
-   ],
-   "fornecedor_dominante_pct": 100,
-   "ultimo_contrato": "2025-10-30",
-   "ultimos_contratos": [
-    {
-     "data": "2025-10-30",
-     "objeto": "serviços de coordenação de segurança em obra e fiscalização",
-     "preco": 5850.0,
-     "procedimento": "Ajuste Direto Regime Geral",
-     "fornecedor": "R2P Consultoria Lda.",
-     "categorias": [
-      "projeto"
-     ],
-     "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=11868728"
-    }
-   ],
-   "base_url": "https://www.base.gov.pt/Base4/pt/pesquisa/?type=contratos&adjudicante=504781995"
-  },
-  {
    "nif": "506960609",
    "entidade": "Freguesia de Balugães",
    "prioridade": 0.6,
@@ -13231,6 +13170,47 @@
     }
    ],
    "base_url": "https://www.base.gov.pt/Base4/pt/pesquisa/?type=contratos&adjudicante=500899592"
+  },
+  {
+   "nif": "503190616",
+   "entidade": "Associação Comercial e Industrial da Bairrada",
+   "prioridade": 0.5,
+   "contratos": 1,
+   "por_convite": 1,
+   "valor_total": 69780,
+   "valor_por_convite": 69780,
+   "categorias": {
+    "software_ti": 1
+   },
+   "procedimentos": {
+    "Consulta Prévia": 1
+   },
+   "faixas_preco": {
+    "20-75k": 1
+   },
+   "fornecedores_habituais": [
+    {
+     "nif": "501632174",
+     "nome": "Centro Tecnológico da Cerãmica e do Vidro",
+     "contratos": 1
+    }
+   ],
+   "fornecedor_dominante_pct": 100,
+   "ultimo_contrato": "2026-10-25",
+   "ultimos_contratos": [
+    {
+     "data": "2026-10-25",
+     "objeto": "Aquisição de serviços especializados para a conceção, desenvolvimento e implementação de estudos estratégicos, instrumen",
+     "preco": 69780.0,
+     "procedimento": "Consulta Prévia",
+     "fornecedor": "Centro Tecnológico da Cerãmica e do Vidro",
+     "categorias": [
+      "software_ti"
+     ],
+     "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=15832375"
+    }
+   ],
+   "base_url": "https://www.base.gov.pt/Base4/pt/pesquisa/?type=contratos&adjudicante=503190616"
   },
   {
    "nif": "514107405",
@@ -14110,6 +14090,47 @@
     }
    ],
    "base_url": "https://www.base.gov.pt/Base4/pt/pesquisa/?type=contratos&adjudicante=504596608"
+  },
+  {
+   "nif": "504781995",
+   "entidade": "Centro Paroquial e Social de São João Baptista de Bico",
+   "prioridade": 0.4,
+   "contratos": 1,
+   "por_convite": 1,
+   "valor_total": 5850,
+   "valor_por_convite": 5850,
+   "categorias": {
+    "projeto": 1
+   },
+   "procedimentos": {
+    "Ajuste Direto Regime Geral": 1
+   },
+   "faixas_preco": {
+    "<20k": 1
+   },
+   "fornecedores_habituais": [
+    {
+     "nif": "519020073",
+     "nome": "R2P Consultoria Lda.",
+     "contratos": 1
+    }
+   ],
+   "fornecedor_dominante_pct": 100,
+   "ultimo_contrato": "2025-10-30",
+   "ultimos_contratos": [
+    {
+     "data": "2025-10-30",
+     "objeto": "serviços de coordenação de segurança em obra e fiscalização",
+     "preco": 5850.0,
+     "procedimento": "Ajuste Direto Regime Geral",
+     "fornecedor": "R2P Consultoria Lda.",
+     "categorias": [
+      "projeto"
+     ],
+     "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=contratos&id=11868728"
+    }
+   ],
+   "base_url": "https://www.base.gov.pt/Base4/pt/pesquisa/?type=contratos&adjudicante=504781995"
   },
   {
    "nif": "510836569",
