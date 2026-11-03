@@ -1,7 +1,62 @@
 {
- "gerado_em": "2026-11-02T13:51",
- "n": 20,
+ "gerado_em": "2026-11-03T13:01",
+ "n": 22,
  "anuncios": [
+  {
+   "origem": "BASE",
+   "id": "459539",
+   "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=anuncios&id=459539",
+   "titulo": "Dotar a Rua Agostinho José Taveira de condições seguras de circulação pedonal e automóvel, incluindo a iluminação pública e a estabilidade da plataforma da via, nos termos do projeto de execução. Esta...",
+   "tipo_ato": "Anúncio de procedimento",
+   "procedimento": "Concurso público",
+   "entidade": "Município de Ponte de Lima",
+   "preco_base": 650000.0,
+   "publicado": "2026-11-03",
+   "categorias": [
+    "eletricidade",
+    "projeto"
+   ],
+   "minho": true,
+   "objeto": "Dotar a Rua Agostinho José Taveira de condições seguras de circulação pedonal e automóvel, incluindo a iluminação pública e a estabilidade da plataforma da via, nos termos do projeto de execução. Estas funções não estão hoje garantidas, porque parte dos trabalhos de requalificação se encontra por executar. A via apresenta sinalização por colocar, pavimentação em falta, pavimentos a rever e corrigir, muros de suporte por executar e iluminação pública por instalar. Quanto à sua extensão, a necessidade abrange os trabalhos acima identificados e ainda novos trabalhos de pavimentação e de iluminação pública previstos no projeto de execução, necessários para dar continuidade e uniformidade às condições de circulação e de iluminação na rua e na sua envolvente imediata.",
+   "prazo_propostas": "13 dias.",
+   "cpv": "45233140-2, Obras em estradas",
+   "classe": "A"
+  },
+  {
+   "origem": "BASE",
+   "id": "459538",
+   "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=anuncios&id=459538",
+   "titulo": "A proposta surge da necessidade de beneficiar a Piscina Municipal de Ponte de Lima, resultante da auditoria energética realizada no âmbito da implementação de medidas para a melhoria da eficiência ene...",
+   "tipo_ato": "Anúncio de procedimento",
+   "procedimento": "Concurso público",
+   "entidade": "Município de Ponte de Lima",
+   "preco_base": 330000.0,
+   "publicado": "2026-11-03",
+   "categorias": [
+    "projeto"
+   ],
+   "minho": true,
+   "classe": "A"
+  },
+  {
+   "origem": "BASE",
+   "id": "459536",
+   "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=anuncios&id=459536",
+   "titulo": "CONCURSO PÚBLICO PARA A RENOVAÇÃO DE LICENCIAMENTO DE SOFTWARE VMWARE PARA O ISCTE  INSTITUTO UNIVERSITÁRIO DE LISBOA",
+   "tipo_ato": "Anúncio de procedimento",
+   "procedimento": "Concurso público",
+   "entidade": "ISCTE - Instituto Universitário de Lisboa",
+   "preco_base": 171373.44,
+   "publicado": "2026-11-03",
+   "categorias": [
+    "software_ti"
+   ],
+   "minho": false,
+   "objeto": "CONCURSO PÚBLICO PARA A RENOVAÇÃO DE LICENCIAMENTO DE SOFTWARE VMWARE PARA O ISCTE  INSTITUTO UNIVERSITÁRIO DE LISBOA",
+   "prazo_propostas": "7 dias.",
+   "cpv": "48219000-6, Pacote de software para ligações diversas em rede",
+   "classe": "B"
+  },
   {
    "origem": "BidsFactory",
    "url": "https://bidsfactory.com/en/tenders/prestacao-de-servicos-de-fiscalizacao-da-exploraca-base_gov_pt-f189d8128b0a491b",
@@ -34,6 +89,25 @@
    "procedimento": "Public tender",
    "cpv": "72500000-0",
    "n_dr": "25343/2026",
+   "categorias": [
+    "software_ti"
+   ],
+   "minho": false,
+   "classe": "B"
+  },
+  {
+   "origem": "BidsFactory",
+   "url": "https://bidsfactory.com/en/tenders/aquisicao-de-servicos-de-suporte-e-assistencia-tec-ted-5522cfe2a333e53b",
+   "titulo": "Aquisição de serviços de suporte e assistência técnica de sistemas e equipamentos do parque de servidores e da infraestrutura da rede informática do Tribunal de Contas",
+   "titulo_en": "Acquisition of support and technical assistance services for systems and equipment of the server park and the IT network infrastructure of the Court of Auditors",
+   "titulo_pt": "Aquisição de serviços de suporte e assistência técnica de sistemas e equipamentos do parque de servidores e da infraestrutura da rede informática do Tribunal de Contas",
+   "entidade": "Direção-Geral do Tribunal de Contas",
+   "preco_base": null,
+   "publicado": "Nov 3, 2026",
+   "prazo_propostas": null,
+   "procedimento": null,
+   "cpv": null,
+   "n_dr": null,
    "categorias": [
     "software_ti"
    ],
@@ -99,21 +173,21 @@
   },
   {
    "origem": "BASE",
-   "id": "459431",
-   "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=anuncios&id=459431",
-   "titulo": "AQUISIÇÃO DE SERVIÇOS PARA A ELABORAÇÃO DE PROJETODE REQUALIFICAÇÃO E AMPLIAÇÃO DA ESCOLA BÁSICA DO CONDADO, FREGUESIA DE MARVILA",
+   "id": "459526",
+   "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=anuncios&id=459526",
+   "titulo": "Aquisição de serviços de desenvolvimento e implementação de uma solução digital para o Diagnóstico de Necessidades de Formação da Administração Pública, integrada no Portal de Formação AP (COFAP)",
    "tipo_ato": "Anúncio de procedimento",
    "procedimento": "Concurso público",
-   "entidade": "Lisboa Ocidental, SRU - Sociedade de Reabilitação Urbana EM, SA",
-   "preco_base": 385000.0,
-   "publicado": "2026-11-02",
+   "entidade": "Instituto Nacional de Administração, IP",
+   "preco_base": 311000.0,
+   "publicado": "2026-11-03",
    "categorias": [
-    "projeto"
+    "software_ti"
    ],
    "minho": false,
-   "objeto": "AQUISIÇÃO DE SERVIÇOS PARA A ELABORAÇÃO DE PROJETODE REQUALIFICAÇÃO E AMPLIAÇÃO DA ESCOLA BÁSICA DO CONDADO, FREGUESIA DE MARVILA",
-   "prazo_propostas": "26 dias.",
-   "cpv": "71000000-8, Serviços de arquitectura, construção, engenharia e inspecção",
+   "objeto": "Aquisição de serviços de desenvolvimento e implementação de uma solução digital para o Diagnóstico de Necessidades de Formação da Administração Pública, integrada no Portal de Formação AP (COFAP)",
+   "prazo_propostas": "27 dias.",
+   "cpv": "72230000-6, Serviços de desenvolvimento de software à medida",
    "classe": "C"
   },
   {
@@ -277,44 +351,6 @@
    "procedimento": "Public tender",
    "cpv": "48000000-8",
    "n_dr": "25339/2026",
-   "categorias": [
-    "software_ti"
-   ],
-   "minho": false,
-   "classe": "C"
-  },
-  {
-   "origem": "BidsFactory",
-   "url": "https://bidsfactory.com/en/tenders/aquisicao-de-licenciamento-de-software-microsoft-e-base_gov_pt-9aada9c30e5e3be2",
-   "titulo": "Aquisição de licenciamento de software Microsoft e serviços conexos (2026-2027)",
-   "titulo_en": "Acquisition of Microsoft software licensing and related services (2026-2027)",
-   "titulo_pt": "Aquisição de licenciamento de software Microsoft e serviços conexos (2026-2027)",
-   "entidade": "Instituto da Conservação da Natureza e das Florestas, IP",
-   "preco_base": 749761.63,
-   "publicado": "Oct 14, 2026",
-   "prazo_propostas": null,
-   "procedimento": "Public tender",
-   "cpv": "48218000-9",
-   "n_dr": "25269/2026",
-   "categorias": [
-    "software_ti"
-   ],
-   "minho": false,
-   "classe": "C"
-  },
-  {
-   "origem": "BidsFactory",
-   "url": "https://bidsfactory.com/en/tenders/servicos-de-manutencao-e-suporte-as-redes-wanlan-c-base_gov_pt-08960d0abc2e70a9",
-   "titulo": "Serviços de manutenção e suporte às redes WAN/LAN corporativas",
-   "titulo_en": "Maintenance and support services for corporate WAN/LAN networks",
-   "titulo_pt": "Serviços de manutenção e suporte às redes WAN/LAN corporativas",
-   "entidade": "EDA - ELECTRICIDADE DOS AÇORES, S.A.",
-   "preco_base": 800000.0,
-   "publicado": "Oct 14, 2026",
-   "prazo_propostas": null,
-   "procedimento": "Public tender",
-   "cpv": "72700000-7",
-   "n_dr": "25261/2026",
    "categorias": [
     "software_ti"
    ],
