@@ -2,4 +2,4 @@
    25 linhas
    4 relevantes (perfil ou Minho)
 2) BidsFactory (recurso)…
-OK: 22 candidatos.
+OK: 23 candidatos.

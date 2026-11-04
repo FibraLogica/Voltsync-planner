@@ -1,60 +1,62 @@
 {
- "gerado_em": "2026-11-03T13:01",
- "n": 22,
+ "gerado_em": "2026-11-04T13:16",
+ "n": 23,
  "anuncios": [
   {
    "origem": "BASE",
-   "id": "459539",
-   "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=anuncios&id=459539",
-   "titulo": "Dotar a Rua Agostinho José Taveira de condições seguras de circulação pedonal e automóvel, incluindo a iluminação pública e a estabilidade da plataforma da via, nos termos do projeto de execução. Esta...",
+   "id": "459663",
+   "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=anuncios&id=459663",
+   "titulo": "AQUISIÇÃO DE SERVIÇOS DE “ELABORAÇÃO DE PROJETOS DE ESPECIALIDADES E EXECUÇÃO DE REABILITAÇÃO DE 4 MORADIAS NA ILHA DE SANTA MARIA E 1 NA ILHA DE SÃO MIGUEL",
    "tipo_ato": "Anúncio de procedimento",
    "procedimento": "Concurso público",
-   "entidade": "Município de Ponte de Lima",
-   "preco_base": 650000.0,
-   "publicado": "2026-11-03",
-   "categorias": [
-    "eletricidade",
-    "projeto"
-   ],
-   "minho": true,
-   "objeto": "Dotar a Rua Agostinho José Taveira de condições seguras de circulação pedonal e automóvel, incluindo a iluminação pública e a estabilidade da plataforma da via, nos termos do projeto de execução. Estas funções não estão hoje garantidas, porque parte dos trabalhos de requalificação se encontra por executar. A via apresenta sinalização por colocar, pavimentação em falta, pavimentos a rever e corrigir, muros de suporte por executar e iluminação pública por instalar. Quanto à sua extensão, a necessidade abrange os trabalhos acima identificados e ainda novos trabalhos de pavimentação e de iluminação pública previstos no projeto de execução, necessários para dar continuidade e uniformidade às condições de circulação e de iluminação na rua e na sua envolvente imediata.",
-   "prazo_propostas": "13 dias.",
-   "cpv": "45233140-2, Obras em estradas",
-   "classe": "A"
-  },
-  {
-   "origem": "BASE",
-   "id": "459538",
-   "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=anuncios&id=459538",
-   "titulo": "A proposta surge da necessidade de beneficiar a Piscina Municipal de Ponte de Lima, resultante da auditoria energética realizada no âmbito da implementação de medidas para a melhoria da eficiência ene...",
-   "tipo_ato": "Anúncio de procedimento",
-   "procedimento": "Concurso público",
-   "entidade": "Município de Ponte de Lima",
-   "preco_base": 330000.0,
-   "publicado": "2026-11-03",
+   "entidade": "Direção Regional da Habitação",
+   "preco_base": 20000.0,
+   "publicado": "2026-11-04",
    "categorias": [
     "projeto"
-   ],
-   "minho": true,
-   "classe": "A"
-  },
-  {
-   "origem": "BASE",
-   "id": "459536",
-   "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=anuncios&id=459536",
-   "titulo": "CONCURSO PÚBLICO PARA A RENOVAÇÃO DE LICENCIAMENTO DE SOFTWARE VMWARE PARA O ISCTE  INSTITUTO UNIVERSITÁRIO DE LISBOA",
-   "tipo_ato": "Anúncio de procedimento",
-   "procedimento": "Concurso público",
-   "entidade": "ISCTE - Instituto Universitário de Lisboa",
-   "preco_base": 171373.44,
-   "publicado": "2026-11-03",
-   "categorias": [
-    "software_ti"
    ],
    "minho": false,
-   "objeto": "CONCURSO PÚBLICO PARA A RENOVAÇÃO DE LICENCIAMENTO DE SOFTWARE VMWARE PARA O ISCTE  INSTITUTO UNIVERSITÁRIO DE LISBOA",
-   "prazo_propostas": "7 dias.",
-   "cpv": "48219000-6, Pacote de software para ligações diversas em rede",
+   "objeto": "AQUISIÇÃO DE SERVIÇOS DE “ELABORAÇÃO DE PROJETOS DE ESPECIALIDADES E EXECUÇÃO DE REABILITAÇÃO DE 4 MORADIAS NA ILHA DE SANTA MARIA E 1 NA ILHA DE SÃO MIGUEL",
+   "prazo_propostas": "0 dias.",
+   "cpv": "71240000-2, Serviços de arquitectura, engenharia e planeamento",
+   "classe": "B"
+  },
+  {
+   "origem": "BASE",
+   "id": "459662",
+   "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=anuncios&id=459662",
+   "titulo": "ELABORAÇÃO DE PROJETOS DE ESPECIALIDADES DE MORADIAS E PROJETO DE EXECUÇÃO DA EMPREITADA DE INFRAESTRUTURAÇÃO E CONTRUÇÃO/ REABILITAÇÃO DE MORADIAS NOS BAIRROS DE SANTA BÁRBARA E SÃO LOURENÇO, FREGUES...",
+   "tipo_ato": "Anúncio de procedimento",
+   "procedimento": "Concurso público",
+   "entidade": "Direção Regional da Habitação",
+   "preco_base": 78000.0,
+   "publicado": "2026-11-04",
+   "categorias": [
+    "projeto"
+   ],
+   "minho": false,
+   "objeto": "ELABORAÇÃO DE PROJETOS DE ESPECIALIDADES DE MORADIAS E PROJETO DE EXECUÇÃO DA EMPREITADA DE INFRAESTRUTURAÇÃO E CONTRUÇÃO/ REABILITAÇÃO DE MORADIAS NOS BAIRROS DE SANTA BÁRBARA E SÃO LOURENÇO, FREGUESIA DE VILA DO PORTO, CONCELHO DE VILA DO PORTO, ILHA DE SANTA MARIA",
+   "prazo_propostas": "20 dias.",
+   "cpv": "71240000-2, Serviços de arquitectura, engenharia e planeamento",
+   "classe": "B"
+  },
+  {
+   "origem": "BASE",
+   "id": "459661",
+   "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=anuncios&id=459661",
+   "titulo": "Aquisição de serviços de Fiscalização e Controlo de Qualidade da Execução dos Contratos da Rede UNIR",
+   "tipo_ato": "Anúncio de procedimento",
+   "procedimento": "Concurso público",
+   "entidade": "Transportes Metropolitanos do Porto, E.M.T., S.A",
+   "preco_base": 176400.0,
+   "publicado": "2026-11-04",
+   "categorias": [
+    "projeto"
+   ],
+   "minho": false,
+   "objeto": "Aquisição de serviços de Fiscalização e Controlo de Qualidade da Execução dos Contratos da Rede UNIR",
+   "prazo_propostas": "8 dias.",
+   "cpv": "79421100-2, Serviços de supervisão de projectos, excepto projectos de construção",
    "classe": "B"
   },
   {
@@ -135,25 +137,6 @@
   },
   {
    "origem": "BidsFactory",
-   "url": "https://bidsfactory.com/en/tenders/aquisicao-de-servidor-de-inteligencia-artificial-c-ted-d52fe5b49acf5d54",
-   "titulo": "Aquisição de servidor de inteligência artificial com quatro GPUs para a infraestrutura computacional do ALTEC",
-   "titulo_en": "Acquisition of an artificial intelligence server with four GPUs for ALTEC's computational infrastructure",
-   "titulo_pt": "Aquisição de servidor de inteligência artificial com quatro GPUs para a infraestrutura computacional do ALTEC",
-   "entidade": "Conselho Superior da Magistratura",
-   "preco_base": null,
-   "publicado": "Oct 20, 2026",
-   "prazo_propostas": null,
-   "procedimento": null,
-   "cpv": null,
-   "n_dr": null,
-   "categorias": [
-    "software_ti"
-   ],
-   "minho": false,
-   "classe": "B"
-  },
-  {
-   "origem": "BidsFactory",
    "url": "https://bidsfactory.com/en/tenders/renovacao-da-rede-de-dados-do-instituto-portugues-ted-1b5d02ad5c0b6847",
    "titulo": "Renovação da rede de dados do Instituto Português da Qualidade, IP. (IPQ)",
    "titulo_en": "Renovation of the data network of the Portuguese Institute for Quality, IP. (IPQ)",
@@ -173,21 +156,21 @@
   },
   {
    "origem": "BASE",
-   "id": "459526",
-   "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=anuncios&id=459526",
-   "titulo": "Aquisição de serviços de desenvolvimento e implementação de uma solução digital para o Diagnóstico de Necessidades de Formação da Administração Pública, integrada no Portal de Formação AP (COFAP)",
+   "id": "459667",
+   "url": "https://www.base.gov.pt/Base4/pt/detalhe/?type=anuncios&id=459667",
+   "titulo": "Aquisição e instalação de infraestruturas de cablagem - 112",
    "tipo_ato": "Anúncio de procedimento",
    "procedimento": "Concurso público",
-   "entidade": "Instituto Nacional de Administração, IP",
-   "preco_base": 311000.0,
-   "publicado": "2026-11-03",
+   "entidade": "Secretaria-Geral do Ministério da Administração Interna",
+   "preco_base": 30611.97,
+   "publicado": "2026-11-04",
    "categorias": [
-    "software_ti"
+    "eletricidade"
    ],
    "minho": false,
-   "objeto": "Aquisição de serviços de desenvolvimento e implementação de uma solução digital para o Diagnóstico de Necessidades de Formação da Administração Pública, integrada no Portal de Formação AP (COFAP)",
-   "prazo_propostas": "27 dias.",
-   "cpv": "72230000-6, Serviços de desenvolvimento de software à medida",
+   "objeto": "Aquisição e instalação de infraestruturas de cablagem - 112",
+   "prazo_propostas": "5 dias.",
+   "cpv": "32520000-4, Equipamento e cablagem para telecomunicações",
    "classe": "C"
   },
   {
@@ -351,6 +334,44 @@
    "procedimento": "Public tender",
    "cpv": "48000000-8",
    "n_dr": "25339/2026",
+   "categorias": [
+    "software_ti"
+   ],
+   "minho": false,
+   "classe": "C"
+  },
+  {
+   "origem": "BidsFactory",
+   "url": "https://bidsfactory.com/en/tenders/aquisicao-de-licenciamento-de-software-microsoft-e-base_gov_pt-9aada9c30e5e3be2",
+   "titulo": "Aquisição de licenciamento de software Microsoft e serviços conexos (2026-2027)",
+   "titulo_en": "Acquisition of Microsoft software licensing and related services (2026-2027)",
+   "titulo_pt": "Aquisição de licenciamento de software Microsoft e serviços conexos (2026-2027)",
+   "entidade": "Instituto da Conservação da Natureza e das Florestas, IP",
+   "preco_base": 749761.63,
+   "publicado": "Oct 14, 2026",
+   "prazo_propostas": null,
+   "procedimento": "Public tender",
+   "cpv": "48218000-9",
+   "n_dr": "25269/2026",
+   "categorias": [
+    "software_ti"
+   ],
+   "minho": false,
+   "classe": "C"
+  },
+  {
+   "origem": "BidsFactory",
+   "url": "https://bidsfactory.com/en/tenders/servicos-de-manutencao-e-suporte-as-redes-wanlan-c-base_gov_pt-08960d0abc2e70a9",
+   "titulo": "Serviços de manutenção e suporte às redes WAN/LAN corporativas",
+   "titulo_en": "Maintenance and support services for corporate WAN/LAN networks",
+   "titulo_pt": "Serviços de manutenção e suporte às redes WAN/LAN corporativas",
+   "entidade": "EDA - ELECTRICIDADE DOS AÇORES, S.A.",
+   "preco_base": 800000.0,
+   "publicado": "Oct 14, 2026",
+   "prazo_propostas": null,
+   "procedimento": "Public tender",
+   "cpv": "72700000-7",
+   "n_dr": "25261/2026",
    "categorias": [
     "software_ti"
    ],
