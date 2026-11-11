@@ -1,14 +1,19 @@
 title='Pesquisa'
-pedidos ajax capturados=1; https://www.base.gov.pt/Base4/pt/resultados/ :: type=search_anuncios&version=140.0&query=tipocontrato%3D0%26desdedatapublicacao%3D07-11-2026%26tipoacto%3D0%26tipomodelo%3D0&sort=-drPublicationDate&page=0&size=25
-pagina 1 (DOM): 25 linhas; primeira pub=10-11-2026; ultima pub=10-11-2026
-exemplo=[{'origem': 'BASE', 'id': '460052', 'url': 'https://www.base.gov.pt/Base4/pt/detalhe/?type=anuncios&id=460052', 'titulo': 'PRC/2026/224/DAR/CP - Prestação de Serviços de Valorização de Lamas Desidratadas do Polo Lis', 'tipo_ato': 'Anúncio de concurso urgente', 'procedimento': 'Concurso público', 'entidade': 'Águas do Centro Litoral, SA', 'preco_base': 208000.0, 'publicado': '10-11-2026'}, {'origem': 'BASE', 'id': '460051', 'url': 'https://www.base.gov.pt/Base4/pt/detalhe/?type=anuncios&id=460051', 'titulo': 'EMP_07/2026_DCR_Concurso Público para a Reabilitação e Alteração de Edifício Municipal para Instalação da Fesnima', 'tipo_ato': 'Anúncio de procedimento', 'procedimento': 'Concurso público', 'entidade': 'FESNIMA - Empresa Municipal de Olhão, EM', 'preco_base': 1091500.0, 'publicado': '10-11-2026'}]
-form_base={'type': 'search_anuncios', 'version': '140.0', 'query': 'tipocontrato=0&desdedatapublicacao=07-11-2026&tipoacto=0&tipomodelo=0', 'sort': '-drPublicationDate', 'page': '0', 'size': '25'}
-ajax status=200 inicio='\t\t\t\t\t{ "total": 254811, "items": [{"contractingEntity":"Águas do Centro Litoral, SA","basePrice":"208.000,00 €","contractingProcedureType":"Concurso público","drPublicationDate":"10-11-2026","contractDesignation":"PRC/2026/224/DAR/CP - Prestação de Serviços de Valorização de Lamas Desidratadas do Polo Lis","proposalDeadline":"12-11-2026","id":460052,"type":"Anúncio de concurso urgente"},{"contractingEntity":"FESNIMA - Empresa Municipal de Olhão, EM","basePrice":"1.091.500,00 €","contractingProcedureType":"Concurso público","drPublicationDate":"10-11-2026","contractDesignation":"EMP_07/2026_DCR'
-pagina 1 (ajax): 20 linhas; ultima pub=10-11-2026
-pagina 2 (ajax): 20 linhas; ultima pub=10-11-2026
-pagina 3 (ajax): 20 linhas; ultima pub=09-11-2026
-pagina 4 (ajax): 20 linhas; ultima pub=09-11-2026
-pagina 5 (ajax): 20 linhas; ultima pub=09-11-2026
-pagina 6 (ajax): 20 linhas; ultima pub=09-11-2026
-pagina 7 (ajax): 20 linhas; ultima pub=09-11-2026
-pagina 8 (ajax): 20 linhas; ultima pub=06-11-2026
+pedidos ajax capturados=1; https://www.base.gov.pt/Base4/pt/resultados/ :: type=search_anuncios&version=107.0&query=tipocontrato%3D0%26desdedatapublicacao%3D08-11-2026%26tipoacto%3D0%26tipomodelo%3D0&sort=-drPublicationDate&page=0&size=25
+pagina 1 (DOM): 25 linhas; primeira pub=11-11-2026; ultima pub=11-11-2026
+exemplo=[{'origem': 'BASE', 'id': '460151', 'url': 'https://www.base.gov.pt/Base4/pt/detalhe/?type=anuncios&id=460151', 'titulo': 'Aluguer e higienização de roupa de alojamento para a Escola da Guarda em Queluz até 31 de dezembro de 2026', 'tipo_ato': 'Anúncio de concurso urgente', 'procedimento': 'Concurso público', 'entidade': 'Guarda Nacional Republicana', 'preco_base': 15591.49, 'publicado': '11-11-2026'}, {'origem': 'BASE', 'id': '460150', 'url': 'https://www.base.gov.pt/Base4/pt/detalhe/?type=anuncios&id=460150', 'titulo': 'Impressão gráfica de Boletim Municipal', 'tipo_ato': 'Anúncio de procedimento', 'procedimento': 'Concurso público', 'entidade': 'Município de Vila Nova de Famalicão', 'preco_base': 45000.0, 'publicado': '11-11-2026'}]
+form_base={'type': 'search_anuncios', 'version': '107.0', 'query': 'tipocontrato=0&desdedatapublicacao=08-11-2026&tipoacto=0&tipomodelo=0', 'sort': '-drPublicationDate', 'page': '0', 'size': '25'}
+ajax status=200 inicio='\t\t\t\t\t{ "total": 254891, "items": [{"basePrice":"15.591,49 €","contractingProcedureType":"Concurso público","contractingEntity":"Guarda Nacional Republicana","drPublicationDate":"11-11-2026","contractDesignation":"Aluguer e higienização de roupa de alojamento para a Escola da Guarda em Queluz até 31 de dezembro de 2026","proposalDeadline":"12-11-2026","id":460151,"type":"Anúncio de concurso urgente"},{"basePrice":"45.000,00 €","contractingProcedureType":"Concurso público","contractingEntity":"Município de Vila Nova de Famalicão","drPublicationDate":"11-11-2026","contractDesignation":"Impressão '
+pagina 1 (ajax): 20 linhas; ultima pub=11-11-2026
+pagina 2 (ajax): 20 linhas; ultima pub=11-11-2026
+pagina 3 (ajax): 20 linhas; ultima pub=10-11-2026
+pagina 4 (ajax): 20 linhas; ultima pub=10-11-2026
+pagina 5 (ajax): 20 linhas; ultima pub=10-11-2026
+pagina 6 (ajax): 20 linhas; ultima pub=10-11-2026
+pagina 7 (ajax): 20 linhas; ultima pub=10-11-2026
+pagina 8 (ajax): 20 linhas; ultima pub=09-11-2026
+pagina 9 (ajax): 20 linhas; ultima pub=09-11-2026
+pagina 10 (ajax): 20 linhas; ultima pub=09-11-2026
+pagina 11 (ajax): 20 linhas; ultima pub=09-11-2026
+pagina 12 (ajax): 20 linhas; ultima pub=09-11-2026
+pagina 13 (ajax): 20 linhas; ultima pub=06-11-2026
