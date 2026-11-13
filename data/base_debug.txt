@@ -1,23 +1,22 @@
 title='Pesquisa'
-pedidos ajax capturados=1; https://www.base.gov.pt/Base4/pt/resultados/ :: type=search_anuncios&version=126.0&query=tipocontrato%3D0%26desdedatapublicacao%3D09-11-2026%26tipoacto%3D0%26tipomodelo%3D0&sort=-drPublicationDate&page=0&size=25
-pagina 1 (DOM): 25 linhas; primeira pub=12-11-2026; ultima pub=12-11-2026
-exemplo=[{'origem': 'BASE', 'id': '460226', 'url': 'https://www.base.gov.pt/Base4/pt/detalhe/?type=anuncios&id=460226', 'titulo': 'PRC_0369/2026_SM -Aquisição de serviços de recolha e transporte de efluentes provenientes da limpeza de fossas séticas no município de Fafe', 'tipo_ato': 'Anúncio de concurso urgente', 'procedimento': 'Concurso público', 'entidade': 'Águas do Norte, SA', 'preco_base': 18225.0, 'publicado': '12-11-2026'}, {'origem': 'BASE', 'id': '460225', 'url': 'https://www.base.gov.pt/Base4/pt/detalhe/?type=anuncios&id=460225', 'titulo': 'Aluguer, montagem e desmontagem de tendas e stands, para a Mostra de Doçaria 2026, em Alcáçovas', 'tipo_ato': 'Anúncio de procedimento', 'procedimento': 'Concurso público', 'entidade': 'Município de Viana do Alentejo', 'preco_base': 37200.0, 'publicado': '12-11-2026'}]
-form_base={'type': 'search_anuncios', 'version': '126.0', 'query': 'tipocontrato=0&desdedatapublicacao=09-11-2026&tipoacto=0&tipomodelo=0', 'sort': '-drPublicationDate', 'page': '0', 'size': '25'}
-ajax status=200 inicio='\t\t\t\t\t{ "total": 254952, "items": [{"drPublicationDate":"12-11-2026","contractingProcedureType":"Concurso público","contractDesignation":"PRC_0369/2026_SM -Aquisição de serviços de recolha e transporte de efluentes provenientes da limpeza de fossas séticas no município de Fafe","basePrice":"18.225,00 €","contractingEntity":"Águas do Norte, SA","proposalDeadline":"16-11-2026","id":460226,"type":"Anúncio de concurso urgente"},{"drPublicationDate":"12-11-2026","contractingProcedureType":"Concurso público","contractDesignation":"Aluguer, montagem e desmontagem de tendas e stands, para a Mostra de D'
-pagina 1 (ajax): 20 linhas; ultima pub=12-11-2026
+pedidos ajax capturados=1; https://www.base.gov.pt/Base4/pt/resultados/ :: type=search_anuncios&version=87.0&query=tipocontrato%3D0%26desdedatapublicacao%3D10-11-2026%26tipoacto%3D0%26tipomodelo%3D0&sort=-drPublicationDate&page=0&size=25
+pagina 1 (DOM): 25 linhas; primeira pub=13-11-2026; ultima pub=13-11-2026
+exemplo=[{'origem': 'BASE', 'id': '460304', 'url': 'https://www.base.gov.pt/Base4/pt/detalhe/?type=anuncios&id=460304', 'titulo': 'Aquisição de Laser CO2 para a Unidade de Cirurgia Ambulatória (UCA)', 'tipo_ato': 'Anúncio de procedimento', 'procedimento': 'Concurso público', 'entidade': 'Unidade Local de Saúde de Coimbra, E. P. E.', 'preco_base': 103000.0, 'publicado': '13-11-2026'}, {'origem': 'BASE', 'id': '460303', 'url': 'https://www.base.gov.pt/Base4/pt/detalhe/?type=anuncios&id=460303', 'titulo': 'CP.SASE:005/2026/152 - Aquisição por Lotes de produtos de mercearia', 'tipo_ato': 'Anúncio de procedimento', 'procedimento': 'Concurso público', 'entidade': 'Serviços de Ação Social Escolar da Universidade de Leiria e Oeste', 'preco_base': None, 'publicado': '13-11-2026'}]
+form_base={'type': 'search_anuncios', 'version': '87.0', 'query': 'tipocontrato=0&desdedatapublicacao=10-11-2026&tipoacto=0&tipomodelo=0', 'sort': '-drPublicationDate', 'page': '0', 'size': '25'}
+ajax status=200 inicio='\t\t\t\t\t{ "total": 255017, "items": [{"basePrice":"103.000,00 €","contractingProcedureType":"Concurso público","contractingEntity":"Unidade Local de Saúde de Coimbra, E. P. E.","drPublicationDate":"13-11-2026","contractDesignation":"Aquisição de Laser CO2 para a Unidade de Cirurgia Ambulatória (UCA)","proposalDeadline":"03-12-2026","id":460304,"type":"Anúncio de procedimento"},{"basePrice":null,"contractingProcedureType":"Concurso público","contractingEntity":"Serviços de Ação Social Escolar da Universidade de Leiria e Oeste","drPublicationDate":"13-11-2026","contractDesignation":"CP.SASE:005/202'
+pagina 1 (ajax): 20 linhas; ultima pub=13-11-2026
 pagina 2 (ajax): 20 linhas; ultima pub=12-11-2026
-pagina 3 (ajax): 20 linhas; ultima pub=11-11-2026
-pagina 4 (ajax): 20 linhas; ultima pub=11-11-2026
-pagina 5 (ajax): 20 linhas; ultima pub=11-11-2026
-pagina 6 (ajax): 20 linhas; ultima pub=11-11-2026
-pagina 7 (ajax): 20 linhas; ultima pub=10-11-2026
-pagina 8 (ajax): 20 linhas; ultima pub=10-11-2026
-pagina 9 (ajax): 20 linhas; ultima pub=10-11-2026
-pagina 10 (ajax): 20 linhas; ultima pub=10-11-2026
+pagina 3 (ajax): 20 linhas; ultima pub=12-11-2026
+pagina 4 (ajax): 20 linhas; ultima pub=12-11-2026
+pagina 5 (ajax): 20 linhas; ultima pub=12-11-2026
+pagina 6 (ajax): 20 linhas; ultima pub=12-11-2026
+pagina 7 (ajax): 20 linhas; ultima pub=11-11-2026
+pagina 8 (ajax): 20 linhas; ultima pub=11-11-2026
+pagina 9 (ajax): 20 linhas; ultima pub=11-11-2026
+pagina 10 (ajax): 20 linhas; ultima pub=11-11-2026
 pagina 11 (ajax): 20 linhas; ultima pub=10-11-2026
-pagina 12 (ajax): 20 linhas; ultima pub=09-11-2026
-pagina 13 (ajax): 20 linhas; ultima pub=09-11-2026
-pagina 14 (ajax): 20 linhas; ultima pub=09-11-2026
-pagina 15 (ajax): 20 linhas; ultima pub=09-11-2026
+pagina 12 (ajax): 20 linhas; ultima pub=10-11-2026
+pagina 13 (ajax): 20 linhas; ultima pub=10-11-2026
+pagina 14 (ajax): 20 linhas; ultima pub=10-11-2026
+pagina 15 (ajax): 20 linhas; ultima pub=10-11-2026
 pagina 16 (ajax): 20 linhas; ultima pub=09-11-2026
-pagina 17 (ajax): 20 linhas; ultima pub=06-11-2026
