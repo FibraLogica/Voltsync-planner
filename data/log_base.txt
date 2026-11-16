@@ -1,7 +1,7 @@
-  a descarregar https://dados.gov.pt/s/resources/contratos-publicos-portal-base-impic-contratos-de-2012-a-2026/20261108-100645-2b435cdc/contratos2025.zip
+  a descarregar https://dados.gov.pt/s/resources/contratos-publicos-portal-base-impic-contratos-de-2012-a-2026/20261115-100657-5259fa0a/contratos2025.zip
   ficheiros no zip: ['Contratos2025.json']
-  registos: 248197
-  a descarregar https://dados.gov.pt/s/resources/contratos-publicos-portal-base-impic-contratos-de-2012-a-2026/20261108-100632-ae8bd670/contratos2026.zip
+  registos: 248262
+  a descarregar https://dados.gov.pt/s/resources/contratos-publicos-portal-base-impic-contratos-de-2012-a-2026/20261115-100642-624650f6/contratos2026.zip
   ficheiros no zip: ['Contratos2026.json']
-  registos: 208345
-OK: 1834 registos selecionados de 456542.
+  registos: 212812
+OK: 1838 registos selecionados de 461074.
