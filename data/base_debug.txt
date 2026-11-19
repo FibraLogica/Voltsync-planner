@@ -1,19 +1,25 @@
 title='Pesquisa'
-pedidos ajax capturados=1; https://www.base.gov.pt/Base4/pt/resultados/ :: type=search_anuncios&version=147.0&query=tipocontrato%3D0%26desdedatapublicacao%3D15-11-2026%26tipoacto%3D0%26tipomodelo%3D0&sort=-drPublicationDate&page=0&size=25
-pagina 1 (DOM): 25 linhas; primeira pub=18-11-2026; ultima pub=18-11-2026
-exemplo=[{'origem': 'BASE', 'id': '460608', 'url': 'https://www.base.gov.pt/Base4/pt/detalhe/?type=anuncios&id=460608', 'titulo': 'Aquisição de serviços de arboricultura urbana em arruamentos e espaços verdes do concelho de Loures', 'tipo_ato': 'Anúncio de procedimento', 'procedimento': 'Concurso público', 'entidade': 'Município de Loures', 'preco_base': 146000.0, 'publicado': '18-11-2026'}, {'origem': 'BASE', 'id': '460607', 'url': 'https://www.base.gov.pt/Base4/pt/detalhe/?type=anuncios&id=460607', 'titulo': 'Prestação de Serviços de recolha, acondicionamento, transporte, tratamento e destino final dos diversos tipos de resíduos produzidos na Unidade Local de Saúde do Alto Alentejo, EPE, Ano 2027', 'tipo_ato': 'Anúncio de procedimento', 'procedimento': 'Concurso público', 'entidade': 'Unidade Local de Saúde do Alto Alentejo, EPE', 'preco_base': 215361.0, 'publicado': '18-11-2026'}]
-form_base={'type': 'search_anuncios', 'version': '147.0', 'query': 'tipocontrato=0&desdedatapublicacao=15-11-2026&tipoacto=0&tipomodelo=0', 'sort': '-drPublicationDate', 'page': '0', 'size': '25'}
-ajax status=200 inicio='\t\t\t\t\t{ "total": 255271, "items": [{"basePrice":"146.000,00 €","contractingProcedureType":"Concurso público","contractingEntity":"Município de Loures","drPublicationDate":"18-11-2026","contractDesignation":"Aquisição de serviços de arboricultura urbana em arruamentos e espaços verdes do concelho de Loures","proposalDeadline":"26-11-2026","id":460608,"type":"Anúncio de procedimento"},{"basePrice":"215.361,00 €","contractingProcedureType":"Concurso público","contractingEntity":"Unidade Local de Saúde do Alto Alentejo, EPE","drPublicationDate":"18-11-2026","contractDesignation":"Prestação de Servi'
-pagina 1 (ajax): 20 linhas; ultima pub=18-11-2026
-pagina 2 (ajax): 20 linhas; ultima pub=18-11-2026
-pagina 3 (ajax): 20 linhas; ultima pub=17-11-2026
-pagina 4 (ajax): 20 linhas; ultima pub=17-11-2026
-pagina 5 (ajax): 20 linhas; ultima pub=17-11-2026
-pagina 6 (ajax): 20 linhas; ultima pub=17-11-2026
-pagina 7 (ajax): 20 linhas; ultima pub=17-11-2026
-pagina 8 (ajax): 20 linhas; ultima pub=16-11-2026
-pagina 9 (ajax): 20 linhas; ultima pub=16-11-2026
-pagina 10 (ajax): 20 linhas; ultima pub=16-11-2026
-pagina 11 (ajax): 20 linhas; ultima pub=16-11-2026
-pagina 12 (ajax): 20 linhas; ultima pub=16-11-2026
-pagina 13 (ajax): 20 linhas; ultima pub=13-11-2026
+pedidos ajax capturados=1; https://www.base.gov.pt/Base4/pt/resultados/ :: type=search_anuncios&version=143.0&query=tipocontrato%3D0%26desdedatapublicacao%3D16-11-2026%26tipoacto%3D0%26tipomodelo%3D0&sort=-drPublicationDate&page=0&size=25
+pagina 1 (DOM): 25 linhas; primeira pub=19-11-2026; ultima pub=19-11-2026
+exemplo=[{'origem': 'BASE', 'id': '460722', 'url': 'https://www.base.gov.pt/Base4/pt/detalhe/?type=anuncios&id=460722', 'titulo': 'PROCEDIMENTO DE CONCURSO PÚBLICO URGENTE N.º 12029526 FIOS GUIA, ASPIRADOR E OUTROS DISPOSITIVOS MÉDICOS', 'tipo_ato': 'Anúncio de concurso urgente', 'procedimento': 'Concurso público', 'entidade': 'Unidade Local de Saúde de São José, E. P. E.', 'preco_base': 142798.56, 'publicado': '19-11-2026'}, {'origem': 'BASE', 'id': '460721', 'url': 'https://www.base.gov.pt/Base4/pt/detalhe/?type=anuncios&id=460721', 'titulo': 'PROCEDIMENTO DE CONCURSO PÚBLICO URGENTE N.º 12029726 AQUISIÇÃO DE CIMENTO CIRURGICO, RECARGA PARA MAQUINA LATERO LATERAL P VIDEOCIRURGIA E OUTROS DISPOSITIVOS MÉDICOS', 'tipo_ato': 'Anúncio de concurso urgente', 'procedimento': 'Concurso público', 'entidade': 'Unidade Local de Saúde de São José, E. P. E.', 'preco_base': 85622.12, 'publicado': '19-11-2026'}]
+form_base={'type': 'search_anuncios', 'version': '143.0', 'query': 'tipocontrato=0&desdedatapublicacao=16-11-2026&tipoacto=0&tipomodelo=0', 'sort': '-drPublicationDate', 'page': '0', 'size': '25'}
+ajax status=200 inicio='\t\t\t\t\t{ "total": 255364, "items": [{"basePrice":"142.798,56 €","contractingProcedureType":"Concurso público","contractingEntity":"Unidade Local de Saúde de São José, E. P. E.","drPublicationDate":"19-11-2026","contractDesignation":"PROCEDIMENTO DE CONCURSO PÚBLICO URGENTE N.º 12029526 FIOS GUIA, ASPIRADOR E OUTROS DISPOSITIVOS MÉDICOS","proposalDeadline":"20-11-2026","id":460722,"type":"Anúncio de concurso urgente"},{"basePrice":"85.622,12 €","contractingProcedureType":"Concurso público","contractingEntity":"Unidade Local de Saúde de São José, E. P. E.","drPublicationDate":"19-11-2026","contrac'
+pagina 1 (ajax): 20 linhas; ultima pub=19-11-2026
+pagina 2 (ajax): 20 linhas; ultima pub=19-11-2026
+pagina 3 (ajax): 20 linhas; ultima pub=19-11-2026
+pagina 4 (ajax): 20 linhas; ultima pub=18-11-2026
+pagina 5 (ajax): 20 linhas; ultima pub=18-11-2026
+pagina 6 (ajax): 20 linhas; ultima pub=18-11-2026
+pagina 7 (ajax): 20 linhas; ultima pub=18-11-2026
+pagina 8 (ajax): 20 linhas; ultima pub=18-11-2026
+pagina 9 (ajax): 20 linhas; ultima pub=17-11-2026
+pagina 10 (ajax): 20 linhas; ultima pub=17-11-2026
+pagina 11 (ajax): 20 linhas; ultima pub=17-11-2026
+pagina 12 (ajax): 20 linhas; ultima pub=17-11-2026
+pagina 13 (ajax): 20 linhas; ultima pub=17-11-2026
+pagina 14 (ajax): 20 linhas; ultima pub=16-11-2026
+pagina 15 (ajax): 20 linhas; ultima pub=16-11-2026
+pagina 16 (ajax): 20 linhas; ultima pub=16-11-2026
+pagina 17 (ajax): 20 linhas; ultima pub=16-11-2026
+pagina 18 (ajax): 20 linhas; ultima pub=16-11-2026
+pagina 19 (ajax): 20 linhas; ultima pub=13-11-2026
