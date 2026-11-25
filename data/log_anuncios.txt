@@ -1,5 +1,6 @@
 1) Portal BASE via browser…
-   160 linhas
-   21 relevantes (perfil ou Minho)
+   280 linhas
+   38 relevantes (perfil ou Minho)
 2) BidsFactory (recurso)…
-OK: 35 candidatos.
+  bidsfactory https://bidsfactory.com/en/tenders/source/base_gov_pt?page=2: 429 Client Error: Too Many Requests for url: https://bidsfactory.com/en/tenders/source/base_gov_pt?page=2
+OK: 49 candidatos.
