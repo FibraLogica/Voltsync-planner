@@ -1,25 +1,24 @@
 title='Pesquisa'
-pedidos ajax capturados=1; https://www.base.gov.pt/Base4/pt/resultados/ :: type=search_anuncios&version=107.0&query=tipocontrato%3D0%26desdedatapublicacao%3D23-11-2026%26tipoacto%3D0%26tipomodelo%3D0&sort=-drPublicationDate&page=0&size=25
-pagina 1 (DOM): 25 linhas; primeira pub=26-11-2026; ultima pub=26-11-2026
-exemplo=[{'origem': 'BASE', 'id': '461226', 'url': 'https://www.base.gov.pt/Base4/pt/detalhe/?type=anuncios&id=461226', 'titulo': 'Empreitada de beneficiação do Bolco Periférico de Oftalmologia localizado no piso 8 do polo HUC, ULS Coimbra, E.P.E.', 'tipo_ato': 'Anúncio de procedimento', 'procedimento': 'Concurso público', 'entidade': 'Unidade Local de Saúde de Coimbra, EPE', 'preco_base': 70511.85, 'publicado': '26-11-2026'}, {'origem': 'BASE', 'id': '461225', 'url': 'https://www.base.gov.pt/Base4/pt/detalhe/?type=anuncios&id=461225', 'titulo': 'Prestação de Serviços de vigilância e segurança humana', 'tipo_ato': 'Anúncio de procedimento', 'procedimento': 'Concurso público', 'entidade': 'Escola Profissional de Desenvolvimento Rural de Serpa', 'preco_base': 110000.0, 'publicado': '26-11-2026'}]
-form_base={'type': 'search_anuncios', 'version': '107.0', 'query': 'tipocontrato=0&desdedatapublicacao=23-11-2026&tipoacto=0&tipomodelo=0', 'sort': '-drPublicationDate', 'page': '0', 'size': '25'}
-ajax status=200 inicio='\t\t\t\t\t{ "total": 255800, "items": [{"basePrice":"70.511,85 €","contractingProcedureType":"Concurso público","contractingEntity":"Unidade Local de Saúde de Coimbra, EPE","drPublicationDate":"26-11-2026","contractDesignation":"Empreitada de beneficiação do Bolco Periférico de Oftalmologia localizado no piso 8 do polo HUC, ULS Coimbra, E.P.E.","proposalDeadline":"17-12-2026","id":461226,"type":"Anúncio de procedimento"},{"basePrice":"110.000,00 €","contractingProcedureType":"Concurso público","contractingEntity":"Escola Profissional de Desenvolvimento Rural de Serpa","drPublicationDate":"26-11-202'
-pagina 1 (ajax): 20 linhas; ultima pub=26-11-2026
-pagina 2 (ajax): 20 linhas; ultima pub=26-11-2026
-pagina 3 (ajax): 20 linhas; ultima pub=25-11-2026
-pagina 4 (ajax): 20 linhas; ultima pub=25-11-2026
-pagina 5 (ajax): 20 linhas; ultima pub=25-11-2026
-pagina 6 (ajax): 20 linhas; ultima pub=25-11-2026
-pagina 7 (ajax): 20 linhas; ultima pub=25-11-2026
-pagina 8 (ajax): 20 linhas; ultima pub=25-11-2026
-pagina 9 (ajax): 20 linhas; ultima pub=24-11-2026
-pagina 10 (ajax): 20 linhas; ultima pub=24-11-2026
-pagina 11 (ajax): 20 linhas; ultima pub=24-11-2026
-pagina 12 (ajax): 20 linhas; ultima pub=24-11-2026
-pagina 13 (ajax): 20 linhas; ultima pub=23-11-2026
-pagina 14 (ajax): 20 linhas; ultima pub=23-11-2026
-pagina 15 (ajax): 20 linhas; ultima pub=23-11-2026
-pagina 16 (ajax): 20 linhas; ultima pub=23-11-2026
-pagina 17 (ajax): 20 linhas; ultima pub=23-11-2026
+pedidos ajax capturados=1; https://www.base.gov.pt/Base4/pt/resultados/ :: type=search_anuncios&version=158.0&query=tipocontrato%3D0%26desdedatapublicacao%3D24-11-2026%26tipoacto%3D0%26tipomodelo%3D0&sort=-drPublicationDate&page=0&size=25
+pagina 1 (DOM): 25 linhas; primeira pub=27-11-2026; ultima pub=27-11-2026
+exemplo=[{'origem': 'BASE', 'id': '461334', 'url': 'https://www.base.gov.pt/Base4/pt/detalhe/?type=anuncios&id=461334', 'titulo': 'Revisão de Prótese de Joelho', 'tipo_ato': 'Anúncio de procedimento', 'procedimento': 'Concurso público', 'entidade': 'Unidade Local de Saúde do Alto Ave, EPE', 'preco_base': 215132.0, 'publicado': '27-11-2026'}, {'origem': 'BASE', 'id': '461332', 'url': 'https://www.base.gov.pt/Base4/pt/detalhe/?type=anuncios&id=461332', 'titulo': 'P358/2026 - Danos provocados pela Tempestade Kristin - Restabelecimento da Rua da Lourinha, na Freguesia de N.ª Sr.ª da Piedade (63165/2026)', 'tipo_ato': 'Anúncio de procedimento', 'procedimento': 'Concurso público', 'entidade': 'Município de Ourém', 'preco_base': 457574.28, 'publicado': '27-11-2026'}]
+form_base={'type': 'search_anuncios', 'version': '158.0', 'query': 'tipocontrato=0&desdedatapublicacao=24-11-2026&tipoacto=0&tipomodelo=0', 'sort': '-drPublicationDate', 'page': '0', 'size': '25'}
+ajax status=200 inicio='\t\t\t\t\t{ "total": 255891, "items": [{"basePrice":"215.132,00 €","contractingProcedureType":"Concurso público","contractingEntity":"Unidade Local de Saúde do Alto Ave, EPE","drPublicationDate":"27-11-2026","contractDesignation":"Revisão de Prótese de Joelho","proposalDeadline":"02-12-2026","id":461334,"type":"Anúncio de procedimento"},{"basePrice":"457.574,28 €","contractingProcedureType":"Concurso público","contractingEntity":"Município de Ourém","drPublicationDate":"27-11-2026","contractDesignation":"P358/2026 - Danos provocados pela Tempestade Kristin - Restabelecimento da Rua da Lourinha, na '
+pagina 1 (ajax): 20 linhas; ultima pub=27-11-2026
+pagina 2 (ajax): 20 linhas; ultima pub=27-11-2026
+pagina 3 (ajax): 20 linhas; ultima pub=26-11-2026
+pagina 4 (ajax): 20 linhas; ultima pub=26-11-2026
+pagina 5 (ajax): 20 linhas; ultima pub=26-11-2026
+pagina 6 (ajax): 20 linhas; ultima pub=26-11-2026
+pagina 7 (ajax): 20 linhas; ultima pub=26-11-2026
+pagina 8 (ajax): 20 linhas; ultima pub=26-11-2026
+pagina 9 (ajax): 20 linhas; ultima pub=25-11-2026
+pagina 10 (ajax): 20 linhas; ultima pub=25-11-2026
+pagina 11 (ajax): 20 linhas; ultima pub=25-11-2026
+pagina 12 (ajax): 20 linhas; ultima pub=25-11-2026
+pagina 13 (ajax): 20 linhas; ultima pub=25-11-2026
+pagina 14 (ajax): 20 linhas; ultima pub=24-11-2026
+pagina 15 (ajax): 20 linhas; ultima pub=24-11-2026
+pagina 16 (ajax): 20 linhas; ultima pub=24-11-2026
+pagina 17 (ajax): 20 linhas; ultima pub=24-11-2026
 pagina 18 (ajax): 20 linhas; ultima pub=23-11-2026
-pagina 19 (ajax): 20 linhas; ultima pub=20-11-2026
